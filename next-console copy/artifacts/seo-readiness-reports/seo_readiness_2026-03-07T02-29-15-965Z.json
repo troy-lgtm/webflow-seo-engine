@@ -1,0 +1,106 @@
+{
+  "run_id": "2026-03-07T02-29-15-965Z",
+  "checked_at": "2026-03-07T02:39:17.110Z",
+  "pages_checked": 3,
+  "all_checks_passed": 0,
+  "partial_issues": 3,
+  "critical_failures": 0,
+  "transitioned_to_verified_live": 0,
+  "per_check_summary": {
+    "http_200": {
+      "passed": 3,
+      "failed": 0
+    },
+    "canonical_correct": {
+      "passed": 0,
+      "failed": 3
+    },
+    "no_noindex": {
+      "passed": 3,
+      "failed": 0
+    },
+    "not_robots_blocked": {
+      "passed": 3,
+      "failed": 0
+    },
+    "unique_title": {
+      "passed": 3,
+      "failed": 0
+    },
+    "unique_h1": {
+      "passed": 1,
+      "failed": 2
+    },
+    "body_content_present": {
+      "passed": 3,
+      "failed": 0
+    },
+    "has_internal_links": {
+      "passed": 3,
+      "failed": 0
+    },
+    "in_sitemap": {
+      "passed": 3,
+      "failed": 0
+    }
+  },
+  "pages": [
+    {
+      "slug": "dallas-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/dallas-to-new-york",
+      "checks": {
+        "http_200": true,
+        "canonical_correct": false,
+        "no_noindex": true,
+        "not_robots_blocked": true,
+        "unique_title": true,
+        "unique_h1": true,
+        "body_content_present": true,
+        "has_internal_links": true,
+        "in_sitemap": true
+      },
+      "passed": 8,
+      "failed": 1,
+      "total": 9,
+      "error": null
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "url": "https://www.wearewarp.com/lanes/houston-to-atlanta",
+      "checks": {
+        "http_200": true,
+        "canonical_correct": false,
+        "no_noindex": true,
+        "not_robots_blocked": true,
+        "unique_title": true,
+        "unique_h1": false,
+        "body_content_present": true,
+        "has_internal_links": true,
+        "in_sitemap": true
+      },
+      "passed": 7,
+      "failed": 2,
+      "total": 9,
+      "error": null
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/chicago-to-new-york",
+      "checks": {
+        "http_200": true,
+        "canonical_correct": false,
+        "no_noindex": true,
+        "not_robots_blocked": true,
+        "unique_title": true,
+        "unique_h1": false,
+        "body_content_present": true,
+        "has_internal_links": true,
+        "in_sitemap": true
+      },
+      "passed": 7,
+      "failed": 2,
+      "total": 9,
+      "error": null
+    }
+  ]
+}

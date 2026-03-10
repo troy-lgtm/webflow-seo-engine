@@ -1,0 +1,14 @@
+{
+  "date": "2026-03-07",
+  "recipient": "override-test@example.com",
+  "total_confirmed_today": 0,
+  "verified_count": 0,
+  "unverified_count": 0,
+  "classification": "no_pages_today",
+  "display_status": "No pages published today",
+  "pages": [],
+  "top_5_strategic": [],
+  "failures": 1,
+  "skipped_duplicates": 0,
+  "generated_at": "2026-03-08T06:49:26.809Z"
+}

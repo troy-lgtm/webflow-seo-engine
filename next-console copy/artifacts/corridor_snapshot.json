@@ -1,0 +1,437 @@
+{
+  "generated_at": "2026-03-05T18:58:46.483Z",
+  "total_corridors": 14,
+  "corridors": [
+    {
+      "corridor_id": "chicago-dfw",
+      "corridor_name": "Chicago to Dallas Fort Worth Freight Corridor",
+      "priority": "high",
+      "region_pair": [
+        "Midwest",
+        "South Central"
+      ],
+      "origin_cluster": [
+        "Chicago",
+        "Naperville",
+        "Joliet",
+        "Aurora",
+        "Rockford"
+      ],
+      "destination_cluster": [
+        "Dallas",
+        "Fort Worth",
+        "Arlington",
+        "Plano",
+        "Irving"
+      ],
+      "lanes_total": 6,
+      "lanes_indexed": 6,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 67,
+      "impressions": 320,
+      "clicks": 28,
+      "quote_starts": 42,
+      "bookings": 13
+    },
+    {
+      "corridor_id": "socal-phoenix",
+      "corridor_name": "Southern California to Phoenix Freight Corridor",
+      "priority": "high",
+      "region_pair": [
+        "West Coast",
+        "Southwest"
+      ],
+      "origin_cluster": [
+        "Los Angeles",
+        "Riverside",
+        "San Diego",
+        "Long Beach",
+        "Ontario"
+      ],
+      "destination_cluster": [
+        "Phoenix",
+        "Tucson",
+        "Mesa",
+        "Scottsdale"
+      ],
+      "lanes_total": 12,
+      "lanes_indexed": 12,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 65,
+      "impressions": 375,
+      "clicks": 26,
+      "quote_starts": 35,
+      "bookings": 11
+    },
+    {
+      "corridor_id": "texas-triangle",
+      "corridor_name": "Texas Triangle Freight Corridor",
+      "priority": "high",
+      "region_pair": [
+        "South Central",
+        "South Central"
+      ],
+      "origin_cluster": [
+        "Dallas",
+        "Fort Worth",
+        "Houston",
+        "San Antonio",
+        "Austin"
+      ],
+      "destination_cluster": [
+        "Dallas",
+        "Fort Worth",
+        "Houston",
+        "San Antonio",
+        "Austin"
+      ],
+      "lanes_total": 18,
+      "lanes_indexed": 18,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 64,
+      "impressions": 280,
+      "clicks": 18,
+      "quote_starts": 32,
+      "bookings": 9
+    },
+    {
+      "corridor_id": "northeast-regional",
+      "corridor_name": "Northeast Regional Freight Corridor",
+      "priority": "high",
+      "region_pair": [
+        "Northeast",
+        "Northeast"
+      ],
+      "origin_cluster": [
+        "New York",
+        "Newark",
+        "Philadelphia",
+        "Boston",
+        "Baltimore"
+      ],
+      "destination_cluster": [
+        "New York",
+        "Newark",
+        "Philadelphia",
+        "Boston",
+        "Baltimore"
+      ],
+      "lanes_total": 16,
+      "lanes_indexed": 16,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 60,
+      "impressions": 0,
+      "clicks": 0,
+      "quote_starts": 0,
+      "bookings": 0
+    },
+    {
+      "corridor_id": "southeast-retail",
+      "corridor_name": "Southeast Retail Distribution Corridor",
+      "priority": "high",
+      "region_pair": [
+        "Southeast",
+        "Southeast"
+      ],
+      "origin_cluster": [
+        "Atlanta",
+        "Charlotte",
+        "Nashville",
+        "Jacksonville",
+        "Memphis"
+      ],
+      "destination_cluster": [
+        "Atlanta",
+        "Charlotte",
+        "Nashville",
+        "Jacksonville",
+        "Memphis",
+        "Miami",
+        "Tampa",
+        "Orlando"
+      ],
+      "lanes_total": 56,
+      "lanes_indexed": 56,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 61,
+      "impressions": 255,
+      "clicks": 14,
+      "quote_starts": 22,
+      "bookings": 7
+    },
+    {
+      "corridor_id": "la-chicago",
+      "corridor_name": "Los Angeles to Chicago Freight Corridor",
+      "priority": "high",
+      "region_pair": [
+        "West Coast",
+        "Midwest"
+      ],
+      "origin_cluster": [
+        "Los Angeles",
+        "Riverside",
+        "Long Beach",
+        "Ontario"
+      ],
+      "destination_cluster": [
+        "Chicago",
+        "Naperville",
+        "Joliet",
+        "Aurora"
+      ],
+      "lanes_total": 4,
+      "lanes_indexed": 4,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 69,
+      "impressions": 130,
+      "clicks": 8,
+      "quote_starts": 12,
+      "bookings": 3
+    },
+    {
+      "corridor_id": "midwest-southeast",
+      "corridor_name": "Midwest to Southeast Freight Corridor",
+      "priority": "medium",
+      "region_pair": [
+        "Midwest",
+        "Southeast"
+      ],
+      "origin_cluster": [
+        "Chicago",
+        "Indianapolis",
+        "Columbus",
+        "Detroit",
+        "Minneapolis",
+        "Kansas City",
+        "St. Louis"
+      ],
+      "destination_cluster": [
+        "Atlanta",
+        "Charlotte",
+        "Nashville",
+        "Jacksonville",
+        "Memphis"
+      ],
+      "lanes_total": 90,
+      "lanes_indexed": 90,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 61,
+      "impressions": 230,
+      "clicks": 12,
+      "quote_starts": 15,
+      "bookings": 4
+    },
+    {
+      "corridor_id": "pnw-socal",
+      "corridor_name": "Pacific Northwest to Southern California Corridor",
+      "priority": "medium",
+      "region_pair": [
+        "Pacific Northwest",
+        "West Coast"
+      ],
+      "origin_cluster": [
+        "Seattle",
+        "Portland",
+        "Tacoma"
+      ],
+      "destination_cluster": [
+        "Los Angeles",
+        "Riverside",
+        "San Diego",
+        "San Francisco",
+        "Sacramento"
+      ],
+      "lanes_total": 34,
+      "lanes_indexed": 34,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 61,
+      "impressions": 110,
+      "clicks": 6,
+      "quote_starts": 10,
+      "bookings": 3
+    },
+    {
+      "corridor_id": "texas-southeast",
+      "corridor_name": "Texas to Southeast Freight Corridor",
+      "priority": "medium",
+      "region_pair": [
+        "South Central",
+        "Southeast"
+      ],
+      "origin_cluster": [
+        "Dallas",
+        "Houston",
+        "San Antonio",
+        "Austin",
+        "El Paso"
+      ],
+      "destination_cluster": [
+        "Atlanta",
+        "Miami",
+        "Tampa",
+        "Orlando",
+        "Jacksonville",
+        "Charlotte",
+        "Nashville"
+      ],
+      "lanes_total": 56,
+      "lanes_indexed": 56,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 60,
+      "impressions": 0,
+      "clicks": 0,
+      "quote_starts": 0,
+      "bookings": 0
+    },
+    {
+      "corridor_id": "mountain-west",
+      "corridor_name": "Mountain West Distribution Corridor",
+      "priority": "medium",
+      "region_pair": [
+        "Mountain",
+        "Southwest"
+      ],
+      "origin_cluster": [
+        "Denver",
+        "Salt Lake City",
+        "Albuquerque",
+        "Las Vegas",
+        "Phoenix"
+      ],
+      "destination_cluster": [
+        "Denver",
+        "Salt Lake City",
+        "Albuquerque",
+        "Las Vegas",
+        "Phoenix"
+      ],
+      "lanes_total": 16,
+      "lanes_indexed": 16,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 61,
+      "impressions": 70,
+      "clicks": 2,
+      "quote_starts": 0,
+      "bookings": 0
+    },
+    {
+      "corridor_id": "northeast-midwest",
+      "corridor_name": "Northeast to Midwest Freight Corridor",
+      "priority": "medium",
+      "region_pair": [
+        "Northeast",
+        "Midwest"
+      ],
+      "origin_cluster": [
+        "New York",
+        "Newark",
+        "Philadelphia",
+        "Boston"
+      ],
+      "destination_cluster": [
+        "Chicago",
+        "Indianapolis",
+        "Columbus",
+        "Detroit",
+        "Minneapolis"
+      ],
+      "lanes_total": 35,
+      "lanes_indexed": 35,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 61,
+      "impressions": 175,
+      "clicks": 14,
+      "quote_starts": 19,
+      "bookings": 6
+    },
+    {
+      "corridor_id": "socal-texas",
+      "corridor_name": "Southern California to Texas Freight Corridor",
+      "priority": "medium",
+      "region_pair": [
+        "West Coast",
+        "South Central"
+      ],
+      "origin_cluster": [
+        "Los Angeles",
+        "Riverside",
+        "San Diego",
+        "Long Beach"
+      ],
+      "destination_cluster": [
+        "Dallas",
+        "Houston",
+        "San Antonio",
+        "Austin",
+        "El Paso"
+      ],
+      "lanes_total": 24,
+      "lanes_indexed": 24,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 62,
+      "impressions": 210,
+      "clicks": 15,
+      "quote_starts": 28,
+      "bookings": 9
+    },
+    {
+      "corridor_id": "florida-northeast",
+      "corridor_name": "Florida to Northeast Freight Corridor",
+      "priority": "medium",
+      "region_pair": [
+        "Southeast",
+        "Northeast"
+      ],
+      "origin_cluster": [
+        "Miami",
+        "Tampa",
+        "Orlando",
+        "Jacksonville"
+      ],
+      "destination_cluster": [
+        "New York",
+        "Newark",
+        "Philadelphia",
+        "Boston"
+      ],
+      "lanes_total": 28,
+      "lanes_indexed": 28,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 0,
+      "avg_quality_score": 61,
+      "impressions": 105,
+      "clicks": 5,
+      "quote_starts": 0,
+      "bookings": 0
+    },
+    {
+      "corridor_id": "other",
+      "corridor_name": "Unassigned Lanes",
+      "priority": "low",
+      "region_pair": [],
+      "origin_cluster": [],
+      "destination_cluster": [],
+      "lanes_total": 1605,
+      "lanes_indexed": 0,
+      "lanes_blocked": 0,
+      "lanes_noindexed": 1605,
+      "avg_quality_score": 50,
+      "impressions": 0,
+      "clicks": 0,
+      "quote_starts": 0,
+      "bookings": 0
+    }
+  ]
+}

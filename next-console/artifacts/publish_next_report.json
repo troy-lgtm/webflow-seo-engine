@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-03-08T06:49:26.879Z",
+  "target_count": 3,
+  "mode": "dry-run",
+  "filter_mode": "LTL",
+  "attempted": 1,
+  "skipped_duplicates": [],
+  "published_success": [],
+  "failures": [
+    {
+      "slug": "elig-test-approved",
+      "mode": "LTL",
+      "error": "Cannot read properties of undefined (reading 'split')",
+      "rule_id": "SHIP-FAIL-01"
+    }
+  ],
+  "remaining_candidates": 1,
+  "finished_at": "2026-03-08T06:49:26.881Z"
+}

@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-03-07T03-53-09-649Z",
+  "script_name": "lanes_auto_publish.js",
+  "trigger_source": "autonomous-factory",
+  "dry_run": false,
+  "started_at": "2026-03-07T03:53:09.649Z",
+  "completed_at": "2026-03-07T03:55:44.873Z",
+  "duration_ms": 155224,
+  "intended_count": 1,
+  "attempted_count": 1,
+  "published_count": 1,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "deploy_status": "published_to_production",
+  "deploy_id": null,
+  "deploy_provider": "webflow",
+  "email_attempted": true,
+  "email_sent": true,
+  "email_recipient": "troy@wearewarp.com",
+  "email_error": null,
+  "email_skip_reason": null,
+  "email_provider_response": null,
+  "published_pages": [
+    {
+      "slug": "kansas-city-to-chicago",
+      "webflow_item_id": "69aba12627a47df76f33fd80",
+      "url": "https://www.wearewarp.com/lanes/kansas-city-to-chicago"
+    }
+  ],
+  "failed_pages": [],
+  "blocked_pages": [],
+  "published_urls": [
+    "https://www.wearewarp.com/lanes/kansas-city-to-chicago"
+  ],
+  "sample_live_urls": [
+    "https://www.wearewarp.com/lanes/kansas-city-to-chicago"
+  ],
+  "warnings": [],
+  "mode": "live"
+}

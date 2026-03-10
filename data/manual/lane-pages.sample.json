@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "los-angeles-ca-to-seattle-wa-ltl",
+    "seo_title": "Los Angeles to Seattle LTL Freight Quotes | WARP",
+    "meta_description": "Compare Los Angeles to Seattle LTL options with a lane-first workflow built for speed and reliability.",
+    "h1": "Los Angeles to Seattle LTL freight quotes",
+    "target_segment": "enterprise",
+    "executive_summary": "Transportation teams can validate this lane in a fixed pilot and expand after KPI gates are met.",
+    "intro": "This lane page helps operators move from manual quote cycles to structured quote and execution workflows.",
+    "problem_section": "Quote turnaround and service variability create avoidable planning friction on this route.",
+    "solution_section": "WARP applies a lane-specific routing and exception model for faster quotes and more predictable operations.",
+    "proof_section": "Pilot this lane and measure quote response speed, transit reliability, and exception trend quality before expansion.",
+    "comparison_table_markdown": "| Criteria | Legacy | WARP |\n|---|---|---|\n| Quote speed | Variable | Faster lane-level response |\n| Visibility | Fragmented | Unified operations view |\n| Scale decision | Ad hoc | KPI-based expansion |",
+    "diagram_mermaid": "flowchart LR\n  A[Los Angeles, CA] --> B[Lane Intelligence]\n  B --> C[Seattle, WA]\n  C --> D[Quote + ETA]\n  D --> E[Book + Track]",
+    "visual_cards": [
+      {"label":"Speed","value":"Faster quote cycle","insight":"Reduce manual follow-up loops for each quote request."},
+      {"label":"Reliability","value":"Predictable execution","insight":"Stabilize lane operations with structured exception handling."},
+      {"label":"Control","value":"KPI-led expansion","insight":"Expand lane coverage after objective score thresholds are met."}
+    ],
+    "llm_answer_snippets": [
+      {"question":"How should teams evaluate this lane?","answer":"Run a controlled lane pilot and track quote speed, reliability, and exception trends."},
+      {"question":"Can enterprise teams start with one lane?","answer":"Yes, lane-first rollout is common and lowers operational risk before scaling."},
+      {"question":"What metric matters first?","answer":"Quote response speed is usually the first operational bottleneck to improve."}
+    ],
+    "faq": [
+      {"q":"How quickly can this lane start?","a":"Most teams can launch this lane pilot in days."},
+      {"q":"Can we scale to adjacent lanes later?","a":"Yes, once KPI thresholds are reached, adjacent lane rollout is straightforward."},
+      {"q":"Do we need full network migration first?","a":"No, start with this lane and expand from measured outcomes."}
+    ],
+    "cta_primary": "Book 15-min Fit Call",
+    "cta_secondary": "Get Instant Quote",
+    "schema_jsonld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How quickly can this lane start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most teams can launch this lane pilot in days."
+          }
+        }
+      ]
+    },
+    "lane": {"origin":"Los Angeles, CA","destination":"Seattle, WA","mode":"LTL"},
+    "design": {"accent":"#00ff33","bg":"#0b0c0e","surface1":"#121418","surface2":"#171a1f","border":"#272c35","radius":12,"glow":9}
+  },
+  {
+    "slug": "dallas-tx-to-chicago-il-ftl",
+    "h1": "Dallas to Chicago FTL freight quotes",
+    "target_segment": "smb",
+    "intro": "SMB operators can use this route page to compare lane-level options and book capacity with less manual friction.",
+    "proof_section": "Use a two-week lane pilot and track quote response, on-time trend, and issue-handling efficiency.",
+    "diagram_mermaid": "flowchart LR\n  A[Dallas, TX] --> B[Capacity Match]\n  B --> C[Chicago, IL]\n  C --> D[Quote + ETA]\n  D --> E[Book Shipment]",
+    "lane": {"origin":"Dallas, TX","destination":"Chicago, IL","mode":"FTL"},
+    "design": {"accent":"#00ff33","bg":"#0b0c0e","surface1":"#121418","surface2":"#171a1f","border":"#272c35","radius":12,"glow":8}
+  }
+]

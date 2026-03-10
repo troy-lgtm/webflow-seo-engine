@@ -1,0 +1,42 @@
+{
+  "slug": "chicago-to-los-angeles",
+  "origin": "Chicago, IL",
+  "destination": "Los Angeles, CA",
+  "mode": "LTL",
+  "archetype": "port_to_inland",
+  "archetype_label": "Port to Inland",
+  "canonical_path": "/chicago-to-los-angeles",
+  "seo_title": "Chicago, IL to Los Angeles, CA LTL Freight Quotes | WARP",
+  "h1": "Chicago, IL to Los Angeles, CA LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Chicago, IL to Los Angeles, CA. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "The Chicago, IL to Los Angeles, CA lane connects a major port gateway with an inland distribution point, making container drayage, intermodal coordination, and customs clearance central to every shipment. For small and mid-size shipping teams, understanding dwell times, chassis availability, and terminal fees on this corridor is critical. This guide covers LTL options, drayage strategies, and cost-saving approaches for the Chicago, IL to Los Angeles, CA port-to-inland lane.",
+  "faq": [
+    {
+      "q": "What is the typical LTL drayage cost from Chicago, IL port to Los Angeles, CA?",
+      "a": "Port drayage rates vary by distance, chassis type, and terminal fees. The Chicago, IL to Los Angeles, CA LTL lane benefits from high carrier density at the port."
+    },
+    {
+      "q": "What intermodal options exist for LTL freight from Chicago, IL to Los Angeles, CA?",
+      "a": "Container-on-chassis drayage to a nearby rail ramp is common for long-haul segments. For shorter runs, direct LTL trucking from Chicago, IL to Los Angeles, CA is often faster."
+    },
+    {
+      "q": "How does port congestion at Chicago, IL affect LTL transit to Los Angeles, CA?",
+      "a": "Port dwell times at Chicago, IL directly impact drayage schedules. WARP monitors terminal wait times and adjusts LTL pickup windows to minimize delays on the Chicago, IL to Los Angeles, CA lane."
+    },
+    {
+      "q": "Are there customs clearance delays on the Chicago, IL to Los Angeles, CA LTL lane?",
+      "a": "If your freight originates as an ocean import, customs clearance at Chicago, IL can add 1-3 days. Pre-clearing with a customs broker before vessel arrival reduces this window."
+    },
+    {
+      "q": "How do demurrage and detention fees work on the Chicago, IL to Los Angeles, CA lane?",
+      "a": "Demurrage accrues when containers sit at the port terminal past free time. Detention applies after the container leaves the terminal. Faster LTL drayage to Los Angeles, CA minimizes both charges."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 2091,
+    "haversine_miles": 1742,
+    "estimated_transit_days": "4-7",
+    "origin_region": "Midwest",
+    "destination_region": "West Coast"
+  }
+}

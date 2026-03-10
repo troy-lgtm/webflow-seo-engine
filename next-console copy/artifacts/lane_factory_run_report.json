@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-03-07T02-30-55-867Z",
+  "generated_at": "2026-03-07T02:38:42.143Z",
+  "elapsed_seconds": 466.3,
+  "dry_run": false,
+  "filter_mode": "LTL",
+  "cluster": null,
+  "target_count": 3,
+  "interval_seconds": 4,
+  "notify_email": "troy@wearewarp.com",
+  "manufactured": 3,
+  "produced": 3,
+  "blocked": 0,
+  "failed": 0,
+  "verified_live": 3,
+  "email_sent": false,
+  "produced_slugs": [
+    "los-angeles-to-new-york",
+    "atlanta-to-new-york",
+    "houston-to-new-york"
+  ],
+  "blocked_slugs": [],
+  "failed_slugs": [],
+  "verified_urls": [
+    "https://www.wearewarp.com/lanes/los-angeles-to-new-york",
+    "https://www.wearewarp.com/lanes/atlanta-to-new-york",
+    "https://www.wearewarp.com/lanes/houston-to-new-york"
+  ]
+}

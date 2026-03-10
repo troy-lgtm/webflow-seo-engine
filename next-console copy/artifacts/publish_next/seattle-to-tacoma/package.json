@@ -1,0 +1,180 @@
+{
+  "page": {
+    "slug": "seattle-to-tacoma",
+    "canonical_path": "/seattle-to-tacoma",
+    "seo_title": "Seattle, WA to Tacoma, WA LTL Freight Quotes | WARP",
+    "h1": "Seattle, WA to Tacoma, WA LTL freight quotes",
+    "meta_description": "Compare LTL freight rates from Seattle to Tacoma. Get instant quotes, estimated transit times, and book freight in minutes with WARP.",
+    "target_segment": "smb",
+    "lane": {
+      "origin": "Seattle, WA",
+      "destination": "Tacoma, WA",
+      "mode": "LTL"
+    },
+    "lane_stats": {
+      "estimated_distance_miles": 30,
+      "estimated_transit_days_range": {
+        "min": 1,
+        "max": 2
+      },
+      "estimated_rate_range_usd": {
+        "low": 250,
+        "high": 300
+      },
+      "common_equipment": [
+        "Dry Van",
+        "Reefer (temp-controlled)"
+      ],
+      "seasonality_notes": "Steady volumes with produce season lift Jun-Sep. Winter weather delays possible.",
+      "confidence": {
+        "transit": "modeled",
+        "rate": "modeled"
+      },
+      "disclaimers": [
+        "These are modeled estimates, not guaranteed quotes.",
+        "Actual rates depend on freight details, accessorials, and current market conditions."
+      ]
+    },
+    "network_proof": {
+      "estimated_carrier_count": 11,
+      "nearest_cross_docks": [
+        "Pacific NW Hub",
+        "Portland Terminal",
+        "Bay Area Hub"
+      ],
+      "service_notes": [
+        "Real-time scan events at pickup, in-transit, and delivery",
+        "Estimated 1-2 business day transit window",
+        "Pallet-level tracking with delivery appointment scheduling",
+        "Exception alerts within 30 minutes of status change"
+      ],
+      "origin_region": "Pacific Northwest",
+      "destination_region": "Pacific Northwest"
+    },
+    "problem_section": "LTL shippers on the Seattle to Tacoma corridor struggle with inconsistent transit times, opaque pricing from legacy brokers, and fragmented visibility across multiple carriers. Most teams spend hours chasing quotes and tracking updates manually.",
+    "solution_section": "WARP provides instant LTL quotes on the Seattle to Tacoma lane with real-time carrier comparison, one-click booking, and proactive exception management — replacing days of manual work with minutes of operational efficiency.",
+    "cta_primary": "Book 15-min Fit Call",
+    "cta_secondary": "Get Instant Quote",
+    "cta_primary_url": "https://www.wearewarp.com/book",
+    "cta_secondary_url": "https://www.wearewarp.com/quote",
+    "contrast": {
+      "headline": "Why LTL shippers switch from brokers to WARP",
+      "points": [
+        {
+          "metric": "Quote speed",
+          "legacy": "2–24 hours via phone/email",
+          "warp": "Under 2 minutes, self-serve"
+        },
+        {
+          "metric": "Carrier comparison",
+          "legacy": "Manual spreadsheets",
+          "warp": "Side-by-side dashboard with performance data"
+        },
+        {
+          "metric": "Booking",
+          "legacy": "Email chains, 30–60 min",
+          "warp": "One-click from quote to BOL"
+        },
+        {
+          "metric": "Tracking",
+          "legacy": "Call carrier for updates",
+          "warp": "Real-time dashboard with exception alerts"
+        },
+        {
+          "metric": "Exception handling",
+          "legacy": "Reactive, hours to discover",
+          "warp": "Proactive alerts within 30 minutes"
+        }
+      ],
+      "bottom_line": "Shipping LTL from Seattle to Tacoma with WARP eliminates the manual back-and-forth that costs logistics teams hours per shipment."
+    },
+    "intro": "LTL freight from Seattle, WA to Tacoma, WA covers approximately 30 miles with estimated transit of 1–2 business days. WARP's carrier network on this corridor includes 11+ providers with cross-dock facilities at Pacific NW Hub, Portland Terminal, Bay Area Hub. Get instant lane-specific quotes, compare carriers, and book in minutes.",
+    "proof_section": "Validate this lane with a controlled pilot: Seattle, WA to Tacoma, WA. Track quote response time, transit predictability, and exception rate across 11 active carriers on this 30-mile corridor. Equipment includes Dry Van and Reefer (temp-controlled). Start with this single lane, measure results, and expand based on data.",
+    "faq": [
+      {
+        "q": "How long does LTL freight take from Seattle to Tacoma?",
+        "a": "Estimated transit for LTL freight on this 30-mile lane is 1–2 business days. Actual transit depends on pickup schedule, carrier routing, and weather conditions."
+      },
+      {
+        "q": "How much does LTL shipping from Seattle to Tacoma cost?",
+        "a": "Estimated LTL rates on this lane range from $250 to $300 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote by entering your shipment details."
+      },
+      {
+        "q": "How fast can we launch a LTL pilot from Seattle to Tacoma?",
+        "a": "Most shipping teams can scope a single-lane pilot and begin quoting within days. Start with this corridor, measure quote speed and transit reliability, then expand based on results."
+      },
+      {
+        "q": "How does WARP handle tracking on the Seattle to Tacoma lane?",
+        "a": "WARP provides real-time visibility with scan events at pickup, in-transit checkpoints, and delivery confirmation. Exception alerts fire within 30 minutes of any status change so you can resolve issues before they impact customers."
+      },
+      {
+        "q": "What equipment is available for LTL freight from Seattle to Tacoma?",
+        "a": "Common equipment on this lane includes Dry Van, Reefer (temp-controlled). Equipment availability varies by season and demand — WARP's carrier network provides multiple options for your freight profile."
+      }
+    ],
+    "schema_breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WARP",
+          "item": "https://www.wearewarp.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LTL Freight",
+          "item": "https://www.wearewarp.com/guides/ltl"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Seattle to Tacoma"
+        }
+      ]
+    },
+    "schema_service": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "LTL Freight Service — Seattle to Tacoma",
+      "provider": {
+        "@type": "Organization",
+        "name": "WARP",
+        "url": "https://www.wearewarp.com"
+      },
+      "areaServed": [
+        "Seattle, WA",
+        "Tacoma, WA"
+      ],
+      "description": "LTL freight shipping from Seattle, WA to Tacoma, WA with instant quoting, carrier comparison, and real-time tracking."
+    },
+    "schema_organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "WARP",
+      "url": "https://www.wearewarp.com",
+      "description": "Technology-driven freight logistics platform"
+    },
+    "quality_score": 100,
+    "banned_content_scan_result": "clean",
+    "rendered_html_validation_result": "passed"
+  },
+  "canonicalPath": "/seattle-to-tacoma",
+  "quickAnswers": [
+    {
+      "question": "How much does LTL freight from Seattle to Tacoma cost?",
+      "answer": "Estimated LTL rates on the Seattle to Tacoma lane range from $250 to $300 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote with WARP."
+    },
+    {
+      "question": "How long does LTL transit take from Seattle to Tacoma?",
+      "answer": "Estimated transit time for LTL freight on this 30-mile lane is 1–2 business days under standard conditions."
+    }
+  ],
+  "contentFingerprint": "259576289",
+  "origin": "Seattle, WA",
+  "destination": "Tacoma, WA",
+  "mode": "LTL",
+  "segment": "smb"
+}

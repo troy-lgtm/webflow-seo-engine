@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-03-05T21-58-21-904Z",
+  "timestamp": "2026-03-05T21:58:21.917Z",
+  "sources_connected": {
+    "gsc": false,
+    "portal": false,
+    "ga4": false
+  },
+  "actual": {
+    "indexed_pages_known": 15,
+    "pages_with_nonzero_impressions": 15,
+    "impressions": 2260,
+    "clicks": 148,
+    "quote_starts": 215,
+    "bookings": 65
+  },
+  "week_over_week": {
+    "impressions_delta": null,
+    "clicks_delta": null,
+    "pages_with_nonzero_impressions_delta": null
+  },
+  "status": "on_track",
+  "notes": [
+    "Early momentum is within benchmark range",
+    "4% of indexed pages have nonzero impressions"
+  ]
+}

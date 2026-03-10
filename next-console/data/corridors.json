@@ -1,0 +1,116 @@
+{
+  "corridors": [
+    {
+      "id": "chicago-dfw",
+      "name": "Chicago to Dallas Fort Worth Freight Corridor",
+      "origin_cluster": ["Chicago", "Naperville", "Joliet", "Aurora", "Rockford"],
+      "destination_cluster": ["Dallas", "Fort Worth", "Arlington", "Plano", "Irving"],
+      "priority": "high",
+      "region_pair": ["Midwest", "South Central"]
+    },
+    {
+      "id": "socal-phoenix",
+      "name": "Southern California to Phoenix Freight Corridor",
+      "origin_cluster": ["Los Angeles", "Riverside", "San Diego", "Long Beach", "Ontario"],
+      "destination_cluster": ["Phoenix", "Tucson", "Mesa", "Scottsdale"],
+      "priority": "high",
+      "region_pair": ["West Coast", "Southwest"]
+    },
+    {
+      "id": "texas-triangle",
+      "name": "Texas Triangle Freight Corridor",
+      "origin_cluster": ["Dallas", "Fort Worth", "Houston", "San Antonio", "Austin"],
+      "destination_cluster": ["Dallas", "Fort Worth", "Houston", "San Antonio", "Austin"],
+      "priority": "high",
+      "region_pair": ["South Central", "South Central"]
+    },
+    {
+      "id": "northeast-regional",
+      "name": "Northeast Regional Freight Corridor",
+      "origin_cluster": ["New York", "Newark", "Philadelphia", "Boston", "Baltimore"],
+      "destination_cluster": ["New York", "Newark", "Philadelphia", "Boston", "Baltimore"],
+      "priority": "high",
+      "region_pair": ["Northeast", "Northeast"]
+    },
+    {
+      "id": "southeast-retail",
+      "name": "Southeast Retail Distribution Corridor",
+      "origin_cluster": ["Atlanta", "Charlotte", "Nashville", "Jacksonville", "Memphis"],
+      "destination_cluster": ["Atlanta", "Charlotte", "Nashville", "Jacksonville", "Memphis", "Miami", "Tampa", "Orlando"],
+      "priority": "high",
+      "region_pair": ["Southeast", "Southeast"]
+    },
+    {
+      "id": "la-chicago",
+      "name": "Los Angeles to Chicago Freight Corridor",
+      "origin_cluster": ["Los Angeles", "Riverside", "Long Beach", "Ontario"],
+      "destination_cluster": ["Chicago", "Naperville", "Joliet", "Aurora"],
+      "priority": "high",
+      "region_pair": ["West Coast", "Midwest"]
+    },
+    {
+      "id": "midwest-southeast",
+      "name": "Midwest to Southeast Freight Corridor",
+      "origin_cluster": ["Chicago", "Indianapolis", "Columbus", "Detroit", "Minneapolis", "Kansas City", "St. Louis"],
+      "destination_cluster": ["Atlanta", "Charlotte", "Nashville", "Jacksonville", "Memphis"],
+      "priority": "medium",
+      "region_pair": ["Midwest", "Southeast"]
+    },
+    {
+      "id": "pnw-socal",
+      "name": "Pacific Northwest to Southern California Corridor",
+      "origin_cluster": ["Seattle", "Portland", "Tacoma"],
+      "destination_cluster": ["Los Angeles", "Riverside", "San Diego", "San Francisco", "Sacramento"],
+      "priority": "medium",
+      "region_pair": ["Pacific Northwest", "West Coast"]
+    },
+    {
+      "id": "texas-southeast",
+      "name": "Texas to Southeast Freight Corridor",
+      "origin_cluster": ["Dallas", "Houston", "San Antonio", "Austin", "El Paso"],
+      "destination_cluster": ["Atlanta", "Miami", "Tampa", "Orlando", "Jacksonville", "Charlotte", "Nashville"],
+      "priority": "medium",
+      "region_pair": ["South Central", "Southeast"]
+    },
+    {
+      "id": "mountain-west",
+      "name": "Mountain West Distribution Corridor",
+      "origin_cluster": ["Denver", "Salt Lake City", "Albuquerque", "Las Vegas", "Phoenix"],
+      "destination_cluster": ["Denver", "Salt Lake City", "Albuquerque", "Las Vegas", "Phoenix"],
+      "priority": "medium",
+      "region_pair": ["Mountain", "Southwest"]
+    },
+    {
+      "id": "northeast-midwest",
+      "name": "Northeast to Midwest Freight Corridor",
+      "origin_cluster": ["New York", "Newark", "Philadelphia", "Boston"],
+      "destination_cluster": ["Chicago", "Indianapolis", "Columbus", "Detroit", "Minneapolis"],
+      "priority": "medium",
+      "region_pair": ["Northeast", "Midwest"]
+    },
+    {
+      "id": "socal-texas",
+      "name": "Southern California to Texas Freight Corridor",
+      "origin_cluster": ["Los Angeles", "Riverside", "San Diego", "Long Beach"],
+      "destination_cluster": ["Dallas", "Houston", "San Antonio", "Austin", "El Paso"],
+      "priority": "medium",
+      "region_pair": ["West Coast", "South Central"]
+    },
+    {
+      "id": "florida-northeast",
+      "name": "Florida to Northeast Freight Corridor",
+      "origin_cluster": ["Miami", "Tampa", "Orlando", "Jacksonville"],
+      "destination_cluster": ["New York", "Newark", "Philadelphia", "Boston"],
+      "priority": "medium",
+      "region_pair": ["Southeast", "Northeast"]
+    },
+    {
+      "id": "other",
+      "name": "Other Freight Lanes",
+      "origin_cluster": [],
+      "destination_cluster": [],
+      "priority": "low",
+      "region_pair": []
+    }
+  ]
+}

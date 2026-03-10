@@ -1,0 +1,111 @@
+{
+  "approved_tone_characteristics": [
+    "operator-grade",
+    "specific",
+    "freight-aware",
+    "direct",
+    "useful",
+    "restrained",
+    "confident",
+    "data-driven"
+  ],
+  "banned_tone_characteristics": [
+    "theatrical",
+    "cheesy",
+    "homepage-poetic",
+    "startup-fluffy",
+    "sales-aggressive",
+    "generic-marketing",
+    "tutorial-instructional"
+  ],
+  "good_copy_examples": [
+    "Warp supports palletized LTL freight on this lane with live tracking and scheduled pickup coordination.",
+    "This lane can be a fit for replenishment freight, appointment-driven deliveries, and recurring shipments that benefit from predictable handling.",
+    "For shippers moving freight on this route, Warp can support visibility, scheduling coordination, and transparent quoting.",
+    "Estimated transit on this 662-mile corridor is 2–3 business days under standard conditions.",
+    "Key cost factors on this corridor include distance, freight class, pallet count, and seasonal demand.",
+    "WARP handles pickup and delivery appointment scheduling with dock window confirmation and arrival tracking."
+  ],
+  "bad_copy_examples": [
+    "Stop paying for a broken freight system!",
+    "Let's fix your freight problems",
+    "Book instantly in 3 easy steps!",
+    "Generic national coverage paragraphs with no lane context",
+    "Random product walkthrough instructions",
+    "Reinvent your broken freight future",
+    "The future of freight is here",
+    "Join thousands of happy shippers"
+  ],
+  "generic_marketing_patterns": [
+    "in \\d+ easy steps",
+    "click the button below",
+    "book (now|today|instantly)",
+    "schedule a (demo|call|meeting)",
+    "join (our|the) (newsletter|community)",
+    "subscribe to",
+    "stay updated",
+    "trusted by",
+    "featured in",
+    "what our customers say",
+    "why (choose|pick) us",
+    "get started today",
+    "ready to ship\\?",
+    "the future of",
+    "reinvent your",
+    "broken freight",
+    "fix your freight",
+    "revolutionize",
+    "game-?changer",
+    "disrupt(ing|ive)?",
+    "transform(ing|ative)?"
+  ],
+  "operational_phrasing_patterns": [
+    "palletized freight",
+    "dock-height",
+    "appointment coordination",
+    "freight class",
+    "NMFC classification",
+    "cross-dock",
+    "linehaul",
+    "accessorial",
+    "per-pallet",
+    "transit window",
+    "exception (handling|management|alert)",
+    "carrier (network|performance|routing)",
+    "real-time (scan|tracking|visibility)",
+    "pickup and delivery",
+    "BOL generation",
+    "on-time (delivery|performance)"
+  ],
+  "section_heading_rules": {
+    "lane_overview": {
+      "pattern": "{mode} Lane Overview: {origin_city} to {destination_city}",
+      "must_contain": ["origin_city", "destination_city", "mode"]
+    },
+    "warp_fit": {
+      "pattern": "Why WARP Fits the {origin_city} to {destination_city} {mode} Lane",
+      "must_contain": ["origin_city", "destination_city"]
+    },
+    "operating_details": {
+      "pattern": "Operating Details: {origin_city} to {destination_city} {mode}",
+      "must_contain": ["origin_city", "destination_city"]
+    },
+    "pricing": {
+      "pattern": "{mode} Pricing: {origin_city} to {destination_city}",
+      "must_contain": ["origin_city", "destination_city"]
+    },
+    "faqs": {
+      "pattern": "Frequently Asked Questions",
+      "must_contain": []
+    }
+  },
+  "minimum_operational_term_count": 5,
+  "maximum_marketing_pattern_count": 0,
+  "copy_quality_thresholds": {
+    "min_operational_terms_per_1000_chars": 3,
+    "max_generic_marketing_patterns": 0,
+    "min_lane_specific_mentions": 4,
+    "min_body_content_chars": 500,
+    "max_sentence_length_words": 40
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "run_id": "2026-03-06T21-20-43-512Z",
+  "script_name": "publish_next.js",
+  "trigger_source": "manual",
+  "dry_run": false,
+  "started_at": "2026-03-06T21:20:43.512Z",
+  "completed_at": "2026-03-06T21:20:48.426Z",
+  "duration_ms": 4914,
+  "intended_count": 19,
+  "attempted_count": 5,
+  "published_count": 5,
+  "failed_count": 0,
+  "blocked_count": 14,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": null,
+  "email_error": null,
+  "email_skip_reason": "publish_next does not send email directly",
+  "email_provider_response": null,
+  "published_pages": [
+    {
+      "slug": "los-angeles-to-new-york",
+      "webflow_item_id": "69ab452c316ee8a4500a69a6",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-new-york"
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "webflow_item_id": "69ab452de0dc881d6bb2be39",
+      "url": "https://www.wearewarp.com/lanes/atlanta-to-new-york"
+    },
+    {
+      "slug": "houston-to-new-york",
+      "webflow_item_id": "69ab452d8765240fe28b511d",
+      "url": "https://www.wearewarp.com/lanes/houston-to-new-york"
+    },
+    {
+      "slug": "kansas-city-to-chicago",
+      "webflow_item_id": "69ab452e4ec6a4e6b5b73f7e",
+      "url": "https://www.wearewarp.com/lanes/kansas-city-to-chicago"
+    },
+    {
+      "slug": "indianapolis-to-new-york",
+      "webflow_item_id": "69ab452f74a400dbf77d875b",
+      "url": "https://www.wearewarp.com/lanes/indianapolis-to-new-york"
+    }
+  ],
+  "failed_pages": [],
+  "blocked_pages": [
+    {
+      "slug": "dallas-to-new-york",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-chicago",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "houston-to-chicago",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "dallas-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-houston",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "dallas-to-houston",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "dallas-to-chicago",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-dallas",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "chicago-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "phoenix-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-memphis",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    }
+  ],
+  "published_urls": [
+    "https://www.wearewarp.com/lanes/los-angeles-to-new-york",
+    "https://www.wearewarp.com/lanes/atlanta-to-new-york",
+    "https://www.wearewarp.com/lanes/houston-to-new-york",
+    "https://www.wearewarp.com/lanes/kansas-city-to-chicago",
+    "https://www.wearewarp.com/lanes/indianapolis-to-new-york"
+  ],
+  "sample_live_urls": [
+    "https://www.wearewarp.com/lanes/los-angeles-to-new-york",
+    "https://www.wearewarp.com/lanes/atlanta-to-new-york",
+    "https://www.wearewarp.com/lanes/houston-to-new-york",
+    "https://www.wearewarp.com/lanes/kansas-city-to-chicago",
+    "https://www.wearewarp.com/lanes/indianapolis-to-new-york"
+  ],
+  "warnings": [],
+  "mode": "live"
+}

@@ -1,0 +1,182 @@
+{
+  "page": {
+    "slug": "san-antonio-to-philadelphia",
+    "canonical_path": "/san-antonio-to-philadelphia",
+    "seo_title": "San Antonio, TX to Philadelphia, PA LTL Freight Quotes | WARP",
+    "h1": "San Antonio, TX to Philadelphia, PA LTL freight quotes",
+    "meta_description": "Compare LTL freight rates from San Antonio to Philadelphia. Get instant quotes, estimated transit times, and book freight in minutes with WARP.",
+    "target_segment": "smb",
+    "lane": {
+      "origin": "San Antonio, TX",
+      "destination": "Philadelphia, PA",
+      "mode": "LTL"
+    },
+    "lane_stats": {
+      "estimated_distance_miles": 1776,
+      "estimated_transit_days_range": {
+        "min": 5,
+        "max": 7
+      },
+      "estimated_rate_range_usd": {
+        "low": 7384,
+        "high": 9846
+      },
+      "common_equipment": [
+        "Dry Van",
+        "Reefer (temp-controlled)"
+      ],
+      "seasonality_notes": "Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec.",
+      "confidence": {
+        "transit": "modeled",
+        "rate": "modeled"
+      },
+      "disclaimers": [
+        "These are modeled estimates, not guaranteed quotes.",
+        "Actual rates depend on freight details, accessorials, and current market conditions."
+      ]
+    },
+    "network_proof": {
+      "estimated_carrier_count": 7,
+      "nearest_cross_docks": [
+        "Houston Terminal",
+        "Dallas Mega Hub",
+        "Memphis Freight Hub",
+        "Philadelphia Terminal",
+        "NY/NJ Metro Hub"
+      ],
+      "service_notes": [
+        "Real-time scan events at pickup, in-transit, and delivery",
+        "Estimated 5-7 business day transit window",
+        "Pallet-level tracking with delivery appointment scheduling",
+        "Exception alerts within 30 minutes of status change"
+      ],
+      "origin_region": "South Central",
+      "destination_region": "Northeast"
+    },
+    "problem_section": "LTL shippers on the San Antonio to Philadelphia corridor struggle with inconsistent transit times, opaque pricing from legacy brokers, and fragmented visibility across multiple carriers. Most teams spend hours chasing quotes and tracking updates manually.",
+    "solution_section": "WARP provides instant LTL quotes on the San Antonio to Philadelphia lane with real-time carrier comparison, one-click booking, and proactive exception management — replacing days of manual work with minutes of operational efficiency.",
+    "cta_primary": "Book 15-min Fit Call",
+    "cta_secondary": "Get Instant Quote",
+    "cta_primary_url": "https://www.wearewarp.com/book",
+    "cta_secondary_url": "https://www.wearewarp.com/quote",
+    "contrast": {
+      "headline": "Why LTL shippers switch from brokers to WARP",
+      "points": [
+        {
+          "metric": "Quote speed",
+          "legacy": "2–24 hours via phone/email",
+          "warp": "Under 2 minutes, self-serve"
+        },
+        {
+          "metric": "Carrier comparison",
+          "legacy": "Manual spreadsheets",
+          "warp": "Side-by-side dashboard with performance data"
+        },
+        {
+          "metric": "Booking",
+          "legacy": "Email chains, 30–60 min",
+          "warp": "One-click from quote to BOL"
+        },
+        {
+          "metric": "Tracking",
+          "legacy": "Call carrier for updates",
+          "warp": "Real-time dashboard with exception alerts"
+        },
+        {
+          "metric": "Exception handling",
+          "legacy": "Reactive, hours to discover",
+          "warp": "Proactive alerts within 30 minutes"
+        }
+      ],
+      "bottom_line": "Shipping LTL from San Antonio to Philadelphia with WARP eliminates the manual back-and-forth that costs logistics teams hours per shipment."
+    },
+    "intro": "LTL freight from San Antonio, TX to Philadelphia, PA covers approximately 1,776 miles with estimated transit of 5–7 business days. WARP's carrier network on this corridor includes 7+ providers with cross-dock facilities at Houston Terminal, Dallas Mega Hub, Memphis Freight Hub. Get instant lane-specific quotes, compare carriers, and book in minutes.",
+    "proof_section": "Validate this lane with a controlled pilot: San Antonio, TX to Philadelphia, PA. Track quote response time, transit predictability, and exception rate across 7 active carriers on this 1776-mile corridor. Equipment includes Dry Van and Reefer (temp-controlled). Start with this single lane, measure results, and expand based on data.",
+    "faq": [
+      {
+        "q": "How long does LTL freight take from San Antonio to Philadelphia?",
+        "a": "Estimated transit for LTL freight on this 1776-mile lane is 5–7 business days. Actual transit depends on pickup schedule, carrier routing, and weather conditions."
+      },
+      {
+        "q": "How much does LTL shipping from San Antonio to Philadelphia cost?",
+        "a": "Estimated LTL rates on this lane range from $7,384 to $9,846 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote by entering your shipment details."
+      },
+      {
+        "q": "How fast can we launch a LTL pilot from San Antonio to Philadelphia?",
+        "a": "Most shipping teams can scope a single-lane pilot and begin quoting within days. Start with this corridor, measure quote speed and transit reliability, then expand based on results."
+      },
+      {
+        "q": "How does WARP handle tracking on the San Antonio to Philadelphia lane?",
+        "a": "WARP provides real-time visibility with scan events at pickup, in-transit checkpoints, and delivery confirmation. Exception alerts fire within 30 minutes of any status change so you can resolve issues before they impact customers."
+      },
+      {
+        "q": "What equipment is available for LTL freight from San Antonio to Philadelphia?",
+        "a": "Common equipment on this lane includes Dry Van, Reefer (temp-controlled). Equipment availability varies by season and demand — WARP's carrier network provides multiple options for your freight profile."
+      }
+    ],
+    "schema_breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WARP",
+          "item": "https://www.wearewarp.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LTL Freight",
+          "item": "https://www.wearewarp.com/guides/ltl"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "San Antonio to Philadelphia"
+        }
+      ]
+    },
+    "schema_service": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "LTL Freight Service — San Antonio to Philadelphia",
+      "provider": {
+        "@type": "Organization",
+        "name": "WARP",
+        "url": "https://www.wearewarp.com"
+      },
+      "areaServed": [
+        "San Antonio, TX",
+        "Philadelphia, PA"
+      ],
+      "description": "LTL freight shipping from San Antonio, TX to Philadelphia, PA with instant quoting, carrier comparison, and real-time tracking."
+    },
+    "schema_organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "WARP",
+      "url": "https://www.wearewarp.com",
+      "description": "Technology-driven freight logistics platform"
+    },
+    "quality_score": 100,
+    "banned_content_scan_result": "clean",
+    "rendered_html_validation_result": "passed"
+  },
+  "canonicalPath": "/san-antonio-to-philadelphia",
+  "quickAnswers": [
+    {
+      "question": "How much does LTL freight from San Antonio to Philadelphia cost?",
+      "answer": "Estimated LTL rates on the San Antonio to Philadelphia lane range from $7,384 to $9,846 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote with WARP."
+    },
+    {
+      "question": "How long does LTL transit take from San Antonio to Philadelphia?",
+      "answer": "Estimated transit time for LTL freight on this 1776-mile lane is 5–7 business days under standard conditions."
+    }
+  ],
+  "contentFingerprint": "630734756",
+  "origin": "San Antonio, TX",
+  "destination": "Philadelphia, PA",
+  "mode": "LTL",
+  "segment": "smb"
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-07T11:14:48.882Z",
+  "total_urls": 375,
+  "sitemap_files": [
+    "sitemap-lanes.xml",
+    "sitemap-corridors.xml",
+    "sitemap-metros.xml"
+  ],
+  "urls_per_file": {
+    "sitemap-lanes.xml": 311,
+    "sitemap-corridors.xml": 13,
+    "sitemap-metros.xml": 51
+  },
+  "page_counts": {
+    "lanes": 311,
+    "corridors": 13,
+    "metros": 51
+  },
+  "sitemap_index_entries": 3
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "miami-to-san-francisco",
+  "origin": "Miami, FL",
+  "destination": "San Francisco, CA",
+  "mode": "LTL",
+  "archetype": "coastal_to_coastal",
+  "archetype_label": "Coastal to Coastal",
+  "canonical_path": "/miami-to-san-francisco",
+  "seo_title": "Miami, FL to San Francisco, CA LTL Freight Quotes | WARP",
+  "h1": "Miami, FL to San Francisco, CA LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Miami, FL to San Francisco, CA. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "Shipping LTL freight from Miami, FL to San Francisco, CA spans a cross-country corridor that crosses multiple time zones and climate regions. For small and mid-size shipping teams, planning multimodal options, managing extended transit windows, and building contingency into coast-to-coast schedules are essential. This page details LTL transit benchmarks, intermodal alternatives, and routing strategies for the Miami, FL to San Francisco, CA lane.",
+  "faq": [
+    {
+      "q": "What is the typical LTL transit time from Miami, FL to San Francisco, CA?",
+      "a": "Coast-to-coast LTL transit between Miami, FL and San Francisco, CA typically ranges from 4 to 7 business days depending on routing, weather, and carrier network."
+    },
+    {
+      "q": "What weather risks apply to cross-country LTL freight from Miami, FL to San Francisco, CA?",
+      "a": "Mountain passes, Great Plains storms, and seasonal weather patterns can delay LTL transit. Build 1-2 buffer days into coast-to-coast schedules."
+    },
+    {
+      "q": "Is intermodal LTL a viable option from Miami, FL to San Francisco, CA?",
+      "a": "Yes. Rail-truck intermodal can reduce costs by 15-30% versus over-the-road LTL on the Miami, FL to San Francisco, CA lane, with a 1-2 day transit trade-off."
+    },
+    {
+      "q": "How do time zone differences affect LTL delivery scheduling between Miami, FL and San Francisco, CA?",
+      "a": "A 3-hour time difference between Miami, FL and San Francisco, CA impacts pickup and delivery appointment windows. Coordinate cutoff times across time zones to avoid missed appointments."
+    },
+    {
+      "q": "How does fuel cost impact LTL rates on the Miami, FL to San Francisco, CA lane?",
+      "a": "Cross-country lanes are fuel-sensitive. LTL fuel surcharges on the Miami, FL to San Francisco, CA corridor fluctuate with diesel prices and add 15-25% to base rates."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 3110,
+    "haversine_miles": 2591,
+    "estimated_transit_days": "4-7",
+    "origin_region": "Southeast",
+    "destination_region": "West Coast"
+  }
+}

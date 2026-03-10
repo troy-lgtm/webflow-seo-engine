@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-03-07T02-29-15-990Z",
+  "timestamp": "2026-03-07T02:29:15.990Z",
+  "mode": "staging",
+  "environment": "local",
+  "site_base_url": "https://www.wearewarp.com",
+  "deploy": {
+    "provider": "webflow",
+    "deployment_id": "dry-run-796556f6",
+    "deployment_url": "unknown",
+    "commit_sha": "unknown",
+    "branch": "unknown",
+    "status": "unknown"
+  },
+  "pages_attempted": 3,
+  "pages_generated": 3,
+  "pages_indexable": 3,
+  "pages_noindex": 0,
+  "pages_blocked": 0,
+  "blocked_reasons": [],
+  "allowed": true,
+  "errors": [],
+  "classification": "local_simulation",
+  "display_status": "Simulated local audit",
+  "confirmed_posted_today": false,
+  "trust_level": "low"
+}

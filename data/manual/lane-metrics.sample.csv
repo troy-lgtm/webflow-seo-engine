@@ -1,0 +1,5 @@
+origin,destination,mode,weekly_shipments,avg_quote_value,win_rate,strategic_priority
+Los Angeles, CA,Seattle, WA,LTL,48,4200,0.31,9
+Phoenix, AZ,San Francisco, CA,LTL,34,3200,0.28,8
+Dallas, TX,Chicago, IL,FTL,52,5100,0.36,10
+Dallas, TX,Seattle, WA,FTL,27,4700,0.24,7

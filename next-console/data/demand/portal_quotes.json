@@ -1,0 +1,13 @@
+{
+  "_comment": "Portal quote frequency stub. Key = lane slug, value = { monthly_quotes, avg_value_usd }. Swap with real portal data.",
+  "chicago-to-dallas": { "monthly_quotes": 42, "avg_value_usd": 890 },
+  "los-angeles-to-phoenix": { "monthly_quotes": 35, "avg_value_usd": 620 },
+  "los-angeles-to-dallas": { "monthly_quotes": 28, "avg_value_usd": 1450 },
+  "atlanta-to-miami": { "monthly_quotes": 22, "avg_value_usd": 780 },
+  "new-york-to-chicago": { "monthly_quotes": 19, "avg_value_usd": 1120 },
+  "houston-to-dallas": { "monthly_quotes": 18, "avg_value_usd": 520 },
+  "chicago-to-atlanta": { "monthly_quotes": 15, "avg_value_usd": 950 },
+  "dallas-to-houston": { "monthly_quotes": 14, "avg_value_usd": 480 },
+  "los-angeles-to-chicago": { "monthly_quotes": 12, "avg_value_usd": 1680 },
+  "seattle-to-los-angeles": { "monthly_quotes": 10, "avg_value_usd": 1350 }
+}

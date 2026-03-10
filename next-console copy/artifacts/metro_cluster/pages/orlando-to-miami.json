@@ -1,0 +1,42 @@
+{
+  "slug": "orlando-to-miami",
+  "origin": "Orlando, FL",
+  "destination": "Miami, FL",
+  "mode": "LTL",
+  "archetype": "short_haul_metro",
+  "archetype_label": "Short-Haul Metro",
+  "canonical_path": "/orlando-to-miami",
+  "seo_title": "Orlando, FL to Miami, FL LTL Freight Quotes | WARP",
+  "h1": "Orlando, FL to Miami, FL LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Orlando, FL to Miami, FL. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "LTL freight between Orlando, FL and Miami, FL covers one of the shortest metro-to-metro corridors in the network. For small and mid-size shipping teams, that means same-day and next-day options are realistic, last-mile scheduling is tighter, and per-shipment costs stay competitive. This page breaks down transit windows, carrier density, and booking strategies tailored to short-haul LTL shippers on the Orlando, FL to Miami, FL lane.",
+  "faq": [
+    {
+      "q": "What is the average LTL cost from Orlando, FL to Miami, FL?",
+      "a": "Short-haul LTL rates on the Orlando, FL to Miami, FL lane are among the lowest per-mile in the network due to the short distance and high carrier density."
+    },
+    {
+      "q": "How fast is LTL transit from Orlando, FL to Miami, FL?",
+      "a": "Short-haul metro lanes like Orlando, FL to Miami, FL typically deliver within 1 business day for LTL, with same-day options available for expedited shipments."
+    },
+    {
+      "q": "How does carrier availability compare on the Orlando, FL to Miami, FL LTL lane?",
+      "a": "Both Orlando, FL and Miami, FL are metro hubs with deep carrier pools, so capacity is consistent year-round for LTL shipments."
+    },
+    {
+      "q": "Can I schedule last-mile delivery windows for LTL freight arriving in Miami, FL?",
+      "a": "Absolutely. Metro destinations like Miami, FL support appointment-based delivery scheduling for LTL freight, including liftgate and inside delivery."
+    },
+    {
+      "q": "Are same-day LTL pickups available from Orlando, FL?",
+      "a": "Yes. Because Orlando, FL and Miami, FL are both major metros, most carriers offer same-day pickup windows for LTL freight on this corridor."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 247,
+    "haversine_miles": 206,
+    "estimated_transit_days": "1-2",
+    "origin_region": "Southeast",
+    "destination_region": "Southeast"
+  }
+}

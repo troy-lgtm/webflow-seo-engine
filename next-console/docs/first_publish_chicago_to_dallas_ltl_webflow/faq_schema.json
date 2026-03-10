@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How fast can we launch a LTL pilot from Chicago, IL to Dallas, TX?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most small and mid-size shipping teams can define lane scope and start pilot quoting within days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes LTL shipping different on the Chicago, IL to Dallas, TX lane?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each lane has unique volume patterns, carrier availability, and transit windows. WARP analyzes these factors to optimize your LTL operations for this corridor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can we start with just the Chicago, IL to Dallas, TX lane before expanding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A lane-first rollout lets you validate performance before scaling to additional corridors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What metrics should we track on this LTL lane?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Focus on quote response time, transit predictability, exception rate, and cost-per-shipment trends for a clear go/no-go scaling signal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do we need to migrate our entire process to use WARP for this lane?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Use a fast, self-serve approach — start this single lane, measure results, and expand based on quick ROI evidence."
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "page_title": "Dallas, TX to Chicago, IL LTL Freight | WARP",
+  "meta_description": "LTL freight from Dallas to Chicago: 950-mile lane, 3-4 day transit. Get instant rates, carrier visibility, and book through WARP.",
+  "lane_slug": "dallas-to-chicago",
+  "canonical_path": "/lanes/dallas-to-chicago",
+  "mode": "LTL",
+  "segment": "smb",
+  "origin": "Dallas, TX",
+  "destination": "Chicago, IL",
+  "lane_stats": {
+    "estimated_distance_miles": 950,
+    "estimated_transit_days_range": {
+      "min": 3,
+      "max": 4
+    },
+    "estimated_rate_range_usd": {
+      "low": 4408,
+      "high": 5877
+    },
+    "common_freight_class_range": null,
+    "common_equipment": [
+      "Dry Van",
+      "Reefer (temp-controlled)"
+    ],
+    "seasonality_notes": "Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec.",
+    "confidence": {
+      "transit": "modeled",
+      "rate": "modeled"
+    },
+    "disclaimers": [
+      "These are modeled estimates, not guaranteed quotes.",
+      "Actual rates depend on freight details, accessorials, and current market conditions."
+    ]
+  },
+  "network_proof": {
+    "estimated_carrier_count": 7,
+    "nearest_cross_docks": [
+      "Dallas Mega Hub",
+      "Houston Terminal",
+      "Memphis Freight Hub",
+      "Chicago Gateway",
+      "Indianapolis Hub"
+    ],
+    "service_notes": [
+      "Real-time scan events at pickup, in-transit, and delivery",
+      "Estimated 3-4 business day transit window",
+      "Pallet-level tracking with delivery appointment scheduling",
+      "Exception alerts within 30 minutes of status change"
+    ],
+    "origin_region": "South Central",
+    "destination_region": "Midwest"
+  },
+  "hero": {
+    "headline": "Dallas, TX to Chicago, IL LTL Freight",
+    "subhead": "950 miles. 3-4 business day transit. 7 carriers active on this lane.",
+    "primary_cta": {
+      "label": "Get Instant Quote",
+      "url": "https://www.wearewarp.com/quote"
+    },
+    "secondary_cta": {
+      "label": "Book a Fit Call",
+      "url": "https://www.wearewarp.com/book"
+    }
+  },
+  "lane_overview": {
+    "heading": "Lane Overview",
+    "body": "The Dallas to Chicago LTL lane covers approximately 950 miles between the South Central and Midwest regions. Standard transit runs 3-4 business days depending on carrier routing and terminal schedules. Common equipment on this corridor includes Dry Van, Reefer (temp-controlled). Cross-dock facilities at Dallas Mega Hub, Houston Terminal, Memphis Freight Hub support consolidation and transit optimization. Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec."
+  },
+  "warp_fit_for_lane": {
+    "heading": "How WARP Operates the Dallas to Chicago Lane",
+    "body": "WARP covers the Dallas to Chicago corridor with 7 vetted carriers providing LTL capacity. Service capabilities on this lane include: Real-time scan events at pickup, in-transit, and delivery; Estimated 3-4 business day transit window; Pallet-level tracking with delivery appointment scheduling. Shipments receive pallet-level tracking from pickup through delivery with appointment scheduling and delivery confirmation. Nearby cross-dock operations at Dallas Mega Hub and Houston Terminal enable consolidation and re-routing when exceptions occur. Exception alerts fire within 30 minutes of any status change. WARP's operations team manages carrier coordination, rescheduling, and resolution without requiring shipper follow-up."
+  },
+  "operating_details": {
+    "heading": "Operating Details",
+    "items": [
+      "Estimated lane distance: 950 miles (Dallas to Chicago)",
+      "Transit window: 3-4 business days for standard LTL service",
+      "Available equipment: Dry Van, Reefer (temp-controlled)",
+      "Active carriers on this lane: 7",
+      "Nearest cross-dock facilities: Dallas Mega Hub, Houston Terminal, Memphis Freight Hub, Chicago Gateway, Indianapolis Hub",
+      "Real-time scan events at pickup, in-transit, and delivery milestones",
+      "Exception alerts within 30 minutes of status changes with automated escalation",
+      "Delivery appointment scheduling and confirmation managed by WARP operations"
+    ]
+  },
+  "pricing_and_commercial_framing": {
+    "heading": "Pricing & Rate Factors",
+    "body": "Estimated LTL rates on the Dallas to Chicago lane range from $4,408 to $5,877, depending on freight class, weight, pallet count, and seasonal demand. Key cost drivers include NMFC freight classification, shipment density, and whether accessorials such as liftgate, inside delivery, or limited-access pickup apply. At 950 miles, the linehaul distance is the largest cost component (approximately $5.41/mile). Fuel surcharges are applied as a separate line item based on current diesel prices. These are modeled estimates. Enter your shipment details to get a real-time, all-in rate."
+  },
+  "lane_specific_faqs": [
+    {
+      "question": "How much does LTL freight from Dallas, TX to Chicago, IL cost?",
+      "answer": "Estimated LTL rates range from $4,408 to $5,877 based on freight class, weight, and pallet count. Actual rates depend on shipment specifics and current market conditions. Get an instant quote for real-time pricing."
+    },
+    {
+      "question": "What is the transit time for LTL shipments from Dallas to Chicago?",
+      "answer": "Standard LTL transit on this 950-mile lane is 3-4 business days. Actual transit depends on carrier routing, terminal schedules, and pickup timing."
+    },
+    {
+      "question": "What carriers does WARP use on the Dallas to Chicago lane?",
+      "answer": "WARP maintains a vetted network of approximately 7 active carriers on this corridor. Carrier selection is optimized for each shipment based on equipment requirements, transit targets, and performance history."
+    },
+    {
+      "question": "Can I track my LTL shipment from Dallas to Chicago in real time?",
+      "answer": "Yes. Every shipment includes real-time tracking with scan events at pickup, in-transit checkpoints, and delivery. Exception alerts fire within 30 minutes of any status change, and WARP's operations team manages resolution directly."
+    },
+    {
+      "question": "What equipment is available for LTL freight on this lane?",
+      "answer": "Common equipment on the Dallas to Chicago corridor includes Dry Van, Reefer (temp-controlled). Equipment availability varies by season and demand. Specify your requirements when requesting a quote."
+    }
+  ],
+  "related_links": {
+    "corridor_hub": "/corridors/south-central-to-midwest",
+    "related_lanes": [
+      {
+        "label": "Miami to Atlanta",
+        "path": "/lanes/miami-to-atlanta"
+      },
+      {
+        "label": "Chicago to Dallas",
+        "path": "/lanes/chicago-to-dallas"
+      },
+      {
+        "label": "Los Angeles to Phoenix",
+        "path": "/lanes/los-angeles-to-phoenix"
+      },
+      {
+        "label": "Atlanta to Orlando",
+        "path": "/lanes/atlanta-to-orlando"
+      },
+      {
+        "label": "Houston to Dallas",
+        "path": "/lanes/houston-to-dallas"
+      },
+      {
+        "label": "Chicago to Atlanta",
+        "path": "/lanes/chicago-to-atlanta"
+      },
+      {
+        "label": "Phoenix to Los Angeles",
+        "path": "/lanes/phoenix-to-los-angeles"
+      },
+      {
+        "label": "Miami to Orlando",
+        "path": "/lanes/miami-to-orlando"
+      }
+    ],
+    "tool_link": "https://www.wearewarp.com/quote",
+    "data_link": null
+  },
+  "lane_relevant_cta": {
+    "headline": "Ship LTL Freight: Dallas to Chicago",
+    "body": "Enter your shipment details to get a real-time LTL rate for the Dallas to Chicago lane. No commitment required.",
+    "primary_cta": {
+      "label": "Get Your Quote",
+      "url": "https://www.wearewarp.com/quote"
+    }
+  }
+}

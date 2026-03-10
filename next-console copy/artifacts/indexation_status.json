@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-03-05T12:37:15.963Z",
+  "base_url": "https://www.wearewarp.com",
+  "published": {
+    "total": 0,
+    "urls": [],
+    "estimated_indexed": 0,
+    "index_rate": 0
+  },
+  "cluster_pending": {
+    "total": 10,
+    "urls": [
+      "https://www.wearewarp.com/houston-to-phoenix",
+      "https://www.wearewarp.com/orlando-to-portland",
+      "https://www.wearewarp.com/orlando-to-charlotte",
+      "https://www.wearewarp.com/orlando-to-dallas",
+      "https://www.wearewarp.com/salt-lake-city-to-chicago",
+      "https://www.wearewarp.com/new-york-to-nashville",
+      "https://www.wearewarp.com/charlotte-to-tampa",
+      "https://www.wearewarp.com/denver-to-indianapolis",
+      "https://www.wearewarp.com/seattle-to-nashville",
+      "https://www.wearewarp.com/houston-to-indianapolis"
+    ]
+  },
+  "total_urls": 10,
+  "notes": [
+    "estimated_indexed is a placeholder. Integrate Google Search Console API for actual data.",
+    "cluster_pending URLs are generated but not yet published to Webflow.",
+    "Run 'node scripts/generate-metro-cluster.js' to populate cluster pages."
+  ],
+  "gsc_integration": {
+    "status": "not_configured",
+    "api_scope": "https://www.googleapis.com/auth/webmasters.readonly",
+    "todo": [
+      "Set up Google Cloud project with Search Console API enabled",
+      "Create service account and grant it access to the GSC property",
+      "Store credentials securely (not in repo)",
+      "Implement URL inspection API calls for each published URL",
+      "Track index status, coverage issues, and crawl errors"
+    ]
+  }
+}

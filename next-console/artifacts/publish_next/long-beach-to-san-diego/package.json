@@ -1,0 +1,180 @@
+{
+  "page": {
+    "slug": "long-beach-to-san-diego",
+    "canonical_path": "/long-beach-to-san-diego",
+    "seo_title": "Long Beach, CA to San Diego, CA LTL Freight Quotes | WARP",
+    "h1": "Long Beach, CA to San Diego, CA LTL freight quotes",
+    "meta_description": "Compare LTL freight rates from Long Beach to San Diego. Get instant quotes, estimated transit times, and book freight in minutes with WARP.",
+    "target_segment": "smb",
+    "lane": {
+      "origin": "Long Beach, CA",
+      "destination": "San Diego, CA",
+      "mode": "LTL"
+    },
+    "lane_stats": {
+      "estimated_distance_miles": 111,
+      "estimated_transit_days_range": {
+        "min": 1,
+        "max": 2
+      },
+      "estimated_rate_range_usd": {
+        "low": 449,
+        "high": 599
+      },
+      "common_equipment": [
+        "Dry Van",
+        "Reefer (temp-controlled)"
+      ],
+      "seasonality_notes": "Peak volumes Aug-Oct (produce season). Rate pressure Dec-Jan.",
+      "confidence": {
+        "transit": "modeled",
+        "rate": "modeled"
+      },
+      "disclaimers": [
+        "These are modeled estimates, not guaranteed quotes.",
+        "Actual rates depend on freight details, accessorials, and current market conditions."
+      ]
+    },
+    "network_proof": {
+      "estimated_carrier_count": 10,
+      "nearest_cross_docks": [
+        "LA Gateway",
+        "Inland Empire",
+        "Phoenix Distribution"
+      ],
+      "service_notes": [
+        "Real-time scan events at pickup, in-transit, and delivery",
+        "Estimated 1-2 business day transit window",
+        "Pallet-level tracking with delivery appointment scheduling",
+        "Exception alerts within 30 minutes of status change"
+      ],
+      "origin_region": "West Coast",
+      "destination_region": "West Coast"
+    },
+    "problem_section": "LTL shippers on the Long Beach to San Diego corridor struggle with inconsistent transit times, opaque pricing from legacy brokers, and fragmented visibility across multiple carriers. Most teams spend hours chasing quotes and tracking updates manually.",
+    "solution_section": "WARP provides instant LTL quotes on the Long Beach to San Diego lane with real-time carrier comparison, one-click booking, and proactive exception management — replacing days of manual work with minutes of operational efficiency.",
+    "cta_primary": "Book 15-min Fit Call",
+    "cta_secondary": "Get Instant Quote",
+    "cta_primary_url": "https://www.wearewarp.com/book",
+    "cta_secondary_url": "https://www.wearewarp.com/quote",
+    "contrast": {
+      "headline": "Why LTL shippers switch from brokers to WARP",
+      "points": [
+        {
+          "metric": "Quote speed",
+          "legacy": "2–24 hours via phone/email",
+          "warp": "Under 2 minutes, self-serve"
+        },
+        {
+          "metric": "Carrier comparison",
+          "legacy": "Manual spreadsheets",
+          "warp": "Side-by-side dashboard with performance data"
+        },
+        {
+          "metric": "Booking",
+          "legacy": "Email chains, 30–60 min",
+          "warp": "One-click from quote to BOL"
+        },
+        {
+          "metric": "Tracking",
+          "legacy": "Call carrier for updates",
+          "warp": "Real-time dashboard with exception alerts"
+        },
+        {
+          "metric": "Exception handling",
+          "legacy": "Reactive, hours to discover",
+          "warp": "Proactive alerts within 30 minutes"
+        }
+      ],
+      "bottom_line": "Shipping LTL from Long Beach to San Diego with WARP eliminates the manual back-and-forth that costs logistics teams hours per shipment."
+    },
+    "intro": "LTL freight from Long Beach, CA to San Diego, CA covers approximately 111 miles with estimated transit of 1–2 business days. WARP's carrier network on this corridor includes 10+ providers with cross-dock facilities at LA Gateway, Inland Empire, Phoenix Distribution. Get instant lane-specific quotes, compare carriers, and book in minutes.",
+    "proof_section": "Validate this lane with a controlled pilot: Long Beach, CA to San Diego, CA. Track quote response time, transit predictability, and exception rate across 10 active carriers on this 111-mile corridor. Equipment includes Dry Van and Reefer (temp-controlled). Start with this single lane, measure results, and expand based on data.",
+    "faq": [
+      {
+        "q": "How are shipping exceptions handled on this LTL lane?",
+        "a": "WARP's platform detects exceptions automatically and escalates within minutes. You get proactive alerts for delays, appointment changes, and delivery issues — no more chasing carriers for updates."
+      },
+      {
+        "q": "What metrics should we track on this LTL lane?",
+        "a": "Focus on quote response time, on-time delivery rate, transit time consistency, exception frequency, and cost-per-shipment trends. These give you a clear go/no-go signal for scaling to more lanes."
+      },
+      {
+        "q": "How long does LTL freight take from Long Beach to San Diego?",
+        "a": "Estimated transit for LTL freight on this 111-mile lane is 1–2 business days. Actual transit depends on pickup schedule, carrier routing, and weather conditions."
+      },
+      {
+        "q": "How much does LTL shipping from Long Beach to San Diego cost?",
+        "a": "Estimated LTL rates on this lane range from $449 to $599 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote by entering your shipment details."
+      },
+      {
+        "q": "How fast can we launch a LTL pilot from Long Beach to San Diego?",
+        "a": "Most shipping teams can scope a single-lane pilot and begin quoting within days. Start with this corridor, measure quote speed and transit reliability, then expand based on results."
+      }
+    ],
+    "schema_breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WARP",
+          "item": "https://www.wearewarp.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LTL Freight",
+          "item": "https://www.wearewarp.com/guides/ltl"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Long Beach to San Diego"
+        }
+      ]
+    },
+    "schema_service": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "LTL Freight Service — Long Beach to San Diego",
+      "provider": {
+        "@type": "Organization",
+        "name": "WARP",
+        "url": "https://www.wearewarp.com"
+      },
+      "areaServed": [
+        "Long Beach, CA",
+        "San Diego, CA"
+      ],
+      "description": "LTL freight shipping from Long Beach, CA to San Diego, CA with instant quoting, carrier comparison, and real-time tracking."
+    },
+    "schema_organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "WARP",
+      "url": "https://www.wearewarp.com",
+      "description": "Technology-driven freight logistics platform"
+    },
+    "quality_score": 100,
+    "banned_content_scan_result": "clean",
+    "rendered_html_validation_result": "passed"
+  },
+  "canonicalPath": "/long-beach-to-san-diego",
+  "quickAnswers": [
+    {
+      "question": "How much does LTL freight from Long Beach to San Diego cost?",
+      "answer": "Estimated LTL rates on the Long Beach to San Diego lane range from $449 to $599 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote with WARP."
+    },
+    {
+      "question": "How long does LTL transit take from Long Beach to San Diego?",
+      "answer": "Estimated transit time for LTL freight on this 111-mile lane is 1–2 business days under standard conditions."
+    }
+  ],
+  "contentFingerprint": "576713949",
+  "origin": "Long Beach, CA",
+  "destination": "San Diego, CA",
+  "mode": "LTL",
+  "segment": "smb"
+}

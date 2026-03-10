@@ -1,0 +1,408 @@
+{
+  "timestamp": "2026-03-06T10:00:03.693Z",
+  "total_metros": 51,
+  "metros_passing": 43,
+  "metros_failing": 8,
+  "avg_score": 88,
+  "results": [
+    {
+      "metro_id": "los-angeles-freight",
+      "score": 75,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": [
+        "no inbound lanes"
+      ]
+    },
+    {
+      "metro_id": "long-beach-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "san-francisco-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "oakland-freight",
+      "score": 75,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": [
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "san-diego-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "phoenix-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "las-vegas-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "seattle-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "tacoma-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "portland-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "salt-lake-city-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "denver-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "dallas-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "fort-worth-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "houston-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "san-antonio-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "austin-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "kansas-city-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "st-louis-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "chicago-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "indianapolis-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "columbus-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "cincinnati-freight",
+      "score": 75,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": [
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "cleveland-freight",
+      "score": 75,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": [
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "detroit-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "minneapolis-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "milwaukee-freight",
+      "score": 75,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": [
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "nashville-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "memphis-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "atlanta-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "charlotte-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "raleigh-freight",
+      "score": 75,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": [
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "jacksonville-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "orlando-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "tampa-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "miami-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "new-york-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "newark-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "philadelphia-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "baltimore-freight",
+      "score": 100,
+      "passed": true,
+      "total_lanes": 50,
+      "issues": []
+    },
+    {
+      "metro_id": "sacramento-freight",
+      "score": 75,
+      "passed": true,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes"
+      ]
+    },
+    {
+      "metro_id": "san-jose-freight",
+      "score": 50,
+      "passed": false,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes",
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "spokane-freight",
+      "score": 50,
+      "passed": false,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes",
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "boise-freight",
+      "score": 50,
+      "passed": false,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes",
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "albuquerque-freight",
+      "score": 75,
+      "passed": true,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes"
+      ]
+    },
+    {
+      "metro_id": "oklahoma-city-freight",
+      "score": 50,
+      "passed": false,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes",
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "new-orleans-freight",
+      "score": 50,
+      "passed": false,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes",
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "louisville-freight",
+      "score": 50,
+      "passed": false,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes",
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "pittsburgh-freight",
+      "score": 50,
+      "passed": false,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes",
+        "no corridor linkage"
+      ]
+    },
+    {
+      "metro_id": "boston-freight",
+      "score": 75,
+      "passed": true,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes"
+      ]
+    },
+    {
+      "metro_id": "washington-freight",
+      "score": 50,
+      "passed": false,
+      "total_lanes": 40,
+      "issues": [
+        "no outbound lanes",
+        "no corridor linkage"
+      ]
+    }
+  ]
+}

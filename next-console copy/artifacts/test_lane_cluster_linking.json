@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-03-06T10:40:43.513Z",
+  "cluster_valid": true,
+  "pages": [
+    {
+      "lane_slug": "los-angeles-to-phoenix",
+      "corridor_link_present": true,
+      "related_lane_links_present": true,
+      "tool_link_present": true,
+      "metro_links_present": true,
+      "guide_link_present": true,
+      "linked_test_lanes": [
+        "long-beach-to-phoenix",
+        "san-diego-to-phoenix"
+      ],
+      "total_lane_links": 7
+    },
+    {
+      "lane_slug": "long-beach-to-phoenix",
+      "corridor_link_present": true,
+      "related_lane_links_present": true,
+      "tool_link_present": true,
+      "metro_links_present": true,
+      "guide_link_present": true,
+      "linked_test_lanes": [
+        "los-angeles-to-phoenix",
+        "san-diego-to-phoenix"
+      ],
+      "total_lane_links": 7
+    },
+    {
+      "lane_slug": "san-diego-to-phoenix",
+      "corridor_link_present": true,
+      "related_lane_links_present": true,
+      "tool_link_present": true,
+      "metro_links_present": true,
+      "guide_link_present": true,
+      "linked_test_lanes": [
+        "los-angeles-to-phoenix",
+        "long-beach-to-phoenix"
+      ],
+      "total_lane_links": 6
+    }
+  ]
+}

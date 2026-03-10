@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-03-05T12:37:26.569Z",
+  "total_actions": 1,
+  "actions": [
+    {
+      "priority": "medium",
+      "action": "differentiate_titles",
+      "description": "Highest title similarity is 100.0%. Add distinguishing keywords per page.",
+      "affected_pages": [
+        "orlando-to-portland",
+        "portland-to-orlando",
+        "orlando-to-dallas",
+        "dallas-to-orlando",
+        "charlotte-to-tampa",
+        "tampa-to-charlotte"
+      ]
+    }
+  ]
+}

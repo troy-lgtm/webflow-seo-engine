@@ -1,0 +1,95 @@
+{
+  "banned_phrases": [
+    "First, click Book Freight Instantly",
+    "then select your shipment type",
+    "Let's fix your freight problems",
+    "Stop paying for a broken freight system",
+    "Stop Paying for a Broken Freight System",
+    "Book Freight Instantly",
+    "STEP 1",
+    "STEP 2",
+    "STEP 3",
+    "click the button below",
+    "in 3 easy steps",
+    "reinvent your freight",
+    "Reinvent your broken freight future",
+    "Why Shippers Choose Warp",
+    "Stay Updated with Warp",
+    "Join our newsletter",
+    "Subscribe to our updates",
+    "Book a strategy call",
+    "Schedule a demo"
+  ],
+  "banned_section_headings": [
+    "How It Works",
+    "3 Simple Steps",
+    "Why Choose Us",
+    "Our Platform",
+    "Get Started Today",
+    "Ready to Ship?",
+    "What Our Customers Say",
+    "Trusted By",
+    "Featured In"
+  ],
+  "banned_embed_patterns": [
+    "wistia-player",
+    "wistia.com/medias",
+    "fast.wistia.com",
+    "youtube.com/embed",
+    "vimeo.com/video",
+    "calendly.com",
+    "hubspot.com/meetings",
+    "typeform.com"
+  ],
+  "banned_html_selectors": [
+    "wistia-player",
+    ".wistia_embed",
+    "[data-wistia-id]",
+    "iframe[src*='wistia']",
+    "iframe[src*='youtube']",
+    "iframe[src*='calendly']"
+  ],
+  "required_sections": [
+    {
+      "id": "lane_overview",
+      "description": "Lane overview section explaining origin, destination, and operational relevance"
+    },
+    {
+      "id": "warp_fit",
+      "description": "Why Warp is a fit for this specific lane"
+    },
+    {
+      "id": "operating_details",
+      "description": "Lane operations details (appointments, dock scheduling, service notes)"
+    },
+    {
+      "id": "pricing_section",
+      "description": "Pricing and commercial framing section"
+    },
+    {
+      "id": "faqs",
+      "description": "At least 4 lane-specific FAQs",
+      "min_count": 4
+    },
+    {
+      "id": "related_links",
+      "description": "Related lanes and tool links section"
+    }
+  ],
+  "quality_thresholds": {
+    "min_faq_count": 4,
+    "min_quality_score": 70,
+    "min_body_content_length": 500,
+    "min_unique_content_ratio": 0.6
+  },
+  "gate_rule_ids": {
+    "LANE-TEMPLATE-01": "Missing dedicated lane template",
+    "LANE-CONTENT-01": "Missing required content fields",
+    "LANE-BANNED-01": "Banned phrase found",
+    "LANE-BANNED-02": "Banned embed found",
+    "LANE-HTML-01": "Missing required section",
+    "LANE-FAQ-01": "Insufficient FAQ count",
+    "LANE-TONE-01": "Generic marketing copy detected",
+    "LANE-FALLBACK-01": "Fallback template content detected"
+  }
+}

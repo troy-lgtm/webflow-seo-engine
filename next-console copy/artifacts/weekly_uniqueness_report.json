@@ -1,0 +1,468 @@
+{
+  "generated_at": "2026-03-05T12:37:26.567Z",
+  "total_pages": 200,
+  "published_pages": 0,
+  "cluster_pages": 200,
+  "metrics": {
+    "unique_titles": 200,
+    "unique_h1s": 200,
+    "unique_intro_prefixes": 200,
+    "total_sentences": 1838,
+    "shared_sentence_count": 111,
+    "pct_shared_sentences": 0.06,
+    "total_faq_questions": 934,
+    "shared_faq_count": 13,
+    "faq_overlap": 0.014,
+    "max_title_similarity": 1,
+    "risk_score": 0.422
+  },
+  "delta": {
+    "risk_score_change": 0.051293107907533775,
+    "pages_change": 190,
+    "shared_sentences_change": 93,
+    "shared_faqs_change": 12
+  },
+  "top_similar_title_pairs": [
+    {
+      "slugA": "orlando-to-portland",
+      "slugB": "portland-to-orlando",
+      "similarity": 1
+    },
+    {
+      "slugA": "orlando-to-dallas",
+      "slugB": "dallas-to-orlando",
+      "similarity": 1
+    },
+    {
+      "slugA": "charlotte-to-tampa",
+      "slugB": "tampa-to-charlotte",
+      "similarity": 1
+    },
+    {
+      "slugA": "seattle-to-nashville",
+      "slugB": "nashville-to-seattle",
+      "similarity": 1
+    },
+    {
+      "slugA": "miami-to-portland",
+      "slugB": "portland-to-miami",
+      "similarity": 1
+    },
+    {
+      "slugA": "dallas-to-miami",
+      "slugB": "miami-to-dallas",
+      "similarity": 1
+    },
+    {
+      "slugA": "kansas-city-to-las-vegas",
+      "slugB": "las-vegas-to-kansas-city",
+      "similarity": 1
+    },
+    {
+      "slugA": "chicago-to-charlotte",
+      "slugB": "charlotte-to-chicago",
+      "similarity": 1
+    },
+    {
+      "slugA": "dallas-to-salt-lake-city",
+      "slugB": "salt-lake-city-to-dallas",
+      "similarity": 1
+    },
+    {
+      "slugA": "houston-to-san-francisco",
+      "slugB": "san-francisco-to-houston",
+      "similarity": 1
+    },
+    {
+      "slugA": "tampa-to-portland",
+      "slugB": "portland-to-tampa",
+      "similarity": 1
+    },
+    {
+      "slugA": "kansas-city-to-denver",
+      "slugB": "denver-to-kansas-city",
+      "similarity": 1
+    },
+    {
+      "slugA": "chicago-to-orlando",
+      "slugB": "orlando-to-chicago",
+      "similarity": 1
+    },
+    {
+      "slugA": "new-york-to-phoenix",
+      "slugB": "phoenix-to-new-york",
+      "similarity": 1
+    },
+    {
+      "slugA": "salt-lake-city-to-atlanta",
+      "slugB": "atlanta-to-salt-lake-city",
+      "similarity": 1
+    },
+    {
+      "slugA": "dallas-to-atlanta",
+      "slugB": "atlanta-to-dallas",
+      "similarity": 1
+    },
+    {
+      "slugA": "los-angeles-to-atlanta",
+      "slugB": "atlanta-to-los-angeles",
+      "similarity": 1
+    },
+    {
+      "slugA": "orlando-to-miami",
+      "slugB": "miami-to-orlando",
+      "similarity": 1
+    },
+    {
+      "slugA": "charlotte-to-atlanta",
+      "slugB": "atlanta-to-charlotte",
+      "similarity": 1
+    },
+    {
+      "slugA": "phoenix-to-chicago",
+      "slugB": "chicago-to-phoenix",
+      "similarity": 1
+    }
+  ],
+  "top_duplicate_sentences": [
+    {
+      "sentence": "small and mid size shipping teams get lane specific estimated pricing performance data and a fast self serve evaluation ",
+      "page_count": 200,
+      "pages": [
+        "houston-to-phoenix",
+        "orlando-to-portland",
+        "orlando-to-charlotte",
+        "orlando-to-dallas",
+        "salt-lake-city-to-chicago"
+      ]
+    },
+    {
+      "sentence": "for small and mid size shipping teams understanding dwell times chassis availability and terminal fees on this corridor ",
+      "page_count": 83,
+      "pages": [
+        "houston-to-phoenix",
+        "new-york-to-nashville",
+        "seattle-to-nashville",
+        "houston-to-indianapolis",
+        "miami-to-portland"
+      ]
+    },
+    {
+      "sentence": "demurrage accrues when containers sit at the port terminal past free time",
+      "page_count": 83,
+      "pages": [
+        "houston-to-phoenix",
+        "new-york-to-nashville",
+        "seattle-to-nashville",
+        "houston-to-indianapolis",
+        "miami-to-portland"
+      ]
+    },
+    {
+      "sentence": "detention applies after the container leaves the terminal",
+      "page_count": 83,
+      "pages": [
+        "houston-to-phoenix",
+        "new-york-to-nashville",
+        "seattle-to-nashville",
+        "houston-to-indianapolis",
+        "miami-to-portland"
+      ]
+    },
+    {
+      "sentence": "container on chassis drayage to a nearby rail ramp is common for long haul segments",
+      "page_count": 83,
+      "pages": [
+        "houston-to-phoenix",
+        "new-york-to-nashville",
+        "seattle-to-nashville",
+        "houston-to-indianapolis",
+        "miami-to-portland"
+      ]
+    },
+    {
+      "sentence": "pre clearing with a customs broker before vessel arrival reduces this window ",
+      "page_count": 83,
+      "pages": [
+        "houston-to-phoenix",
+        "new-york-to-nashville",
+        "seattle-to-nashville",
+        "houston-to-indianapolis",
+        "miami-to-portland"
+      ]
+    },
+    {
+      "sentence": "port drayage rates vary by distance chassis type and terminal fees",
+      "page_count": 83,
+      "pages": [
+        "houston-to-phoenix",
+        "new-york-to-nashville",
+        "seattle-to-nashville",
+        "houston-to-indianapolis",
+        "miami-to-portland"
+      ]
+    },
+    {
+      "sentence": "for small and mid size shipping teams permit requirements escort protocols and heavy haul carrier access on this lane ar",
+      "page_count": 43,
+      "pages": [
+        "orlando-to-dallas",
+        "salt-lake-city-to-chicago",
+        "denver-to-indianapolis",
+        "salt-lake-city-to-portland",
+        "houston-to-seattle"
+      ]
+    },
+    {
+      "sentence": "requirements vary by state and are determined during the permitting process ",
+      "page_count": 43,
+      "pages": [
+        "orlando-to-dallas",
+        "salt-lake-city-to-chicago",
+        "denver-to-indianapolis",
+        "salt-lake-city-to-portland",
+        "houston-to-seattle"
+      ]
+    },
+    {
+      "sentence": "lead times for permits vary by state ",
+      "page_count": 43,
+      "pages": [
+        "orlando-to-dallas",
+        "salt-lake-city-to-chicago",
+        "denver-to-indianapolis",
+        "salt-lake-city-to-portland",
+        "houston-to-seattle"
+      ]
+    },
+    {
+      "sentence": "active drilling seasons tighten flatbed and specialized capacity pushing ltl rates higher",
+      "page_count": 43,
+      "pages": [
+        "orlando-to-dallas",
+        "salt-lake-city-to-chicago",
+        "denver-to-indianapolis",
+        "salt-lake-city-to-portland",
+        "houston-to-seattle"
+      ]
+    },
+    {
+      "sentence": "step deck double drop and rgn trailers are commonly used on energy corridors",
+      "page_count": 43,
+      "pages": [
+        "orlando-to-dallas",
+        "salt-lake-city-to-chicago",
+        "denver-to-indianapolis",
+        "salt-lake-city-to-portland",
+        "houston-to-seattle"
+      ]
+    },
+    {
+      "sentence": "for small and mid size shipping teams tapping into sunbelt capacity managing rapid demand cycles and leveraging ltl opti",
+      "page_count": 16,
+      "pages": [
+        "orlando-to-charlotte",
+        "charlotte-to-tampa",
+        "charlotte-to-las-vegas",
+        "las-vegas-to-tampa",
+        "phoenix-to-atlanta"
+      ]
+    },
+    {
+      "sentence": "carrier scorecards track on time delivery claims ratio and communication quality ",
+      "page_count": 16,
+      "pages": [
+        "orlando-to-charlotte",
+        "charlotte-to-tampa",
+        "charlotte-to-las-vegas",
+        "las-vegas-to-tampa",
+        "phoenix-to-atlanta"
+      ]
+    },
+    {
+      "sentence": "sunbelt lanes see demand peaks during construction season and holiday retail",
+      "page_count": 16,
+      "pages": [
+        "orlando-to-charlotte",
+        "charlotte-to-tampa",
+        "charlotte-to-las-vegas",
+        "las-vegas-to-tampa",
+        "phoenix-to-atlanta"
+      ]
+    },
+    {
+      "sentence": "for small and mid size shipping teams planning multimodal options managing extended transit windows and building conting",
+      "page_count": 14,
+      "pages": [
+        "orlando-to-portland",
+        "new-york-to-seattle",
+        "tampa-to-portland",
+        "miami-to-seattle",
+        "los-angeles-to-miami"
+      ]
+    },
+    {
+      "sentence": "coordinate cutoff times across time zones to avoid missed appointments ",
+      "page_count": 14,
+      "pages": [
+        "orlando-to-portland",
+        "new-york-to-seattle",
+        "tampa-to-portland",
+        "miami-to-seattle",
+        "los-angeles-to-miami"
+      ]
+    },
+    {
+      "sentence": "mountain passes great plains storms and seasonal weather patterns can delay ltl transit",
+      "page_count": 14,
+      "pages": [
+        "orlando-to-portland",
+        "new-york-to-seattle",
+        "tampa-to-portland",
+        "miami-to-seattle",
+        "los-angeles-to-miami"
+      ]
+    },
+    {
+      "sentence": "build 1 2 buffer days into coast to coast schedules ",
+      "page_count": 14,
+      "pages": [
+        "orlando-to-portland",
+        "new-york-to-seattle",
+        "tampa-to-portland",
+        "miami-to-seattle",
+        "los-angeles-to-miami"
+      ]
+    },
+    {
+      "sentence": "cross country lanes are fuel sensitive",
+      "page_count": 14,
+      "pages": [
+        "orlando-to-portland",
+        "new-york-to-seattle",
+        "tampa-to-portland",
+        "miami-to-seattle",
+        "los-angeles-to-miami"
+      ]
+    }
+  ],
+  "top_duplicate_faqs": [
+    {
+      "question": "what compliance certifications should ltl carriers have on this energy lane",
+      "page_count": 43,
+      "pages": [
+        "orlando-to-dallas",
+        "salt-lake-city-to-chicago",
+        "denver-to-indianapolis",
+        "salt-lake-city-to-portland",
+        "houston-to-seattle"
+      ]
+    },
+    {
+      "question": "what metrics should we track on this ltl lane",
+      "page_count": 6,
+      "pages": [
+        "las-vegas-to-portland",
+        "portland-to-phoenix",
+        "seattle-to-los-angeles",
+        "los-angeles-to-seattle",
+        "phoenix-to-portland"
+      ]
+    },
+    {
+      "question": "do we need to migrate our entire process to use warp for this lane",
+      "page_count": 6,
+      "pages": [
+        "las-vegas-to-portland",
+        "portland-to-phoenix",
+        "seattle-to-los-angeles",
+        "los-angeles-to-seattle",
+        "phoenix-to-portland"
+      ]
+    },
+    {
+      "question": "are there new distribution centers opening near charlotte nc that affect ltl freight",
+      "page_count": 3,
+      "pages": [
+        "orlando-to-charlotte",
+        "tampa-to-charlotte",
+        "nashville-to-charlotte"
+      ]
+    },
+    {
+      "question": "are there new distribution centers opening near tampa fl that affect ltl freight",
+      "page_count": 3,
+      "pages": [
+        "charlotte-to-tampa",
+        "las-vegas-to-tampa",
+        "atlanta-to-tampa"
+      ]
+    },
+    {
+      "question": "are there new distribution centers opening near atlanta ga that affect ltl freight",
+      "page_count": 3,
+      "pages": [
+        "phoenix-to-atlanta",
+        "las-vegas-to-atlanta",
+        "tampa-to-atlanta"
+      ]
+    },
+    {
+      "question": "are there new distribution centers opening near phoenix az that affect ltl freight",
+      "page_count": 3,
+      "pages": [
+        "atlanta-to-phoenix",
+        "tampa-to-phoenix",
+        "orlando-to-phoenix"
+      ]
+    },
+    {
+      "question": "are same day ltl pickups available from orlando fl",
+      "page_count": 2,
+      "pages": [
+        "orlando-to-miami",
+        "orlando-to-tampa"
+      ]
+    },
+    {
+      "question": "can i schedule last mile delivery windows for ltl freight arriving in orlando fl",
+      "page_count": 2,
+      "pages": [
+        "tampa-to-orlando",
+        "miami-to-orlando"
+      ]
+    },
+    {
+      "question": "can i schedule last mile delivery windows for ltl freight arriving in las vegas nv",
+      "page_count": 2,
+      "pages": [
+        "los-angeles-to-las-vegas",
+        "phoenix-to-las-vegas"
+      ]
+    },
+    {
+      "question": "are same day ltl pickups available from miami fl",
+      "page_count": 2,
+      "pages": [
+        "miami-to-tampa",
+        "miami-to-orlando"
+      ]
+    },
+    {
+      "question": "can i schedule last mile delivery windows for ltl freight arriving in tampa fl",
+      "page_count": 2,
+      "pages": [
+        "miami-to-tampa",
+        "orlando-to-tampa"
+      ]
+    },
+    {
+      "question": "are there new distribution centers opening near nashville tn that affect ltl freight",
+      "page_count": 2,
+      "pages": [
+        "phoenix-to-nashville",
+        "tampa-to-nashville"
+      ]
+    }
+  ]
+}

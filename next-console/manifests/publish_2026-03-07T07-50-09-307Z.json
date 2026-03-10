@@ -1,0 +1,39 @@
+{
+  "run_id": "2026-03-07T07-50-09-307Z",
+  "script_name": "publish_next.js",
+  "trigger_source": "manual",
+  "dry_run": true,
+  "started_at": "2026-03-07T07:50:09.307Z",
+  "completed_at": "2026-03-07T07:50:09.317Z",
+  "duration_ms": 10,
+  "intended_count": 2,
+  "attempted_count": 2,
+  "published_count": 0,
+  "failed_count": 2,
+  "blocked_count": 0,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": null,
+  "email_error": null,
+  "email_skip_reason": "publish_next does not send email directly",
+  "email_provider_response": null,
+  "published_pages": [],
+  "failed_pages": [
+    {
+      "slug": "batch-a",
+      "reason": "Cannot read properties of undefined (reading 'split')"
+    },
+    {
+      "slug": "batch-c",
+      "reason": "Cannot read properties of undefined (reading 'split')"
+    }
+  ],
+  "blocked_pages": [],
+  "published_urls": [],
+  "sample_live_urls": [],
+  "warnings": [],
+  "mode": "dry-run"
+}

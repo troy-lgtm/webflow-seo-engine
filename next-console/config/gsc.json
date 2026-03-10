@@ -1,0 +1,25 @@
+{
+  "brand_keywords": ["warp", "wearewarp"],
+  "priority_page_patterns": [
+    "/ltl",
+    "/ftl",
+    "/box-truck",
+    "/cargo-van",
+    "/zone-skipping",
+    "/pool-distribution",
+    "/store-replenishment",
+    "/cross-dock",
+    "/middle-mile",
+    "/solutions"
+  ],
+  "ingestion": {
+    "default_search_type": "web",
+    "daily_refresh_days": 3,
+    "backfill_default_days": 30,
+    "skip_page_query_on_daily": false
+  },
+  "reporting": {
+    "leaderboard_limit": 20,
+    "trend_days": 90
+  }
+}

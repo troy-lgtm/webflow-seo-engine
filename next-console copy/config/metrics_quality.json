@@ -1,0 +1,5 @@
+{
+  "_comment": "Thresholds for the Verified Only toggle in the SEO Control Panel.",
+  "min_coverage_ratio_verified": 0.2,
+  "min_impressions_for_position": 100
+}

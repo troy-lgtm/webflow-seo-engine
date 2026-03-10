@@ -1,0 +1,56 @@
+{
+  "run_id": "2026-03-07T10-44-57-972Z",
+  "script_name": "lanes_auto_publish.js",
+  "trigger_source": "autonomous-factory",
+  "dry_run": true,
+  "started_at": "2026-03-07T10:44:57.972Z",
+  "completed_at": "2026-03-07T10:44:57.989Z",
+  "duration_ms": 17,
+  "intended_count": 5,
+  "attempted_count": 0,
+  "published_count": 0,
+  "failed_count": 0,
+  "blocked_count": 5,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": "troy@wearewarp.com",
+  "email_error": null,
+  "email_skip_reason": "dry-run mode",
+  "email_provider_response": null,
+  "published_pages": [],
+  "failed_pages": [],
+  "blocked_pages": [
+    {
+      "slug": "los-angeles-to-new-york",
+      "reason": "duplicate slug (already published or within batch)",
+      "rule_id": "FACTORY-DUP-SLUG"
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "reason": "duplicate slug (already published or within batch)",
+      "rule_id": "FACTORY-DUP-SLUG"
+    },
+    {
+      "slug": "houston-to-new-york",
+      "reason": "duplicate slug (already published or within batch)",
+      "rule_id": "FACTORY-DUP-SLUG"
+    },
+    {
+      "slug": "kansas-city-to-chicago",
+      "reason": "duplicate slug (already published or within batch)",
+      "rule_id": "FACTORY-DUP-SLUG"
+    },
+    {
+      "slug": "indianapolis-to-new-york",
+      "reason": "duplicate slug (already published or within batch)",
+      "rule_id": "FACTORY-DUP-SLUG"
+    }
+  ],
+  "published_urls": [],
+  "sample_live_urls": [],
+  "warnings": [],
+  "mode": "dry-run"
+}

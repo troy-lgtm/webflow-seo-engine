@@ -1,0 +1,157 @@
+{
+  "page_title": "Phoenix, AZ to Los Angeles, CA LTL Freight | WARP",
+  "meta_description": "LTL freight from Phoenix to Los Angeles: 421-mile lane, 2-3 day transit. Get instant rates, carrier visibility, and book through WARP.",
+  "lane_slug": "phoenix-to-los-angeles",
+  "canonical_path": "/lanes/phoenix-to-los-angeles",
+  "mode": "LTL",
+  "segment": "smb",
+  "origin": "Phoenix, AZ",
+  "destination": "Los Angeles, CA",
+  "lane_stats": {
+    "estimated_distance_miles": 421,
+    "estimated_transit_days_range": {
+      "min": 2,
+      "max": 3
+    },
+    "estimated_rate_range_usd": {
+      "low": 1707,
+      "high": 2275
+    },
+    "common_freight_class_range": null,
+    "common_equipment": [
+      "Dry Van",
+      "Reefer (temp-controlled)"
+    ],
+    "seasonality_notes": "Consistent year-round. Slight peak during holiday retail season Oct-Dec.",
+    "confidence": {
+      "transit": "modeled",
+      "rate": "modeled"
+    },
+    "disclaimers": [
+      "These are modeled estimates, not guaranteed quotes.",
+      "Actual rates depend on freight details, accessorials, and current market conditions."
+    ]
+  },
+  "network_proof": {
+    "estimated_carrier_count": 11,
+    "nearest_cross_docks": [
+      "Phoenix Distribution",
+      "Inland Empire",
+      "LA Gateway"
+    ],
+    "service_notes": [
+      "Real-time scan events at pickup, in-transit, and delivery",
+      "Estimated 2-3 business day transit window",
+      "Pallet-level tracking with delivery appointment scheduling",
+      "Exception alerts within 30 minutes of status change"
+    ],
+    "origin_region": "Southwest",
+    "destination_region": "West Coast"
+  },
+  "hero": {
+    "headline": "Phoenix, AZ to Los Angeles, CA LTL Freight",
+    "subhead": "421 miles. 2-3 business day transit. 11 carriers active on this lane.",
+    "primary_cta": {
+      "label": "Get Instant Quote",
+      "url": "https://www.wearewarp.com/quote"
+    },
+    "secondary_cta": {
+      "label": "Book a Fit Call",
+      "url": "https://www.wearewarp.com/book"
+    }
+  },
+  "lane_overview": {
+    "heading": "Lane Overview",
+    "body": "The Phoenix to Los Angeles LTL lane covers approximately 421 miles between the Southwest and West Coast regions. Standard transit runs 2-3 business days depending on carrier routing and terminal schedules. Common equipment on this corridor includes Dry Van, Reefer (temp-controlled). Cross-dock facilities at Phoenix Distribution, Inland Empire, LA Gateway support consolidation and transit optimization. Consistent year-round. Slight peak during holiday retail season Oct-Dec."
+  },
+  "warp_fit_for_lane": {
+    "heading": "How WARP Operates the Phoenix to Los Angeles Lane",
+    "body": "WARP covers the Phoenix to Los Angeles corridor with 11 vetted carriers providing LTL capacity. Service capabilities on this lane include: Real-time scan events at pickup, in-transit, and delivery; Estimated 2-3 business day transit window; Pallet-level tracking with delivery appointment scheduling. Shipments receive pallet-level tracking from pickup through delivery with appointment scheduling and delivery confirmation. Nearby cross-dock operations at Phoenix Distribution and Inland Empire enable consolidation and re-routing when exceptions occur. Exception alerts fire within 30 minutes of any status change. WARP's operations team manages carrier coordination, rescheduling, and resolution without requiring shipper follow-up."
+  },
+  "operating_details": {
+    "heading": "Operating Details",
+    "items": [
+      "Estimated lane distance: 421 miles (Phoenix to Los Angeles)",
+      "Transit window: 2-3 business days for standard LTL service",
+      "Available equipment: Dry Van, Reefer (temp-controlled)",
+      "Active carriers on this lane: 11",
+      "Nearest cross-dock facilities: Phoenix Distribution, Inland Empire, LA Gateway",
+      "Real-time scan events at pickup, in-transit, and delivery milestones",
+      "Exception alerts within 30 minutes of status changes with automated escalation",
+      "Delivery appointment scheduling and confirmation managed by WARP operations"
+    ]
+  },
+  "pricing_and_commercial_framing": {
+    "heading": "Pricing & Rate Factors",
+    "body": "Estimated LTL rates on the Phoenix to Los Angeles lane range from $1,707 to $2,275, depending on freight class, weight, pallet count, and seasonal demand. Key cost drivers include NMFC freight classification, shipment density, and whether accessorials such as liftgate, inside delivery, or limited-access pickup apply. At 421 miles, the linehaul distance is the largest cost component (approximately $4.73/mile). Fuel surcharges are applied as a separate line item based on current diesel prices. These are modeled estimates. Enter your shipment details to get a real-time, all-in rate."
+  },
+  "lane_specific_faqs": [
+    {
+      "question": "How much does LTL freight from Phoenix, AZ to Los Angeles, CA cost?",
+      "answer": "Estimated LTL rates range from $1,707 to $2,275 based on freight class, weight, and pallet count. Actual rates depend on shipment specifics and current market conditions. Get an instant quote for real-time pricing."
+    },
+    {
+      "question": "What is the transit time for LTL shipments from Phoenix to Los Angeles?",
+      "answer": "Standard LTL transit on this 421-mile lane is 2-3 business days. Actual transit depends on carrier routing, terminal schedules, and pickup timing."
+    },
+    {
+      "question": "What carriers does WARP use on the Phoenix to Los Angeles lane?",
+      "answer": "WARP maintains a vetted network of approximately 11 active carriers on this corridor. Carrier selection is optimized for each shipment based on equipment requirements, transit targets, and performance history."
+    },
+    {
+      "question": "Can I track my LTL shipment from Phoenix to Los Angeles in real time?",
+      "answer": "Yes. Every shipment includes real-time tracking with scan events at pickup, in-transit checkpoints, and delivery. Exception alerts fire within 30 minutes of any status change, and WARP's operations team manages resolution directly."
+    },
+    {
+      "question": "What equipment is available for LTL freight on this lane?",
+      "answer": "Common equipment on the Phoenix to Los Angeles corridor includes Dry Van, Reefer (temp-controlled). Equipment availability varies by season and demand. Specify your requirements when requesting a quote."
+    }
+  ],
+  "related_links": {
+    "corridor_hub": "/corridors/southwest-to-west-coast",
+    "related_lanes": [
+      {
+        "label": "Miami to Atlanta",
+        "path": "/lanes/miami-to-atlanta"
+      },
+      {
+        "label": "Dallas to Chicago",
+        "path": "/lanes/dallas-to-chicago"
+      },
+      {
+        "label": "Chicago to Dallas",
+        "path": "/lanes/chicago-to-dallas"
+      },
+      {
+        "label": "Los Angeles to Phoenix",
+        "path": "/lanes/los-angeles-to-phoenix"
+      },
+      {
+        "label": "Atlanta to Orlando",
+        "path": "/lanes/atlanta-to-orlando"
+      },
+      {
+        "label": "Houston to Dallas",
+        "path": "/lanes/houston-to-dallas"
+      },
+      {
+        "label": "Chicago to Atlanta",
+        "path": "/lanes/chicago-to-atlanta"
+      },
+      {
+        "label": "Miami to Orlando",
+        "path": "/lanes/miami-to-orlando"
+      }
+    ],
+    "tool_link": "https://www.wearewarp.com/quote",
+    "data_link": null
+  },
+  "lane_relevant_cta": {
+    "headline": "Ship LTL Freight: Phoenix to Los Angeles",
+    "body": "Enter your shipment details to get a real-time LTL rate for the Phoenix to Los Angeles lane. No commitment required.",
+    "primary_cta": {
+      "label": "Get Your Quote",
+      "url": "https://www.wearewarp.com/quote"
+    }
+  }
+}

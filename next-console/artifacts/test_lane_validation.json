@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-03-06T10:36:52.245Z",
+  "lane_slug": "los-angeles-to-phoenix",
+  "score": 100,
+  "passed": true,
+  "issues": [],
+  "schema_valid": true,
+  "faq_count": 5,
+  "banned_content": false,
+  "fallback_template": false,
+  "quality_score": 100
+}

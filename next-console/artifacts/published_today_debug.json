@@ -1,0 +1,12 @@
+{
+  "today_local_date": "2026-03-07",
+  "published_pages_rows_scanned": 0,
+  "valid_real_publish_rows_today": [],
+  "excluded_rows": [],
+  "summary_total": 0,
+  "report_success_count": 0,
+  "report_mismatch": {
+    "exists": false,
+    "details": null
+  }
+}

@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Incident {
+  id                    String   @id @default(cuid())
+  source                String   @default("email")
+  property              String   @default("wearewarp.com")
+  emailSubject          String?
+  issueFamily           String
+  issueType             String
+  severity              String   @default("warning")
+  normalizedCode        String
+  detectedAt            DateTime @default(now())
+  status                String   @default("open")
+  rawEmailPath          String?
+  parsedPayload         String?
+  affectedUrls          String   @default("[]")
+  scanSummary           String?
+  diagnosis             String?
+  generatedPatchPrompt  String?
+  remediationReport     String?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+}
+
+model ScanResult {
+  id             String   @id @default(cuid())
+  incidentId     String?
+  normalizedCode String
+  url            String
+  status         String
+  findings       String   @default("[]")
+  scannedAt      DateTime @default(now())
+}

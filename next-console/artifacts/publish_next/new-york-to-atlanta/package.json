@@ -1,0 +1,122 @@
+{
+  "page": {
+    "slug": "new-york-to-atlanta",
+    "canonical_path": "/new-york-to-atlanta",
+    "seo_title": "New York, NY to Atlanta, GA LTL Freight Quotes | WARP",
+    "h1": "New York, NY to Atlanta, GA LTL freight quotes",
+    "intro": "Small and mid-size shipping teams moving LTL freight from New York, NY to Atlanta, GA can use this lane-specific workflow to compare options, reduce manual quote cycles, and book faster with stronger service visibility.",
+    "meta_description": "Compare LTL freight options from New York, NY to Atlanta, GA. Small and mid-size shipping teams get lane-specific estimated pricing.",
+    "problem_section": "LTL shippers struggle with inconsistent transit times, opaque pricing, and fragmented visibility across multiple carriers.",
+    "solution_section": "WARP unifies LTL lane quoting, carrier selection, and exception management into a single operational workflow.",
+    "cta_primary": "Book 15-min Fit Call",
+    "cta_secondary": "Get Instant Quote",
+    "cta_primary_url": "https://www.wearewarp.com/book",
+    "cta_secondary_url": "https://www.wearewarp.com/quote",
+    "visual_cards": [
+      {
+        "label": "Consolidation",
+        "value": "Optimized shared loads",
+        "insight": "Reduce per-unit shipping costs by sharing truck space."
+      },
+      {
+        "label": "Flexibility",
+        "value": "Ship any pallet count",
+        "insight": "Scale from one pallet to partial truckloads."
+      },
+      {
+        "label": "Visibility",
+        "value": "Shipment-level tracking",
+        "insight": "Track each shipment with real-time status."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How fast can we launch a LTL pilot from New York, NY to Atlanta, GA?",
+        "a": "Most small and mid-size shipping teams can define lane scope and start pilot quoting within days."
+      },
+      {
+        "q": "What makes LTL shipping different on the New York, NY to Atlanta, GA lane?",
+        "a": "Each lane has unique volume patterns, carrier availability, and transit windows."
+      },
+      {
+        "q": "Can we start with just the New York, NY to Atlanta, GA lane before expanding?",
+        "a": "Yes. A lane-first rollout lets you validate performance before scaling."
+      },
+      {
+        "q": "What metrics should we track on this LTL lane?",
+        "a": "Focus on quote response time, transit predictability, exception rate, and cost-per-shipment trends."
+      },
+      {
+        "q": "Do we need to migrate our entire process?",
+        "a": "No. Start this single lane, measure results, and expand based on quick ROI evidence."
+      }
+    ],
+    "contrast": {
+      "headline": "Why WARP vs Legacy Process",
+      "points": [
+        {
+          "metric": "Get Quote",
+          "legacy": "Phone calls, 2-4 hours",
+          "warp": "Instant digital quotes"
+        },
+        {
+          "metric": "Compare Options",
+          "legacy": "Manual spreadsheets",
+          "warp": "Side-by-side dashboard"
+        },
+        {
+          "metric": "Book Shipment",
+          "legacy": "Email chains, 24-48h",
+          "warp": "One-click booking"
+        },
+        {
+          "metric": "Track Status",
+          "legacy": "Call for updates",
+          "warp": "Real-time GPS tracking"
+        }
+      ],
+      "bottom_line": "WARP compresses days of manual freight operations into minutes."
+    },
+    "lane": {
+      "origin": "New York, NY",
+      "destination": "Atlanta, GA",
+      "mode": "LTL"
+    },
+    "lane_stats": {
+      "estimated_distance_miles": 0,
+      "estimated_transit_days_range": {
+        "min": 2,
+        "max": 5
+      },
+      "estimated_rate_range_usd": {
+        "low": 500,
+        "high": 1500
+      },
+      "confidence": {
+        "transit": "modeled",
+        "rate": "modeled"
+      },
+      "disclaimers": [
+        "These are modeled estimates, not guaranteed quotes.",
+        "Actual rates depend on freight details, accessorials, and current market conditions."
+      ]
+    },
+    "target_segment": "smb"
+  },
+  "canonicalPath": "/new-york-to-atlanta",
+  "quickAnswers": [
+    {
+      "question": "How much does LTL freight from New York to Atlanta cost?",
+      "answer": "Estimated LTL rates vary by freight class, weight, and current market. Use the WARP quote tool for lane-specific pricing."
+    },
+    {
+      "question": "How long does LTL transit take from New York to Atlanta?",
+      "answer": "Estimated transit varies by lane distance and service type. Contact WARP for current transit windows."
+    }
+  ],
+  "contentFingerprint": "1807079182",
+  "origin": "New York, NY",
+  "destination": "Atlanta, GA",
+  "mode": "LTL",
+  "segment": "smb"
+}

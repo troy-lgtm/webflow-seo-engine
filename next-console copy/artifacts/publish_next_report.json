@@ -1,0 +1,40 @@
+{
+  "started_at": "2026-03-07T02:29:15.974Z",
+  "target_count": 3,
+  "mode": "dry-run",
+  "filter_mode": "LTL",
+  "attempted": 3,
+  "skipped_duplicates": [],
+  "published_success": [
+    {
+      "slug": "dallas-to-new-york",
+      "origin": "Dallas, TX",
+      "destination": "New York, NY",
+      "mode": "LTL",
+      "item_id": "dry-run-796556f6",
+      "approval_id": "bd4e29c4-7797-4669-8a1e-cb6628cbcf5c",
+      "dry_run": true
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "origin": "Houston, TX",
+      "destination": "Atlanta, GA",
+      "mode": "LTL",
+      "item_id": "dry-run-ae53ec2a",
+      "approval_id": "6e0d9261-4728-4def-b27b-a4b714b7a825",
+      "dry_run": true
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "origin": "Chicago, IL",
+      "destination": "New York, NY",
+      "mode": "LTL",
+      "item_id": "dry-run-f02d8336",
+      "approval_id": "0fa14a5d-6dee-4718-a33d-68e86e943a42",
+      "dry_run": true
+    }
+  ],
+  "failures": [],
+  "remaining_candidates": 1167,
+  "finished_at": "2026-03-07T02:29:15.989Z"
+}

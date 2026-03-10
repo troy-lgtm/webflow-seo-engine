@@ -1,0 +1,80 @@
+{
+  "run_id": "2026-03-07T01-24-28-855Z",
+  "script_name": "publish_next.js",
+  "trigger_source": "manual",
+  "dry_run": true,
+  "started_at": "2026-03-07T01:24:28.855Z",
+  "completed_at": "2026-03-07T01:24:28.914Z",
+  "duration_ms": 59,
+  "intended_count": 9,
+  "attempted_count": 2,
+  "published_count": 2,
+  "failed_count": 0,
+  "blocked_count": 7,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": null,
+  "email_error": null,
+  "email_skip_reason": "publish_next does not send email directly",
+  "email_provider_response": null,
+  "published_pages": [
+    {
+      "slug": "los-angeles-to-new-york",
+      "webflow_item_id": "dry-run-373c8694",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-new-york"
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "webflow_item_id": "dry-run-639cdd89",
+      "url": "https://www.wearewarp.com/lanes/atlanta-to-new-york"
+    }
+  ],
+  "failed_pages": [],
+  "blocked_pages": [
+    {
+      "slug": "dallas-to-new-york",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-chicago",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "houston-to-chicago",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "dallas-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    }
+  ],
+  "published_urls": [
+    "https://www.wearewarp.com/lanes/los-angeles-to-new-york",
+    "https://www.wearewarp.com/lanes/atlanta-to-new-york"
+  ],
+  "sample_live_urls": [],
+  "warnings": [],
+  "mode": "dry-run"
+}

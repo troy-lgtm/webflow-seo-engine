@@ -1,0 +1,62 @@
+{
+  "run_id": "2026-03-07T07-01-49-501Z",
+  "script_name": "lanes_auto_publish.js",
+  "trigger_source": "autonomous-factory",
+  "dry_run": true,
+  "started_at": "2026-03-07T07:01:49.501Z",
+  "completed_at": "2026-03-07T07:01:49.595Z",
+  "duration_ms": 94,
+  "intended_count": 5,
+  "attempted_count": 5,
+  "published_count": 5,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": "troy@wearewarp.com",
+  "email_error": null,
+  "email_skip_reason": "dry-run mode",
+  "email_provider_response": null,
+  "published_pages": [
+    {
+      "slug": "los-angeles-to-new-york",
+      "webflow_item_id": "dry-run-d2710fca",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-new-york"
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "webflow_item_id": "dry-run-67d8d036",
+      "url": "https://www.wearewarp.com/lanes/atlanta-to-new-york"
+    },
+    {
+      "slug": "houston-to-new-york",
+      "webflow_item_id": "dry-run-f45bb572",
+      "url": "https://www.wearewarp.com/lanes/houston-to-new-york"
+    },
+    {
+      "slug": "kansas-city-to-chicago",
+      "webflow_item_id": "dry-run-26efbda3",
+      "url": "https://www.wearewarp.com/lanes/kansas-city-to-chicago"
+    },
+    {
+      "slug": "indianapolis-to-new-york",
+      "webflow_item_id": "dry-run-b3946dae",
+      "url": "https://www.wearewarp.com/lanes/indianapolis-to-new-york"
+    }
+  ],
+  "failed_pages": [],
+  "blocked_pages": [],
+  "published_urls": [
+    "https://www.wearewarp.com/lanes/los-angeles-to-new-york",
+    "https://www.wearewarp.com/lanes/atlanta-to-new-york",
+    "https://www.wearewarp.com/lanes/houston-to-new-york",
+    "https://www.wearewarp.com/lanes/kansas-city-to-chicago",
+    "https://www.wearewarp.com/lanes/indianapolis-to-new-york"
+  ],
+  "sample_live_urls": [],
+  "warnings": [],
+  "mode": "dry-run"
+}

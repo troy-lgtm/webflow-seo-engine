@@ -1,0 +1,42 @@
+{
+  "slug": "orlando-to-chicago",
+  "origin": "Orlando, FL",
+  "destination": "Chicago, IL",
+  "mode": "LTL",
+  "archetype": "midwest_distribution",
+  "archetype_label": "Midwest Distribution",
+  "canonical_path": "/orlando-to-chicago",
+  "seo_title": "Orlando, FL to Chicago, IL LTL Freight Quotes | WARP",
+  "h1": "Orlando, FL to Chicago, IL LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Orlando, FL to Chicago, IL. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "LTL freight between Orlando, FL and Chicago, IL moves through the Midwest distribution heartland where intermodal rail access, central hub positioning, and year-round capacity define the lane. For small and mid-size shipping teams, leveraging LTL on this corridor means tapping into one of the densest carrier markets in the country. This page details LTL transit, rate benchmarks, and distribution strategies for the Orlando, FL to Chicago, IL lane.",
+  "faq": [
+    {
+      "q": "Can I use Orlando, FL or Chicago, IL as a cross-dock hub for LTL distribution?",
+      "a": "Yes. Both Orlando, FL and Chicago, IL offer cross-dock facilities that support LTL consolidation and deconsolidation for regional distribution."
+    },
+    {
+      "q": "Is intermodal rail an option for LTL freight between Orlando, FL and Chicago, IL?",
+      "a": "The Midwest has one of the densest intermodal rail networks in the country. Rail-truck combos can reduce LTL costs on the Orlando, FL to Chicago, IL corridor."
+    },
+    {
+      "q": "How do winter conditions affect LTL transit from Orlando, FL to Chicago, IL?",
+      "a": "Midwest winters can add 1-2 days to LTL transit. Carriers pre-plan for weather delays on the Orlando, FL to Chicago, IL lane with contingency routing."
+    },
+    {
+      "q": "What LTL capacity is available year-round between Orlando, FL and Chicago, IL?",
+      "a": "Midwest distribution lanes maintain strong year-round LTL capacity due to the volume of freight flowing through central US hubs."
+    },
+    {
+      "q": "How does the Midwest hub network benefit LTL shippers from Orlando, FL to Chicago, IL?",
+      "a": "Central positioning means shorter average distances to most US markets. LTL freight from Orlando, FL to Chicago, IL benefits from dense carrier availability and competitive rates."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 1184,
+    "haversine_miles": 986,
+    "estimated_transit_days": "3-5",
+    "origin_region": "Southeast",
+    "destination_region": "Midwest"
+  }
+}

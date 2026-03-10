@@ -1,0 +1,14 @@
+{
+  "to": "(dry run)",
+  "from": "(dry run)",
+  "subject": "Warp Lane Page Draft – Chicago → Dallas LTL",
+  "html_length": 7396,
+  "attachment_filenames": [
+    "preview.html",
+    "faq_schema.json",
+    "breadcrumbs_schema.json",
+    "webflow_fields.json"
+  ],
+  "dry_run": true,
+  "generated_at": "2026-03-05T07:08:51.246Z"
+}

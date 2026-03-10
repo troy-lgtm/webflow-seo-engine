@@ -1,0 +1,341 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://wearewarp.com/schemas/lane-page-schema.json",
+  "title": "Canonical Lane Page Schema",
+  "description": "Defines the exact structure every WARP lane page must follow. Used by lane-page-schema.js for validation and canonical page building.",
+  "type": "object",
+  "required": [
+    "page_title",
+    "meta_description",
+    "lane_slug",
+    "canonical_path",
+    "mode",
+    "segment",
+    "origin",
+    "destination",
+    "lane_stats",
+    "network_proof",
+    "hero",
+    "lane_overview",
+    "warp_fit_for_lane",
+    "operating_details",
+    "pricing_and_commercial_framing",
+    "lane_specific_faqs",
+    "related_links",
+    "lane_relevant_cta"
+  ],
+  "properties": {
+    "page_title": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 70,
+      "description": "SEO page title. Must include origin city, destination city, mode, and brand."
+    },
+    "meta_description": {
+      "type": "string",
+      "minLength": 80,
+      "maxLength": 170,
+      "description": "Meta description for SERPs. Must include mode, origin, destination, and a value proposition."
+    },
+    "lane_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$",
+      "description": "URL-safe slug for the lane page (e.g., chicago-il-to-dallas-tx-ltl)."
+    },
+    "canonical_path": {
+      "type": "string",
+      "pattern": "^/lanes/",
+      "description": "Canonical URL path. Must start with /lanes/."
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["LTL", "FTL", "Cargo Van / Box Truck"],
+      "description": "Freight mode for this lane."
+    },
+    "segment": {
+      "type": "string",
+      "description": "Target segment (e.g., smb, midmarket, enterprise)."
+    },
+    "origin": {
+      "type": "string",
+      "description": "Full origin location string (e.g., Chicago, IL)."
+    },
+    "destination": {
+      "type": "string",
+      "description": "Full destination location string (e.g., Dallas, TX)."
+    },
+    "lane_stats": {
+      "type": "object",
+      "required": [
+        "estimated_distance_miles",
+        "estimated_transit_days_range",
+        "estimated_rate_range_usd",
+        "common_equipment",
+        "seasonality_notes"
+      ],
+      "properties": {
+        "estimated_distance_miles": {
+          "type": "number",
+          "minimum": 1,
+          "description": "Estimated driving distance in miles."
+        },
+        "estimated_transit_days_range": {
+          "type": "object",
+          "required": ["min", "max"],
+          "properties": {
+            "min": { "type": "integer", "minimum": 1 },
+            "max": { "type": "integer", "minimum": 1 }
+          },
+          "additionalProperties": false
+        },
+        "estimated_rate_range_usd": {
+          "type": "object",
+          "required": ["low", "high"],
+          "properties": {
+            "low": { "type": "number", "minimum": 0 },
+            "high": { "type": "number", "minimum": 0 },
+            "disclaimer": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "common_freight_class_range": {
+          "type": ["object", "null"],
+          "properties": {
+            "low": { "type": "number" },
+            "high": { "type": "number" }
+          }
+        },
+        "common_equipment": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "Equipment types available on this lane."
+        },
+        "seasonality_notes": {
+          "type": "string",
+          "description": "Seasonal volume and rate patterns for the corridor."
+        },
+        "transit_time_estimate_label": { "type": "string" },
+        "rate_estimate_label": { "type": "string" },
+        "confidence": {
+          "type": "object",
+          "properties": {
+            "transit": { "type": "string" },
+            "rate": { "type": "string" }
+          }
+        },
+        "assumptions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "disclaimers": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "network_proof": {
+      "type": "object",
+      "required": [
+        "estimated_carrier_count",
+        "nearest_cross_docks",
+        "service_notes",
+        "origin_region",
+        "destination_region"
+      ],
+      "properties": {
+        "estimated_carrier_count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Approximate number of active carriers covering this lane."
+        },
+        "nearest_cross_docks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Names of nearest cross-dock facilities."
+        },
+        "service_notes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "WARP service capabilities on this lane."
+        },
+        "origin_region": { "type": "string" },
+        "destination_region": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "hero": {
+      "type": "object",
+      "required": ["headline", "subhead", "primary_cta", "secondary_cta"],
+      "properties": {
+        "headline": {
+          "type": "string",
+          "minLength": 20,
+          "description": "H1 headline. Must contain origin, destination, and mode."
+        },
+        "subhead": {
+          "type": "string",
+          "minLength": 30,
+          "description": "Supporting subhead with lane-specific value proposition."
+        },
+        "primary_cta": {
+          "type": "object",
+          "required": ["label", "url"],
+          "properties": {
+            "label": { "type": "string" },
+            "url": { "type": "string", "format": "uri" }
+          },
+          "additionalProperties": false
+        },
+        "secondary_cta": {
+          "type": "object",
+          "required": ["label", "url"],
+          "properties": {
+            "label": { "type": "string" },
+            "url": { "type": "string", "format": "uri" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "lane_overview": {
+      "type": "object",
+      "required": ["heading", "body"],
+      "properties": {
+        "heading": {
+          "type": "string",
+          "const": "Lane Overview",
+          "description": "Must always be 'Lane Overview'."
+        },
+        "body": {
+          "type": "string",
+          "minLength": 100,
+          "description": "Operator-grade overview of the lane with distance, transit, equipment, and corridor context."
+        }
+      },
+      "additionalProperties": false
+    },
+    "warp_fit_for_lane": {
+      "type": "object",
+      "required": ["heading", "body"],
+      "properties": {
+        "heading": {
+          "type": "string",
+          "description": "Section heading for WARP fit (e.g., 'How WARP Operates This Lane')."
+        },
+        "body": {
+          "type": "string",
+          "minLength": 100,
+          "description": "Explains how WARP handles this specific lane — carrier network, visibility, scheduling, exception handling."
+        }
+      },
+      "additionalProperties": false
+    },
+    "operating_details": {
+      "type": "object",
+      "required": ["heading", "items"],
+      "properties": {
+        "heading": {
+          "type": "string",
+          "description": "Section heading (e.g., 'Operating Details')."
+        },
+        "items": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 4,
+          "description": "Bullet list of operational facts: equipment, cross-docks, transit, visibility, exception handling."
+        }
+      },
+      "additionalProperties": false
+    },
+    "pricing_and_commercial_framing": {
+      "type": "object",
+      "required": ["heading", "body"],
+      "properties": {
+        "heading": {
+          "type": "string",
+          "description": "Section heading (e.g., 'Pricing & Rate Factors')."
+        },
+        "body": {
+          "type": "string",
+          "minLength": 100,
+          "description": "Explains rate ranges, cost drivers, freight class impact, and how to get a real-time quote."
+        }
+      },
+      "additionalProperties": false
+    },
+    "lane_specific_faqs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question", "answer"],
+        "properties": {
+          "question": { "type": "string", "minLength": 10 },
+          "answer": { "type": "string", "minLength": 20 }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 4,
+      "description": "Lane-specific frequently asked questions. Minimum 4."
+    },
+    "related_links": {
+      "type": "object",
+      "required": ["corridor_hub", "related_lanes", "tool_link"],
+      "properties": {
+        "corridor_hub": {
+          "type": "string",
+          "description": "URL path to the parent corridor hub page."
+        },
+        "related_lanes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "path"],
+            "properties": {
+              "label": { "type": "string" },
+              "path": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "description": "Links to related lane pages in the same corridor."
+        },
+        "tool_link": {
+          "type": "string",
+          "description": "URL to the quote or rate calculator tool."
+        },
+        "data_link": {
+          "type": ["string", "null"],
+          "description": "Optional URL to a data or analytics page for this lane."
+        }
+      },
+      "additionalProperties": false
+    },
+    "lane_relevant_cta": {
+      "type": "object",
+      "required": ["headline", "body", "primary_cta"],
+      "properties": {
+        "headline": {
+          "type": "string",
+          "description": "CTA section headline referencing the specific lane."
+        },
+        "body": {
+          "type": "string",
+          "description": "Brief supporting copy for the final CTA."
+        },
+        "primary_cta": {
+          "type": "object",
+          "required": ["label", "url"],
+          "properties": {
+            "label": { "type": "string" },
+            "url": { "type": "string", "format": "uri" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

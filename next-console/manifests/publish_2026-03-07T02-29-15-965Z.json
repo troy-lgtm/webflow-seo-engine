@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-03-07T02-29-15-965Z",
+  "script_name": "publish_next.js",
+  "trigger_source": "manual",
+  "dry_run": true,
+  "started_at": "2026-03-07T02:29:15.965Z",
+  "completed_at": "2026-03-07T02:29:15.994Z",
+  "duration_ms": 29,
+  "intended_count": 3,
+  "attempted_count": 3,
+  "published_count": 3,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": null,
+  "email_error": null,
+  "email_skip_reason": "publish_next does not send email directly",
+  "email_provider_response": null,
+  "published_pages": [
+    {
+      "slug": "dallas-to-new-york",
+      "webflow_item_id": "dry-run-796556f6",
+      "url": "https://www.wearewarp.com/lanes/dallas-to-new-york"
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "webflow_item_id": "dry-run-ae53ec2a",
+      "url": "https://www.wearewarp.com/lanes/houston-to-atlanta"
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "webflow_item_id": "dry-run-f02d8336",
+      "url": "https://www.wearewarp.com/lanes/chicago-to-new-york"
+    }
+  ],
+  "failed_pages": [],
+  "blocked_pages": [],
+  "published_urls": [
+    "https://www.wearewarp.com/lanes/dallas-to-new-york",
+    "https://www.wearewarp.com/lanes/houston-to-atlanta",
+    "https://www.wearewarp.com/lanes/chicago-to-new-york"
+  ],
+  "sample_live_urls": [],
+  "warnings": [],
+  "mode": "dry-run"
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-03-06T10:00:00.000Z",
+  "source_files": [
+    {
+      "path": "data/warp_top_2000_lanes_seed.csv",
+      "type": "csv",
+      "record_count": 2000,
+      "description": "Original uploaded real Warp lane dataset — 2,000 city-pair rows",
+      "used_as_source_of_truth": true
+    },
+    {
+      "path": "data/raw_lanes.json",
+      "type": "json",
+      "record_count": 2000,
+      "description": "Parsed version of seed CSV with split origin/destination fields",
+      "used_as_source_of_truth": false,
+      "derived_from": "data/warp_top_2000_lanes_seed.csv"
+    },
+    {
+      "path": "data/lanes_canonical.json",
+      "type": "json",
+      "record_count": 1220,
+      "description": "Deduplicated canonical lane registry — unique origin→destination pairs with slugs",
+      "used_as_source_of_truth": false,
+      "derived_from": "data/raw_lanes.json"
+    },
+    {
+      "path": "data/lane_registry.json",
+      "type": "json",
+      "record_count": 1220,
+      "description": "Enriched lane registry with coordinates, corridors, distances, modes, and spec-required fields",
+      "used_as_source_of_truth": false,
+      "derived_from": "data/lanes_canonical.json"
+    }
+  ],
+  "data_flow": "warp_top_2000_lanes_seed.csv → raw_lanes.json → lanes_canonical.json (dedup) → lane_registry.json (enriched)",
+  "notes": [
+    "Using uploaded real-lane file (warp_top_2000_lanes_seed.csv) as sole source of truth",
+    "2,000 raw lanes → 1,220 unique canonical lanes after deduplication",
+    "No synthetic lanes generated — only real Warp network lanes",
+    "51 unique metros identified across the lane network",
+    "13 named corridors + 1 catch-all 'other' corridor"
+  ]
+}

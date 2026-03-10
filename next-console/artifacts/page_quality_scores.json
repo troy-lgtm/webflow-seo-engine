@@ -1,0 +1,326 @@
+{
+  "timestamp": "2026-03-09T00:00:35.945Z",
+  "pages_total": 8,
+  "pages_scored": 8,
+  "avg_total": 0.855,
+  "avg_by_dimension": {
+    "seo_quality": 0.83,
+    "ai_search_quality": 0.83,
+    "human_readability": 0.925,
+    "design_composition": 0.76,
+    "conversion_readiness": 0.9
+  },
+  "grade_distribution": {
+    "A": 0,
+    "B": 8,
+    "C": 0,
+    "D": 0,
+    "F": 0
+  },
+  "pages": [
+    {
+      "slug": "atlanta-to-orlando",
+      "archetype": "short_haul_metro",
+      "distance_class": "short",
+      "mode": "LTL",
+      "status": "scored",
+      "total": 0.86,
+      "grade": "B",
+      "faq_score": 0.89,
+      "faq_count": 7,
+      "dimensions": {
+        "seo_quality": {
+          "score": 0.83,
+          "weight": 0.25
+        },
+        "ai_search_quality": {
+          "score": 0.83,
+          "weight": 0.2
+        },
+        "human_readability": {
+          "score": 0.95,
+          "weight": 0.2
+        },
+        "design_composition": {
+          "score": 0.76,
+          "weight": 0.15
+        },
+        "conversion_readiness": {
+          "score": 0.9,
+          "weight": 0.2
+        }
+      },
+      "checks_summary": {
+        "total": 38,
+        "passing": 32,
+        "failing": 6
+      }
+    },
+    {
+      "slug": "atlanta-to-miami",
+      "archetype": "short_haul_metro",
+      "distance_class": "medium",
+      "mode": "LTL",
+      "status": "scored",
+      "total": 0.86,
+      "grade": "B",
+      "faq_score": 0.89,
+      "faq_count": 7,
+      "dimensions": {
+        "seo_quality": {
+          "score": 0.83,
+          "weight": 0.25
+        },
+        "ai_search_quality": {
+          "score": 0.83,
+          "weight": 0.2
+        },
+        "human_readability": {
+          "score": 0.95,
+          "weight": 0.2
+        },
+        "design_composition": {
+          "score": 0.76,
+          "weight": 0.15
+        },
+        "conversion_readiness": {
+          "score": 0.9,
+          "weight": 0.2
+        }
+      },
+      "checks_summary": {
+        "total": 38,
+        "passing": 32,
+        "failing": 6
+      }
+    },
+    {
+      "slug": "los-angeles-to-new-york",
+      "archetype": "long_haul_interstate",
+      "distance_class": "long",
+      "mode": "LTL",
+      "status": "scored",
+      "total": 0.86,
+      "grade": "B",
+      "faq_score": 0.89,
+      "faq_count": 7,
+      "dimensions": {
+        "seo_quality": {
+          "score": 0.83,
+          "weight": 0.25
+        },
+        "ai_search_quality": {
+          "score": 0.83,
+          "weight": 0.2
+        },
+        "human_readability": {
+          "score": 0.95,
+          "weight": 0.2
+        },
+        "design_composition": {
+          "score": 0.76,
+          "weight": 0.15
+        },
+        "conversion_readiness": {
+          "score": 0.9,
+          "weight": 0.2
+        }
+      },
+      "checks_summary": {
+        "total": 38,
+        "passing": 32,
+        "failing": 6
+      }
+    },
+    {
+      "slug": "chicago-to-dallas",
+      "archetype": "long_haul_interstate",
+      "distance_class": "long",
+      "mode": "LTL",
+      "status": "scored",
+      "total": 0.86,
+      "grade": "B",
+      "faq_score": 0.89,
+      "faq_count": 7,
+      "dimensions": {
+        "seo_quality": {
+          "score": 0.83,
+          "weight": 0.25
+        },
+        "ai_search_quality": {
+          "score": 0.83,
+          "weight": 0.2
+        },
+        "human_readability": {
+          "score": 0.95,
+          "weight": 0.2
+        },
+        "design_composition": {
+          "score": 0.76,
+          "weight": 0.15
+        },
+        "conversion_readiness": {
+          "score": 0.9,
+          "weight": 0.2
+        }
+      },
+      "checks_summary": {
+        "total": 38,
+        "passing": 32,
+        "failing": 6
+      }
+    },
+    {
+      "slug": "houston-to-dallas",
+      "archetype": "energy_corridor",
+      "distance_class": "short",
+      "mode": "LTL",
+      "status": "scored",
+      "total": 0.84,
+      "grade": "B",
+      "faq_score": 0.89,
+      "faq_count": 7,
+      "dimensions": {
+        "seo_quality": {
+          "score": 0.83,
+          "weight": 0.25
+        },
+        "ai_search_quality": {
+          "score": 0.83,
+          "weight": 0.2
+        },
+        "human_readability": {
+          "score": 0.85,
+          "weight": 0.2
+        },
+        "design_composition": {
+          "score": 0.76,
+          "weight": 0.15
+        },
+        "conversion_readiness": {
+          "score": 0.9,
+          "weight": 0.2
+        }
+      },
+      "checks_summary": {
+        "total": 38,
+        "passing": 31,
+        "failing": 7
+      }
+    },
+    {
+      "slug": "los-angeles-to-chicago",
+      "archetype": "ecommerce_corridor",
+      "distance_class": "long",
+      "mode": "LTL",
+      "status": "scored",
+      "total": 0.86,
+      "grade": "B",
+      "faq_score": 0.89,
+      "faq_count": 7,
+      "dimensions": {
+        "seo_quality": {
+          "score": 0.83,
+          "weight": 0.25
+        },
+        "ai_search_quality": {
+          "score": 0.83,
+          "weight": 0.2
+        },
+        "human_readability": {
+          "score": 0.95,
+          "weight": 0.2
+        },
+        "design_composition": {
+          "score": 0.76,
+          "weight": 0.15
+        },
+        "conversion_readiness": {
+          "score": 0.9,
+          "weight": 0.2
+        }
+      },
+      "checks_summary": {
+        "total": 38,
+        "passing": 32,
+        "failing": 6
+      }
+    },
+    {
+      "slug": "miami-to-atlanta",
+      "archetype": "port_to_inland",
+      "distance_class": "medium",
+      "mode": "LTL",
+      "status": "scored",
+      "total": 0.86,
+      "grade": "B",
+      "faq_score": 0.89,
+      "faq_count": 7,
+      "dimensions": {
+        "seo_quality": {
+          "score": 0.83,
+          "weight": 0.25
+        },
+        "ai_search_quality": {
+          "score": 0.83,
+          "weight": 0.2
+        },
+        "human_readability": {
+          "score": 0.95,
+          "weight": 0.2
+        },
+        "design_composition": {
+          "score": 0.76,
+          "weight": 0.15
+        },
+        "conversion_readiness": {
+          "score": 0.9,
+          "weight": 0.2
+        }
+      },
+      "checks_summary": {
+        "total": 38,
+        "passing": 32,
+        "failing": 6
+      }
+    },
+    {
+      "slug": "dallas-to-houston",
+      "archetype": "energy_corridor",
+      "distance_class": "short",
+      "mode": "LTL",
+      "status": "scored",
+      "total": 0.84,
+      "grade": "B",
+      "faq_score": 0.89,
+      "faq_count": 7,
+      "dimensions": {
+        "seo_quality": {
+          "score": 0.83,
+          "weight": 0.25
+        },
+        "ai_search_quality": {
+          "score": 0.83,
+          "weight": 0.2
+        },
+        "human_readability": {
+          "score": 0.85,
+          "weight": 0.2
+        },
+        "design_composition": {
+          "score": 0.76,
+          "weight": 0.15
+        },
+        "conversion_readiness": {
+          "score": 0.9,
+          "weight": 0.2
+        }
+      },
+      "checks_summary": {
+        "total": 38,
+        "passing": 31,
+        "failing": 7
+      }
+    }
+  ]
+}

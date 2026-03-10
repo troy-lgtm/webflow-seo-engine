@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "description": "Fixed benchmark page set for page quality evaluation. These pages represent the diversity of lane types and are used for baseline vs challenger comparison. Set is immutable within an experiment run.",
+  "classification": "evaluation-only",
+  "selection_criteria": "One page per archetype where possible, covering short/medium/long distance, different modes, and different segments. All must be published and have at least basic GSC data.",
+  "pages": [
+    {
+      "slug": "atlanta-to-orlando",
+      "archetype": "short_haul_metro",
+      "distance_class": "short",
+      "mode": "LTL",
+      "origin": "Atlanta, GA",
+      "destination": "Orlando, FL",
+      "live_url": "https://www.wearewarp.com/lanes/atlanta-to-orlando",
+      "notes": "474-mile short-haul metro lane, high carrier density"
+    },
+    {
+      "slug": "atlanta-to-miami",
+      "archetype": "short_haul_metro",
+      "distance_class": "medium",
+      "mode": "LTL",
+      "origin": "Atlanta, GA",
+      "destination": "Miami, FL",
+      "live_url": "https://www.wearewarp.com/lanes/atlanta-to-miami-062c5",
+      "notes": "716-mile metro-to-metro lane"
+    },
+    {
+      "slug": "los-angeles-to-new-york",
+      "archetype": "long_haul_interstate",
+      "distance_class": "long",
+      "mode": "LTL",
+      "origin": "Los Angeles, CA",
+      "destination": "New York, NY",
+      "live_url": "https://www.wearewarp.com/lanes/los-angeles-to-new-york-582d4",
+      "notes": "2886-mile transcontinental lane"
+    },
+    {
+      "slug": "chicago-to-dallas",
+      "archetype": "long_haul_interstate",
+      "distance_class": "long",
+      "mode": "LTL",
+      "origin": "Chicago, IL",
+      "destination": "Dallas, TX",
+      "live_url": "https://www.wearewarp.com/lanes/chicago-to-dallas",
+      "notes": "First published lane, dense hub pair"
+    },
+    {
+      "slug": "houston-to-dallas",
+      "archetype": "energy_corridor",
+      "distance_class": "short",
+      "mode": "LTL",
+      "origin": "Houston, TX",
+      "destination": "Dallas, TX",
+      "live_url": "https://www.wearewarp.com/lanes/houston-to-dallas",
+      "notes": "Energy corridor, Texas intrastate"
+    },
+    {
+      "slug": "los-angeles-to-chicago",
+      "archetype": "ecommerce_corridor",
+      "distance_class": "long",
+      "mode": "LTL",
+      "origin": "Los Angeles, CA",
+      "destination": "Chicago, IL",
+      "live_url": "https://www.wearewarp.com/lanes/los-angeles-to-chicago",
+      "notes": "E-commerce hub pair, high volume"
+    },
+    {
+      "slug": "miami-to-atlanta",
+      "archetype": "port_to_inland",
+      "distance_class": "medium",
+      "mode": "LTL",
+      "origin": "Miami, FL",
+      "destination": "Atlanta, GA",
+      "live_url": "https://www.wearewarp.com/lanes/miami-to-atlanta",
+      "notes": "Port city to inland hub, reverse of ATL-MIA"
+    },
+    {
+      "slug": "dallas-to-houston",
+      "archetype": "energy_corridor",
+      "distance_class": "short",
+      "mode": "LTL",
+      "origin": "Dallas, TX",
+      "destination": "Houston, TX",
+      "live_url": "https://www.wearewarp.com/lanes/dallas-to-houston",
+      "notes": "Reverse energy corridor"
+    }
+  ],
+  "benchmark_queries": [
+    {
+      "intent": "transactional",
+      "queries": [
+        "LTL freight Atlanta to Orlando",
+        "LTL shipping cost Chicago to Dallas",
+        "freight quote Los Angeles to New York"
+      ]
+    },
+    {
+      "intent": "informational",
+      "queries": [
+        "how long does LTL take from Atlanta to Miami",
+        "freight rates Houston to Dallas",
+        "transit time Los Angeles to Chicago LTL"
+      ]
+    },
+    {
+      "intent": "navigational",
+      "queries": [
+        "WARP freight Atlanta Orlando",
+        "WARP LTL Chicago Dallas"
+      ]
+    }
+  ]
+}

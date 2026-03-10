@@ -1,0 +1,17 @@
+{
+  "_comment": "Configurable performance and system health targets for the SEO Control Panel.",
+  "system_health": {
+    "canonical_conflicts": { "target": 0, "label": "Canonical Conflicts" },
+    "broken_internal_links": { "target": 0, "label": "Broken Internal Links" },
+    "orphaned_pages": { "target": 0, "label": "Orphaned Pages" },
+    "eligible_indexing_rate_pct": { "target": 70, "label": "Eligible Indexing Rate" },
+    "blocked_rate_pct": { "target_max": 10, "label": "Blocked Rate (max)" }
+  },
+  "performance": {
+    "impressions_wow_pct": { "target": 50, "label": "Impressions WoW Growth", "note": "Early-stage target for priority corridors" },
+    "pages_with_impressions_per_corridor": { "target": 25, "label": "Pages w/ Impressions per Corridor" },
+    "lane_page_ctr_pct": { "min": 0.5, "max": 2.0, "label": "Lane Page CTR" },
+    "click_to_quote_pct": { "min": 1, "max": 5, "label": "Click to Quote Start" },
+    "quote_to_booking_pct": { "min": 5, "max": 20, "label": "Quote Start to Booking" }
+  }
+}

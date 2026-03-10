@@ -1,0 +1,310 @@
+{
+  "page": {
+    "slug": "dallas-to-new-york",
+    "canonical_path": "/dallas-to-new-york",
+    "seo_title": "Dallas, TX to New York, NY LTL Freight Quotes | WARP",
+    "h1": "Dallas, TX to New York, NY LTL freight quotes",
+    "meta_description": "Compare LTL freight rates from Dallas to New York. Get instant quotes, estimated transit times, and book freight in minutes with WARP.",
+    "target_segment": "smb",
+    "lane": {
+      "origin": "Dallas, TX",
+      "destination": "New York, NY",
+      "mode": "LTL"
+    },
+    "lane_stats": {
+      "estimated_distance_miles": 1617,
+      "estimated_transit_days_range": {
+        "min": 5,
+        "max": 7
+      },
+      "estimated_rate_range_usd": {
+        "low": 5348,
+        "high": 7131
+      },
+      "common_equipment": [
+        "Dry Van",
+        "Reefer (temp-controlled)"
+      ],
+      "seasonality_notes": "Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec.",
+      "confidence": {
+        "transit": "modeled",
+        "rate": "modeled"
+      },
+      "disclaimers": [
+        "These are modeled estimates, not guaranteed quotes.",
+        "Actual rates depend on freight details, accessorials, and current market conditions."
+      ]
+    },
+    "network_proof": {
+      "estimated_carrier_count": 10,
+      "nearest_cross_docks": [
+        "Dallas Mega Hub",
+        "Houston Terminal",
+        "Memphis Freight Hub",
+        "NY/NJ Metro Hub",
+        "Philadelphia Terminal"
+      ],
+      "service_notes": [
+        "Real-time scan events at pickup, in-transit, and delivery",
+        "Estimated 5-7 business day transit window",
+        "Pallet-level tracking with delivery appointment scheduling",
+        "Exception alerts within 30 minutes of status change"
+      ],
+      "origin_region": "South Central",
+      "destination_region": "Northeast"
+    },
+    "problem_section": "LTL shippers on the Dallas to New York corridor struggle with inconsistent transit times, opaque pricing from legacy brokers, and fragmented visibility across multiple carriers. Most teams spend hours chasing quotes and tracking updates manually.",
+    "solution_section": "WARP provides instant LTL quotes on the Dallas to New York lane with real-time carrier comparison, one-click booking, and proactive exception management — replacing days of manual work with minutes of operational efficiency.",
+    "cta_primary": "Book 15-min Fit Call",
+    "cta_secondary": "Get Instant Quote",
+    "cta_primary_url": "https://www.wearewarp.com/book",
+    "cta_secondary_url": "https://www.wearewarp.com/quote",
+    "contrast": {
+      "headline": "Why LTL shippers switch from brokers to WARP",
+      "points": [
+        {
+          "metric": "Quote speed",
+          "legacy": "2–24 hours via phone/email",
+          "warp": "Under 2 minutes, self-serve"
+        },
+        {
+          "metric": "Carrier comparison",
+          "legacy": "Manual spreadsheets",
+          "warp": "Side-by-side dashboard with performance data"
+        },
+        {
+          "metric": "Booking",
+          "legacy": "Email chains, 30–60 min",
+          "warp": "One-click from quote to BOL"
+        },
+        {
+          "metric": "Tracking",
+          "legacy": "Call carrier for updates",
+          "warp": "Real-time dashboard with exception alerts"
+        },
+        {
+          "metric": "Exception handling",
+          "legacy": "Reactive, hours to discover",
+          "warp": "Proactive alerts within 30 minutes"
+        }
+      ],
+      "bottom_line": "Shipping LTL from Dallas to New York with WARP eliminates the manual back-and-forth that costs logistics teams hours per shipment."
+    },
+    "intro": "LTL freight from Dallas, TX to New York, NY covers approximately 1,617 miles with estimated transit of 5–7 business days. WARP's carrier network on this corridor includes 10+ providers with cross-dock facilities at Dallas Mega Hub, Houston Terminal, Memphis Freight Hub. Get instant lane-specific quotes, compare carriers, and book in minutes.",
+    "proof_section": "Validate this lane with a controlled pilot: Dallas, TX to New York, NY. Track quote response time, transit predictability, and exception rate across 10 active carriers on this 1617-mile corridor. Equipment includes Dry Van and Reefer (temp-controlled). Start with this single lane, measure results, and expand based on data.",
+    "faq": [
+      {
+        "q": "What metrics should we track on this LTL lane?",
+        "a": "Focus on quote response time, on-time delivery rate, transit time consistency, exception frequency, and cost-per-shipment trends. These give you a clear go/no-go signal for scaling to more lanes."
+      },
+      {
+        "q": "How long does LTL freight take from Dallas to New York?",
+        "a": "Estimated transit for LTL freight on this 1617-mile lane is 5–7 business days. Actual transit depends on pickup schedule, carrier routing, and weather conditions."
+      },
+      {
+        "q": "How much does LTL shipping from Dallas to New York cost?",
+        "a": "Estimated LTL rates on this lane range from $5,348 to $7,131 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote by entering your shipment details."
+      },
+      {
+        "q": "How fast can we launch a LTL pilot from Dallas to New York?",
+        "a": "Most shipping teams can scope a single-lane pilot and begin quoting within days. Start with this corridor, measure quote speed and transit reliability, then expand based on results."
+      },
+      {
+        "q": "How does WARP handle tracking on the Dallas to New York lane?",
+        "a": "WARP provides real-time visibility with scan events at pickup, in-transit checkpoints, and delivery confirmation. Exception alerts fire within 30 minutes of any status change so you can resolve issues before they impact customers."
+      }
+    ],
+    "schema_breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WARP",
+          "item": "https://www.wearewarp.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LTL Freight",
+          "item": "https://www.wearewarp.com/guides/ltl"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dallas to New York"
+        }
+      ]
+    },
+    "schema_service": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "LTL Freight Service — Dallas to New York",
+      "provider": {
+        "@type": "Organization",
+        "name": "WARP",
+        "url": "https://www.wearewarp.com"
+      },
+      "areaServed": [
+        "Dallas, TX",
+        "New York, NY"
+      ],
+      "description": "LTL freight shipping from Dallas, TX to New York, NY with instant quoting, carrier comparison, and real-time tracking."
+    },
+    "schema_organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "WARP",
+      "url": "https://www.wearewarp.com",
+      "description": "Technology-driven freight logistics platform"
+    },
+    "_canonicalData": {
+      "page_title": "Dallas, TX to New York, NY LTL Freight | WARP",
+      "meta_description": "LTL freight from Dallas to New York: 1,617-mile lane, 5-7 day transit. Get instant rates, carrier visibility, and book through WARP.",
+      "lane_slug": "dallas-to-new-york",
+      "canonical_path": "/lanes/dallas-to-new-york",
+      "mode": "LTL",
+      "segment": "smb",
+      "origin": "Dallas, TX",
+      "destination": "New York, NY",
+      "lane_stats": {
+        "estimated_distance_miles": 1617,
+        "estimated_transit_days_range": {
+          "min": 5,
+          "max": 7
+        },
+        "estimated_rate_range_usd": {
+          "low": 5348,
+          "high": 7131
+        },
+        "common_freight_class_range": null,
+        "common_equipment": [
+          "Dry Van",
+          "Reefer (temp-controlled)"
+        ],
+        "seasonality_notes": "Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec.",
+        "confidence": {
+          "transit": "modeled",
+          "rate": "modeled"
+        },
+        "disclaimers": [
+          "These are modeled estimates, not guaranteed quotes.",
+          "Actual rates depend on freight details, accessorials, and current market conditions."
+        ]
+      },
+      "network_proof": {
+        "estimated_carrier_count": 10,
+        "nearest_cross_docks": [
+          "Dallas Mega Hub",
+          "Houston Terminal",
+          "Memphis Freight Hub",
+          "NY/NJ Metro Hub",
+          "Philadelphia Terminal"
+        ],
+        "service_notes": [
+          "Real-time scan events at pickup, in-transit, and delivery",
+          "Estimated 5-7 business day transit window",
+          "Pallet-level tracking with delivery appointment scheduling",
+          "Exception alerts within 30 minutes of status change"
+        ],
+        "origin_region": "South Central",
+        "destination_region": "Northeast"
+      },
+      "hero": {
+        "headline": "Dallas, TX to New York, NY LTL Freight",
+        "subhead": "1,617 miles. 5-7 business day transit. 10 carriers active on this lane.",
+        "primary_cta": {
+          "label": "Get Instant Quote",
+          "url": "https://www.wearewarp.com/quote"
+        },
+        "secondary_cta": {
+          "label": "Book a Fit Call",
+          "url": "https://www.wearewarp.com/book"
+        }
+      },
+      "lane_overview": {
+        "heading": "Lane Overview",
+        "body": "The Dallas to New York LTL lane covers approximately 1,617 miles between the South Central and Northeast regions. Standard transit runs 5-7 business days depending on carrier routing and terminal schedules. Common equipment on this corridor includes Dry Van, Reefer (temp-controlled). Cross-dock facilities at Dallas Mega Hub, Houston Terminal, Memphis Freight Hub support consolidation and transit optimization. Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec."
+      },
+      "warp_fit_for_lane": {
+        "heading": "How WARP Operates the Dallas to New York Lane",
+        "body": "WARP covers the Dallas to New York corridor with 10 vetted carriers providing LTL capacity. Service capabilities on this lane include: Real-time scan events at pickup, in-transit, and delivery; Estimated 5-7 business day transit window; Pallet-level tracking with delivery appointment scheduling. Shipments receive pallet-level tracking from pickup through delivery with appointment scheduling and delivery confirmation. Nearby cross-dock operations at Dallas Mega Hub and Houston Terminal enable consolidation and re-routing when exceptions occur. Exception alerts fire within 30 minutes of any status change. WARP's operations team manages carrier coordination, rescheduling, and resolution without requiring shipper follow-up."
+      },
+      "operating_details": {
+        "heading": "Operating Details",
+        "items": [
+          "Estimated lane distance: 1,617 miles (Dallas to New York)",
+          "Transit window: 5-7 business days for standard LTL service",
+          "Available equipment: Dry Van, Reefer (temp-controlled)",
+          "Active carriers on this lane: 10",
+          "Nearest cross-dock facilities: Dallas Mega Hub, Houston Terminal, Memphis Freight Hub, NY/NJ Metro Hub, Philadelphia Terminal",
+          "Real-time scan events at pickup, in-transit, and delivery milestones",
+          "Exception alerts within 30 minutes of status changes with automated escalation",
+          "Delivery appointment scheduling and confirmation managed by WARP operations"
+        ]
+      },
+      "pricing_and_commercial_framing": {
+        "heading": "Pricing & Rate Factors",
+        "body": "Estimated LTL rates on the Dallas to New York lane range from $5,348 to $7,131, depending on freight class, weight, pallet count, and seasonal demand. Key cost drivers include NMFC freight classification, shipment density, and whether accessorials such as liftgate, inside delivery, or limited-access pickup apply. At 1,617 miles, the linehaul distance is the largest cost component (approximately $3.86/mile). Fuel surcharges are applied as a separate line item based on current diesel prices. These are modeled estimates. Enter your shipment details to get a real-time, all-in rate."
+      },
+      "lane_specific_faqs": [
+        {
+          "question": "How much does LTL freight from Dallas, TX to New York, NY cost?",
+          "answer": "Estimated LTL rates range from $5,348 to $7,131 based on freight class, weight, and pallet count. Actual rates depend on shipment specifics and current market conditions. Get an instant quote for real-time pricing."
+        },
+        {
+          "question": "What is the transit time for LTL shipments from Dallas to New York?",
+          "answer": "Standard LTL transit on this 1,617-mile lane is 5-7 business days. Actual transit depends on carrier routing, terminal schedules, and pickup timing."
+        },
+        {
+          "question": "What carriers does WARP use on the Dallas to New York lane?",
+          "answer": "WARP maintains a vetted network of approximately 10 active carriers on this corridor. Carrier selection is optimized for each shipment based on equipment requirements, transit targets, and performance history."
+        },
+        {
+          "question": "Can I track my LTL shipment from Dallas to New York in real time?",
+          "answer": "Yes. Every shipment includes real-time tracking with scan events at pickup, in-transit checkpoints, and delivery. Exception alerts fire within 30 minutes of any status change, and WARP's operations team manages resolution directly."
+        },
+        {
+          "question": "What equipment is available for LTL freight on this lane?",
+          "answer": "Common equipment on the Dallas to New York corridor includes Dry Van, Reefer (temp-controlled). Equipment availability varies by season and demand. Specify your requirements when requesting a quote."
+        }
+      ],
+      "related_links": {
+        "corridor_hub": "/corridors/south-central-to-northeast",
+        "related_lanes": [],
+        "tool_link": "https://www.wearewarp.com/quote",
+        "data_link": null,
+        "metro_links": [],
+        "guide_link": null
+      },
+      "lane_relevant_cta": {
+        "headline": "Ship LTL Freight: Dallas to New York",
+        "body": "Enter your shipment details to get a real-time LTL rate for the Dallas to New York lane. No commitment required.",
+        "primary_cta": {
+          "label": "Get Your Quote",
+          "url": "https://www.wearewarp.com/quote"
+        }
+      }
+    },
+    "quality_score": 100,
+    "banned_content_scan_result": "clean",
+    "rendered_html_validation_result": "passed"
+  },
+  "canonicalPath": "/dallas-to-new-york",
+  "quickAnswers": [
+    {
+      "question": "How much does LTL freight from Dallas to New York cost?",
+      "answer": "Estimated LTL rates on the Dallas to New York lane range from $5,348 to $7,131 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote with WARP."
+    },
+    {
+      "question": "How long does LTL transit take from Dallas to New York?",
+      "answer": "Estimated transit time for LTL freight on this 1617-mile lane is 5–7 business days under standard conditions."
+    }
+  ],
+  "contentFingerprint": "1702370961",
+  "origin": "Dallas, TX",
+  "destination": "New York, NY",
+  "mode": "LTL",
+  "segment": "smb"
+}

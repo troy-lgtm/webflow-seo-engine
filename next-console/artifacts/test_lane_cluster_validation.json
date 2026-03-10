@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-03-06T10:40:43.513Z",
+  "summary": {
+    "total": 3,
+    "valid": 3,
+    "blocked": 0
+  },
+  "pages": [
+    {
+      "lane_slug": "los-angeles-to-phoenix",
+      "score": 100,
+      "passed": true,
+      "issues": [],
+      "schema_valid": true,
+      "faq_count": 5,
+      "banned_content": false,
+      "fallback_template": false
+    },
+    {
+      "lane_slug": "long-beach-to-phoenix",
+      "score": 100,
+      "passed": true,
+      "issues": [],
+      "schema_valid": true,
+      "faq_count": 5,
+      "banned_content": false,
+      "fallback_template": false
+    },
+    {
+      "lane_slug": "san-diego-to-phoenix",
+      "score": 100,
+      "passed": true,
+      "issues": [],
+      "schema_valid": true,
+      "faq_count": 5,
+      "banned_content": false,
+      "fallback_template": false
+    }
+  ]
+}

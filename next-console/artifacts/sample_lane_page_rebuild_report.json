@@ -1,0 +1,810 @@
+{
+  "timestamp": "2026-03-06T09:06:42.043Z",
+  "pipeline": "lane-knowledge → lane-page-schema → render-lane-page → validator",
+  "total": 10,
+  "passed": 10,
+  "failed": 0,
+  "all_passed": true,
+  "avg_quality_score": 100,
+  "sections_summary": {
+    "lane_overview": 10,
+    "warp_fit": 10,
+    "operating_details": 10,
+    "pricing": 10,
+    "validate": 10
+  },
+  "all_fields_complete": 10,
+  "banned_content_pages": 0,
+  "results": [
+    {
+      "slug": "miami-to-atlanta",
+      "origin": "Miami, FL",
+      "destination": "Atlanta, GA",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7577
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3106,
+      "faq_count": 5,
+      "distance_miles": 716,
+      "transit_days": {
+        "min": 3,
+        "max": 4
+      },
+      "rate_range": {
+        "low": 2416,
+        "high": 3221
+      },
+      "carrier_count": 4,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    },
+    {
+      "slug": "dallas-to-chicago",
+      "origin": "Dallas, TX",
+      "destination": "Chicago, IL",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7675
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3189,
+      "faq_count": 5,
+      "distance_miles": 950,
+      "transit_days": {
+        "min": 3,
+        "max": 4
+      },
+      "rate_range": {
+        "low": 4408,
+        "high": 5877
+      },
+      "carrier_count": 7,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    },
+    {
+      "slug": "chicago-to-dallas",
+      "origin": "Chicago, IL",
+      "destination": "Dallas, TX",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7661
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3175,
+      "faq_count": 5,
+      "distance_miles": 950,
+      "transit_days": {
+        "min": 3,
+        "max": 4
+      },
+      "rate_range": {
+        "low": 3602,
+        "high": 4802
+      },
+      "carrier_count": 8,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    },
+    {
+      "slug": "los-angeles-to-phoenix",
+      "origin": "Los Angeles, CA",
+      "destination": "Phoenix, AZ",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7717
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3156,
+      "faq_count": 5,
+      "distance_miles": 421,
+      "transit_days": {
+        "min": 2,
+        "max": 3
+      },
+      "rate_range": {
+        "low": 1147,
+        "high": 1529
+      },
+      "carrier_count": 6,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    },
+    {
+      "slug": "atlanta-to-orlando",
+      "origin": "Atlanta, GA",
+      "destination": "Orlando, FL",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7663
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3160,
+      "faq_count": 5,
+      "distance_miles": 474,
+      "transit_days": {
+        "min": 2,
+        "max": 3
+      },
+      "rate_range": {
+        "low": 1525,
+        "high": 2033
+      },
+      "carrier_count": 11,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    },
+    {
+      "slug": "houston-to-dallas",
+      "origin": "Houston, TX",
+      "destination": "Dallas, TX",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7634
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3156,
+      "faq_count": 5,
+      "distance_miles": 266,
+      "transit_days": {
+        "min": 1,
+        "max": 2
+      },
+      "rate_range": {
+        "low": 695,
+        "high": 927
+      },
+      "carrier_count": 4,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    },
+    {
+      "slug": "chicago-to-atlanta",
+      "origin": "Chicago, IL",
+      "destination": "Atlanta, GA",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7677
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3176,
+      "faq_count": 5,
+      "distance_miles": 695,
+      "transit_days": {
+        "min": 3,
+        "max": 4
+      },
+      "rate_range": {
+        "low": 3102,
+        "high": 4135
+      },
+      "carrier_count": 7,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    },
+    {
+      "slug": "phoenix-to-los-angeles",
+      "origin": "Phoenix, AZ",
+      "destination": "Los Angeles, CA",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7747
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3184,
+      "faq_count": 5,
+      "distance_miles": 421,
+      "transit_days": {
+        "min": 2,
+        "max": 3
+      },
+      "rate_range": {
+        "low": 1707,
+        "high": 2275
+      },
+      "carrier_count": 11,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    },
+    {
+      "slug": "miami-to-orlando",
+      "origin": "Miami, FL",
+      "destination": "Orlando, FL",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7565
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3102,
+      "faq_count": 5,
+      "distance_miles": 243,
+      "transit_days": {
+        "min": 1,
+        "max": 2
+      },
+      "rate_range": {
+        "low": 615,
+        "high": 820
+      },
+      "carrier_count": 9,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    },
+    {
+      "slug": "dallas-to-atlanta",
+      "origin": "Dallas, TX",
+      "destination": "Atlanta, GA",
+      "mode": "LTL",
+      "segment": "smb",
+      "schema_valid": true,
+      "schema_errors": [],
+      "schema_warnings": [],
+      "publish_valid": true,
+      "quality_score": 100,
+      "quality_breakdown": {
+        "sections": {
+          "score": 30,
+          "max": 30,
+          "found": 6,
+          "total": 6
+        },
+        "faqs": {
+          "score": 10,
+          "max": 10,
+          "count": 5
+        },
+        "banned_content": {
+          "score": 20,
+          "max": 20,
+          "violations": 0
+        },
+        "content_length": {
+          "score": 10,
+          "max": 10,
+          "chars": 7675
+        },
+        "lane_terms": {
+          "score": 10,
+          "max": 10
+        },
+        "internal_links": {
+          "score": 10,
+          "max": 10
+        },
+        "structured_data": {
+          "score": 10,
+          "max": 10
+        }
+      },
+      "gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "gate_errors": [],
+      "banned_content_found": [],
+      "body_content_length": 3189,
+      "faq_count": 5,
+      "distance_miles": 849,
+      "transit_days": {
+        "min": 3,
+        "max": 4
+      },
+      "rate_range": {
+        "low": 3317,
+        "high": 4422
+      },
+      "carrier_count": 6,
+      "sections_present": {
+        "lane_overview": true,
+        "warp_fit": true,
+        "operating_details": true,
+        "pricing": true,
+        "validate": true
+      },
+      "all_fields_present": true,
+      "passed": true
+    }
+  ]
+}

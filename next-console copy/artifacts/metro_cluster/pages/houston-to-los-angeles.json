@@ -1,0 +1,42 @@
+{
+  "slug": "houston-to-los-angeles",
+  "origin": "Houston, TX",
+  "destination": "Los Angeles, CA",
+  "mode": "LTL",
+  "archetype": "energy_corridor",
+  "archetype_label": "Energy Corridor",
+  "canonical_path": "/houston-to-los-angeles",
+  "seo_title": "Houston, TX to Los Angeles, CA LTL Freight Quotes | WARP",
+  "h1": "Houston, TX to Los Angeles, CA LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Houston, TX to Los Angeles, CA. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "Shipping LTL freight between Houston, TX and Los Angeles, CA means navigating an energy-sector corridor where oversized loads, specialized equipment, and regulatory compliance shape every move. For small and mid-size shipping teams, permit requirements, escort protocols, and heavy-haul carrier access on this lane are non-negotiable considerations. This page covers LTL rate factors, equipment options, and compliance checkpoints for the Houston, TX to Los Angeles, CA energy corridor.",
+  "faq": [
+    {
+      "q": "Are escort vehicles required for LTL freight between Houston, TX and Los Angeles, CA?",
+      "a": "Loads exceeding state width or height thresholds on the Houston, TX to Los Angeles, CA corridor require pilot cars. Requirements vary by state and are determined during the permitting process."
+    },
+    {
+      "q": "What specialized equipment is available for LTL energy freight from Houston, TX to Los Angeles, CA?",
+      "a": "Step-deck, double-drop, and RGN trailers are commonly used on energy corridors. LTL carriers on the Houston, TX to Los Angeles, CA lane maintain fleets rated for heavy and oversized loads."
+    },
+    {
+      "q": "Do I need permits for LTL oversized shipments from Houston, TX to Los Angeles, CA?",
+      "a": "Yes. Overweight and over-dimension loads require state permits for each jurisdiction between Houston, TX and Los Angeles, CA. Lead times for permits vary by state."
+    },
+    {
+      "q": "How do oil and gas market cycles affect LTL rates on the Houston, TX to Los Angeles, CA lane?",
+      "a": "Active drilling seasons tighten flatbed and specialized capacity, pushing LTL rates higher. Monitor rig counts and project schedules when planning shipments from Houston, TX to Los Angeles, CA."
+    },
+    {
+      "q": "What compliance certifications should LTL carriers have on this energy lane?",
+      "a": "Look for TWIC cards, hazmat endorsements, and OSHA compliance certifications for carriers running LTL freight between Houston, TX and Los Angeles, CA."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 1645,
+    "haversine_miles": 1371,
+    "estimated_transit_days": "4-7",
+    "origin_region": "South Central",
+    "destination_region": "West Coast"
+  }
+}

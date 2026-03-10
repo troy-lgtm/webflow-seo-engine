@@ -1,0 +1,42 @@
+{
+  "slug": "new-york-to-seattle",
+  "origin": "New York, NY",
+  "destination": "Seattle, WA",
+  "mode": "LTL",
+  "archetype": "coastal_to_coastal",
+  "archetype_label": "Coastal to Coastal",
+  "canonical_path": "/new-york-to-seattle",
+  "seo_title": "New York, NY to Seattle, WA LTL Freight Quotes | WARP",
+  "h1": "New York, NY to Seattle, WA LTL freight quotes",
+  "meta_description": "Compare LTL freight options from New York, NY to Seattle, WA. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "Shipping LTL freight from New York, NY to Seattle, WA spans a cross-country corridor that crosses multiple time zones and climate regions. For small and mid-size shipping teams, planning multimodal options, managing extended transit windows, and building contingency into coast-to-coast schedules are essential. This page details LTL transit benchmarks, intermodal alternatives, and routing strategies for the New York, NY to Seattle, WA lane.",
+  "faq": [
+    {
+      "q": "How do time zone differences affect LTL delivery scheduling between New York, NY and Seattle, WA?",
+      "a": "A 3-hour time difference between New York, NY and Seattle, WA impacts pickup and delivery appointment windows. Coordinate cutoff times across time zones to avoid missed appointments."
+    },
+    {
+      "q": "What weather risks apply to cross-country LTL freight from New York, NY to Seattle, WA?",
+      "a": "Mountain passes, Great Plains storms, and seasonal weather patterns can delay LTL transit. Build 1-2 buffer days into coast-to-coast schedules."
+    },
+    {
+      "q": "How does fuel cost impact LTL rates on the New York, NY to Seattle, WA lane?",
+      "a": "Cross-country lanes are fuel-sensitive. LTL fuel surcharges on the New York, NY to Seattle, WA corridor fluctuate with diesel prices and add 15-25% to base rates."
+    },
+    {
+      "q": "Is intermodal LTL a viable option from New York, NY to Seattle, WA?",
+      "a": "Yes. Rail-truck intermodal can reduce costs by 15-30% versus over-the-road LTL on the New York, NY to Seattle, WA lane, with a 1-2 day transit trade-off."
+    },
+    {
+      "q": "What is the typical LTL transit time from New York, NY to Seattle, WA?",
+      "a": "Coast-to-coast LTL transit between New York, NY and Seattle, WA typically ranges from 4 to 7 business days depending on routing, weather, and carrier network."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 2882,
+    "haversine_miles": 2402,
+    "estimated_transit_days": "4-7",
+    "origin_region": "Northeast",
+    "destination_region": "Pacific Northwest"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-03-06T09:48:50.470Z",
+  "total_lanes": 1220,
+  "by_lane_set": {
+    "tier1_core": 780,
+    "tier1_to_tier2_expansion": 440
+  },
+  "by_corridor": {
+    "other": 1035,
+    "socal-phoenix": 3,
+    "pnw-socal": 12,
+    "socal-texas": 12,
+    "la-chicago": 2,
+    "mountain-west": 10,
+    "texas-triangle": 10,
+    "chicago-dfw": 2,
+    "texas-southeast": 28,
+    "midwest-southeast": 35,
+    "northeast-midwest": 20,
+    "southeast-retail": 25,
+    "florida-northeast": 16,
+    "northeast-regional": 10
+  },
+  "by_region_origin": {
+    "West Coast": 240,
+    "Southwest": 89,
+    "Pacific Northwest": 126,
+    "Mountain": 79,
+    "South Central": 202,
+    "Midwest": 285,
+    "Southeast": 149,
+    "Northeast": 50
+  },
+  "by_region_destination": {
+    "West Coast": 90,
+    "Southwest": 11,
+    "Pacific Northwest": 64,
+    "Mountain": 101,
+    "South Central": 178,
+    "Midwest": 215,
+    "Southeast": 291,
+    "Northeast": 270
+  },
+  "missing_city_lookups": [],
+  "avg_distance_miles": 1414.8
+}

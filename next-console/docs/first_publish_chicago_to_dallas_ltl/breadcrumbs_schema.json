@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "WARP",
+      "item": "https://www.wearewarp.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "LTL Freight",
+      "item": "https://www.wearewarp.com/guides/ltl"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Chicago to Dallas"
+    }
+  ]
+}

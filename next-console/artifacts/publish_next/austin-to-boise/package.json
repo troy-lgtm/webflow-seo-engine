@@ -1,0 +1,182 @@
+{
+  "page": {
+    "slug": "austin-to-boise",
+    "canonical_path": "/austin-to-boise",
+    "seo_title": "Austin, TX to Boise, ID LTL Freight Quotes | WARP",
+    "h1": "Austin, TX to Boise, ID LTL freight quotes",
+    "meta_description": "Compare LTL freight rates from Austin to Boise. Get instant quotes, estimated transit times, and book freight in minutes with WARP.",
+    "target_segment": "smb",
+    "lane": {
+      "origin": "Austin, TX",
+      "destination": "Boise, ID",
+      "mode": "LTL"
+    },
+    "lane_stats": {
+      "estimated_distance_miles": 1616,
+      "estimated_transit_days_range": {
+        "min": 5,
+        "max": 7
+      },
+      "estimated_rate_range_usd": {
+        "low": 7187,
+        "high": 9583
+      },
+      "common_equipment": [
+        "Dry Van",
+        "Reefer (temp-controlled)"
+      ],
+      "seasonality_notes": "Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec.",
+      "confidence": {
+        "transit": "modeled",
+        "rate": "modeled"
+      },
+      "disclaimers": [
+        "These are modeled estimates, not guaranteed quotes.",
+        "Actual rates depend on freight details, accessorials, and current market conditions."
+      ]
+    },
+    "network_proof": {
+      "estimated_carrier_count": 10,
+      "nearest_cross_docks": [
+        "Houston Terminal",
+        "Dallas Mega Hub",
+        "Memphis Freight Hub",
+        "Portland Terminal",
+        "Pacific NW Hub"
+      ],
+      "service_notes": [
+        "Real-time scan events at pickup, in-transit, and delivery",
+        "Estimated 5-7 business day transit window",
+        "Pallet-level tracking with delivery appointment scheduling",
+        "Exception alerts within 30 minutes of status change"
+      ],
+      "origin_region": "South Central",
+      "destination_region": "Mountain"
+    },
+    "problem_section": "LTL shippers on the Austin to Boise corridor struggle with inconsistent transit times, opaque pricing from legacy brokers, and fragmented visibility across multiple carriers. Most teams spend hours chasing quotes and tracking updates manually.",
+    "solution_section": "WARP provides instant LTL quotes on the Austin to Boise lane with real-time carrier comparison, one-click booking, and proactive exception management — replacing days of manual work with minutes of operational efficiency.",
+    "cta_primary": "Book 15-min Fit Call",
+    "cta_secondary": "Get Instant Quote",
+    "cta_primary_url": "https://www.wearewarp.com/book",
+    "cta_secondary_url": "https://www.wearewarp.com/quote",
+    "contrast": {
+      "headline": "Why LTL shippers switch from brokers to WARP",
+      "points": [
+        {
+          "metric": "Quote speed",
+          "legacy": "2–24 hours via phone/email",
+          "warp": "Under 2 minutes, self-serve"
+        },
+        {
+          "metric": "Carrier comparison",
+          "legacy": "Manual spreadsheets",
+          "warp": "Side-by-side dashboard with performance data"
+        },
+        {
+          "metric": "Booking",
+          "legacy": "Email chains, 30–60 min",
+          "warp": "One-click from quote to BOL"
+        },
+        {
+          "metric": "Tracking",
+          "legacy": "Call carrier for updates",
+          "warp": "Real-time dashboard with exception alerts"
+        },
+        {
+          "metric": "Exception handling",
+          "legacy": "Reactive, hours to discover",
+          "warp": "Proactive alerts within 30 minutes"
+        }
+      ],
+      "bottom_line": "Shipping LTL from Austin to Boise with WARP eliminates the manual back-and-forth that costs logistics teams hours per shipment."
+    },
+    "intro": "LTL freight from Austin, TX to Boise, ID covers approximately 1,616 miles with estimated transit of 5–7 business days. WARP's carrier network on this corridor includes 10+ providers with cross-dock facilities at Houston Terminal, Dallas Mega Hub, Memphis Freight Hub. Get instant lane-specific quotes, compare carriers, and book in minutes.",
+    "proof_section": "Validate this lane with a controlled pilot: Austin, TX to Boise, ID. Track quote response time, transit predictability, and exception rate across 10 active carriers on this 1616-mile corridor. Equipment includes Dry Van and Reefer (temp-controlled). Start with this single lane, measure results, and expand based on data.",
+    "faq": [
+      {
+        "q": "How much does LTL shipping from Austin to Boise cost?",
+        "a": "Estimated LTL rates on this lane range from $7,187 to $9,583 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote by entering your shipment details."
+      },
+      {
+        "q": "How fast can we launch a LTL pilot from Austin to Boise?",
+        "a": "Most shipping teams can scope a single-lane pilot and begin quoting within days. Start with this corridor, measure quote speed and transit reliability, then expand based on results."
+      },
+      {
+        "q": "How does WARP handle tracking on the Austin to Boise lane?",
+        "a": "WARP provides real-time visibility with scan events at pickup, in-transit checkpoints, and delivery confirmation. Exception alerts fire within 30 minutes of any status change so you can resolve issues before they impact customers."
+      },
+      {
+        "q": "What equipment is available for LTL freight from Austin to Boise?",
+        "a": "Common equipment on this lane includes Dry Van, Reefer (temp-controlled). Equipment availability varies by season and demand — WARP's carrier network provides multiple options for your freight profile."
+      },
+      {
+        "q": "Can we start with just the Austin to Boise lane before expanding?",
+        "a": "Yes. A single-lane rollout lets you validate WARP's performance on this specific corridor before committing to additional lanes. Most teams expand within weeks after seeing results."
+      }
+    ],
+    "schema_breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WARP",
+          "item": "https://www.wearewarp.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LTL Freight",
+          "item": "https://www.wearewarp.com/guides/ltl"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Austin to Boise"
+        }
+      ]
+    },
+    "schema_service": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "LTL Freight Service — Austin to Boise",
+      "provider": {
+        "@type": "Organization",
+        "name": "WARP",
+        "url": "https://www.wearewarp.com"
+      },
+      "areaServed": [
+        "Austin, TX",
+        "Boise, ID"
+      ],
+      "description": "LTL freight shipping from Austin, TX to Boise, ID with instant quoting, carrier comparison, and real-time tracking."
+    },
+    "schema_organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "WARP",
+      "url": "https://www.wearewarp.com",
+      "description": "Technology-driven freight logistics platform"
+    },
+    "quality_score": 100,
+    "banned_content_scan_result": "clean",
+    "rendered_html_validation_result": "passed"
+  },
+  "canonicalPath": "/austin-to-boise",
+  "quickAnswers": [
+    {
+      "question": "How much does LTL freight from Austin to Boise cost?",
+      "answer": "Estimated LTL rates on the Austin to Boise lane range from $7,187 to $9,583 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote with WARP."
+    },
+    {
+      "question": "How long does LTL transit take from Austin to Boise?",
+      "answer": "Estimated transit time for LTL freight on this 1616-mile lane is 5–7 business days under standard conditions."
+    }
+  ],
+  "contentFingerprint": "278792172",
+  "origin": "Austin, TX",
+  "destination": "Boise, ID",
+  "mode": "LTL",
+  "segment": "smb"
+}

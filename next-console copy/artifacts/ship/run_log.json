@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-03-07T02:29:06.247Z",
+  "dryRun": true,
+  "emailAttempted": false,
+  "emailSent": false,
+  "messageId": null,
+  "errorSummary": null,
+  "urlsTried": null,
+  "publishStatus": null,
+  "fieldAudit": null,
+  "smtpHost": "smtp.gmail.com",
+  "smtpPort": 465,
+  "from": "mickey@wearewarp.com",
+  "to": "troy@wearewarp.com",
+  "subject": "Warp Draft Ready Chicago To Dallas LTL"
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "description": "Approved meta description template variants. NOT yet consumed — activate_when meta_pattern_weights moves to ACTIVE.",
+  "classification": "future-ready-scaffold",
+  "consumed_by": "NONE (inactive dimension per config/learning-scope.json)",
+  "activate_when": "Meta selection logic is added to lib/lane-page-schema.js",
+  "variants": {
+    "default": {
+      "id": "meta_default",
+      "template": "Ship {mode} freight from {origin} to {destination}. {transit_range} transit, {carrier_count} vetted carriers, real-time tracking. Get instant quotes from WARP.",
+      "notes": "Current pattern: operational facts + CTA."
+    },
+    "cost_forward": {
+      "id": "meta_cost_forward",
+      "template": "Get {mode} shipping rates from {origin} to {destination}. Per-pallet pricing, {transit_range} transit, no hidden fees. Quote instantly with WARP.",
+      "notes": "Leads with pricing for cost-intent queries."
+    },
+    "proof_forward": {
+      "id": "meta_proof_forward",
+      "template": "{mode} freight from {origin} to {destination} with {carrier_count} carriers and cross-dock facilities. {transit_range} transit. Real-time tracking and managed delivery.",
+      "notes": "Leads with network proof for trust-building."
+    },
+    "speed_forward": {
+      "id": "meta_speed_forward",
+      "template": "{transit_range} {mode} transit from {origin} to {destination}. Quote in seconds, book instantly, track in real time. WARP managed freight.",
+      "notes": "Leads with speed signals for urgency-intent queries."
+    }
+  },
+  "constraints": {
+    "max_length": 160,
+    "min_length": 80,
+    "must_contain": ["origin_city", "destination_city"]
+  }
+}

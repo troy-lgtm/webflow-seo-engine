@@ -1,0 +1,27 @@
+{
+  "discovery": {
+    "week_1_indexed_ratio": { "low": 0.05, "mid": 0.12, "high": 0.20 },
+    "week_4_indexed_ratio": { "low": 0.30, "mid": 0.50, "high": 0.70 },
+    "month_2_indexed_ratio": { "low": 0.50, "mid": 0.70, "high": 0.85 }
+  },
+  "impressions_per_indexed_page_per_month": {
+    "low": 5,
+    "mid": 25,
+    "high": 80
+  },
+  "ctr_lane_pages": {
+    "low": 0.005,
+    "mid": 0.012,
+    "high": 0.02
+  },
+  "click_to_quote_start": {
+    "low": 0.01,
+    "mid": 0.03,
+    "high": 0.05
+  },
+  "quote_start_to_booking": {
+    "low": 0.05,
+    "mid": 0.10,
+    "high": 0.20
+  }
+}

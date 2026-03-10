@@ -1,0 +1,26 @@
+{
+  "endpoint": "https://api.webflow.com/v2/collections/68dbd9b0badadf2b8fa9a397/items/dry-run-item-edit",
+  "method": "PATCH",
+  "item_id": "dry-run-item-edit",
+  "fields": {
+    "name": "Test Lane Edit Title",
+    "slug": "test-lane-edit",
+    "seo-title": "Test Lane Edit Title",
+    "seo-description": "Test meta",
+    "h1": "Test lane edit heading",
+    "intro": "This is a long intro paragraph that should be shortened when the edit instruction says to.",
+    "problem-section": "The problem is complex and multifaceted requiring deep analysis.",
+    "solution-section": "WARP solves this with a unified approach.",
+    "origin": "Test, TX",
+    "destination": "Test, CA",
+    "mode": "LTL",
+    "segment": "smb",
+    "canonical-url": "/test-lane-edit",
+    "cta-primary-text": "Book Call",
+    "cta-primary-url": "https://example.com/book",
+    "cta-secondary-text": "Get Quote",
+    "cta-secondary-url": "https://example.com/quote"
+  },
+  "dry_run": true,
+  "generated_at": "2026-03-07T02:29:06.419Z"
+}

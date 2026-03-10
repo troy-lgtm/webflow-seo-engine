@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-03-06T11:16:26.971Z",
+  "total_rendered": 1220,
+  "total_failed": 0,
+  "by_corridor": {
+    "other": 1035,
+    "socal-phoenix": 3,
+    "pnw-socal": 12,
+    "socal-texas": 12,
+    "la-chicago": 2,
+    "mountain-west": 10,
+    "texas-triangle": 10,
+    "chicago-dfw": 2,
+    "texas-southeast": 28,
+    "midwest-southeast": 35,
+    "northeast-midwest": 20,
+    "southeast-retail": 25,
+    "florida-northeast": 16,
+    "northeast-regional": 10
+  },
+  "by_lane_set": {
+    "tier1_core": 780,
+    "tier1_to_tier2_expansion": 440
+  },
+  "failed_slugs": [],
+  "avg_body_content_length": 4382
+}

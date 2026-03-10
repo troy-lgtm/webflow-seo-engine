@@ -1,0 +1,22 @@
+{
+  "endpoint": "https://api.webflow.com/v2/collections/(dry run)/items",
+  "method": "POST",
+  "site_id": "(dry run)",
+  "collection_id": "(dry run)",
+  "fields": {
+    "name": "Chicago, IL to Dallas, TX LTL Freight Quotes | WARP",
+    "slug": "chicago-to-dallas",
+    "seo-title": "Chicago, IL to Dallas, TX LTL Freight Quotes | WARP",
+    "seo-description": "Compare LTL freight options from Chicago, IL to Dallas, TX. Small and mid-size shipping teams get lane-specific estimated pricing.",
+    "h1": "Chicago, IL to Dallas, TX LTL freight quotes",
+    "intro": "Small and mid-size shipping teams moving LTL freight from Chicago, IL to Dallas, TX can use this lane-specific workflow to compare options, reduce manual quote cycles, and book faster with stronger service visibility.",
+    "canonical": "/chicago-to-dallas",
+    "mode": "LTL",
+    "segment": "smb",
+    "origin": "Chicago, IL",
+    "destination": "Dallas, TX"
+  },
+  "is_draft": true,
+  "dry_run": true,
+  "generated_at": "2026-03-05T07:08:51.247Z"
+}

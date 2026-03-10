@@ -1,0 +1,164 @@
+{
+  "version": "1.0.0",
+  "description": "Canonical FAQ roster with explicit IDs. Extracted from lane-archetypes.js. Each FAQ has a stable ID used for bundle logging, weight tracking, and experiment comparison. IDs are immutable once assigned.",
+  "classification": "runtime-used",
+  "consumed_by": "lib/lane-archetypes.js → getArchetypeFaq()",
+  "id_format": "{archetype_id}_{pool}_{index:02d}",
+  "archetypes": {
+    "short_haul_metro": {
+      "core": [
+        { "id": "short_haul_metro_core_01", "topic": "transit_speed", "q_template": "How fast is {mode} transit from {origin} to {dest}?" },
+        { "id": "short_haul_metro_core_02", "topic": "same_day_pickup", "q_template": "Are same-day {mode} pickups available from {origin}?" },
+        { "id": "short_haul_metro_core_03", "topic": "average_cost", "q_template": "What is the average {mode} cost from {origin} to {dest}?" },
+        { "id": "short_haul_metro_core_04", "topic": "carrier_availability", "q_template": "How does carrier availability compare on the {origin} to {dest} {mode} lane?" },
+        { "id": "short_haul_metro_core_05", "topic": "last_mile_delivery", "q_template": "Can I schedule last-mile delivery windows for {mode} freight arriving in {dest}?" },
+        { "id": "short_haul_metro_core_06", "topic": "mode_comparison", "q_template": "Is {mode} or FTL better for short-haul freight between {origin} and {dest}?" },
+        { "id": "short_haul_metro_core_07", "topic": "equipment_types", "q_template": "What equipment types run {mode} between {origin} and {dest}?" },
+        { "id": "short_haul_metro_core_08", "topic": "cost_reduction", "q_template": "How do I reduce {mode} shipping costs on the {origin} to {dest} lane?" }
+      ],
+      "variants": [
+        { "id": "short_haul_metro_var_01", "topic": "pickup_windows", "q_template": "What pickup windows are standard for {mode} freight leaving {origin}?" },
+        { "id": "short_haul_metro_var_02", "topic": "weather_impact", "q_template": "Does weather impact {mode} transit between {origin} and {dest}?" },
+        { "id": "short_haul_metro_var_03", "topic": "real_time_tracking", "q_template": "Can I track {mode} shipments in real time on this lane?" },
+        { "id": "short_haul_metro_var_04", "topic": "minimum_shipment", "q_template": "What is the minimum shipment size for {mode} from {origin} to {dest}?" },
+        { "id": "short_haul_metro_var_05", "topic": "weekend_delivery", "q_template": "Are weekend {mode} deliveries available between {origin} and {dest}?" },
+        { "id": "short_haul_metro_var_06", "topic": "booking_lead_time", "q_template": "How far in advance should I book {mode} freight from {origin} to {dest}?" }
+      ]
+    },
+    "port_to_inland": {
+      "core": [
+        { "id": "port_to_inland_core_01", "topic": "port_congestion", "q_template": "How does port congestion at {origin} affect {mode} transit to {dest}?" },
+        { "id": "port_to_inland_core_02", "topic": "intermodal_options", "q_template": "What intermodal options exist for {mode} freight from {origin} to {dest}?" },
+        { "id": "port_to_inland_core_03", "topic": "customs_delays", "q_template": "Are there customs clearance delays on the {origin} to {dest} {mode} lane?" },
+        { "id": "port_to_inland_core_04", "topic": "chassis_equipment", "q_template": "What chassis and equipment are available for {mode} drayage from {origin}?" },
+        { "id": "port_to_inland_core_05", "topic": "demurrage_detention", "q_template": "How do demurrage and detention fees work on the {origin} to {dest} lane?" },
+        { "id": "port_to_inland_core_06", "topic": "container_consolidation", "q_template": "Can I consolidate import containers for {mode} shipping to {dest}?" },
+        { "id": "port_to_inland_core_07", "topic": "drayage_cost", "q_template": "What is the typical {mode} drayage cost from {origin} port to {dest}?" },
+        { "id": "port_to_inland_core_08", "topic": "storage_fees", "q_template": "How do I avoid container storage fees when shipping {mode} from {origin} to {dest}?" }
+      ],
+      "variants": [
+        { "id": "port_to_inland_var_01", "topic": "documents", "q_template": "What documents are needed for {mode} freight leaving {origin} port?" },
+        { "id": "port_to_inland_var_02", "topic": "transloading", "q_template": "Can I transload containers at {origin} for {mode} delivery to {dest}?" },
+        { "id": "port_to_inland_var_03", "topic": "seasonal_volume", "q_template": "How does seasonal volume affect {mode} rates from {origin} to {dest}?" },
+        { "id": "port_to_inland_var_04", "topic": "weight_limits", "q_template": "What are the weight limits for {mode} containers from {origin} to {dest}?" },
+        { "id": "port_to_inland_var_05", "topic": "bonded_trucking", "q_template": "Is bonded trucking available for {mode} shipments from {origin} to {dest}?" },
+        { "id": "port_to_inland_var_06", "topic": "vessel_coordination", "q_template": "How do I coordinate {mode} drayage with ocean vessel schedules at {origin}?" },
+        { "id": "port_to_inland_var_07", "topic": "customs_exam", "q_template": "What happens if my {mode} container is held for customs exam at {origin}?" },
+        { "id": "port_to_inland_var_08", "topic": "inland_port", "q_template": "Are there inland port options for {mode} freight destined for {dest}?" }
+      ]
+    },
+    "energy_corridor": {
+      "core": [
+        { "id": "energy_corridor_core_01", "topic": "specialized_equipment", "q_template": "What specialized equipment is available for {mode} energy freight from {origin} to {dest}?" },
+        { "id": "energy_corridor_core_02", "topic": "permits", "q_template": "Do I need permits for {mode} oversized shipments from {origin} to {dest}?" },
+        { "id": "energy_corridor_core_03", "topic": "market_cycles", "q_template": "How do oil and gas market cycles affect {mode} rates on the {origin} to {dest} lane?" },
+        { "id": "energy_corridor_core_04", "topic": "escort_vehicles", "q_template": "Are escort vehicles required for {mode} freight between {origin} and {dest}?" },
+        { "id": "energy_corridor_core_05", "topic": "compliance", "q_template": "What compliance certifications should {mode} carriers have on this energy lane?" },
+        { "id": "energy_corridor_core_06", "topic": "heavy_equipment", "q_template": "Can I ship pipe, steel, or heavy equipment via {mode} from {origin} to {dest}?" },
+        { "id": "energy_corridor_core_07", "topic": "weather_impact", "q_template": "How does weather impact {mode} energy freight between {origin} and {dest}?" },
+        { "id": "energy_corridor_core_08", "topic": "lead_time", "q_template": "What is the typical lead time for booking {mode} energy freight from {origin} to {dest}?" }
+      ],
+      "variants": [
+        { "id": "energy_corridor_var_01", "topic": "weight_restrictions", "q_template": "Are there weight restrictions on {mode} routes between {origin} and {dest}?" },
+        { "id": "energy_corridor_var_02", "topic": "consolidation", "q_template": "Can I consolidate energy equipment shipments via {mode} from {origin} to {dest}?" },
+        { "id": "energy_corridor_var_03", "topic": "tracking", "q_template": "How do I track oversized {mode} loads between {origin} and {dest}?" },
+        { "id": "energy_corridor_var_04", "topic": "insurance", "q_template": "What insurance coverage is recommended for {mode} energy freight on this lane?" },
+        { "id": "energy_corridor_var_05", "topic": "hazmat", "q_template": "Are hazmat {mode} shipments available from {origin} to {dest}?" },
+        { "id": "energy_corridor_var_06", "topic": "project_timelines", "q_template": "How do project timelines affect {mode} capacity on the {origin} to {dest} corridor?" }
+      ]
+    },
+    "agriculture_lane": {
+      "core": [
+        { "id": "agriculture_lane_core_01", "topic": "peak_season", "q_template": "When is peak season for {mode} agriculture freight from {origin} to {dest}?" },
+        { "id": "agriculture_lane_core_02", "topic": "temperature_control", "q_template": "Are temperature-controlled {mode} trailers available from {origin} to {dest}?" },
+        { "id": "agriculture_lane_core_03", "topic": "rate_lock", "q_template": "How do I lock in {mode} rates before harvest season on the {origin} to {dest} lane?" },
+        { "id": "agriculture_lane_core_04", "topic": "fsma_compliance", "q_template": "What FSMA compliance requirements apply to {mode} food freight from {origin} to {dest}?" },
+        { "id": "agriculture_lane_core_05", "topic": "bulk_grain", "q_template": "Can I ship grain and bulk commodities via {mode} from {origin} to {dest}?" },
+        { "id": "agriculture_lane_core_06", "topic": "harvest_capacity", "q_template": "How does harvest timing affect {mode} capacity between {origin} and {dest}?" },
+        { "id": "agriculture_lane_core_07", "topic": "delay_handling", "q_template": "What happens if {mode} produce freight is delayed between {origin} and {dest}?" },
+        { "id": "agriculture_lane_core_08", "topic": "weight_exemptions", "q_template": "Are there weight exemptions for {mode} agricultural loads from {origin} to {dest}?" }
+      ],
+      "variants": [
+        { "id": "agriculture_lane_var_01", "topic": "temp_ranges", "q_template": "What temperature ranges do reefer {mode} trailers maintain on the {origin} to {dest} lane?" },
+        { "id": "agriculture_lane_var_02", "topic": "mixed_loads", "q_template": "Can I combine produce and dry goods in a single {mode} shipment from {origin} to {dest}?" },
+        { "id": "agriculture_lane_var_03", "topic": "rejected_loads", "q_template": "How do I handle rejected {mode} produce loads at {dest}?" },
+        { "id": "agriculture_lane_var_04", "topic": "packaging", "q_template": "What packaging standards apply to {mode} agricultural freight from {origin} to {dest}?" },
+        { "id": "agriculture_lane_var_05", "topic": "organic_tracking", "q_template": "Is organic certification tracking available for {mode} freight from {origin} to {dest}?" },
+        { "id": "agriculture_lane_var_06", "topic": "harvest_planning", "q_template": "How do I plan {mode} freight around unpredictable harvest dates?" },
+        { "id": "agriculture_lane_var_07", "topic": "reefer_surcharges", "q_template": "What refrigeration fuel surcharges apply to {mode} reefer freight on this lane?" }
+      ]
+    },
+    "ecommerce_corridor": {
+      "core": [
+        { "id": "ecommerce_corridor_core_01", "topic": "volume_rates", "q_template": "How does e-commerce volume affect {mode} rates from {origin} to {dest}?" },
+        { "id": "ecommerce_corridor_core_02", "topic": "fulfillment_speed", "q_template": "What is the fastest {mode} transit for e-commerce freight from {origin} to {dest}?" },
+        { "id": "ecommerce_corridor_core_03", "topic": "returns_flow", "q_template": "How does WARP handle reverse logistics for {mode} returns from {dest} to {origin}?" },
+        { "id": "ecommerce_corridor_core_04", "topic": "parcel_consolidation", "q_template": "Can I consolidate e-commerce parcels into {mode} shipments from {origin} to {dest}?" },
+        { "id": "ecommerce_corridor_core_05", "topic": "peak_ecommerce", "q_template": "How does peak e-commerce season affect {mode} capacity from {origin} to {dest}?" },
+        { "id": "ecommerce_corridor_core_06", "topic": "last_mile", "q_template": "What last-mile options exist for {mode} e-commerce freight arriving in {dest}?" },
+        { "id": "ecommerce_corridor_core_07", "topic": "inventory_replenishment", "q_template": "How do I optimize {mode} inventory replenishment between {origin} and {dest}?" },
+        { "id": "ecommerce_corridor_core_08", "topic": "packaging_requirements", "q_template": "What packaging requirements apply to {mode} e-commerce shipments from {origin} to {dest}?" }
+      ],
+      "variants": []
+    },
+    "long_haul_interstate": {
+      "core": [
+        { "id": "long_haul_interstate_core_01", "topic": "transit_time", "q_template": "What is the typical {mode} transit time from {origin} to {dest}?" },
+        { "id": "long_haul_interstate_core_02", "topic": "routing_options", "q_template": "What routing options exist for {mode} freight from {origin} to {dest}?" },
+        { "id": "long_haul_interstate_core_03", "topic": "cost_per_mile", "q_template": "How does per-mile {mode} cost compare on the {origin} to {dest} lane?" },
+        { "id": "long_haul_interstate_core_04", "topic": "consistency", "q_template": "How consistent is {mode} service on the {origin} to {dest} lane?" },
+        { "id": "long_haul_interstate_core_05", "topic": "cross_dock", "q_template": "How many cross-dock transfers does {mode} freight make between {origin} and {dest}?" },
+        { "id": "long_haul_interstate_core_06", "topic": "tracking", "q_template": "Can I track {mode} shipments across all states between {origin} and {dest}?" },
+        { "id": "long_haul_interstate_core_07", "topic": "weather_delays", "q_template": "How do seasonal weather patterns affect {mode} transit from {origin} to {dest}?" },
+        { "id": "long_haul_interstate_core_08", "topic": "volume_discounts", "q_template": "Are volume discounts available for recurring {mode} shipments from {origin} to {dest}?" }
+      ],
+      "variants": [
+        { "id": "long_haul_interstate_var_01", "topic": "fuel_surcharges", "q_template": "How do fuel surcharges affect {mode} rates on the {origin} to {dest} lane?" },
+        { "id": "long_haul_interstate_var_02", "topic": "intermodal", "q_template": "Is intermodal {mode} an option for the {origin} to {dest} corridor?" },
+        { "id": "long_haul_interstate_var_03", "topic": "damage_risk", "q_template": "How does WARP minimize damage risk on long-haul {mode} from {origin} to {dest}?" },
+        { "id": "long_haul_interstate_var_04", "topic": "appointment_scheduling", "q_template": "Can I schedule delivery appointments for {mode} freight arriving in {dest}?" },
+        { "id": "long_haul_interstate_var_05", "topic": "partial_loads", "q_template": "Are partial truckload options available for {mode} on the {origin} to {dest} lane?" },
+        { "id": "long_haul_interstate_var_06", "topic": "claims_process", "q_template": "What is the claims process for {mode} freight damage on the {origin} to {dest} lane?" }
+      ]
+    },
+    "regional_consolidation": {
+      "core": [
+        { "id": "regional_consolidation_core_01", "topic": "consolidation_benefits", "q_template": "What consolidation benefits exist for {mode} freight from {origin} to {dest}?" },
+        { "id": "regional_consolidation_core_02", "topic": "hub_routing", "q_template": "How does hub-based routing work for {mode} shipments from {origin} to {dest}?" },
+        { "id": "regional_consolidation_core_03", "topic": "transit_time", "q_template": "What is the expected {mode} transit time from {origin} to {dest}?" },
+        { "id": "regional_consolidation_core_04", "topic": "cost_savings", "q_template": "How much can consolidation save on {mode} freight from {origin} to {dest}?" },
+        { "id": "regional_consolidation_core_05", "topic": "frequency", "q_template": "How often do {mode} consolidation runs operate between {origin} and {dest}?" },
+        { "id": "regional_consolidation_core_06", "topic": "mixed_freight", "q_template": "Can I mix freight classes in a consolidated {mode} shipment from {origin} to {dest}?" },
+        { "id": "regional_consolidation_core_07", "topic": "pickup_flexibility", "q_template": "How flexible are pickup windows for consolidated {mode} freight from {origin}?" },
+        { "id": "regional_consolidation_core_08", "topic": "tracking", "q_template": "How is consolidated {mode} freight tracked from {origin} to {dest}?" }
+      ],
+      "variants": []
+    },
+    "high_demand_lane": {
+      "core": [
+        { "id": "high_demand_lane_core_01", "topic": "capacity", "q_template": "How reliable is {mode} capacity on the high-volume {origin} to {dest} lane?" },
+        { "id": "high_demand_lane_core_02", "topic": "rate_stability", "q_template": "How stable are {mode} rates on the {origin} to {dest} corridor?" },
+        { "id": "high_demand_lane_core_03", "topic": "peak_management", "q_template": "How does WARP manage peak demand for {mode} freight from {origin} to {dest}?" },
+        { "id": "high_demand_lane_core_04", "topic": "committed_capacity", "q_template": "Can I secure committed {mode} capacity on the {origin} to {dest} lane?" },
+        { "id": "high_demand_lane_core_05", "topic": "service_levels", "q_template": "What service levels are available for {mode} freight from {origin} to {dest}?" },
+        { "id": "high_demand_lane_core_06", "topic": "carrier_network", "q_template": "How deep is the {mode} carrier network on the {origin} to {dest} lane?" },
+        { "id": "high_demand_lane_core_07", "topic": "volume_pricing", "q_template": "How does volume affect {mode} pricing on the {origin} to {dest} corridor?" },
+        { "id": "high_demand_lane_core_08", "topic": "seasonal_patterns", "q_template": "What seasonal patterns affect {mode} demand on the {origin} to {dest} lane?" }
+      ],
+      "variants": []
+    }
+  },
+  "universal_faqs": {
+    "description": "FAQs generated by lane-factory.js FAQ_TEMPLATES, shared across all archetypes",
+    "templates": [
+      { "id": "universal_transit_01", "topic": "transit_time", "template_key": "transit" },
+      { "id": "universal_cost_01", "topic": "cost_estimate", "template_key": "cost" },
+      { "id": "universal_pilot_01", "topic": "pilot_launch", "template_key": "pilot" },
+      { "id": "universal_tracking_01", "topic": "tracking", "template_key": "tracking" },
+      { "id": "universal_equipment_01", "topic": "equipment", "template_key": "equipment" },
+      { "id": "universal_single_lane_01", "topic": "single_lane_start", "template_key": "single_lane" }
+    ]
+  },
+  "total_faq_count": 140,
+  "notes": "IDs are immutable once assigned. New FAQs get new IDs. Retired FAQs keep their IDs but get weight 0.3 via learning system."
+}

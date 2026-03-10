@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WARP SEO Engine Dashboard</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+    :root {
+      --warp-accent: #00ff33;
+      --warp-bg: #0b0c0e;
+      --warp-surface-1: #121418;
+      --warp-surface-2: #171a1f;
+      --warp-surface-3: #1f232a;
+      --warp-text: #f5f7fa;
+      --warp-text-muted: #c0c7d4;
+      --warp-text-dim: #8e97a6;
+      --warp-border: #272c35;
+      --warp-border-strong: #353c47;
+      --warp-success: #22c55e;
+      --warp-warning: #f59e0b;
+      --warp-info: #38bdf8;
+      --shadow-elevated: 0 28px 80px rgba(0, 0, 0, 0.5);
+      --shadow-soft: 0 12px 32px rgba(0, 0, 0, 0.4);
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      color: var(--warp-text);
+      background: radial-gradient(circle at top, rgba(0, 255, 51, 0.08), transparent 45%), var(--warp-bg);
+      font-family: "Space Grotesk", sans-serif;
+      position: relative;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: linear-gradient(180deg, rgba(11, 12, 14, 0.55) 0%, rgba(11, 12, 14, 0.94) 45%, rgba(11, 12, 14, 0.98) 100%), url("./assets/warp-soul-reference.png");
+      background-position: center top;
+      background-size: cover;
+      opacity: 0.5;
+      pointer-events: none;
+      z-index: -1;
+    }
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 40px;
+    }
+    .hero {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 18px;
+      border: 1px solid var(--warp-border);
+      border-radius: 14px;
+      background: linear-gradient(180deg, rgba(18, 20, 24, 0.92) 0%, rgba(23, 26, 31, 0.92) 100%);
+      box-shadow: var(--shadow-elevated);
+      padding: 18px;
+      backdrop-filter: blur(10px);
+    }
+    .hero-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid rgba(0, 255, 51, 0.72);
+      color: var(--warp-accent);
+      border-radius: 10px;
+      padding: 8px 12px;
+      font-size: 0.82rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .hero-actions {
+      display: inline-flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      border-radius: 10px;
+      min-height: 40px;
+      padding: 9px 14px;
+      font-size: 0.9rem;
+      border: 1px solid var(--warp-border-strong);
+      background: var(--warp-surface-2);
+      color: var(--warp-text);
+      font-family: inherit;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .btn.primary {
+      background: var(--warp-accent);
+      color: #0b0c0e;
+      border-color: rgba(0, 255, 51, 0.9);
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(1.4rem, 2.3vw, 2.05rem);
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      color: var(--warp-text-muted);
+      margin: 0;
+      font-size: 0.95rem;
+    }
+    .micro {
+      color: var(--warp-text-dim);
+      margin: 0;
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .card {
+      border: 1px solid var(--warp-border);
+      border-radius: 12px;
+      background: linear-gradient(180deg, var(--warp-surface-1) 0%, var(--warp-surface-2) 100%);
+      box-shadow: var(--shadow-soft);
+      padding: 14px;
+      min-height: 96px;
+    }
+    .k {
+      color: var(--warp-text-dim);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+    }
+    .v {
+      font-size: 1.7rem;
+      font-weight: 700;
+      margin-top: 6px;
+    }
+    .label {
+      margin-top: 4px;
+      font-size: 0.85rem;
+      color: var(--warp-text-muted);
+    }
+    .two {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 12px;
+    }
+    .stack {
+      display: grid;
+      gap: 12px;
+    }
+    .panel {
+      border: 1px solid var(--warp-border);
+      border-radius: 12px;
+      background: linear-gradient(180deg, var(--warp-surface-1) 0%, var(--warp-surface-2) 100%);
+      box-shadow: var(--shadow-soft);
+      padding: 14px;
+    }
+    .panel h2 {
+      margin: 0 0 10px;
+      font-size: 0.86rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--warp-text-dim);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    th,
+    td {
+      text-align: left;
+      border-bottom: 1px solid rgba(39, 44, 53, 0.9);
+      padding: 8px 4px;
+      vertical-align: top;
+    }
+    th {
+      color: var(--warp-text-dim);
+      font-weight: 600;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+    }
+    .pill {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 3px 9px;
+      font-size: 0.71rem;
+      border: 1px solid rgba(0, 255, 51, 0.35);
+      color: var(--warp-accent);
+      background: rgba(0, 255, 51, 0.08);
+      font-family: "JetBrains Mono", monospace;
+    }
+    .muted {
+      color: var(--warp-text-muted);
+      font-size: 0.86rem;
+    }
+    .good {
+      color: var(--warp-success);
+      font-weight: 700;
+    }
+    .warn {
+      color: var(--warp-warning);
+      font-weight: 700;
+    }
+    .goal-list {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--warp-text-muted);
+      display: grid;
+      gap: 7px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 1040px) {
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .two {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 620px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-top {
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-top">
+        <div class="brand">WARP</div>
+        <div class="hero-actions">
+          <a class="btn" href="./builder.html" style="text-decoration:none;display:inline-flex;align-items:center;">Open Lane Builder</a>
+          <button id="dashBookBtn" class="btn">Book 15-min Fit Call</button>
+          <button id="dashQuoteBtn" class="btn primary">Get Instant Quote</button>
+        </div>
+      </div>
+      <p class="micro">Production Command Center</p>
+      <h1>WARP SEO Engine Production Dashboard</h1>
+      <p id="generatedAt" class="sub">Loading dashboard data...</p>
+      <p class="sub">Goal: dominate SMB + enterprise shipper keywords and convert organic demand into self-serve quotes + enterprise meetings.</p>
+    </section>
+
+    <section class="grid" id="kpiGrid"></section>
+
+    <section class="two">
+      <div class="panel">
+        <h2>Top Optimization Backlog</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Slug</th>
+              <th>Priority</th>
+              <th>Friction</th>
+              <th>Conv.</th>
+              <th>Top Hypothesis</th>
+            </tr>
+          </thead>
+          <tbody id="backlogBody"></tbody>
+        </table>
+      </div>
+      <div class="stack">
+        <div class="panel">
+          <h2>Engine Goals</h2>
+          <ul id="goalList" class="goal-list"></ul>
+        </div>
+        <div class="panel">
+          <h2>Recent Approved Pages</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Slug</th>
+                <th>Segment</th>
+                <th>Title</th>
+              </tr>
+            </thead>
+            <tbody id="recentBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./data.js"></script>
+  <script>
+    const BOOK_URL = "https://www.wearewarp.com/book";
+    const QUOTE_URL = "https://www.wearewarp.com/quote";
+    function safeOpen(url) {
+      try {
+        const w = window.open(url, "_blank", "noopener,noreferrer");
+        if (!w) alert(`Popup blocked. Open manually: ${url}`);
+      } catch (e) {
+        alert(`Open manually: ${url}`);
+      }
+    }
+
+    const data = window.DASHBOARD_DATA || {};
+    const safe = (v, d = 0) => (v === undefined || v === null ? d : v);
+
+    const dashBookBtn = document.getElementById("dashBookBtn");
+    const dashQuoteBtn = document.getElementById("dashQuoteBtn");
+    if (dashBookBtn) dashBookBtn.onclick = () => safeOpen(BOOK_URL);
+    if (dashQuoteBtn) dashQuoteBtn.onclick = () => safeOpen(QUOTE_URL);
+
+    const generatedAt = document.getElementById("generatedAt");
+    generatedAt.textContent = `Generated: ${data.generated_at || "n/a"} | Guardrail: ${data?.goals?.guardrail || "n/a"}`;
+
+    const p = data.pipeline || {};
+    const cards = [
+      ["Keywords", safe(p.keywords), "Target keyword rows"],
+      ["Generated", safe(p.generated), "Draft pages produced"],
+      ["Approved", safe(p.approved), "QA-passing pages"],
+      ["Optimized", safe(p.optimized), "Self-learning edits"],
+      ["Published", safe(p.published), "Webflow published items"]
+    ];
+
+    const kpiGrid = document.getElementById("kpiGrid");
+    cards.forEach(([k, v, label]) => {
+      const div = document.createElement("article");
+      div.className = "card";
+      div.innerHTML = `<div class="k">${k}</div><div class="v">${v}</div><div class="label">${label}</div>`;
+      kpiGrid.appendChild(div);
+    });
+
+    const goalList = document.getElementById("goalList");
+    const goals = (data?.goals?.primary_kpis && data.goals.primary_kpis.length) ? data.goals.primary_kpis : [
+      "CTA CTR",
+      "Quote/Book start rate",
+      "Form submit rate",
+      "Qualified pipeline from SEO"
+    ];
+    goals.forEach(goal => {
+      const li = document.createElement("li");
+      li.textContent = goal;
+      goalList.appendChild(li);
+    });
+
+    const backlog = data.top_backlog || [];
+    const backlogBody = document.getElementById("backlogBody");
+    if (!backlog.length) {
+      backlogBody.innerHTML = `<tr><td colspan="5" class="muted">No backlog file yet. Build from GTM + Clarity first.</td></tr>`;
+    } else {
+      backlog.forEach(row => {
+        const tr = document.createElement("tr");
+        const firstHyp = (row.hypotheses && row.hypotheses[0]) ? row.hypotheses[0] : "No hypothesis";
+        tr.innerHTML = `
+          <td><span class="pill">${row.slug || "n/a"}</span></td>
+          <td class="${row.priority_score > 0 ? 'warn' : 'good'}">${(row.priority_score ?? 0).toFixed(2)}</td>
+          <td>${(row.friction_score ?? 0).toFixed(2)}</td>
+          <td>${(row.conversion_score ?? 0).toFixed(2)}</td>
+          <td class="muted">${firstHyp}</td>`;
+        backlogBody.appendChild(tr);
+      });
+    }
+
+    const recent = data.recent_pages || [];
+    const recentBody = document.getElementById("recentBody");
+    if (!recent.length) {
+      recentBody.innerHTML = `<tr><td colspan="3" class="muted">No approved pages found yet.</td></tr>`;
+    } else {
+      recent.forEach(row => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `<td><span class="pill">${row.slug || "n/a"}</span></td><td>${row.target_segment || "n/a"}</td><td class="muted">${row.seo_title || "n/a"}</td>`;
+        recentBody.appendChild(tr);
+      });
+    }
+  </script>
+</body>
+</html>

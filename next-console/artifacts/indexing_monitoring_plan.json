@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-03-06T12:00:00.000Z",
+  "total_pages_target": 1293,
+  "page_breakdown": {
+    "lane_pages": 1220,
+    "corridor_pages": 13,
+    "metro_pages": 51,
+    "guide_pages": 9,
+    "total": 1293
+  },
+  "healthy_indexing_targets": {
+    "week_1": { "target_pct": "10-20%", "pages_indexed_range": [129, 259] },
+    "week_2": { "target_pct": "30-50%", "pages_indexed_range": [388, 647] },
+    "week_4": { "target_pct": "60-80%", "pages_indexed_range": [776, 1034] }
+  },
+  "warning_thresholds": {
+    "week_2_below_20_pct": "WARNING: Indexing stalled. Check: sitemap submitted in GSC, internal linking present, no noindex tags, crawl budget not exhausted.",
+    "week_4_below_40_pct": "CRITICAL: Likely crawl or quality issue. Check: manual actions in GSC, thin content flags, duplicate content, canonical conflicts."
+  },
+  "what_to_watch_in_gsc": [
+    "Coverage report: check 'Discovered - currently not indexed' count",
+    "Coverage report: check 'Crawled - currently not indexed' (quality signal)",
+    "Sitemaps report: submitted vs indexed count per sitemap",
+    "Page indexing: check individual lane page index status",
+    "Core Web Vitals: ensure pages pass CWV thresholds",
+    "Mobile usability: ensure all pages pass mobile checks"
+  ],
+  "failure_modes": [
+    {
+      "symptom": "Pages discovered but not indexed",
+      "likely_cause": "Thin content or low perceived value",
+      "action": "Increase body content depth, add unique FAQs, improve internal linking"
+    },
+    {
+      "symptom": "Pages not discovered at all",
+      "likely_cause": "Sitemap not submitted or not crawled",
+      "action": "Submit sitemaps in GSC, add sitemap reference to robots.txt"
+    },
+    {
+      "symptom": "Indexing rate declining over time",
+      "likely_cause": "Crawl budget exhaustion or quality penalty",
+      "action": "Check crawl stats in GSC, reduce low-value pages, improve page uniqueness"
+    },
+    {
+      "symptom": "Pages indexed then dropped",
+      "likely_cause": "Content quality reassessment",
+      "action": "Improve content depth, add structured data, increase internal link equity"
+    }
+  ],
+  "recommended_actions": [
+    "Submit all sitemaps via Google Search Console immediately after publish",
+    "Request indexing for Week 1 pages manually in GSC URL inspection",
+    "Monitor Coverage report daily for first 2 weeks",
+    "Ensure robots.txt references sitemap-index.xml",
+    "Set up GSC email alerts for coverage drops"
+  ]
+}

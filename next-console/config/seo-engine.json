@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "demandThresholds": {
+    "gscImpressionsMin": 50,
+    "portalQuoteFrequencyMin": 3,
+    "keywordDemandMin": 1
+  },
+  "similarityThreshold": 0.92,
+  "qualityThreshold": 65,
+  "qualityHardFloor": 40,
+  "maxBlockedPages": 50,
+  "contentMinimums": {
+    "laneServicePage": {
+      "minFaqCount": 4,
+      "minIntroWords": 20,
+      "minGuidanceWords": 30,
+      "minOperationalWords": 20
+    },
+    "laneDataPage": {
+      "requireNumericRanges": true,
+      "requireTimestamp": true,
+      "requireInterpretation": true
+    }
+  },
+  "internalLinking": {
+    "minRelatedLanes": 5,
+    "maxRelatedLanes": 12,
+    "requireCorridorHub": true,
+    "requireToolLink": true
+  },
+  "canonicalPattern": "/lanes/{originSlug}-to-{destinationSlug}",
+  "noindexParameterPatterns": [
+    "utm_",
+    "origin=",
+    "dest=",
+    "ref=",
+    "fbclid",
+    "gclid"
+  ],
+  "toolPages": [
+    {
+      "id": "freight-quote",
+      "url": "/public/freight-quote",
+      "intent": "conversion",
+      "matchModes": ["LTL", "FTL", "Cargo Van / Box Truck"],
+      "pageTypes": ["lane_service"]
+    },
+    {
+      "id": "ltl-class-calculator",
+      "url": "/tools/ltl-freight-class-calculator",
+      "intent": "data",
+      "matchModes": ["LTL"],
+      "pageTypes": ["lane_data", "lane_service"]
+    },
+    {
+      "id": "ltl-rfp",
+      "url": "/tools/ltl-rfp",
+      "intent": "conversion",
+      "matchModes": ["LTL"],
+      "pageTypes": ["lane_service"]
+    }
+  ]
+}

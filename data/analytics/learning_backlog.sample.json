@@ -1,0 +1,104 @@
+{
+  "generated_at_utc": "2026-03-04T08:44:45Z",
+  "policy": {
+    "objective": "maximize qualified conversion without breaking design system",
+    "edit_mode": "content-only",
+    "note": "No layout, CSS, typography, or component tree edits permitted."
+  },
+  "pages": [
+    {
+      "slug": "flexport-alternative",
+      "sessions": 1200,
+      "cta_book_clicks": 86,
+      "cta_quote_clicks": 64,
+      "quote_starts": 49,
+      "book_starts": 61,
+      "form_submits": 23,
+      "rage_click_rate": 0.07,
+      "dead_click_rate": 0.06,
+      "quick_back_rate": 0.11,
+      "avg_scroll_depth": 0.58,
+      "session_recordings": 170,
+      "ctr": 0.125,
+      "start_rate": 0.09166666666666666,
+      "submit_rate": 0.019166666666666665,
+      "friction_score": 11.25,
+      "conversion_score": 815.8333333333334,
+      "priority_score": -260.69444444444446,
+      "safe_edit_scope": [
+        "seo_title",
+        "meta_description",
+        "h1",
+        "executive_summary",
+        "intro",
+        "problem_section",
+        "solution_section",
+        "proof_section",
+        "comparison_table_markdown",
+        "faq",
+        "llm_answer_snippets",
+        "visual_cards"
+      ],
+      "blocked_edit_scope": [
+        "layout_structure",
+        "component_tree",
+        "css",
+        "colors",
+        "fonts",
+        "spacing_system",
+        "webflow_interactions"
+      ],
+      "hypotheses": [
+        "clarify CTA copy and remove ambiguous action language above the fold",
+        "reduce non-clickable visual affordances in copy blocks and tighten link cues",
+        "front-load direct answer snippet and strengthen intent match in intro",
+        "compress intro and move proof higher on page",
+        "strengthen risk-reversal language near CTA and simplify value proposition"
+      ]
+    },
+    {
+      "slug": "self-service-freight-quotes",
+      "sessions": 980,
+      "cta_book_clicks": 38,
+      "cta_quote_clicks": 112,
+      "quote_starts": 94,
+      "book_starts": 26,
+      "form_submits": 31,
+      "rage_click_rate": 0.04,
+      "dead_click_rate": 0.03,
+      "quick_back_rate": 0.09,
+      "avg_scroll_depth": 0.71,
+      "session_recordings": 140,
+      "ctr": 0.15306122448979592,
+      "start_rate": 0.12244897959183673,
+      "submit_rate": 0.03163265306122449,
+      "friction_score": 7.5,
+      "conversion_score": 1059.1836734693877,
+      "priority_score": -345.5612244897959,
+      "safe_edit_scope": [
+        "seo_title",
+        "meta_description",
+        "h1",
+        "executive_summary",
+        "intro",
+        "problem_section",
+        "solution_section",
+        "proof_section",
+        "comparison_table_markdown",
+        "faq",
+        "llm_answer_snippets",
+        "visual_cards"
+      ],
+      "blocked_edit_scope": [
+        "layout_structure",
+        "component_tree",
+        "css",
+        "colors",
+        "fonts",
+        "spacing_system",
+        "webflow_interactions"
+      ],
+      "hypotheses": []
+    }
+  ]
+}

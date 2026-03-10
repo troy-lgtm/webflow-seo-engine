@@ -1,0 +1,42 @@
+{
+  "slug": "los-angeles-to-seattle",
+  "origin": "Los Angeles, CA",
+  "destination": "Seattle, WA",
+  "mode": "LTL",
+  "archetype": "standard_lane",
+  "archetype_label": "Standard Lane",
+  "canonical_path": "/los-angeles-to-seattle",
+  "seo_title": "Los Angeles, CA to Seattle, WA LTL Freight Quotes | WARP",
+  "h1": "Los Angeles, CA to Seattle, WA LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Los Angeles, CA to Seattle, WA. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "Small and mid-size shipping teams moving LTL freight from Los Angeles, CA to Seattle, WA can use this lane-specific workflow to compare options, reduce manual quote cycles, and book faster with stronger service visibility. This page provides LTL transit estimates, rate benchmarks, and carrier strategies tailored to the Los Angeles, CA to Seattle, WA lane.",
+  "faq": [
+    {
+      "q": "What metrics should we track on this LTL lane?",
+      "a": "Focus on quote response time, transit predictability, exception rate, and cost-per-shipment trends for a clear go/no-go scaling signal."
+    },
+    {
+      "q": "How fast can we launch a LTL pilot from Los Angeles, CA to Seattle, WA?",
+      "a": "Most small and mid-size shipping teams can define lane scope and start pilot quoting within days on the Los Angeles, CA to Seattle, WA LTL lane."
+    },
+    {
+      "q": "Do we need to migrate our entire process to use WARP for this lane?",
+      "a": "No. Use a fast, self-serve approach: start this single lane, measure results, and expand based on quick ROI evidence."
+    },
+    {
+      "q": "What makes LTL shipping different on the Los Angeles, CA to Seattle, WA lane?",
+      "a": "Each lane has unique volume patterns, carrier availability, and transit windows. WARP analyzes these factors to optimize your LTL operations for this corridor."
+    },
+    {
+      "q": "Can we start with just the Los Angeles, CA to Seattle, WA lane before expanding?",
+      "a": "Yes. A lane-first rollout lets you validate performance before scaling to additional corridors."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 1153,
+    "haversine_miles": 961,
+    "estimated_transit_days": "3-5",
+    "origin_region": "West Coast",
+    "destination_region": "Pacific Northwest"
+  }
+}

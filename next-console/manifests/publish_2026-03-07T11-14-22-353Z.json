@@ -1,0 +1,68 @@
+{
+  "run_id": "2026-03-07T11-14-22-353Z",
+  "script_name": "lanes_auto_publish.js",
+  "trigger_source": "autonomous-factory",
+  "dry_run": false,
+  "started_at": "2026-03-07T11:14:22.353Z",
+  "completed_at": "2026-03-07T11:27:26.526Z",
+  "duration_ms": 784173,
+  "intended_count": 5,
+  "attempted_count": 5,
+  "published_count": 5,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "deploy_status": "published_to_production",
+  "deploy_id": null,
+  "deploy_provider": "webflow",
+  "email_attempted": true,
+  "email_sent": true,
+  "email_recipient": "troy@wearewarp.com",
+  "email_error": null,
+  "email_skip_reason": null,
+  "email_provider_response": null,
+  "published_pages": [
+    {
+      "slug": "chicago-to-indianapolis",
+      "webflow_item_id": "69ac088ee377d114ad3bdbc5",
+      "url": "https://www.wearewarp.com/lanes/chicago-to-indianapolis"
+    },
+    {
+      "slug": "atlanta-to-orlando",
+      "webflow_item_id": "69ac08949e2175e051ab0e6d",
+      "url": "https://www.wearewarp.com/lanes/atlanta-to-orlando"
+    },
+    {
+      "slug": "tampa-to-new-york",
+      "webflow_item_id": "69ac089b53d25ffb9bff11e9",
+      "url": "https://www.wearewarp.com/lanes/tampa-to-new-york"
+    },
+    {
+      "slug": "los-angeles-to-denver",
+      "webflow_item_id": "69ac08a1b9709c7d87e730b4",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-denver"
+    },
+    {
+      "slug": "phoenix-to-new-york",
+      "webflow_item_id": "69ac08a7afd8ad39f59f3d94",
+      "url": "https://www.wearewarp.com/lanes/phoenix-to-new-york"
+    }
+  ],
+  "failed_pages": [],
+  "blocked_pages": [],
+  "published_urls": [
+    "https://www.wearewarp.com/lanes/chicago-to-indianapolis",
+    "https://www.wearewarp.com/lanes/atlanta-to-orlando",
+    "https://www.wearewarp.com/lanes/tampa-to-new-york",
+    "https://www.wearewarp.com/lanes/los-angeles-to-denver",
+    "https://www.wearewarp.com/lanes/phoenix-to-new-york"
+  ],
+  "sample_live_urls": [
+    "https://www.wearewarp.com/lanes/chicago-to-indianapolis",
+    "https://www.wearewarp.com/lanes/atlanta-to-orlando",
+    "https://www.wearewarp.com/lanes/tampa-to-new-york",
+    "https://www.wearewarp.com/lanes/los-angeles-to-denver",
+    "https://www.wearewarp.com/lanes/phoenix-to-new-york"
+  ],
+  "warnings": [],
+  "mode": "live"
+}

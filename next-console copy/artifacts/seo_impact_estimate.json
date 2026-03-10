@@ -1,0 +1,78 @@
+{
+  "run_id": "2026-03-05T21-58-21-904Z",
+  "timestamp": "2026-03-05T21:58:21.917Z",
+  "assumptions": {
+    "indexable_pages": 395,
+    "priority_corridor_share": 1,
+    "priority_boost": 1.3,
+    "linking_bonus": 1.1
+  },
+  "expected": {
+    "week_1": {
+      "indexed_pages": {
+        "low": 20,
+        "mid": 62,
+        "high": 113
+      },
+      "impressions": {
+        "low": 25,
+        "mid": 388,
+        "high": 2260
+      },
+      "clicks": {
+        "low": 0,
+        "mid": 5,
+        "high": 45
+      }
+    },
+    "week_4": {
+      "indexed_pages": {
+        "low": 119,
+        "mid": 257,
+        "high": 395
+      },
+      "impressions": {
+        "low": 595,
+        "mid": 6425,
+        "high": 31600
+      },
+      "clicks": {
+        "low": 3,
+        "mid": 77,
+        "high": 632
+      }
+    },
+    "month_2": {
+      "indexed_pages": {
+        "low": 198,
+        "mid": 359,
+        "high": 480
+      },
+      "impressions": {
+        "low": 990,
+        "mid": 8975,
+        "high": 38400
+      },
+      "clicks": {
+        "low": 5,
+        "mid": 108,
+        "high": 768
+      },
+      "quote_starts": {
+        "low": 0,
+        "mid": 3,
+        "high": 38
+      },
+      "bookings": {
+        "low": 0,
+        "mid": 0,
+        "high": 8
+      }
+    }
+  },
+  "notes": [
+    "These are benchmark-based directional ranges, not rank guarantees",
+    "Actual results depend on content quality, competition, and Google's crawl schedule",
+    "Priority corridor share: 100% — strong corridor focus"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tier1_core": {
+    "label": "Tier 1 Core",
+    "description": "Highest-volume national corridors between major metro freight hubs. These are the lanes with proven demand and carrier density.",
+    "priority": 1,
+    "recommended_batch_size": 250,
+    "launch_order": "first"
+  },
+  "tier1_to_tier2_expansion": {
+    "label": "Tier 1 → Tier 2 Expansion",
+    "description": "Expansion lanes connecting major hubs to growth markets. Lower initial volume but high growth potential.",
+    "priority": 2,
+    "recommended_batch_size": 200,
+    "launch_order": "second"
+  }
+}

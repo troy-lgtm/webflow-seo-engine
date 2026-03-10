@@ -1,0 +1,333 @@
+{
+  "run_id": "2026-03-06T21-20-43-512Z",
+  "script_name": "publish_next.js",
+  "receipt_generated_at": "2026-03-06T21:33:27.646Z",
+  "started_at": "2026-03-06T21:20:43.512Z",
+  "completed_at": "2026-03-06T21:20:48.426Z",
+  "final_status": "published_unverified",
+  "intended_count": 19,
+  "attempted_count": 5,
+  "published_count": 5,
+  "verified_live_count": 0,
+  "published_unverified_count": 5,
+  "failed_count": 0,
+  "blocked_count": 14,
+  "recipient": "troy@wearewarp.com",
+  "email_attempted": true,
+  "email_sent": true,
+  "email_provider_status": "<2bbe564c-fb3d-3608-4d6b-95b0160dbd4f@wearewarp.com>",
+  "manifest_path": "manifests/publish_2026-03-06T21-20-43-512Z.json",
+  "verified_live_urls": [],
+  "published_unverified_urls": [
+    {
+      "slug": "los-angeles-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-new-york",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/atlanta-to-new-york",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "houston-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/houston-to-new-york",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "kansas-city-to-chicago",
+      "url": "https://www.wearewarp.com/lanes/kansas-city-to-chicago",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "indianapolis-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/indianapolis-to-new-york",
+      "httpStatus": 404,
+      "error": "HTTP 404"
+    }
+  ],
+  "failed_slugs": [],
+  "blocked_slugs": [
+    {
+      "slug": "dallas-to-new-york",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-chicago",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "houston-to-chicago",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "dallas-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-houston",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "dallas-to-houston",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "dallas-to-chicago",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-dallas",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "chicago-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "phoenix-to-atlanta",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    },
+    {
+      "slug": "los-angeles-to-memphis",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    }
+  ],
+  "verification_attempts": [
+    {
+      "slug": "los-angeles-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-new-york",
+      "attempts": [
+        {
+          "attempt": 1,
+          "timestamp": "2026-03-06T21:20:59.094Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 2,
+          "timestamp": "2026-03-06T21:21:19.203Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 3,
+          "timestamp": "2026-03-06T21:21:59.298Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 4,
+          "timestamp": "2026-03-06T21:23:19.409Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 5,
+          "timestamp": "2026-03-06T21:23:19.989Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/atlanta-to-new-york",
+      "attempts": [
+        {
+          "attempt": 1,
+          "timestamp": "2026-03-06T21:23:31.766Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 2,
+          "timestamp": "2026-03-06T21:23:51.861Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 3,
+          "timestamp": "2026-03-06T21:24:31.960Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 4,
+          "timestamp": "2026-03-06T21:25:52.052Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 5,
+          "timestamp": "2026-03-06T21:25:52.144Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "slug": "houston-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/houston-to-new-york",
+      "attempts": [
+        {
+          "attempt": 1,
+          "timestamp": "2026-03-06T21:26:02.782Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 2,
+          "timestamp": "2026-03-06T21:26:22.872Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 3,
+          "timestamp": "2026-03-06T21:27:02.983Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 4,
+          "timestamp": "2026-03-06T21:28:23.093Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 5,
+          "timestamp": "2026-03-06T21:28:24.151Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "slug": "kansas-city-to-chicago",
+      "url": "https://www.wearewarp.com/lanes/kansas-city-to-chicago",
+      "attempts": [
+        {
+          "attempt": 1,
+          "timestamp": "2026-03-06T21:28:34.906Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 2,
+          "timestamp": "2026-03-06T21:28:55.017Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 3,
+          "timestamp": "2026-03-06T21:29:35.121Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 4,
+          "timestamp": "2026-03-06T21:30:55.208Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 5,
+          "timestamp": "2026-03-06T21:30:55.297Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "slug": "indianapolis-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/indianapolis-to-new-york",
+      "attempts": [
+        {
+          "attempt": 1,
+          "timestamp": "2026-03-06T21:31:06.645Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 2,
+          "timestamp": "2026-03-06T21:31:26.745Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 3,
+          "timestamp": "2026-03-06T21:32:06.846Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 4,
+          "timestamp": "2026-03-06T21:33:26.967Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        },
+        {
+          "attempt": 5,
+          "timestamp": "2026-03-06T21:33:27.644Z",
+          "httpStatus": 404,
+          "status": "published_unverified",
+          "confidence": "none"
+        }
+      ]
+    }
+  ]
+}

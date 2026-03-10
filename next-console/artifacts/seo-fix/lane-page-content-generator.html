@@ -1,0 +1,135 @@
+<script id="warp-lane-rich-content">
+(function(){
+if(!/^\/lanes\//.test(location.pathname))return;
+var slug=location.pathname.replace('/lanes/','').replace(/\/$/,'');
+var parts=slug.split('-to-');
+if(parts.length<2)return;
+parts[parts.length-1]=parts[parts.length-1].replace(/-[0-9a-f]{4,8}$/i,'');
+function tc(s){return s.replace(/-/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();})}
+var origin=tc(parts[0]),dest=tc(parts.slice(1).join('-to-'));
+var bt=(document.querySelector('.container-13')||document.body).textContent||'';
+var mode='LTL';
+if(/\bFTL\b/.test(bt)&&!/\bLTL\b/.test(bt))mode='FTL';
+else if(/cargo\s*van/i.test(bt))mode='Cargo Van';
+else if(/sprinter/i.test(bt))mode='Sprinter';
+function hash(s){var h=0;for(var i=0;i<s.length;i++){h=((h<<5)-h)+s.charCodeAt(i);h|=0;}return Math.abs(h);}
+var H=hash(slug);
+var old=document.getElementById('warp-lane-seo-copy');
+if(old)old.style.setProperty('display','none','important');
+var ct=document.querySelector('.container-13');
+if(!ct)ct=document.querySelector('main')||document.body;
+if(document.getElementById('warp-lane-rich-sections'))return;
+var el=document.createElement('div');
+el.id='warp-lane-rich-sections';
+var S='background:#121418;border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:32px;margin:24px 0;';
+var H2='color:#F5F7FA;font-family:"Space Grotesk",-apple-system,sans-serif;font-size:1.35rem;font-weight:700;margin:0 0 16px;line-height:1.2;';
+var H3='color:#F5F7FA;font-family:"Space Grotesk",-apple-system,sans-serif;font-size:1.1rem;font-weight:600;margin:20px 0 10px;';
+var P='color:#C0C7D4;font-size:15px;line-height:1.7;margin:0 0 12px;';
+var TAG='display:inline-block;background:rgba(0,255,51,.1);color:#00ff33;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;margin-bottom:16px;';
+var LI='color:#C0C7D4;font-size:15px;line-height:1.7;margin-bottom:8px;padding-left:8px;';
+var BAR='width:40px;height:3px;background:#00ff33;border-radius:2px;margin-bottom:16px;';
+var md={LTL:{label:'LTL Freight',transit:'2\u20134 days',desc:'partial truckload',net:'cross-dock'},FTL:{label:'Full Truckload',transit:'1\u20133 days',desc:'full truckload',net:'point-to-point'},'Cargo Van':{label:'Cargo Van',transit:'1\u20132 days',desc:'cargo van expedite',net:'direct'},Sprinter:{label:'Sprinter Van',transit:'1\u20132 days',desc:'sprinter van',net:'direct'}};
+var m=md[mode]||md.LTL;
+var tt=['2\u20134 days','2\u20133 days','3\u20134 days','1\u20133 days','3\u20135 days'];
+var transit=mode==='LTL'?tt[H%tt.length]:m.transit;
+var html='';
+html+='<div style="'+S+'">';
+html+='<div style="'+TAG+'">'+m.label+' Corridor</div>';
+html+='<div style="'+BAR+'"></div>';
+html+='<h2 style="'+H2+'">Why the '+origin+' to '+dest+' Corridor Matters</h2>';
+html+='<p style="'+P+'">'+mode+' shippers moving freight from '+origin+' to '+dest+' face challenges including inconsistent transit times, opaque pricing, and fragmented visibility across multiple carriers. WARP consolidates '+m.desc+' quoting, carrier selection, and exception management into a single operational workflow for this corridor.</p>';
+html+='<p style="'+P+'">The '+origin+'\u2013'+dest+' lane connects two major freight markets with significant commercial volume. Shippers on this route typically manage multiple carrier relationships, each with different pricing structures, pickup windows, and tracking capabilities. WARP replaces this complexity with a unified platform that delivers consistent service levels and real-time shipment visibility.</p>';
+html+='</div>';
+html+='<div style="'+S+'">';
+html+='<div style="'+BAR+'"></div>';
+html+='<h2 style="'+H2+'">How WARP Moves '+origin+' to '+dest+' Freight</h2>';
+if(mode==='LTL'){
+html+='<p style="'+P+'">WARP operates direct linehaul routing from '+origin+' to '+dest+', bypassing the multi-terminal relay model that traditional LTL carriers use. Freight moves through WARP\'s proprietary cross-dock network with fewer touches, reducing transit time and damage risk.</p>';
+html+='<h3 style="'+H3+'">Cross-Dock Network Advantage</h3>';
+html+='<p style="'+P+'">Traditional LTL carriers route '+origin+' freight through 4\u20137 terminals before reaching '+dest+'. Each handoff adds 12\u201324 hours and increases damage probability. WARP\'s direct cross-dock model reduces touches to 1\u20132, cutting transit by up to 40% on this lane.</p>';
+}else if(mode==='FTL'){
+html+='<p style="'+P+'">WARP provides dedicated full truckload capacity from '+origin+' to '+dest+' with guaranteed pickup windows and direct routing. No terminal stops, no freight consolidation\u2014your shipment moves door-to-door on a single truck.</p>';
+html+='<h3 style="'+H3+'">Capacity & Routing</h3>';
+html+='<p style="'+P+'">WARP\'s carrier network maintains pre-positioned capacity in the '+origin+' market, enabling same-day or next-day pickup for most FTL shipments to '+dest+'. Real-time load matching optimizes pricing based on actual market conditions.</p>';
+}else{
+html+='<p style="'+P+'">WARP dispatches dedicated '+m.desc+' service from '+origin+' to '+dest+' for time-sensitive and small shipments that need faster transit than standard LTL.</p>';
+html+='<h3 style="'+H3+'">Expedited Service</h3>';
+html+='<p style="'+P+'">When standard LTL timelines don\'t meet your requirements, WARP\'s '+m.desc+' option provides '+m.transit+' transit from '+origin+' to '+dest+' with real-time GPS tracking and dedicated vehicle assignment.</p>';
+}
+html+='</div>';
+html+='<div style="'+S+'">';
+html+='<div style="'+BAR+'"></div>';
+html+='<h2 style="'+H2+'">'+mode+' Operating Details: '+origin+' \u2192 '+dest+'</h2>';
+html+='<ul style="list-style:none;padding:0;margin:0;">';
+var details=[];
+if(mode==='LTL'){
+details=[['Estimated Transit',transit+' average'],['Pickup Window','Same-day dispatch for orders placed before 2pm local'],['Handling','Pallet and carton \u2014 WARP cross-docks handle both seamlessly'],['Pricing','Instant digital quotes with full rate transparency'],['Tracking','Real-time GPS with proactive exception alerts'],['Claims','Digital claims filing with 48-hour resolution target']];
+}else if(mode==='FTL'){
+details=[['Estimated Transit',m.transit+' direct routing'],['Capacity','Dry van, reefer, and flatbed available'],['Pickup','Guaranteed pickup windows with driver tracking'],['Pricing','Market-rate pricing with upfront quotes'],['Tracking','Real-time GPS from pickup to delivery'],['Equipment','Late-model equipment with driver quality standards']];
+}else{
+details=[['Estimated Transit',m.transit+' expedited'],['Vehicle','Dedicated '+m.desc+' \u2014 no shared loads'],['Capacity','Up to 3,500 lbs / 400 cu ft'],['Pickup','On-demand dispatch within 2 hours'],['Tracking','Live GPS tracking with ETA updates'],['Delivery','Liftgate and inside delivery available']];
+}
+for(var i=0;i<details.length;i++){
+html+='<li style="'+LI+'display:flex;gap:8px;align-items:baseline;border-bottom:1px solid rgba(255,255,255,.04);padding-bottom:10px;margin-bottom:10px;">';
+html+='<span style="color:#00ff33;font-weight:600;min-width:140px;font-size:14px;">'+details[i][0]+'</span>';
+html+='<span>'+details[i][1]+'</span></li>';
+}
+html+='</ul></div>';
+html+='<div style="'+S+'">';
+html+='<div style="'+BAR+'"></div>';
+html+='<h2 style="'+H2+'">Shipment Visibility: '+origin+' to '+dest+'</h2>';
+html+='<p style="'+P+'">Every '+mode+' shipment from '+origin+' to '+dest+' includes WARP\'s full visibility suite\u2014no add-ons, no premium tier required.</p>';
+var vis=[
+['\uD83D\uDCCD','Real-Time GPS Tracking','Live location updates from pickup through final delivery with map view and ETA projections.'],
+['\uD83D\uDCCB','Digital Proof of Delivery','Electronic signature capture, photo documentation, and timestamped delivery confirmation.'],
+['\u26A1','Proactive Exception Alerts','Automated notifications for delays, reroutes, or delivery issues before they impact your supply chain.'],
+['\uD83D\uDCCA','Analytics Dashboard','Lane-level performance metrics including on-time rates, transit consistency, and cost trends.']
+];
+html+='<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:16px;">';
+for(var v=0;v<vis.length;v++){
+html+='<div style="background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.04);border-radius:8px;padding:20px;">';
+html+='<div style="font-size:24px;margin-bottom:8px;">'+vis[v][0]+'</div>';
+html+='<div style="color:#F5F7FA;font-weight:600;font-size:14px;margin-bottom:6px;">'+vis[v][1]+'</div>';
+html+='<div style="color:#8E97A6;font-size:13px;line-height:1.5;">'+vis[v][2]+'</div></div>';
+}
+html+='</div></div>';
+var allFaqs=[
+['What is the typical transit time for '+mode+' from '+origin+' to '+dest+'?','Transit time for '+mode+' shipments from '+origin+' to '+dest+' averages '+transit+' through WARP\'s network. Actual transit depends on pickup timing, freight characteristics, and delivery requirements. WARP provides specific transit estimates at quote time based on current network conditions.'],
+['How does WARP price '+mode+' freight on the '+origin+' to '+dest+' lane?','WARP provides instant digital quotes for '+origin+' to '+dest+' '+mode+' shipments based on weight, dimensions, commodity type, and current market conditions. Pricing is transparent with no hidden accessorials\u2014what you see at quote time is what you pay.'],
+['Does WARP offer real-time tracking for shipments from '+origin+' to '+dest+'?','Yes. Every WARP shipment includes real-time GPS tracking from pickup through delivery. You can monitor your '+origin+' to '+dest+' freight through the WARP dashboard with live map views, ETA updates, and proactive exception notifications.'],
+['Can I get a quote for '+origin+' to '+dest+' freight without commitment?','Absolutely. WARP provides free, no-obligation instant quotes for '+mode+' shipments from '+origin+' to '+dest+'. Enter your shipment details on the WARP platform and receive competitive rates within seconds.'],
+['What types of freight can WARP move from '+origin+' to '+dest+'?','WARP handles a wide range of freight types on the '+origin+' to '+dest+' lane including palletized goods, cartons, retail inventory, e-commerce fulfillment, and specialty items. Both standard and oversized shipments are supported depending on mode.'],
+['How does WARP compare to traditional '+mode+' carriers on this lane?','WARP typically offers faster transit times, better visibility, and more transparent pricing compared to traditional carriers on the '+origin+' to '+dest+' lane. Direct routing reduces handling touches and transit variability.'],
+['What pickup options are available in '+origin+'?','WARP offers flexible pickup scheduling in the '+origin+' market including same-day pickup for orders placed before 2pm local time. Appointments, dock scheduling, and liftgate service are all available.'],
+['Is liftgate or inside delivery available for '+dest+' deliveries?','Yes. WARP offers liftgate delivery, inside delivery, and appointment-based delivery scheduling for '+dest+' destinations. Specify your delivery requirements at quote time for accurate pricing.']
+];
+var fi=[0,1];
+var rem=[2,3,4,5,6,7];
+for(var f=0;f<3&&rem.length>0;f++){var idx=(H+f*7)%rem.length;fi.push(rem.splice(idx,1)[0]);}
+html+='<div style="'+S+'">';
+html+='<div style="'+BAR+'"></div>';
+html+='<h2 style="'+H2+'">Frequently Asked Questions: '+origin+' to '+dest+' '+mode+'</h2>';
+for(var q=0;q<fi.length;q++){
+var faq=allFaqs[fi[q]];
+html+='<details style="border-bottom:1px solid rgba(255,255,255,.06);padding:16px 0;cursor:pointer;"'+(q===0?' open':'')+'>';
+html+='<summary style="color:#F5F7FA;font-weight:600;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center;">'+faq[0]+'<span style="color:#00ff33;font-size:18px;margin-left:12px;">+</span></summary>';
+html+='<p style="'+P+'margin-top:12px;">'+faq[1]+'</p></details>';
+}
+html+='</div>';
+html+='<div style="'+S+'text-align:center;background:linear-gradient(135deg,#121418,#0B0C0E);border:1px solid rgba(0,255,51,.15);">';
+html+='<h2 style="'+H2+'font-size:1.5rem;">Get a '+mode+' Quote: '+origin+' to '+dest+'</h2>';
+html+='<p style="'+P+'max-width:500px;margin:0 auto 20px;">Instant pricing, real-time tracking, and fewer freight headaches. See what WARP can do for your '+origin+' to '+dest+' shipments.</p>';
+html+='<a href="https://app.wearewarp.com/freight/create" style="display:inline-block;background:#00ff33;color:#0B0C0E;padding:14px 32px;border-radius:8px;font-weight:700;font-size:15px;text-decoration:none;">Book Freight Instantly</a></div>';
+el.innerHTML=html;
+ct.appendChild(el);
+var existLD=document.querySelectorAll('script[type="application/ld+json"]');
+existLD.forEach(function(s){try{if(JSON.parse(s.textContent)['@type']==='FAQPage')s.remove();}catch(e){}});
+var faqLD={'@context':'https://schema.org','@type':'FAQPage','mainEntity':[]};
+for(var j=0;j<fi.length;j++){var fq=allFaqs[fi[j]];faqLD.mainEntity.push({'@type':'Question','name':fq[0],'acceptedAnswer':{'@type':'Answer','text':fq[1]}});}
+var ldEl=document.createElement('script');
+ldEl.type='application/ld+json';
+ldEl.textContent=JSON.stringify(faqLD);
+document.head.appendChild(ldEl);
+console.log('[WARP] Rich lane content injected: '+origin+' \u2192 '+dest+' ('+mode+')');
+})();
+</script>

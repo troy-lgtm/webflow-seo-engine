@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-03-06T04:04:46.378Z",
+  "content_version": "v1",
+  "archetype_weights": {},
+  "title_pattern_weights": {},
+  "meta_pattern_weights": {},
+  "faq_weights": {},
+  "cta_weights": {},
+  "link_pattern_weights": {},
+  "intro_pattern_weights": {},
+  "learning_notes": [],
+  "uniqueness_thresholds": {
+    "injected": true,
+    "test": "should_be_blocked"
+  },
+  "usefulness_gate_rules": {
+    "injected": true,
+    "test": "should_be_blocked"
+  },
+  "slug_rules": {
+    "injected": true,
+    "test": "should_be_blocked"
+  },
+  "schema_requirements": {
+    "injected": true,
+    "test": "should_be_blocked"
+  },
+  "duplicate_protection": {
+    "injected": true,
+    "test": "should_be_blocked"
+  },
+  "live_verification_rules": {
+    "injected": true,
+    "test": "should_be_blocked"
+  },
+  "domain_path_trust_rules": {
+    "injected": true,
+    "test": "should_be_blocked"
+  },
+  "collection_template_path": {
+    "injected": true,
+    "test": "should_be_blocked"
+  }
+}

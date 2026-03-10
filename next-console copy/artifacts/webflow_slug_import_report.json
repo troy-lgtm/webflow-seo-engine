@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-03-06T21:11:30.627Z",
+  "method": "artifact_fallback",
+  "total_slugs": 2000,
+  "sources": [
+    {
+      "name": "artifacts/publish_next/ directories",
+      "count": 2000
+    },
+    {
+      "name": "artifacts/ship/webflow_payload.json",
+      "count": 1
+    },
+    {
+      "name": "data/published_pages.json",
+      "count": 5
+    }
+  ],
+  "sample": [
+    "atlanta-to-albuquerque",
+    "atlanta-to-austin",
+    "atlanta-to-baltimore",
+    "atlanta-to-boise",
+    "atlanta-to-boston",
+    "atlanta-to-charlotte",
+    "atlanta-to-chicago",
+    "atlanta-to-cincinnati",
+    "atlanta-to-cleveland",
+    "atlanta-to-columbus"
+  ]
+}

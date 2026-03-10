@@ -1,0 +1,338 @@
+<!-- WARP Lane Page Mode — Site-Level Custom Code (Footer)
+     Deploy: Webflow Designer → Site Settings → Custom Code → Footer Code
+
+     This script activates ONLY on /lanes/* pages and transforms the generic
+     Webflow template into a dedicated, premium lane page experience:
+
+     1. Injects CSS to hide all generic template sections
+     2. Applies dark premium theme to nav, hero, body, comparison, footer
+     3. Restructures the hero with digital lane map SVG + KPI chips + CTAs
+     4. Rebuilds comparison table with proper lane-specific headings
+     5. Parses KPI data from the CMS body-content field (PlainText)
+
+     Safe: No-op on non-lane pages. All changes are DOM-only (no API calls).
+-->
+<script id="warp-lane-page-mode">
+(function(){
+  // ── Gate: Only activate on lane pages ──────────────────────────────
+  if (!/^\/lanes\//.test(location.pathname)) return;
+
+  // ── PHASE 1: Inject CSS immediately (before DOM ready) ─────────────
+  var css = document.createElement('style');
+  css.id = 'lane-page-mode-css';
+  css.textContent = [
+    /* ── Page-Level Dark Mode ──────────────────────────────────────── */
+    'body { background: #0B0C0E !important; }',
+
+    /* ── Hide Generic Template Sections ────────────────────────────── */
+    /* Wistia video player and its container */
+    '.container-24 { display: none !important; }',
+    'wistia-player, .wistia_embed, [data-wistia-id] { display: none !important; }',
+    'iframe[src*="wistia"], iframe[src*="youtube"] { display: none !important; }',
+
+    /* Generic CTA bundles ("Book Freight Instantly" buttons) */
+    '.cta-bundle { display: none !important; }',
+
+    /* "Why Shippers Choose Warp" generic marketing section */
+    '.container-14 { display: none !important; }',
+
+    /* "Stop Paying for a Broken Freight System" generic CTA */
+    '.uui-page-padding-5 { display: none !important; }',
+
+    /* Other generic sections */
+    '.book-freight-section, .book-freight-instantly { display: none !important; }',
+    '.book-a-meeting-cta, .how-it-works-section { display: none !important; }',
+    '.newsletter-signup, .video-section { display: none !important; }',
+    '.template-hero-fallback { display: none !important; }',
+    'iframe[src*="calendly"], iframe[src*="hubspot"] { display: none !important; }',
+
+    /* Injected SEO copy block from __warpSeoP2FooterV3 */
+    '#warp-lane-seo-copy { display: none !important; }',
+
+    /* ── Header / Nav — Dark Premium ──────────────────────────────── */
+    '.uui-navbar07_component, .crossdocknav, .w-nav {',
+    '  background: #0B0C0E !important;',
+    '  border-bottom: 1px solid rgba(255,255,255,0.06) !important;',
+    '}',
+    '.uui-navbar07_component *, .crossdocknav * {',
+    '  color: #F5F7FA !important;',
+    '}',
+    '.uui-navbar07_component a:hover, .crossdocknav a:hover {',
+    '  color: #00ff33 !important;',
+    '}',
+    /* Nav logo */
+    '.uui-navbar07_component .w-nav-brand img, .crossdocknav .w-nav-brand img {',
+    '  filter: brightness(0) invert(1) !important;',
+    '}',
+    /* Nav CTA button */
+    '.uui-navbar07_component .w-button, .crossdocknav .w-button {',
+    '  background: #00ff33 !important;',
+    '  color: #0B0C0E !important;',
+    '  border: none !important;',
+    '  font-weight: 700 !important;',
+    '  border-radius: 8px !important;',
+    '}',
+    /* Dropdown menus */
+    '.w-dropdown-list {',
+    '  background: #121418 !important;',
+    '  border: 1px solid rgba(255,255,255,0.08) !important;',
+    '}',
+    '.w-dropdown-link {',
+    '  color: #C0C7D4 !important;',
+    '}',
+    '.w-dropdown-link:hover {',
+    '  color: #00ff33 !important;',
+    '  background: rgba(0,255,51,0.06) !important;',
+    '}',
+
+    /* ── Hero Section — Dark Premium Takeover ─────────────────────── */
+    '.container-15 {',
+    '  background: linear-gradient(180deg, #0B0C0E 0%, #121418 100%) !important;',
+    '  padding: 80px 32px 48px !important;',
+    '  color: #F5F7FA !important;',
+    '  border-bottom: 1px solid rgba(255,255,255,0.06) !important;',
+    '  position: relative !important;',
+    '  overflow: hidden !important;',
+    '}',
+    '.container-15 h1 {',
+    '  color: #F5F7FA !important;',
+    '  font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif !important;',
+    '  font-size: clamp(1.6rem, 3.5vw, 2.6rem) !important;',
+    '  font-weight: 700 !important;',
+    '  line-height: 1.15 !important;',
+    '  margin-bottom: 8px !important;',
+    '}',
+    '.container-15 p, .container-15 .text-size-large {',
+    '  color: #C0C7D4 !important;',
+    '  font-size: 16px !important;',
+    '  line-height: 1.6 !important;',
+    '  max-width: 640px !important;',
+    '}',
+
+    /* ── Main Content Area — Dark Theme ───────────────────────────── */
+    '.container-18, .container-13 {',
+    '  background: #0B0C0E !important;',
+    '  color: #F5F7FA !important;',
+    '}',
+
+    /* ── Container 13 Flex Reorder ─────────────────────────────────
+       Dedicated components first: Lane Intel (0) → Exec Flow (1)
+       Then: faq-schema + proof-section (2) → body-content (5)
+       Hide generic "Overview" H2 — dedicated sections have own headings */
+    '.container-13 {',
+    '  display: flex !important;',
+    '  flex-direction: column !important;',
+    '}',
+    '.container-13 > * {',
+    '  order: 9 !important;',
+    '}',
+    /* Dedicated components — first-class sections */
+    '.container-13 > .w-richtext.lane-intel-rt {',
+    '  order: 0 !important;',
+    '}',
+    '.container-13 > .w-richtext.exec-flow-rt {',
+    '  order: 1 !important;',
+    '}',
+    /* Remaining rich text (faq-schema, proof-section) */
+    '.container-13 > .w-richtext {',
+    '  order: 2 !important;',
+    '}',
+    '.container-13 > .text-block-19 {',
+    '  order: 5 !important;',
+    '}',
+    '.heading-9, #warp-lane-rich-sections {',
+    '  display: none !important;',
+    '}',
+    '.container-13 h1, .container-13 h2, .container-13 h3 {',
+    '  color: #F5F7FA !important;',
+    '  font-family: "Space Grotesk", -apple-system, sans-serif !important;',
+    '}',
+    '.container-13 p, .container-13 li {',
+    '  color: #C0C7D4 !important;',
+    '  line-height: 1.6 !important;',
+    '}',
+    '.container-13 a {',
+    '  color: #38BDF8 !important;',
+    '}',
+    '.container-13 a:hover {',
+    '  color: #00ff33 !important;',
+    '}',
+    /* body-content text block */
+    '.text-block-19 {',
+    '  color: #C0C7D4 !important;',
+    '  font-size: 15px !important;',
+    '  line-height: 1.7 !important;',
+    '  max-width: 720px !important;',
+    '}',
+
+    /* ── Legacy Comparison Section — Hidden ──────────────────────────
+       Comparison table now renders natively inside faq-schema Rich Text.
+       Hide the legacy div-block-27 pipe-separated plain-text cards. */
+    '.div-block-27 {',
+    '  display: none !important;',
+    '}',
+
+    /* ── Footer — Dark ────────────────────────────────────────────── */
+    '.section-3, footer, .uui-footer01_component {',
+    '  background: #080A0C !important;',
+    '  color: #8E97A6 !important;',
+    '  border-top: 1px solid rgba(255,255,255,0.06) !important;',
+    '}',
+    '.section-3 a, footer a {',
+    '  color: #8E97A6 !important;',
+    '}',
+    '.section-3 a:hover, footer a:hover {',
+    '  color: #00ff33 !important;',
+    '}',
+
+    /* ── Custom scrollbar ─────────────────────────────────────────── */
+    '::-webkit-scrollbar { width: 8px; }',
+    '::-webkit-scrollbar-track { background: #121418; }',
+    '::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }',
+    '::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }',
+
+    /* ── Mobile responsive adjustments ─────────────────────────────── */
+    '@media (max-width: 768px) {',
+    '  .container-15 { padding: 64px 20px 32px !important; }',
+    '  .container-15 h1 { font-size: 1.5rem !important; }',
+    '  .lane-kpi-chips { gap: 6px !important; }',
+    '  .lane-cta-row { flex-direction: column !important; }',
+    '  .lane-cta-row a { width: 100% !important; text-align: center !important; }',
+    '  .lane-comp-table td, .lane-comp-table th { padding: 8px 6px !important; font-size: 12px !important; }',
+    '}',
+  ].join('\n');
+  document.head.appendChild(css);
+
+  // ── PHASE 2: DOM Enhancement (after DOMContentLoaded) ──────────────
+  function enhanceLanePage() {
+    try {
+      // Parse lane data from URL slug
+      var slug = location.pathname.replace('/lanes/', '').replace(/\/$/, '');
+      var toParts = slug.split('-to-');
+      if (toParts.length < 2) return;
+
+      var originCity = toParts[0].replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+      var destCity = toParts.slice(1).join('-to-').replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+
+      // ── Parse KPIs from body-content text ──
+      var bodyEl = document.querySelector('.text-block-19');
+      var bodyText = bodyEl ? bodyEl.textContent : '';
+      var distMatch = bodyText.match(/([\d,]+)\s*miles/i);
+      var transitMatch = bodyText.match(/(\d+)\s*[–\u2013-]\s*(\d+)\s*days/i);
+      var carrierMatch = bodyText.match(/(\d+)\s*vetted\s*carriers/i);
+
+      var distance = distMatch ? distMatch[1] : '';
+      var transitMin = transitMatch ? transitMatch[1] : '';
+      var transitMax = transitMatch ? transitMatch[2] : '';
+      var carriers = carrierMatch ? carrierMatch[1] : '';
+
+      // ── Enhance Hero Section ──
+      var heroContainer = document.querySelector('.container-15');
+      if (heroContainer) {
+        // Add ambient glow backgrounds
+        var glowOrigin = document.createElement('div');
+        glowOrigin.style.cssText = 'position:absolute;top:-40%;left:-10%;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(0,255,51,0.06) 0%,transparent 60%);pointer-events:none;z-index:0;';
+        heroContainer.insertBefore(glowOrigin, heroContainer.firstChild);
+
+        var glowDest = document.createElement('div');
+        glowDest.style.cssText = 'position:absolute;bottom:-40%;right:-10%;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(56,189,248,0.04) 0%,transparent 60%);pointer-events:none;z-index:0;';
+        heroContainer.insertBefore(glowDest, heroContainer.firstChild);
+
+        // Add overline badge before h1
+        var h1 = heroContainer.querySelector('h1');
+        if (h1) {
+          var overline = document.createElement('div');
+          overline.style.cssText = 'display:flex;align-items:center;gap:10px;margin-bottom:16px;position:relative;z-index:1;';
+          overline.innerHTML = '<span style="border:1px solid rgba(0,255,51,0.4);border-radius:8px;padding:4px 10px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#00ff33;font-size:11px;">LTL</span>' +
+            '<span style="text-transform:uppercase;letter-spacing:0.18em;color:#8E97A6;font-size:11px;font-weight:500;">Freight Lane</span>';
+          h1.parentNode.insertBefore(overline, h1);
+          h1.style.position = 'relative';
+          h1.style.zIndex = '1';
+        }
+
+        // Add SVG lane map after last paragraph
+        var lastP = heroContainer.querySelectorAll('p');
+        var insertAfter = lastP.length > 0 ? lastP[lastP.length - 1] : h1;
+
+        if (insertAfter) {
+          insertAfter.style.position = 'relative';
+          insertAfter.style.zIndex = '1';
+
+          var mapWrap = document.createElement('div');
+          mapWrap.style.cssText = 'margin:20px 0;border:1px solid rgba(255,255,255,0.06);border-radius:12px;background:rgba(11,12,14,0.6);padding:12px 16px;position:relative;z-index:1;';
+          mapWrap.innerHTML = '<svg viewBox="0 0 600 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;max-height:140px;" aria-label="' + originCity + ' to ' + destCity + ' freight route">' +
+            '<defs>' +
+            '<linearGradient id="rGrad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00ff33" stop-opacity="0.9"/><stop offset="100%" stop-color="#38BDF8" stop-opacity="0.9"/></linearGradient>' +
+            '<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>' +
+            '</defs>' +
+            '<line x1="0" y1="35" x2="600" y2="35" stroke="rgba(255,255,255,0.03)" stroke-width="0.5"/>' +
+            '<line x1="0" y1="70" x2="600" y2="70" stroke="rgba(255,255,255,0.03)" stroke-width="0.5"/>' +
+            '<line x1="0" y1="105" x2="600" y2="105" stroke="rgba(255,255,255,0.03)" stroke-width="0.5"/>' +
+            '<line x1="100" y1="0" x2="100" y2="140" stroke="rgba(255,255,255,0.02)" stroke-width="0.5"/>' +
+            '<line x1="200" y1="0" x2="200" y2="140" stroke="rgba(255,255,255,0.02)" stroke-width="0.5"/>' +
+            '<line x1="300" y1="0" x2="300" y2="140" stroke="rgba(255,255,255,0.02)" stroke-width="0.5"/>' +
+            '<line x1="400" y1="0" x2="400" y2="140" stroke="rgba(255,255,255,0.02)" stroke-width="0.5"/>' +
+            '<line x1="500" y1="0" x2="500" y2="140" stroke="rgba(255,255,255,0.02)" stroke-width="0.5"/>' +
+            '<circle cx="150" cy="40" r="2" fill="rgba(255,255,255,0.06)"/>' +
+            '<circle cx="250" cy="95" r="2" fill="rgba(255,255,255,0.06)"/>' +
+            '<circle cx="350" cy="50" r="2" fill="rgba(255,255,255,0.06)"/>' +
+            '<circle cx="450" cy="100" r="2" fill="rgba(255,255,255,0.06)"/>' +
+            '<path d="M 70 70 C 180 45, 420 95, 530 70" stroke="url(#rGrad)" stroke-width="2.5" fill="none" stroke-dasharray="8 4" filter="url(#glow)">' +
+            '<animate attributeName="stroke-dashoffset" values="24;0" dur="2s" repeatCount="indefinite"/>' +
+            '</path>' +
+            '<circle cx="70" cy="70" r="8" fill="#00ff33" opacity="0.15"/>' +
+            '<circle cx="70" cy="70" r="5" fill="#00ff33" filter="url(#glow)"/>' +
+            '<text x="70" y="100" text-anchor="middle" fill="#00ff33" font-size="11" font-weight="600" font-family="\'Space Grotesk\',-apple-system,sans-serif">' + originCity + '</text>' +
+            '<circle cx="530" cy="70" r="8" fill="#38BDF8" opacity="0.15"/>' +
+            '<circle cx="530" cy="70" r="5" fill="#38BDF8" filter="url(#glow)"/>' +
+            '<text x="530" y="100" text-anchor="middle" fill="#38BDF8" font-size="11" font-weight="600" font-family="\'Space Grotesk\',-apple-system,sans-serif">' + destCity + '</text>' +
+            (distance ? '<rect x="260" y="52" width="80" height="22" rx="4" fill="rgba(18,20,24,0.85)" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/><text x="300" y="67" text-anchor="middle" fill="#C0C7D4" font-size="10" font-weight="600" font-family="\'JetBrains Mono\',monospace">' + distance + ' mi</text>' : '') +
+            '</svg>';
+          insertAfter.parentNode.insertBefore(mapWrap, insertAfter.nextSibling);
+
+          // KPI chips
+          var kpis = [];
+          if (distance) kpis.push({ label: 'DISTANCE', value: distance + ' mi', accent: false });
+          if (transitMin && transitMax) kpis.push({ label: 'TRANSIT', value: transitMin + '\u2013' + transitMax + ' days', accent: false });
+          if (carriers) kpis.push({ label: 'CARRIERS', value: carriers + ' active', accent: true });
+          kpis.push({ label: 'TRACKING', value: 'Real-time', accent: true });
+
+          var kpiRow = document.createElement('div');
+          kpiRow.className = 'lane-kpi-chips';
+          kpiRow.style.cssText = 'display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 24px;position:relative;z-index:1;';
+          kpiRow.innerHTML = kpis.map(function(k) {
+            var bc = k.accent ? 'rgba(0,255,51,0.3)' : 'rgba(255,255,255,0.08)';
+            var tc = k.accent ? '#00ff33' : '#C0C7D4';
+            return '<div style="border:1px solid ' + bc + ';border-radius:8px;padding:8px 14px;display:inline-flex;flex-direction:column;gap:2px;background:rgba(18,20,24,0.8);">' +
+              '<span style="font-size:10px;text-transform:uppercase;letter-spacing:0.12em;color:#8E97A6;font-weight:600;">' + k.label + '</span>' +
+              '<span style="font-size:14px;font-weight:700;color:' + tc + ';font-family:\'Space Grotesk\',-apple-system,sans-serif;">' + k.value + '</span></div>';
+          }).join('');
+          mapWrap.parentNode.insertBefore(kpiRow, mapWrap.nextSibling);
+
+          // CTA buttons
+          var ctaRow = document.createElement('div');
+          ctaRow.className = 'lane-cta-row';
+          ctaRow.style.cssText = 'display:flex;gap:10px;flex-wrap:wrap;position:relative;z-index:1;';
+          ctaRow.innerHTML = '<a href="/quote" style="display:inline-flex;align-items:center;justify-content:center;padding:12px 24px;background:#00ff33;color:#080E0B;border-radius:10px;font-size:15px;font-weight:700;text-decoration:none;border:1px solid rgba(0,255,51,0.7);font-family:\'Space Grotesk\',-apple-system,sans-serif;">Get Instant Quote</a>' +
+            '<a href="/book" style="display:inline-flex;align-items:center;justify-content:center;padding:12px 24px;background:transparent;color:#F5F7FA;border-radius:10px;font-size:15px;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.12);font-family:\'Space Grotesk\',-apple-system,sans-serif;">Book a Fit Call</a>';
+          kpiRow.parentNode.insertBefore(ctaRow, kpiRow.nextSibling);
+        }
+      }
+
+      // ── Comparison Section ──
+      // Comparison table now renders natively inside faq-schema Rich Text.
+      // Legacy div-block-27 is hidden via CSS (display: none).
+
+      console.log('[WARP] Lane page mode activated: ' + originCity + ' \u2192 ' + destCity);
+    } catch (err) {
+      console.warn('[WARP] Lane page mode error:', err);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', enhanceLanePage, { once: true });
+  } else {
+    enhanceLanePage();
+  }
+})();
+</script>

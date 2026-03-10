@@ -1,0 +1,105 @@
+{
+  "lane_slug": "miami-to-atlanta",
+  "origin_city": "Miami",
+  "origin_state": "FL",
+  "destination_city": "Atlanta",
+  "destination_state": "GA",
+  "canonical_path": "/lanes/miami-to-atlanta",
+  "corridor_id": null,
+  "mode": "LTL",
+  "region_profile": {
+    "origin": "Southeast",
+    "destination": "Southeast"
+  },
+  "distance_band": "medium_haul",
+  "lane_stats": {
+    "estimated_distance_miles": 716,
+    "estimated_transit_days_range": {
+      "min": 3,
+      "max": 4
+    },
+    "estimated_rate_range_usd": {
+      "low": 2416,
+      "high": 3221
+    },
+    "common_equipment": [
+      "Dry Van",
+      "Reefer (temp-controlled)"
+    ],
+    "seasonality_notes": "Hurricane risk Jun-Nov. Consistent retail demand year-round.",
+    "confidence": {
+      "transit": "modeled",
+      "rate": "modeled"
+    },
+    "disclaimers": [
+      "These are modeled estimates, not guaranteed quotes.",
+      "Actual rates depend on freight details, accessorials, and current market conditions."
+    ]
+  },
+  "network_proof": {
+    "estimated_carrier_count": 4,
+    "nearest_cross_docks": [
+      "Miami Gateway",
+      "Atlanta Hub",
+      "Charlotte Terminal"
+    ],
+    "service_notes": [
+      "Real-time scan events at pickup, in-transit, and delivery",
+      "Estimated 3-4 business day transit window",
+      "Pallet-level tracking with delivery appointment scheduling",
+      "Exception alerts within 30 minutes of status change"
+    ],
+    "origin_region": "Southeast",
+    "destination_region": "Southeast"
+  },
+  "shipment_profile_fit": [
+    "palletized freight",
+    "scheduled replenishment",
+    "appointment-driven freight"
+  ],
+  "equipment_fit": [
+    "LTL",
+    "box truck where applicable"
+  ],
+  "operational_characteristics": [
+    "retail and store replenishment fit",
+    "scheduled pickup coordination",
+    "visibility and live tracking"
+  ],
+  "pricing_logic": [
+    "per pallet economics",
+    "volume consistency improves planning",
+    "transparent quoting"
+  ],
+  "faq_seeds": [
+    {
+      "q": "How long does LTL freight take from Miami to Atlanta?",
+      "a": "Estimated transit is 3-4 business days on this ~716-mile lane. Actual times depend on carrier routing and weather."
+    },
+    {
+      "q": "How much does LTL shipping from Miami to Atlanta cost?",
+      "a": "Modeled LTL rates range from $2,416 to $3,221 depending on freight details. Get an instant quote for real-time pricing."
+    },
+    {
+      "q": "What equipment is available on the Miami to Atlanta lane?",
+      "a": "Common equipment includes Dry Van, Reefer (temp-controlled). Availability varies by season and demand."
+    },
+    {
+      "q": "Can we start with just this lane before expanding?",
+      "a": "Yes. A single-lane pilot lets you validate performance before committing to additional corridors."
+    },
+    {
+      "q": "How does WARP handle exceptions on this LTL lane?",
+      "a": "WARP detects exceptions automatically with alerts within 30 minutes of any status change."
+    }
+  ],
+  "related_corridor_logic": {
+    "corridor_hub": null,
+    "related_lane_count_target": 8,
+    "tool_link": "/public/freight-quote",
+    "data_link": null
+  },
+  "origin": "Miami, FL",
+  "destination": "Atlanta, GA",
+  "segment": "smb"
+}

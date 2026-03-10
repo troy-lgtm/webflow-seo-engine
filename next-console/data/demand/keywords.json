@@ -1,0 +1,18 @@
+{
+  "_comment": "Maintained keyword list for demand signals. Key = lane slug pattern, value = array of target keywords.",
+  "chicago-to-dallas": ["ltl freight chicago to dallas", "chicago dallas shipping rates", "freight quotes chicago to dallas tx"],
+  "los-angeles-to-phoenix": ["ltl shipping los angeles to phoenix", "freight rates la to phoenix"],
+  "los-angeles-to-dallas": ["freight shipping la to dallas", "ltl rates los angeles dallas"],
+  "atlanta-to-miami": ["freight shipping atlanta to miami", "ltl atlanta miami"],
+  "new-york-to-chicago": ["freight new york to chicago", "ltl shipping nyc to chicago"],
+  "houston-to-dallas": ["freight houston to dallas", "ltl houston dallas shipping"],
+  "chicago-to-atlanta": ["chicago atlanta freight", "ltl shipping chicago to atlanta"],
+  "los-angeles-to-chicago": ["los angeles to chicago freight", "la chicago ltl shipping"],
+  "dallas-to-houston": ["dallas to houston freight", "ltl shipping dallas houston"],
+  "seattle-to-los-angeles": ["freight seattle to la", "ltl seattle los angeles"],
+  "miami-to-new-york": ["miami to new york freight", "ltl miami nyc shipping"],
+  "denver-to-salt-lake-city": ["denver to salt lake freight", "ltl denver slc"],
+  "nashville-to-atlanta": ["nashville atlanta freight", "ltl nashville to atlanta"],
+  "charlotte-to-atlanta": ["charlotte to atlanta freight rates"],
+  "indianapolis-to-chicago": ["indianapolis chicago freight"]
+}

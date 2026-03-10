@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-03-06T10:36:52.241Z",
+  "lane_slug": "los-angeles-to-phoenix",
+  "origin": "Los Angeles, CA",
+  "destination": "Phoenix, AZ",
+  "corridor_id": "socal-phoenix",
+  "fields_rendered": 23,
+  "body_content_length": 4363,
+  "faq_schema_length": 4443,
+  "breadcrumb_schema_length": 1394,
+  "has_hero": true,
+  "has_lane_overview": true,
+  "has_warp_fit": false,
+  "has_operating_details": true,
+  "has_pricing": true,
+  "has_faqs": true,
+  "has_related_links": true,
+  "has_cta": true
+}

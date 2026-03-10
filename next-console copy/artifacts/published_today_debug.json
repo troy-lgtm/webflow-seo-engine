@@ -1,0 +1,12 @@
+{
+  "today_local_date": "2026-03-06",
+  "published_pages_rows_scanned": 0,
+  "valid_real_publish_rows_today": [],
+  "excluded_rows": [],
+  "summary_total": 0,
+  "report_success_count": 2,
+  "report_mismatch": {
+    "exists": true,
+    "details": "publish_next_report shows 2 successes but 0 real rows found in published_pages.json for today"
+  }
+}

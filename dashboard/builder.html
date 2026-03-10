@@ -1,0 +1,1800 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WARP Lane SEO Builder</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+    :root {
+      --warp-accent: #00ff33;
+      --warp-bg: #1b232e;
+      --warp-surface-1: #27323f;
+      --warp-surface-2: #313d4c;
+      --warp-surface-3: #3a485a;
+      --warp-text: #f7fbff;
+      --warp-text-muted: #d7e1ec;
+      --warp-text-dim: #a8b7c8;
+      --warp-border: #4a5a6e;
+      --warp-border-strong: #64768d;
+      --warp-success: #22c55e;
+      --warp-warning: #f59e0b;
+      --shadow-elevated: 0 18px 42px rgba(10, 18, 28, 0.35);
+      --shadow-soft: 0 8px 22px rgba(10, 18, 28, 0.25);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--warp-text);
+      background:
+        radial-gradient(circle at 15% 10%, rgba(0, 255, 51, 0.1), transparent 42%),
+        radial-gradient(circle at 90% 8%, rgba(92, 170, 255, 0.12), transparent 36%),
+        var(--warp-bg);
+      font-family: "Space Grotesk", sans-serif;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      opacity: 0.22;
+      background:
+        linear-gradient(180deg, rgba(27, 35, 46, 0.34) 0%, rgba(27, 35, 46, 0.74) 52%, rgba(27, 35, 46, 0.86) 100%),
+        url("./assets/warp-soul-reference.png") center top / cover no-repeat;
+    }
+
+    .wrap {
+      max-width: 1450px;
+      margin: 0 auto;
+      padding: 20px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .hero,
+    .panel {
+      border: 1px solid var(--warp-border);
+      border-radius: 12px;
+      background: linear-gradient(180deg, rgba(39, 50, 63, 0.94) 0%, rgba(49, 61, 76, 0.94) 100%);
+      box-shadow: var(--shadow-soft);
+      backdrop-filter: blur(6px);
+    }
+
+    .hero {
+      padding: 16px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .hero-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid rgba(0, 255, 51, 0.72);
+      color: var(--warp-accent);
+      border-radius: 9px;
+      padding: 6px 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 0.8rem;
+    }
+
+    .micro {
+      margin: 0;
+      color: var(--warp-text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.17em;
+      font-size: 0.74rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.2rem, 2vw, 1.9rem);
+      letter-spacing: -0.02em;
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--warp-text-muted);
+      font-size: 0.92rem;
+    }
+
+    .btns {
+      display: inline-flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      min-height: 38px;
+      border-radius: 9px;
+      padding: 8px 12px;
+      border: 1px solid var(--warp-border-strong);
+      background: var(--warp-surface-2);
+      color: var(--warp-text);
+      font-family: inherit;
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+    }
+
+    .btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .btn.primary {
+      background: var(--warp-accent);
+      color: #0b0c0e;
+      border-color: rgba(0, 255, 51, 0.9);
+    }
+
+    .btn.ghost {
+      background: transparent;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 510px minmax(0, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .tracker-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .tcard {
+      border: 1px solid var(--warp-border);
+      border-radius: 10px;
+      background: color-mix(in srgb, var(--warp-surface-2) 92%, black);
+      padding: 8px;
+      display: grid;
+      gap: 4px;
+      min-height: 70px;
+    }
+
+    .tcard .k {
+      font-size: 0.66rem;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      color: var(--warp-text-dim);
+    }
+
+    .tcard .v {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--warp-text);
+      margin: 0;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .step {
+      border: 1px solid var(--warp-border);
+      border-radius: 10px;
+      padding: 8px;
+      background: color-mix(in srgb, var(--warp-surface-1) 95%, black);
+      display: grid;
+      gap: 5px;
+    }
+
+    .step .n {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.68rem;
+      color: var(--warp-text-dim);
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .step .d {
+      color: var(--warp-text-muted);
+      font-size: 0.83rem;
+      margin: 0;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      border: 1px solid var(--warp-border-strong);
+      font-size: 0.66rem;
+      padding: 2px 8px;
+      font-family: "JetBrains Mono", monospace;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      width: fit-content;
+      color: var(--warp-text-muted);
+      background: color-mix(in srgb, var(--warp-surface-2) 90%, black);
+    }
+
+    .chip.ok {
+      color: var(--warp-success);
+      border-color: color-mix(in srgb, var(--warp-success) 55%, transparent);
+      background: color-mix(in srgb, var(--warp-success) 10%, transparent);
+    }
+
+    .chip.warn {
+      color: var(--warp-warning);
+      border-color: color-mix(in srgb, var(--warp-warning) 55%, transparent);
+      background: color-mix(in srgb, var(--warp-warning) 10%, transparent);
+    }
+
+    .easy {
+      display: grid;
+      gap: 10px;
+    }
+
+    .easy-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .easy-card {
+      border: 1px solid var(--warp-border);
+      border-radius: 10px;
+      padding: 10px;
+      background: color-mix(in srgb, var(--warp-surface-1) 92%, black);
+      display: grid;
+      gap: 8px;
+      align-content: start;
+    }
+
+    .easy-card h3 {
+      margin: 0;
+      font-size: 0.94rem;
+    }
+
+    .easy-card p {
+      margin: 0;
+      color: var(--warp-text-muted);
+      font-size: 0.84rem;
+    }
+
+    .easy-status {
+      margin: 0;
+      font-size: 0.88rem;
+      color: var(--warp-text-muted);
+    }
+
+    body.kid-mode .advanced-only {
+      display: none !important;
+    }
+
+    body.kid-mode .layout {
+      grid-template-columns: 1fr;
+    }
+
+    body.kid-mode .left {
+      display: none;
+      position: static;
+    }
+
+    body.kid-mode .panel {
+      padding: 10px;
+    }
+
+    body.kid-mode .preview-shell .panel {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    body.kid-mode #cards .pcard:nth-child(n+3) {
+      display: none;
+    }
+
+    .left {
+      display: grid;
+      gap: 12px;
+      position: sticky;
+      top: 12px;
+    }
+
+    .panel {
+      padding: 12px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .head h2 {
+      margin: 0;
+      font-size: 0.8rem;
+      color: var(--warp-text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+    }
+
+    .tiny {
+      font-size: 0.74rem;
+      color: var(--warp-text-dim);
+      font-family: "JetBrains Mono", monospace;
+    }
+
+    .grid2,
+    .grid3,
+    .grid4 {
+      display: grid;
+      gap: 8px;
+    }
+
+    .grid2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+    label {
+      display: grid;
+      gap: 6px;
+      font-size: 0.82rem;
+      color: var(--warp-text-muted);
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      min-height: 38px;
+      border-radius: 8px;
+      border: 1px solid var(--warp-border);
+      background: color-mix(in srgb, var(--warp-surface-1) 88%, #0f1724);
+      color: var(--warp-text);
+      padding: 8px 10px;
+      font-family: inherit;
+      font-size: 0.88rem;
+    }
+
+    textarea {
+      min-height: 88px;
+      resize: vertical;
+      line-height: 1.4;
+    }
+
+    input[type="color"] {
+      padding: 2px;
+      min-height: 36px;
+      background: transparent;
+    }
+
+    .list {
+      border: 1px solid var(--warp-border);
+      border-radius: 8px;
+      max-height: 180px;
+      overflow: auto;
+    }
+
+    .list button {
+      width: 100%;
+      text-align: left;
+      border: 0;
+      border-bottom: 1px solid var(--warp-border);
+      background: transparent;
+      color: var(--warp-text-muted);
+      padding: 9px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.78rem;
+      cursor: pointer;
+    }
+
+    .list button:last-child { border-bottom: 0; }
+    .list button.active {
+      background: rgba(0, 255, 51, 0.09);
+      color: var(--warp-accent);
+    }
+
+    .preview-shell {
+      display: grid;
+      gap: 12px;
+    }
+
+    .preview-page {
+      border-radius: var(--radius, 12px);
+      border: 1px solid var(--border, #272c35);
+      background: linear-gradient(180deg, color-mix(in srgb, var(--surface1, #121418) 92%, black) 0%, var(--surface2, #171a1f) 100%);
+      box-shadow: var(--shadow-elevated);
+      padding: 16px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .preview-hero {
+      border: 1px solid color-mix(in srgb, var(--border, #272c35) 75%, var(--accent, #00ff33) 25%);
+      border-radius: calc(var(--radius, 12px) - 2px);
+      background: radial-gradient(circle at top left, color-mix(in srgb, var(--accent, #00ff33) 18%, transparent) 0%, transparent 45%), color-mix(in srgb, var(--surface1, #121418) 88%, black);
+      padding: 14px;
+      display: grid;
+      gap: 7px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid color-mix(in srgb, var(--accent, #00ff33) 55%, transparent);
+      background: color-mix(in srgb, var(--accent, #00ff33) 8%, transparent);
+      color: var(--accent, #00ff33);
+      border-radius: 999px;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      width: fit-content;
+      font-family: "JetBrains Mono", monospace;
+    }
+
+    .preview-hero h3 {
+      margin: 0;
+      font-size: 1.25rem;
+      color: #f5f7fa;
+    }
+
+    .preview-hero p {
+      margin: 0;
+      color: #c0c7d4;
+      font-size: 0.93rem;
+      line-height: 1.45;
+    }
+
+    .cta-row {
+      display: inline-flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .pbtn {
+      min-height: 36px;
+      border-radius: 9px;
+      border: 1px solid var(--border, #353c47);
+      background: var(--surface2, #171a1f);
+      color: #f5f7fa;
+      font-family: inherit;
+      padding: 7px 11px;
+      font-size: 0.86rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .pbtn.primary {
+      background: var(--accent, #00ff33);
+      color: #0b0c0e;
+      border-color: color-mix(in srgb, var(--accent, #00ff33) 80%, #0b0c0e);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .pcard {
+      border: 1px solid var(--border, #272c35);
+      border-radius: 10px;
+      padding: 9px;
+      background: color-mix(in srgb, var(--surface2, #171a1f) 90%, black);
+      display: grid;
+      gap: 5px;
+    }
+
+    .pcard .k {
+      color: #8e97a6;
+      font-size: 0.66rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .pcard .v {
+      color: #f5f7fa;
+      font-size: 0.96rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .pcard .d {
+      color: #c0c7d4;
+      font-size: 0.8rem;
+      margin: 0;
+    }
+
+    .code {
+      border-radius: 8px;
+      border: 1px solid var(--warp-border);
+      background: #0b0f14;
+      color: #9fe9b1;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.75rem;
+      padding: 8px;
+      white-space: pre-wrap;
+      max-height: 200px;
+      overflow: auto;
+    }
+
+    .right-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .bad {
+      color: var(--warp-warning);
+      font-weight: 700;
+    }
+
+    .ok {
+      color: var(--warp-success);
+      font-weight: 700;
+    }
+
+    .flow-check {
+      border: 1px solid var(--warp-border);
+      border-radius: 10px;
+      padding: 10px;
+      background: color-mix(in srgb, var(--warp-surface-2) 90%, black);
+      display: grid;
+      gap: 8px;
+    }
+
+    .flow-list {
+      margin: 0;
+      padding-left: 18px;
+      display: grid;
+      gap: 6px;
+      font-size: 0.84rem;
+      color: var(--warp-text-muted);
+    }
+
+    .flow-pass { color: var(--warp-success); }
+    .flow-fail { color: var(--warp-warning); }
+
+    @media (max-width: 1320px) {
+      .layout { grid-template-columns: 1fr; }
+      .left { position: static; }
+      .tracker-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .easy-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 720px) {
+      .grid2, .grid3, .grid4 { grid-template-columns: 1fr; }
+      .cards { grid-template-columns: 1fr; }
+      .tracker-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-top">
+        <div>
+          <p class="micro">Manual Lane Builder</p>
+          <h1>WARP SEO + LLM Page Builder</h1>
+          <p class="sub">Build lane-combo pages manually, tune design tokens, preview instantly, and export for local publish flow.</p>
+        </div>
+        <div class="btns">
+          <a class="btn ghost" href="./index.html" style="text-decoration:none;display:inline-flex;align-items:center;">Back To Dashboard</a>
+          <button id="quickGenTop" class="btn advanced-only">Generate Top N</button>
+          <button id="copyImportCmdTop" class="btn advanced-only">Copy Import Command</button>
+          <button id="exportQueueTop" class="btn primary advanced-only">Export Queue JSON</button>
+          <button id="toggleAdvanced" class="btn ghost">Show Advanced</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel easy">
+      <div class="head">
+        <h2>Start Here (Easy Mode)</h2>
+        <span class="tiny">3 steps</span>
+      </div>
+      <div class="easy-grid">
+        <article class="easy-card">
+          <h3>1. Make Top Lane Pages</h3>
+          <p>Click once to generate your highest-impact lanes first.</p>
+          <button id="easyGenerate" class="btn primary">Generate Top Lanes</button>
+        </article>
+        <article class="easy-card">
+          <h3>2. Save The Current Page</h3>
+          <p>Review preview, then save it into your queue.</p>
+          <button id="easySave" class="btn">Save Current Page</button>
+        </article>
+        <article class="easy-card">
+          <h3>3. Export For Publish</h3>
+          <p>Export queue JSON, then run one import command.</p>
+          <button id="easyExport" class="btn">Export Queue</button>
+        </article>
+      </div>
+      <p id="easyStatus" class="easy-status">Ready. Start with Step 1.</p>
+    </section>
+
+    <section class="panel">
+      <div class="head">
+        <h2>Progress + Impact</h2>
+        <span class="tiny" id="progressTimestamp">tracking local builder + pipeline status</span>
+      </div>
+      <div class="tracker-grid">
+        <article class="tcard"><span class="k">Combos</span><p class="v" id="trkCombos">0</p><span class="tiny">Generated lane combinations</span></article>
+        <article class="tcard"><span class="k">Queued Pages</span><p class="v" id="trkQueue">0</p><span class="tiny">Pages ready to export/import</span></article>
+        <article class="tcard"><span class="k">Estimated Monthly Impact</span><p class="v" id="trkRevenue">$0</p><span class="tiny">Total expected lane value</span></article>
+        <article class="tcard advanced-only"><span class="k">QA Ready</span><p class="v" id="trkQaReady">0</p><span class="tiny">Queue pages with required fields</span></article>
+        <article class="tcard advanced-only"><span class="k">Local Published</span><p class="v" id="trkPublished">0</p><span class="tiny">From engine pipeline data</span></article>
+      </div>
+      <div class="steps advanced-only">
+        <article class="step">
+          <span class="n">Step 1</span>
+          <p class="d">Generate ranked lane combos</p>
+          <span id="stepCombos" class="chip warn">Pending</span>
+        </article>
+        <article class="step">
+          <span class="n">Step 2</span>
+          <p class="d">Queue top-priority lane pages</p>
+          <span id="stepQueue" class="chip warn">Pending</span>
+        </article>
+        <article class="step">
+          <span class="n">Step 3</span>
+          <p class="d">Export queue JSON from builder</p>
+          <span id="stepExport" class="chip warn">Pending</span>
+        </article>
+        <article class="step">
+          <span class="n">Step 4</span>
+          <p class="d">Import and locally publish via engine</p>
+          <span id="stepPublish" class="chip warn">Pending</span>
+        </article>
+      </div>
+      <div class="panel advanced-only" style="margin:0;padding:10px;">
+        <h2 style="margin-bottom:8px;">Top Lane Impact In Queue</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Lane</th>
+              <th>Segment</th>
+              <th>Expected Monthly</th>
+            </tr>
+          </thead>
+          <tbody id="impactRows"></tbody>
+        </table>
+      </div>
+      <div class="flow-check advanced-only">
+        <div class="head">
+          <h2>Flow Check</h2>
+          <span id="flowSummary" class="tiny">not run</span>
+        </div>
+        <div class="btns">
+          <button id="runFlowCheck" class="btn">Run Flow Check</button>
+          <button id="clearFlowCheck" class="btn">Clear Results</button>
+        </div>
+        <ul id="flowList" class="flow-list"></ul>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="left">
+        <article class="panel">
+          <div class="head">
+            <h2>Lane Combo Generator</h2>
+            <span class="tiny" id="comboCount">0 combos</span>
+          </div>
+          <div class="grid2">
+            <label>Origin Lanes (one per line)
+              <textarea id="origins">Los Angeles, CA
+Phoenix, AZ
+Dallas, TX</textarea>
+            </label>
+            <label>Destination Lanes (one per line)
+              <textarea id="destinations">San Francisco, CA
+Seattle, WA
+Chicago, IL</textarea>
+            </label>
+          </div>
+          <div class="grid3">
+            <label>Mode
+              <select id="mode">
+                <option value="LTL">LTL</option>
+                <option value="FTL">FTL</option>
+                <option value="Shared">Shared (Warp LTL)</option>
+              </select>
+            </label>
+            <label>Target Segment
+              <select id="segment">
+                <option value="smb">SMB</option>
+                <option value="enterprise">Enterprise</option>
+                <option value="midmarket">Midmarket</option>
+              </select>
+            </label>
+            <label>Audience
+              <input id="audience" value="Logistics Manager" />
+            </label>
+          </div>
+          <div class="grid4 advanced-only">
+            <label>Default Weekly Shipments
+              <input id="default_weekly_shipments" type="number" min="1" value="18" />
+            </label>
+            <label>Default Avg Quote Value ($)
+              <input id="default_avg_quote_value" type="number" min="100" value="2200" />
+            </label>
+            <label>Default Win Rate (0-1)
+              <input id="default_win_rate" type="number" min="0.01" max="1" step="0.01" value="0.22" />
+            </label>
+            <label>Default Strategic Priority (1-10)
+              <input id="default_strategic_priority" type="number" min="1" max="10" value="6" />
+            </label>
+          </div>
+          <div class="grid4 advanced-only">
+            <label>Weight: Volume
+              <input id="weight_volume" type="number" min="0" step="0.1" value="1.2" />
+            </label>
+            <label>Weight: Quote Value
+              <input id="weight_value" type="number" min="0" step="0.1" value="0.02" />
+            </label>
+            <label>Weight: Win Rate
+              <input id="weight_win_rate" type="number" min="0" step="0.1" value="2.8" />
+            </label>
+            <label>Weight: Strategic
+              <input id="weight_strategic" type="number" min="0" step="0.1" value="1.4" />
+            </label>
+          </div>
+          <div class="grid2 advanced-only">
+            <label>Top N Ranked Lanes
+              <input id="top_n" type="number" min="1" value="10" />
+            </label>
+            <label>Lane Metrics CSV (optional)
+              <textarea id="lane_metrics_csv" style="min-height:76px;">origin,destination,mode,weekly_shipments,avg_quote_value,win_rate,strategic_priority
+Los Angeles, CA,Seattle, WA,LTL,48,4200,0.31,9
+Phoenix, AZ,San Francisco, CA,LTL,34,3200,0.28,8</textarea>
+            </label>
+          </div>
+          <p class="tiny advanced-only" id="prioritySummary">Ranking lanes by expected monthly revenue + weighted operational factors.</p>
+          <div class="btns">
+            <button id="genCombos" class="btn">Generate Combos</button>
+            <button id="genTopPages" class="btn primary">Generate Top Ranked Pages</button>
+            <button id="genPages" class="btn">Generate All Pages</button>
+          </div>
+          <div id="comboList" class="list advanced-only"></div>
+        </article>
+
+        <article class="panel advanced-only">
+          <div class="head">
+            <h2>Page Content</h2>
+            <span class="tiny" id="selectedSlug">none</span>
+          </div>
+          <div class="grid2">
+            <label>Slug<input id="slug" /></label>
+            <label>SEO Title<input id="seo_title" /></label>
+          </div>
+          <label>Meta Description<textarea id="meta_description"></textarea></label>
+          <label>H1<input id="h1" /></label>
+          <label>Executive Summary<textarea id="executive_summary"></textarea></label>
+          <label>Intro<textarea id="intro"></textarea></label>
+          <label>Proof Section<textarea id="proof_section"></textarea></label>
+          <div class="btns">
+            <button id="saveCurrent" class="btn primary">Save Current To Queue</button>
+            <button id="resetCurrent" class="btn">Reset Current</button>
+          </div>
+        </article>
+
+        <article class="panel advanced-only">
+          <div class="head">
+            <h2>Design Controls</h2>
+            <span class="tiny">Design-safe tokens only</span>
+          </div>
+          <div class="grid4">
+            <label>Accent<input id="accent" type="color" value="#00ff33" /></label>
+            <label>Background<input id="bg" type="color" value="#0b0c0e" /></label>
+            <label>Surface 1<input id="surface1" type="color" value="#121418" /></label>
+            <label>Surface 2<input id="surface2" type="color" value="#171a1f" /></label>
+          </div>
+          <div class="grid3">
+            <label>Border<input id="border" type="color" value="#272c35" /></label>
+            <label>Radius (px)<input id="radius" type="number" min="6" max="24" value="12" /></label>
+            <label>Glow Intensity<input id="glow" type="range" min="0" max="28" value="8" /></label>
+          </div>
+          <label>Diagram Mermaid<textarea id="diagram_mermaid">flowchart LR
+  A[Origin Lane] --> B[Routing Decision]
+  B --> C[Capacity Match]
+  C --> D[Quote + ETA]
+  D --> E[Book Shipment]</textarea></label>
+        </article>
+
+        <article class="panel">
+          <div class="head">
+            <h2>Queue</h2>
+            <span class="tiny" id="queueCount">0 pages</span>
+          </div>
+          <div id="queueList" class="list advanced-only"></div>
+          <div class="btns">
+            <button id="exportCurrent" class="btn advanced-only">Export Current JSON</button>
+            <button id="exportQueue" class="btn primary">Export Queue JSON</button>
+            <button id="copyImportCmd" class="btn advanced-only">Copy Import Command</button>
+            <button id="clearQueue" class="btn">Clear Queue</button>
+          </div>
+          <p class="sub">Publish command (local engine):</p>
+          <div class="code">bash ./scripts/import_manual_pages.sh /absolute/path/to/exported-queue.json</div>
+        </article>
+      </aside>
+
+      <section class="preview-shell">
+        <article class="panel">
+          <div class="right-head">
+            <h2>Live Preview</h2>
+            <span id="qaHint" class="tiny">Fill required content to keep QA clean</span>
+          </div>
+          <div id="preview" class="preview-page">
+            <section class="preview-hero">
+              <span class="pill" id="previewPill">lane page</span>
+              <h3 id="previewH1">No page selected</h3>
+              <p id="previewIntro">Generate lane pages, select one, then customize content and design.</p>
+              <div class="cta-row">
+                <button class="pbtn" id="previewCTA1">Book 15-min Fit Call</button>
+                <button class="pbtn primary" id="previewCTA2">Get Instant Quote</button>
+              </div>
+            </section>
+
+            <section class="cards" id="cards"></section>
+
+            <section class="panel advanced-only" style="margin:0;padding:10px;">
+              <h2 style="margin-bottom:8px;">Mermaid Workflow</h2>
+              <div class="code" id="previewDiagram"></div>
+            </section>
+
+            <section class="panel advanced-only" style="margin:0;padding:10px;">
+              <h2 style="margin-bottom:8px;">Current JSON</h2>
+              <div class="code" id="jsonOut"></div>
+            </section>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <script src="./data.js"></script>
+  <script>
+    const STORAGE_KEY = "warp_manual_lane_pages_v1";
+    const PROGRESS_KEY = "warp_manual_builder_progress_v1";
+    const MODE_KEY = "warp_manual_builder_mode_v1";
+    const DEFAULT_BOOK_URL = "https://www.wearewarp.com/book";
+    const DEFAULT_QUOTE_URL = "https://www.wearewarp.com/quote";
+
+    const defaults = {
+      cta_primary: "Book 15-min Fit Call",
+      cta_secondary: "Get Instant Quote",
+      comparison_table_markdown: "| Decision Criteria | Legacy Motion | WARP Motion |\\n|---|---|---|\\n| Quote speed | Variable | Fast lane-level quotes |\\n| Visibility | Fragmented | Unified operator view |\\n| Scale decision | Gut feel | KPI-based expansion |",
+      problem_section: "Shippers need predictable lane-level pricing and execution visibility without manual follow-up loops.",
+      solution_section: "WARP coordinates routing, capacity and quote logic in one operational flow to reduce friction.",
+      visual_cards: [
+        { label: "Speed", value: "Faster quote turnaround", insight: "Move from manual quote chasing to consistent lane response windows." },
+        { label: "Reliability", value: "Predictable execution", insight: "Use route-level signals and exception management for fewer surprises." },
+        { label: "Control", value: "Pilot-to-scale governance", insight: "Expand coverage only when defined KPI thresholds are achieved." }
+      ],
+      llm_answer_snippets: [
+        { question: "What is the best way to evaluate a lane-specific freight quote workflow?", answer: "Start with a scoped lane pilot and measure quote speed, execution reliability, and exception trend quality before scaling." },
+        { question: "How can SMB and enterprise teams compare lane options quickly?", answer: "Use a standardized lane decision framework with consistent quote, ETA, and service-level criteria." },
+        { question: "What should logistics teams optimize first?", answer: "Prioritize lane-level quote responsiveness and exception visibility to reduce operational drag." }
+      ],
+      faq: [
+        { q: "How fast can we launch a lane pilot?", a: "Most teams can define lane scope and start pilot quoting within days." },
+        { q: "Can we start with only a few lanes?", a: "Yes. Begin with high-volume lanes and expand once KPI gates are met." },
+        { q: "Do we need full process migration first?", a: "No. Use a lane-first rollout and scale based on measured performance." }
+      ]
+    };
+
+    const state = {
+      combos: [],
+      pages: [],
+      current: null,
+      queue: []
+    };
+    const actions = {};
+    const dashboardPipeline = (window.DASHBOARD_DATA && window.DASHBOARD_DATA.pipeline) ? window.DASHBOARD_DATA.pipeline : {};
+    const progressState = loadProgressState();
+    let advancedMode = loadModeState();
+    let flowResults = [];
+
+    const el = (id) => document.getElementById(id);
+    const canStructuredClone = typeof structuredClone === "function";
+    const cloneObj = (x) => {
+      if (canStructuredClone) return structuredClone(x);
+      return JSON.parse(JSON.stringify(x));
+    };
+
+    const ids = [
+      "slug", "seo_title", "meta_description", "h1", "executive_summary", "intro", "proof_section",
+      "accent", "bg", "surface1", "surface2", "border", "radius", "glow", "diagram_mermaid"
+    ];
+    const requiredFields = ["slug", "seo_title", "meta_description", "h1", "intro", "proof_section", "diagram_mermaid"];
+
+    function loadProgressState() {
+      try {
+        const raw = localStorage.getItem(PROGRESS_KEY);
+        if (!raw) return {};
+        const parsed = JSON.parse(raw);
+        return (parsed && typeof parsed === "object") ? parsed : {};
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function loadModeState() {
+      try {
+        const raw = localStorage.getItem(MODE_KEY);
+        return raw === "advanced";
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function persistModeState() {
+      try {
+        localStorage.setItem(MODE_KEY, advancedMode ? "advanced" : "easy");
+      } catch (e) {
+        // Ignore storage failures; UI still works in-memory.
+      }
+    }
+
+    function applyMode() {
+      document.body.classList.toggle("kid-mode", !advancedMode);
+      const toggle = el("toggleAdvanced");
+      if (toggle) toggle.textContent = advancedMode ? "Show Easy" : "Show Advanced";
+      persistModeState();
+    }
+
+    function persistProgressState() {
+      try {
+        localStorage.setItem(PROGRESS_KEY, JSON.stringify(progressState));
+      } catch (e) {
+        // Ignore storage failures; UI still works in-memory.
+      }
+    }
+
+    function markProgress(name) {
+      progressState[name] = new Date().toISOString();
+      persistProgressState();
+    }
+
+    function formatCurrency(v) {
+      return `$${Math.round(num(v, 0)).toLocaleString()}`;
+    }
+
+    function isQaReady(page) {
+      return requiredFields.every((k) => String(page?.[k] || "").trim().length > 0);
+    }
+
+    function safeOpen(url, label, opts = {}) {
+      const target = String(url || "").trim();
+      if (!target) {
+        notify(`${label} URL is missing. Set URL in page JSON first.`, "warn");
+        return false;
+      }
+      if (opts.simulate) {
+        return /^https?:\/\//i.test(target) || target.startsWith("/");
+      }
+      try {
+        const win = window.open(target, "_blank", "noopener,noreferrer");
+        if (!win) {
+          notify(`Popup blocked for ${label}. Copy this URL: ${target}`, "warn");
+          return false;
+        }
+        notify(`Opened ${label}.`, "ok");
+        return true;
+      } catch (e) {
+        notify(`Could not open ${label}. URL: ${target}`, "warn");
+        return false;
+      }
+    }
+
+    function updateEasyStatus() {
+      const easy = el("easyStatus");
+      if (!easy) return;
+      easy.style.color = "var(--warp-text-muted)";
+      if (!state.combos.length) {
+        easy.textContent = "Step 1: Click 'Generate Top Lanes'.";
+        return;
+      }
+      if (!state.queue.length) {
+        easy.textContent = "Step 2: Click 'Save Current Page' (or generate top lanes again).";
+        return;
+      }
+      if (!progressState.lastExportAt) {
+        easy.textContent = "Step 3: Click 'Export Queue'.";
+        return;
+      }
+      easy.textContent = "Done. Next, run the import command to publish locally (click 'Show Advanced' to copy it).";
+    }
+
+    function notify(msg, kind = "info") {
+      const easy = el("easyStatus");
+      if (!easy) return;
+      easy.textContent = msg;
+      easy.style.color = kind === "warn" ? "var(--warp-warning)" : (kind === "ok" ? "var(--warp-success)" : "var(--warp-text-muted)");
+    }
+
+    function setDisabled(id, disabled) {
+      const node = el(id);
+      if (!node) return;
+      node.disabled = Boolean(disabled);
+      node.setAttribute("aria-disabled", disabled ? "true" : "false");
+    }
+
+    function updateActionStates() {
+      const hasCurrent = Boolean(state.current);
+      const hasQueue = state.queue.length > 0;
+      // Keep primary actions clickable so users always get feedback instead of dead UI.
+      setDisabled("easyGenerate", false);
+      setDisabled("easySave", false);
+      setDisabled("easyExport", false);
+      setDisabled("exportQueue", false);
+      setDisabled("exportQueueTop", false);
+      setDisabled("exportCurrent", !hasCurrent);
+      setDisabled("saveCurrent", !hasCurrent);
+      setDisabled("resetCurrent", !hasCurrent);
+      setDisabled("clearQueue", !hasQueue);
+    }
+
+    function num(v, fallback = 0) {
+      const n = Number(v);
+      return Number.isFinite(n) ? n : fallback;
+    }
+
+    function normLanePart(v) {
+      return (v || "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function laneKey(origin, destination, mode) {
+      return `${normLanePart(origin)}|${normLanePart(destination)}|${normLanePart(mode)}`;
+    }
+
+    function slugify(s) {
+      return (s || "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "")
+        .slice(0, 80);
+    }
+
+    function defaultMetrics() {
+      return {
+        weekly_shipments: Math.max(1, num(el("default_weekly_shipments").value, 18)),
+        avg_quote_value: Math.max(100, num(el("default_avg_quote_value").value, 2200)),
+        win_rate: Math.min(1, Math.max(0.01, num(el("default_win_rate").value, 0.22))),
+        strategic_priority: Math.min(10, Math.max(1, num(el("default_strategic_priority").value, 6)))
+      };
+    }
+
+    function rankingWeights() {
+      return {
+        volume: Math.max(0, num(el("weight_volume").value, 1.2)),
+        value: Math.max(0, num(el("weight_value").value, 2.0)),
+        win: Math.max(0, num(el("weight_win_rate").value, 2.8)),
+        strategic: Math.max(0, num(el("weight_strategic").value, 1.4))
+      };
+    }
+
+    function parseLaneMetricsMap() {
+      const lines = (el("lane_metrics_csv").value || "")
+        .split(/\n+/)
+        .map((x) => x.trim())
+        .filter(Boolean);
+      const map = new Map();
+      if (!lines.length) return map;
+
+      const rows = lines[0].toLowerCase().includes("origin") ? lines.slice(1) : lines;
+      rows.forEach((line) => {
+        const parts = line.split(",").map((p) => p.trim()).filter(Boolean);
+        if (parts.length < 7) return;
+
+        const strategic_priority = num(parts[parts.length - 1], 6);
+        const win_rate = num(parts[parts.length - 2], 0.22);
+        const avg_quote_value = num(parts[parts.length - 3], 2200);
+        const weekly_shipments = num(parts[parts.length - 4], 18);
+        const mode = parts[parts.length - 5];
+        const locationTokens = parts.slice(0, -5);
+        if (locationTokens.length < 2) return;
+        const splitPoint = Math.floor(locationTokens.length / 2);
+        const origin = locationTokens.slice(0, splitPoint).join(" ").trim();
+        const destination = locationTokens.slice(splitPoint).join(" ").trim();
+        if (!origin || !destination || !mode) return;
+
+        map.set(laneKey(origin, destination, mode), {
+          weekly_shipments: Math.max(1, weekly_shipments),
+          avg_quote_value: Math.max(100, avg_quote_value),
+          win_rate: Math.min(1, Math.max(0.01, win_rate)),
+          strategic_priority: Math.min(10, Math.max(1, strategic_priority))
+        });
+      });
+      return map;
+    }
+
+    function buildLaneCombos() {
+      const origins = splitLines("origins");
+      const dests = splitLines("destinations");
+      const mode = el("mode").value;
+      const segment = el("segment").value;
+      const audience = el("audience").value || "Logistics Manager";
+      const metricsMap = parseLaneMetricsMap();
+      const baseline = defaultMetrics();
+      const weights = rankingWeights();
+
+      const combos = [];
+      origins.forEach((origin) => {
+        dests.forEach((destination) => {
+          if (origin === destination) return;
+          const specific = metricsMap.get(laneKey(origin, destination, mode));
+          const metrics = specific ? { ...specific } : { ...baseline };
+
+          const expectedMonthly = metrics.weekly_shipments * 4 * metrics.avg_quote_value * metrics.win_rate;
+          const score =
+            (metrics.weekly_shipments * weights.volume) +
+            ((metrics.avg_quote_value / 1000) * weights.value) +
+            ((metrics.win_rate * 100) * weights.win) +
+            (metrics.strategic_priority * weights.strategic);
+
+          combos.push({
+            origin,
+            destination,
+            mode,
+            segment,
+            audience,
+            metrics,
+            priority: {
+              score,
+              expected_monthly_revenue: expectedMonthly
+            }
+          });
+        });
+      });
+
+      combos.sort((a, b) => b.priority.score - a.priority.score);
+      combos.forEach((c, i) => { c.rank = i + 1; });
+      return combos;
+    }
+
+    function lanePage(combo) {
+      const { origin, destination, mode, segment, audience, metrics, priority, rank } = combo;
+      const laneSlug = slugify(`${origin}-to-${destination}-${mode}`);
+      const h1 = `${origin} to ${destination} ${mode} freight quotes`;
+      const seo = `${origin} to ${destination} ${mode} Freight Quotes | WARP`;
+      const intro = `Operators shipping from ${origin} to ${destination} can use this lane-specific workflow to compare options, reduce manual quote cycles, and book faster with stronger service visibility.`;
+      return {
+        slug: laneSlug,
+        seo_title: seo,
+        meta_description: `Compare ${mode} lane options from ${origin} to ${destination} with a practical quote workflow for ${segment} teams.`,
+        h1,
+        target_segment: segment,
+        executive_summary: `${audience} teams can validate this lane in a fixed pilot and expand only when quote speed and service consistency pass KPI thresholds.`,
+        intro,
+        problem_section: defaults.problem_section,
+        solution_section: defaults.solution_section,
+        proof_section: `Start with a controlled lane pilot for ${origin} -> ${destination}. Track quote response time, transit predictability, and exception trend quality for go/no-go scaling decisions. Estimated monthly captured value at current assumptions: $${Math.round(priority.expected_monthly_revenue).toLocaleString()}.`,
+        comparison_table_markdown: defaults.comparison_table_markdown,
+        diagram_mermaid: `flowchart LR\\n  A[${origin}] --> B[Lane Intelligence]\\n  B --> C[${destination}]\\n  C --> D[Quote + ETA]\\n  D --> E[Book + Track]`,
+        visual_cards: cloneObj(defaults.visual_cards),
+        llm_answer_snippets: cloneObj(defaults.llm_answer_snippets),
+        faq: cloneObj(defaults.faq),
+        cta_primary: defaults.cta_primary,
+        cta_secondary: defaults.cta_secondary,
+        cta_primary_url: DEFAULT_BOOK_URL,
+        cta_secondary_url: DEFAULT_QUOTE_URL,
+        schema_jsonld: {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How fast can we launch a lane pilot?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most teams can define lane scope and start pilot quoting within days."
+              }
+            }
+          ]
+        },
+        lane: { origin, destination, mode },
+        priority: {
+          rank,
+          score: priority.score,
+          expected_monthly_revenue: priority.expected_monthly_revenue,
+          weekly_shipments: metrics.weekly_shipments,
+          avg_quote_value: metrics.avg_quote_value,
+          win_rate: metrics.win_rate,
+          strategic_priority: metrics.strategic_priority
+        },
+        design: {
+          accent: el("accent").value,
+          bg: el("bg").value,
+          surface1: el("surface1").value,
+          surface2: el("surface2").value,
+          border: el("border").value,
+          radius: Number(el("radius").value || 12),
+          glow: Number(el("glow").value || 8)
+        }
+      };
+    }
+
+    function splitLines(id) {
+      return el(id).value
+        .split(/\n+/)
+        .map((x) => x.trim())
+        .filter(Boolean);
+    }
+
+    function renderCombos() {
+      const target = el("comboList");
+      target.innerHTML = "";
+      el("comboCount").textContent = `${state.combos.length} combos`;
+      if (!state.combos.length) {
+        target.innerHTML = `<button disabled>No combos yet</button>`;
+        el("prioritySummary").textContent = "Ranking lanes by expected monthly revenue + weighted operational factors.";
+        renderProgress();
+        return;
+      }
+
+      const top = state.combos[0];
+      el("prioritySummary").textContent = `Top lane: ${top.origin} -> ${top.destination} | score ${top.priority.score.toFixed(2)} | est $${Math.round(top.priority.expected_monthly_revenue).toLocaleString()}/mo`;
+
+      state.combos.forEach((c) => {
+        const b = document.createElement("button");
+        b.textContent = `#${c.rank} ${c.origin} -> ${c.destination} | score ${c.priority.score.toFixed(1)} | $${Math.round(c.priority.expected_monthly_revenue / 1000)}k/mo`;
+        b.onclick = () => {
+          state.current = lanePage(c);
+          loadCurrentToForm();
+          renderPreview();
+        };
+        target.appendChild(b);
+      });
+      renderProgress();
+    }
+
+    function renderQueue() {
+      const target = el("queueList");
+      target.innerHTML = "";
+      el("queueCount").textContent = `${state.queue.length} pages`;
+      if (!state.queue.length) {
+        target.innerHTML = `<button disabled>Queue is empty</button>`;
+        renderProgress();
+        return;
+      }
+      state.queue.forEach((p, idx) => {
+        const b = document.createElement("button");
+        b.className = state.current && state.current.slug === p.slug ? "active" : "";
+        const rankLabel = p.priority?.rank ? `#${p.priority.rank} ` : "";
+        b.textContent = `${idx + 1}. ${rankLabel}${p.slug}`;
+        b.onclick = () => {
+          state.current = cloneObj(p);
+          loadCurrentToForm();
+          renderQueue();
+          renderPreview();
+        };
+        target.appendChild(b);
+      });
+      renderProgress();
+    }
+
+    function setStepChip(id, done, labelDone, labelPending) {
+      const chip = el(id);
+      if (!chip) return;
+      chip.textContent = done ? labelDone : labelPending;
+      chip.className = done ? "chip ok" : "chip warn";
+    }
+
+    function renderImpactRows() {
+      const rows = el("impactRows");
+      rows.innerHTML = "";
+      if (!state.queue.length) {
+        rows.innerHTML = `<tr><td colspan="4" class="tiny">No queued pages yet.</td></tr>`;
+        return;
+      }
+      const sorted = [...state.queue]
+        .sort((a, b) => num(b?.priority?.expected_monthly_revenue, 0) - num(a?.priority?.expected_monthly_revenue, 0))
+        .slice(0, 8);
+
+      sorted.forEach((p, idx) => {
+        const tr = document.createElement("tr");
+        const lane = p?.lane ? `${p.lane.origin || "Origin"} -> ${p.lane.destination || "Destination"}` : (p.slug || "n/a");
+        const rank = p?.priority?.rank ? `#${p.priority.rank}` : `#${idx + 1}`;
+        tr.innerHTML = `
+          <td><span class="pill">${rank}</span></td>
+          <td class="tiny">${lane}</td>
+          <td>${p.target_segment || "n/a"}</td>
+          <td>${formatCurrency(p?.priority?.expected_monthly_revenue || 0)}</td>`;
+        rows.appendChild(tr);
+      });
+    }
+
+    function renderProgress() {
+      const qaReady = state.queue.filter((p) => isQaReady(p)).length;
+      const revenue = state.queue.reduce((sum, p) => sum + num(p?.priority?.expected_monthly_revenue, 0), 0);
+      const published = num(dashboardPipeline.published, 0);
+      const combosDone = state.combos.length > 0;
+      const queueDone = state.queue.length > 0;
+      const exportDone = Boolean(progressState.lastExportAt);
+      const publishDone = published > 0;
+
+      el("trkCombos").textContent = String(state.combos.length);
+      el("trkQueue").textContent = String(state.queue.length);
+      el("trkQaReady").textContent = `${qaReady}/${state.queue.length || 0}`;
+      el("trkRevenue").textContent = formatCurrency(revenue);
+      el("trkPublished").textContent = String(published);
+      if (advancedMode) {
+        el("progressTimestamp").textContent = `updated ${new Date().toLocaleString()} | last export ${progressState.lastExportAt ? new Date(progressState.lastExportAt).toLocaleString() : "none"}`;
+      } else {
+        el("progressTimestamp").textContent = `updated ${new Date().toLocaleTimeString()}`;
+      }
+
+      setStepChip("stepCombos", combosDone, "Done", "Pending");
+      setStepChip("stepQueue", queueDone, "Done", "Pending");
+      setStepChip("stepExport", exportDone, "Done", "Pending");
+      setStepChip("stepPublish", publishDone, "Done", "Pending");
+
+      renderImpactRows();
+      updateEasyStatus();
+      updateActionStates();
+    }
+
+    function renderFlowResults() {
+      const list = el("flowList");
+      const summary = el("flowSummary");
+      if (!list || !summary) return;
+      list.innerHTML = "";
+      if (!flowResults.length) {
+        summary.textContent = "not run";
+        return;
+      }
+      const passCount = flowResults.filter((x) => x.ok).length;
+      summary.textContent = `${passCount}/${flowResults.length} passed`;
+      flowResults.forEach((r) => {
+        const li = document.createElement("li");
+        li.className = r.ok ? "flow-pass" : "flow-fail";
+        li.textContent = `${r.ok ? "PASS" : "FAIL"}: ${r.name}${r.detail ? " - " + r.detail : ""}`;
+        list.appendChild(li);
+      });
+    }
+
+    function clearFlowResults() {
+      flowResults = [];
+      renderFlowResults();
+    }
+
+    async function runFlowCheck() {
+      const results = [];
+      const run = async (name, fn) => {
+        try {
+          const out = await fn();
+          results.push({
+            name,
+            ok: out !== false,
+            detail: typeof out === "string" ? out : ""
+          });
+        } catch (e) {
+          results.push({ name, ok: false, detail: e?.message || "exception" });
+        }
+      };
+
+      await run("Generate combos", () => actions.generateCombos({ silent: true }));
+      await run("Generate top-ranked pages", () => actions.generateTopPages({ silent: true }));
+      await run("Save current page", () => actions.saveCurrent({ silent: true }));
+      await run("Export queue (simulate)", () => actions.exportQueue({ simulate: true, silent: true }));
+      await run("Copy import command (simulate)", () => actions.copyImportCommand({ simulate: true, silent: true }));
+      await run("Preview CTA book URL valid", () => safeOpen(el("previewCTA1")?.dataset?.url || DEFAULT_BOOK_URL, "Book", { simulate: true }));
+      await run("Preview CTA quote URL valid", () => safeOpen(el("previewCTA2")?.dataset?.url || DEFAULT_QUOTE_URL, "Quote", { simulate: true }));
+      await run("Toggle advanced mode", () => {
+        advancedMode = !advancedMode;
+        applyMode();
+        advancedMode = !advancedMode;
+        applyMode();
+        return true;
+      });
+
+      flowResults = results;
+      renderFlowResults();
+      const failed = results.filter((r) => !r.ok).length;
+      if (failed) notify(`Flow check found ${failed} failing path(s).`, "warn");
+      else notify("Flow check passed all critical paths.", "ok");
+    }
+
+    function updateCurrentFromForm() {
+      if (!state.current) return;
+      ["slug", "seo_title", "meta_description", "h1", "executive_summary", "intro", "proof_section", "diagram_mermaid"].forEach((id) => {
+        state.current[id] = el(id).value;
+      });
+      state.current.design = {
+        accent: el("accent").value,
+        bg: el("bg").value,
+        surface1: el("surface1").value,
+        surface2: el("surface2").value,
+        border: el("border").value,
+        radius: Number(el("radius").value || 12),
+        glow: Number(el("glow").value || 8)
+      };
+    }
+
+    function loadCurrentToForm() {
+      if (!state.current) return;
+      ["slug", "seo_title", "meta_description", "h1", "executive_summary", "intro", "proof_section", "diagram_mermaid"].forEach((id) => {
+        el(id).value = state.current[id] || "";
+      });
+      const d = state.current.design || {};
+      el("accent").value = d.accent || "#00ff33";
+      el("bg").value = d.bg || "#0b0c0e";
+      el("surface1").value = d.surface1 || "#121418";
+      el("surface2").value = d.surface2 || "#171a1f";
+      el("border").value = d.border || "#272c35";
+      el("radius").value = d.radius ?? 12;
+      el("glow").value = d.glow ?? 8;
+      el("selectedSlug").textContent = state.current.slug || "unsaved";
+    }
+
+    function renderPreview() {
+      const qaHint = el("qaHint");
+      const cards = el("cards");
+      const jsonOut = el("jsonOut");
+
+      if (!state.current) {
+        qaHint.textContent = "No page selected";
+        qaHint.className = "tiny bad";
+        cards.innerHTML = "";
+        jsonOut.textContent = "{}";
+        return;
+      }
+
+      updateCurrentFromForm();
+      const p = state.current;
+      const d = p.design || {};
+      const preview = el("preview");
+      preview.style.setProperty("--accent", d.accent || "#00ff33");
+      preview.style.setProperty("--bg", d.bg || "#0b0c0e");
+      preview.style.setProperty("--surface1", d.surface1 || "#121418");
+      preview.style.setProperty("--surface2", d.surface2 || "#171a1f");
+      preview.style.setProperty("--border", d.border || "#272c35");
+      preview.style.setProperty("--radius", `${d.radius || 12}px`);
+      preview.style.boxShadow = `0 0 ${Number(d.glow || 8) * 2}px color-mix(in srgb, ${d.accent || "#00ff33"} 12%, transparent), var(--shadow-elevated)`;
+
+      const rank = p.priority?.rank ? `#${p.priority.rank}` : "";
+      el("previewPill").textContent = `${rank} ${p.target_segment || "segment"} lane page`.trim();
+      el("previewH1").textContent = p.h1 || "Untitled lane page";
+      el("previewIntro").textContent = p.intro || "";
+      el("previewCTA1").textContent = p.cta_primary || defaults.cta_primary;
+      el("previewCTA2").textContent = p.cta_secondary || defaults.cta_secondary;
+      el("previewCTA1").dataset.url = p.cta_primary_url || DEFAULT_BOOK_URL;
+      el("previewCTA2").dataset.url = p.cta_secondary_url || DEFAULT_QUOTE_URL;
+      el("previewDiagram").textContent = p.diagram_mermaid || "";
+
+      cards.innerHTML = "";
+      (p.visual_cards || defaults.visual_cards).forEach((c) => {
+        const div = document.createElement("article");
+        div.className = "pcard";
+        div.innerHTML = `<span class="k">${c.label || "Metric"}</span><p class="v">${c.value || "Value"}</p><p class="d">${c.insight || "Insight"}</p>`;
+        cards.appendChild(div);
+      });
+
+      if (p.priority) {
+        const pr = document.createElement("article");
+        pr.className = "pcard";
+        pr.innerHTML = `<span class="k">Lane Priority</span><p class="v">Score ${num(p.priority.score).toFixed(2)}</p><p class="d">Est. $${Math.round(num(p.priority.expected_monthly_revenue)).toLocaleString()}/mo | Win ${Math.round(num(p.priority.win_rate) * 100)}%</p>`;
+        cards.appendChild(pr);
+      }
+
+      const missing = requiredFields.filter((k) => !String(p[k] || "").trim());
+      if (missing.length) {
+        qaHint.textContent = `QA risk: missing ${missing.join(", ")}`;
+        qaHint.className = "tiny bad";
+      } else {
+        qaHint.textContent = "QA-ready baseline fields present";
+        qaHint.className = "tiny ok";
+      }
+
+      jsonOut.textContent = JSON.stringify(p, null, 2);
+      renderProgress();
+    }
+
+    function saveCurrentToQueue(opts = {}) {
+      if (!state.current) {
+        if (!opts.silent) notify("No current page to save. Generate a lane page first.", "warn");
+        return false;
+      }
+      updateCurrentFromForm();
+      const idx = state.queue.findIndex((x) => x.slug === state.current.slug);
+      if (idx >= 0) state.queue[idx] = cloneObj(state.current);
+      else state.queue.push(cloneObj(state.current));
+      persistQueue();
+      renderQueue();
+      renderPreview();
+      return true;
+    }
+
+    function resetCurrent() {
+      if (!state.current || !state.current.lane) {
+        notify("No current page to reset yet.", "warn");
+        return;
+      }
+      const laneMeta = state.current.lane;
+      const metrics = state.current.priority ? {
+        weekly_shipments: num(state.current.priority.weekly_shipments, defaultMetrics().weekly_shipments),
+        avg_quote_value: num(state.current.priority.avg_quote_value, defaultMetrics().avg_quote_value),
+        win_rate: num(state.current.priority.win_rate, defaultMetrics().win_rate),
+        strategic_priority: num(state.current.priority.strategic_priority, defaultMetrics().strategic_priority)
+      } : defaultMetrics();
+      const combo = {
+        origin: laneMeta.origin,
+        destination: laneMeta.destination,
+        mode: laneMeta.mode,
+        segment: state.current.target_segment || "smb",
+        audience: el("audience").value || "Logistics Manager",
+        metrics,
+        priority: {
+          score: num(state.current.priority?.score, 0),
+          expected_monthly_revenue: num(state.current.priority?.expected_monthly_revenue, metrics.weekly_shipments * 4 * metrics.avg_quote_value * metrics.win_rate)
+        },
+        rank: num(state.current.priority?.rank, 0)
+      };
+      state.current = lanePage(combo);
+      loadCurrentToForm();
+      renderPreview();
+      notify("Reset current page to lane defaults.", "ok");
+    }
+
+    function toFile(name, obj) {
+      const blob = new Blob([JSON.stringify(obj, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = name;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function persistQueue() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state.queue));
+      } catch (e) {
+        // Ignore storage failures; queue remains active for current session.
+      }
+    }
+
+    function loadQueue() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return;
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) state.queue = parsed;
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    function pushPagesToQueue(pages) {
+      pages.forEach((p) => {
+        const idx = state.queue.findIndex((x) => x.slug === p.slug);
+        if (idx >= 0) state.queue[idx] = p;
+        else state.queue.push(p);
+      });
+      persistQueue();
+      renderQueue();
+    }
+
+    function wire() {
+      const doGenerateCombos = (opts = {}) => {
+        state.combos = buildLaneCombos();
+        markProgress("lastCombosAt");
+        renderCombos();
+        if (!opts.silent) {
+          if (!state.combos.length) notify("No lane combos found. Add at least one origin and one destination.", "warn");
+          else notify(`Generated ${state.combos.length} lane combos.`, "ok");
+        }
+        return state.combos.length > 0;
+      };
+
+      const doGenerateTopPages = (opts = {}) => {
+        if (!state.combos.length) doGenerateCombos({ silent: true });
+        const topN = Math.max(1, Math.floor(num(el("top_n").value, 10)));
+        const pages = state.combos.slice(0, topN).map((c) => lanePage(c));
+        if (!pages.length) {
+          if (!opts.silent) notify("No pages generated yet. Add lanes and click Generate Top Lanes.", "warn");
+          return false;
+        }
+        state.pages = pages;
+        if (pages[0]) {
+          state.current = cloneObj(pages[0]);
+          loadCurrentToForm();
+        }
+        pushPagesToQueue(pages);
+        markProgress("lastTopGenerationAt");
+        renderPreview();
+        if (!opts.silent) notify(`Added ${pages.length} top-ranked pages to queue.`, "ok");
+        return true;
+      };
+
+      const doGenerateAllPages = (opts = {}) => {
+        if (!state.combos.length) doGenerateCombos({ silent: true });
+        const pages = state.combos.map((c) => lanePage(c));
+        if (!pages.length) {
+          if (!opts.silent) notify("No pages generated yet. Add lanes and click Generate Combos.", "warn");
+          return false;
+        }
+        state.pages = pages;
+        if (pages[0]) {
+          state.current = cloneObj(pages[0]);
+          loadCurrentToForm();
+        }
+        pushPagesToQueue(pages);
+        markProgress("lastAllGenerationAt");
+        renderPreview();
+        if (!opts.silent) notify(`Added all ${pages.length} pages to queue.`, "ok");
+        return true;
+      };
+
+      const doSaveCurrent = (opts = {}) => {
+        if (saveCurrentToQueue(opts)) {
+          if (!opts.silent) notify("Saved current page to queue.", "ok");
+          return true;
+        }
+        return false;
+      };
+
+      const doExportQueue = (opts = {}) => {
+        if (!state.queue.length) {
+          if (!opts.silent) notify("Queue is empty. Save at least one page before exporting.", "warn");
+          return false;
+        }
+        markProgress("lastExportAt");
+        if (!opts.simulate) {
+          toFile(`manual-lane-pages-${new Date().toISOString().slice(0, 10)}.json`, state.queue);
+        }
+        renderProgress();
+        if (!opts.silent) notify(opts.simulate ? `Queue export simulation passed for ${state.queue.length} pages.` : `Exported ${state.queue.length} queued pages.`, "ok");
+        return true;
+      };
+
+      const doCopyImportCmd = async (opts = {}) => {
+        const cmd = "bash ./scripts/import_manual_pages.sh /absolute/path/to/exported-queue.json";
+        if (opts.simulate) return cmd;
+        try {
+          await navigator.clipboard.writeText(cmd);
+          markProgress("lastImportCommandCopyAt");
+          el("progressTimestamp").textContent = `copied import command | ${new Date().toLocaleString()}`;
+          renderProgress();
+          if (!opts.silent) notify("Copied import command.", "ok");
+        } catch (e) {
+          window.prompt("Copy this import command:", cmd);
+          if (!opts.silent) notify("Clipboard blocked, showing command to copy manually.", "warn");
+        }
+      };
+
+      actions.generateCombos = doGenerateCombos;
+      actions.generateTopPages = doGenerateTopPages;
+      actions.generateAllPages = doGenerateAllPages;
+      actions.saveCurrent = doSaveCurrent;
+      actions.exportQueue = doExportQueue;
+      actions.copyImportCommand = doCopyImportCmd;
+
+      el("genCombos").onclick = doGenerateCombos;
+      el("genTopPages").onclick = doGenerateTopPages;
+      el("genPages").onclick = doGenerateAllPages;
+      el("saveCurrent").onclick = doSaveCurrent;
+      el("resetCurrent").onclick = resetCurrent;
+      el("quickGenTop").onclick = doGenerateTopPages;
+      el("easyGenerate").onclick = doGenerateTopPages;
+      el("easySave").onclick = () => {
+        if (!state.current) {
+          doGenerateTopPages();
+        }
+        if (!state.current) {
+          notify("No current page to save yet. Generate top lanes first.", "warn");
+          return;
+        }
+        doSaveCurrent();
+      };
+      el("easyExport").onclick = doExportQueue;
+      el("toggleAdvanced").onclick = () => {
+        advancedMode = !advancedMode;
+        applyMode();
+        renderProgress();
+      };
+
+      ids.forEach((id) => {
+        el(id).addEventListener("input", renderPreview);
+      });
+
+      ["default_weekly_shipments", "default_avg_quote_value", "default_win_rate", "default_strategic_priority", "weight_volume", "weight_value", "weight_win_rate", "weight_strategic", "lane_metrics_csv"].forEach((id) => {
+        el(id).addEventListener("change", () => {
+          if (!state.combos.length) return;
+          state.combos = buildLaneCombos();
+          renderCombos();
+        });
+      });
+
+      el("exportCurrent").onclick = () => {
+        if (!state.current) {
+          notify("No current page to export. Generate and select a page first.", "warn");
+          return;
+        }
+        updateCurrentFromForm();
+        toFile(`${state.current.slug || "lane-page"}.json`, state.current);
+        notify(`Exported ${state.current.slug || "lane-page"}.json`, "ok");
+      };
+
+      el("exportQueue").onclick = doExportQueue;
+      el("exportQueueTop").onclick = doExportQueue;
+      el("copyImportCmd").onclick = doCopyImportCmd;
+      el("copyImportCmdTop").onclick = doCopyImportCmd;
+      el("runFlowCheck").onclick = runFlowCheck;
+      el("clearFlowCheck").onclick = clearFlowResults;
+      el("previewCTA1").onclick = () => {
+        const url = el("previewCTA1").dataset.url || DEFAULT_BOOK_URL;
+        safeOpen(url, "Book 15-min Fit Call");
+      };
+      el("previewCTA2").onclick = () => {
+        const url = el("previewCTA2").dataset.url || DEFAULT_QUOTE_URL;
+        safeOpen(url, "Get Instant Quote");
+      };
+
+      el("clearQueue").onclick = () => {
+        if (!state.queue.length) {
+          notify("Queue is already empty.", "warn");
+          return;
+        }
+        state.queue = [];
+        persistQueue();
+        renderQueue();
+        renderProgress();
+        notify("Cleared queue.", "ok");
+      };
+    }
+
+    function runStartupChecks() {
+      const requiredButtonIds = [
+        "easyGenerate", "easySave", "easyExport", "genTopPages",
+        "exportQueue", "toggleAdvanced", "previewCTA1", "previewCTA2"
+      ];
+      const missing = requiredButtonIds.filter((id) => !el(id));
+      if (missing.length) {
+        notify(`UI wiring error: missing ${missing.join(", ")}`, "warn");
+      }
+    }
+
+    loadQueue();
+    renderQueue();
+    wire();
+    applyMode();
+    runStartupChecks();
+    renderFlowResults();
+    window.addEventListener("error", (ev) => {
+      notify(`Runtime error: ${ev.message || "unknown error"}`, "warn");
+    });
+    window.addEventListener("unhandledrejection", () => {
+      notify("Runtime error: unhandled promise rejection", "warn");
+    });
+    el("genCombos").click();
+    renderProgress();
+  </script>
+</body>
+</html>

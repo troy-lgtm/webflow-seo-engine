@@ -1,0 +1,42 @@
+{
+  "slug": "houston-to-san-francisco",
+  "origin": "Houston, TX",
+  "destination": "San Francisco, CA",
+  "mode": "LTL",
+  "archetype": "energy_corridor",
+  "archetype_label": "Energy Corridor",
+  "canonical_path": "/houston-to-san-francisco",
+  "seo_title": "Houston, TX to San Francisco, CA LTL Freight Quotes | WARP",
+  "h1": "Houston, TX to San Francisco, CA LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Houston, TX to San Francisco, CA. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "Shipping LTL freight between Houston, TX and San Francisco, CA means navigating an energy-sector corridor where oversized loads, specialized equipment, and regulatory compliance shape every move. For small and mid-size shipping teams, permit requirements, escort protocols, and heavy-haul carrier access on this lane are non-negotiable considerations. This page covers LTL rate factors, equipment options, and compliance checkpoints for the Houston, TX to San Francisco, CA energy corridor.",
+  "faq": [
+    {
+      "q": "How do oil and gas market cycles affect LTL rates on the Houston, TX to San Francisco, CA lane?",
+      "a": "Active drilling seasons tighten flatbed and specialized capacity, pushing LTL rates higher. Monitor rig counts and project schedules when planning shipments from Houston, TX to San Francisco, CA."
+    },
+    {
+      "q": "Do I need permits for LTL oversized shipments from Houston, TX to San Francisco, CA?",
+      "a": "Yes. Overweight and over-dimension loads require state permits for each jurisdiction between Houston, TX and San Francisco, CA. Lead times for permits vary by state."
+    },
+    {
+      "q": "Are escort vehicles required for LTL freight between Houston, TX and San Francisco, CA?",
+      "a": "Loads exceeding state width or height thresholds on the Houston, TX to San Francisco, CA corridor require pilot cars. Requirements vary by state and are determined during the permitting process."
+    },
+    {
+      "q": "What compliance certifications should LTL carriers have on this energy lane?",
+      "a": "Look for TWIC cards, hazmat endorsements, and OSHA compliance certifications for carriers running LTL freight between Houston, TX and San Francisco, CA."
+    },
+    {
+      "q": "What specialized equipment is available for LTL energy freight from Houston, TX to San Francisco, CA?",
+      "a": "Step-deck, double-drop, and RGN trailers are commonly used on energy corridors. LTL carriers on the Houston, TX to San Francisco, CA lane maintain fleets rated for heavy and oversized loads."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 1971,
+    "haversine_miles": 1642,
+    "estimated_transit_days": "4-7",
+    "origin_region": "South Central",
+    "destination_region": "West Coast"
+  }
+}

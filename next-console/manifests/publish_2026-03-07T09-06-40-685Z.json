@@ -1,0 +1,5881 @@
+{
+  "run_id": "2026-03-07T09-06-40-685Z",
+  "script_name": "publish_next.js",
+  "trigger_source": "manual",
+  "dry_run": true,
+  "started_at": "2026-03-07T09:06:40.685Z",
+  "completed_at": "2026-03-07T09:06:43.052Z",
+  "duration_ms": 2367,
+  "intended_count": 1170,
+  "attempted_count": 0,
+  "published_count": 0,
+  "failed_count": 0,
+  "blocked_count": 1170,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": null,
+  "email_error": null,
+  "email_skip_reason": "publish_next does not send email directly",
+  "email_provider_response": null,
+  "published_pages": [],
+  "failed_pages": [],
+  "blocked_pages": [
+    {
+      "slug": "dallas-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-san-francisco",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-seattle",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-portland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-phoenix",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-las-vegas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-tacoma",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-seattle",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-portland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-seattle",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-phoenix",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-las-vegas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-seattle",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-las-vegas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-houston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-long-beach",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-san-diego",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-portland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-portland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-chicago",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-portland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "new-york-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-oakland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-dallas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-new-york",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "los-angeles-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-atlanta",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "chicago-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "atlanta-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "dallas-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "houston-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-phoenix",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-seattle",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-san-diego",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-seattle",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-tacoma",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-tacoma",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-las-vegas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-san-francisco",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-oakland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-phoenix",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-seattle",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-portland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-tacoma",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-tacoma",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-portland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-portland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-indianapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-las-vegas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "charlotte-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "memphis-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-salt-lake-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "orlando-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-denver",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "denver-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-minneapolis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "kansas-city-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "indianapolis-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "minneapolis-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-miami",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-memphis",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-tampa",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "las-vegas-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "nashville-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-kansas-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-nashville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tampa-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-portland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "phoenix-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "portland-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "seattle-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-francisco-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-las-vegas",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "miami-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-phoenix",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-charlotte",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-orlando",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "salt-lake-city-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-tacoma",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-oakland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-tacoma",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-san-diego",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-detroit",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "philadelphia-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-tacoma",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-columbus",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "raleigh-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-san-antonio",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-baltimore",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-philadelphia",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-newark",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-san-diego",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "jacksonville-to-louisville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-washington",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-new-orleans",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-fort-worth",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-spokane",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "tacoma-to-jacksonville",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-boise",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "milwaukee-to-oklahoma-city",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cincinnati-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "cleveland-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "detroit-to-san-jose",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "long-beach-to-austin",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "fort-worth-to-cincinnati",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-antonio-to-sacramento",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "austin-to-pittsburgh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "newark-to-albuquerque",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "baltimore-to-boston",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "san-diego-to-cleveland",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-milwaukee",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "oakland-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    },
+    {
+      "slug": "columbus-to-raleigh",
+      "reason": "Validation BLOCKED: LANE-BANNED-01 | score: 95",
+      "rule_id": "LANE-BANNED-01"
+    }
+  ],
+  "published_urls": [],
+  "sample_live_urls": [],
+  "warnings": [],
+  "mode": "dry-run"
+}

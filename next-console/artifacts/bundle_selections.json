@@ -1,0 +1,97 @@
+{
+  "version": "1.0.0",
+  "entries": [
+    {
+      "slug": "atlanta-to-orlando",
+      "archetype_id": null,
+      "faq_ids": [
+        "faq_1031306251",
+        "faq_987785022",
+        "faq_771789446",
+        "faq_710215875",
+        "faq_1948303330",
+        "faq_310717459",
+        "faq_1713872470"
+      ],
+      "intro_template_id": "canonical_v2",
+      "title_pattern_id": "default",
+      "meta_pattern_id": "default",
+      "cta_variant_id": "default",
+      "section_emphasis": null,
+      "quality_score": null,
+      "faq_weights_snapshot": null,
+      "mode": "LTL",
+      "segment": "smb",
+      "generated_at": "2026-03-09T13:14:20.595Z"
+    },
+    {
+      "slug": "atlanta-to-miami",
+      "archetype_id": null,
+      "faq_ids": [
+        "faq_1863654259",
+        "faq_1640208000",
+        "faq_1445846776",
+        "faq_1652937857",
+        "faq_1948303330",
+        "faq_735245457",
+        "faq_1713872470"
+      ],
+      "intro_template_id": "canonical_v2",
+      "title_pattern_id": "default",
+      "meta_pattern_id": "default",
+      "cta_variant_id": "default",
+      "section_emphasis": null,
+      "quality_score": null,
+      "faq_weights_snapshot": null,
+      "mode": "LTL",
+      "segment": "smb",
+      "generated_at": "2026-03-09T13:14:20.598Z"
+    },
+    {
+      "slug": "los-angeles-to-new-york",
+      "archetype_id": null,
+      "faq_ids": [
+        "faq_481195698",
+        "faq_516193354",
+        "faq_1304386302",
+        "faq_589687723",
+        "faq_1948303330",
+        "faq_915393083",
+        "faq_1713872470"
+      ],
+      "intro_template_id": "canonical_v2",
+      "title_pattern_id": "default",
+      "meta_pattern_id": "default",
+      "cta_variant_id": "default",
+      "section_emphasis": null,
+      "quality_score": null,
+      "faq_weights_snapshot": null,
+      "mode": "LTL",
+      "segment": "smb",
+      "generated_at": "2026-03-09T13:14:20.599Z"
+    },
+    {
+      "slug": "dallas-to-houston",
+      "archetype_id": null,
+      "faq_ids": [
+        "faq_346434176",
+        "faq_1960708849",
+        "faq_99283225",
+        "faq_1663408304",
+        "faq_1948303330",
+        "faq_880156096",
+        "faq_1713872470"
+      ],
+      "intro_template_id": "canonical_v2",
+      "title_pattern_id": "default",
+      "meta_pattern_id": "default",
+      "cta_variant_id": "default",
+      "section_emphasis": null,
+      "quality_score": null,
+      "faq_weights_snapshot": null,
+      "mode": "LTL",
+      "segment": "smb",
+      "generated_at": "2026-03-09T11:57:13.054Z"
+    }
+  ]
+}

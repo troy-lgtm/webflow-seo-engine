@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "description": "Webflow Lanes CMS collection field contract. Every lane page payload must satisfy these field requirements before publish.",
+  "fields": {
+    "name": { "type": "string", "required": true, "minLength": 5, "maxLength": 200 },
+    "slug": { "type": "string", "required": true, "pattern": "^[a-z0-9-]+$", "minLength": 3, "maxLength": 80 },
+    "seo-title": { "type": "string", "required": true, "minLength": 30, "maxLength": 70 },
+    "meta-description": { "type": "string", "required": true, "minLength": 80, "maxLength": 170 },
+    "h1": { "type": "string", "required": true, "minLength": 10 },
+    "intro": { "type": "richtext", "required": true, "minLength": 50 },
+    "problem-section": { "type": "richtext", "required": true, "minLength": 20 },
+    "solution-section": { "type": "richtext", "required": true, "minLength": 20 },
+    "proof-section": { "type": "richtext", "required": true, "minLength": 30 },
+    "faq-json": { "type": "string", "required": true, "description": "Stringified JSON array of FAQ objects [{q,a}]" },
+    "visual-cards-json": { "type": "string", "required": true, "description": "Stringified JSON array of visual card objects" },
+    "cta-primary": { "type": "string", "required": true },
+    "cta-secondary": { "type": "string", "required": true },
+    "cta-primary-url": { "type": "string", "required": true, "pattern": "^https://" },
+    "cta-secondary-url": { "type": "string", "required": true, "pattern": "^https://" },
+    "mode": { "type": "option", "required": true, "enum": ["LTL", "FTL", "Cargo Van / Box Truck"] },
+    "origin-city": { "type": "string", "required": true },
+    "destination-city": { "type": "string", "required": true },
+    "estimated-distance-miles": { "type": "number", "required": false },
+    "transit-min-days": { "type": "number", "required": false },
+    "transit-max-days": { "type": "number", "required": false },
+    "rate-low-usd": { "type": "number", "required": false },
+    "rate-high-usd": { "type": "number", "required": false },
+    "schema-jsonld": { "type": "string", "required": true, "description": "Stringified JSON-LD schema" },
+    "archetype": { "type": "string", "required": false, "description": "Lane archetype ID" },
+    "related-lanes-json": { "type": "string", "required": false, "description": "Stringified JSON array of related lane links" },
+    "related-guides-json": { "type": "string", "required": false, "description": "Stringified JSON array of guide links" }
+  }
+}

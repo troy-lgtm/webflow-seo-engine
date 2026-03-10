@@ -1,0 +1,75 @@
+{
+  "validation": {
+    "valid": false,
+    "quality_score": 91,
+    "quality_breakdown": {
+      "sections": {
+        "score": 30,
+        "max": 30,
+        "found": 6,
+        "total": 6
+      },
+      "faqs": {
+        "score": 10,
+        "max": 10,
+        "count": 5
+      },
+      "banned_content": {
+        "score": 15,
+        "max": 20,
+        "violations": 1
+      },
+      "content_length": {
+        "score": 10,
+        "max": 10,
+        "chars": 8321
+      },
+      "lane_terms": {
+        "score": 10,
+        "max": 10
+      },
+      "internal_links": {
+        "score": 6,
+        "max": 10
+      },
+      "structured_data": {
+        "score": 10,
+        "max": 10
+      }
+    },
+    "gates": {
+      "LANE-CONTENT-01": true,
+      "LANE-BANNED-01": true,
+      "LANE-BANNED-02": false,
+      "LANE-HTML-01": true,
+      "LANE-FAQ-01": true,
+      "LANE-TONE-01": true,
+      "LANE-FALLBACK-01": true
+    },
+    "sections_found": {
+      "lane_overview": true,
+      "warp_fit": true,
+      "operating_details": true,
+      "pricing_section": true,
+      "related_links": true
+    },
+    "sections_missing": [
+      "faqs"
+    ],
+    "faq_count": 5,
+    "banned_content_found": [
+      "wistia-player"
+    ],
+    "errors": [
+      {
+        "rule_id": "LANE-BANNED-02",
+        "type": "banned_embed",
+        "found": "wistia-player",
+        "message": "Banned embed pattern found: \"wistia-player\""
+      }
+    ],
+    "warnings": []
+  },
+  "slug": "chicago-to-denver",
+  "generated_at": "2026-03-06T08:10:18.009Z"
+}

@@ -1,0 +1,35 @@
+{
+  "run_id": "2026-03-07T10-10-32-430Z",
+  "script_name": "publish_next.js",
+  "trigger_source": "manual",
+  "dry_run": true,
+  "started_at": "2026-03-07T10:10:32.430Z",
+  "completed_at": "2026-03-07T10:10:32.441Z",
+  "duration_ms": 11,
+  "intended_count": 1,
+  "attempted_count": 1,
+  "published_count": 0,
+  "failed_count": 1,
+  "blocked_count": 0,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": null,
+  "email_error": null,
+  "email_skip_reason": "publish_next does not send email directly",
+  "email_provider_response": null,
+  "published_pages": [],
+  "failed_pages": [
+    {
+      "slug": "elig-test-approved",
+      "reason": "Cannot read properties of undefined (reading 'split')"
+    }
+  ],
+  "blocked_pages": [],
+  "published_urls": [],
+  "sample_live_urls": [],
+  "warnings": [],
+  "mode": "dry-run"
+}

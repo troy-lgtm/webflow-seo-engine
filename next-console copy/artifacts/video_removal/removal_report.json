@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-03-06T06:08:25.386Z",
+  "dry_run": true,
+  "pages_processed": 15,
+  "patched": 0,
+  "failed": 0,
+  "results": [
+    {
+      "slug": "atlanta-to-dallas",
+      "itemId": "69aa325f92931aa8fe4c54f8",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "atlanta-to-chicago",
+      "itemId": "69aa325fb97fbf9b85e763a7",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "chicago-to-dallas",
+      "itemId": "69aa32606c6434e6e9f39c44",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "dallas-to-atlanta",
+      "itemId": "69aa3261b97fbf9b85e7648c",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "dallas-to-chicago",
+      "itemId": "69aa3262b97fbf9b85e76517",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "chicago-to-atlanta",
+      "itemId": "69aa32636c6434e6e9f3a03a",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "dallas-to-new-york",
+      "itemId": "69aa32633a3c3ba12354c861",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "itemId": "69aa3264e107485fa9f21bc6",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "atlanta-to-miami",
+      "itemId": "69aa32653dfbcf51e8582098",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "dallas-to-charlotte",
+      "itemId": "69aa32663dfbcf51e85820b1",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "new-york-to-atlanta",
+      "itemId": "69aa3267017648ab5c09f985",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "miami-to-chicago",
+      "itemId": "69aa3268dac788b2a887bf00",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "itemId": "69aa326932393011b92feb24",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "miami-to-atlanta",
+      "itemId": "69aa32699a60a9256d0c811a",
+      "status": "dry_run",
+      "faqCount": 5
+    },
+    {
+      "slug": "los-angeles-to-chicago",
+      "itemId": "69aa326ce107485fa9f21e1e",
+      "status": "dry_run",
+      "faqCount": 5
+    }
+  ]
+}

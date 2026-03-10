@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "description": "Controls the rate at which new lane pages are published to Webflow. Prevents flooding the index with untested content.",
+  "waves": [
+    { "wave": 1, "maxPages": 10, "label": "Pilot", "description": "Initial 10 pages for validation and indexation monitoring" },
+    { "wave": 2, "maxPages": 50, "label": "Ramp", "description": "Expand to 50 pages after Wave 1 pages are indexed and performing" },
+    { "wave": 3, "maxPages": 100, "label": "Scale", "description": "Scale to 100 pages with proven templates and archetypes" },
+    { "wave": 4, "maxPages": 200, "label": "Full", "description": "Full metro cluster deployment" }
+  ],
+  "limits": {
+    "maxPublishPerDay": 5,
+    "maxPublishPerWeek": 20,
+    "cooldownMinutes": 10,
+    "requireVerifiedPreview": true
+  },
+  "indexation": {
+    "minIndexedPctForNextWave": 0.80,
+    "minDaysBeforeNextWave": 14,
+    "description": "At least 80% of current wave pages must be indexed and at least 14 days must pass before advancing to the next wave."
+  },
+  "killSwitch": {
+    "envVar": "PUBLISH_KILL_SWITCH",
+    "description": "Set PUBLISH_KILL_SWITCH=true in environment to halt ALL publishing immediately."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "production_domains": [
+    "www.wearewarp.com",
+    "wearewarp.com"
+  ],
+  "production_environment_markers": [
+    "production",
+    "vercel-production"
+  ],
+  "staging_environment_markers": [
+    "staging",
+    "preview",
+    "vercel-preview"
+  ],
+  "localhost_markers": [
+    "localhost",
+    "127.0.0.1",
+    "0.0.0.0"
+  ],
+  "require_live_verification_for_confirmed": true
+}

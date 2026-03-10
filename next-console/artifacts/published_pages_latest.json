@@ -1,0 +1,14 @@
+{
+  "run_id": "2026-03-08T06-49-23-400Z",
+  "timestamp": "2026-03-08T06:49:23.400Z",
+  "live_indexable_pages": [
+    {
+      "page_path": "/lanes/chicago-to-dallas",
+      "page_type": "lane",
+      "lane_slug": "chicago-to-dallas",
+      "corridor_id": "unknown"
+    }
+  ],
+  "live_noindex_pages": [],
+  "blocked_pages": []
+}

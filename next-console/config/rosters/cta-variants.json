@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "description": "Approved CTA copy variants. NOT yet consumed — activate_when cta_weights moves to ACTIVE.",
+  "classification": "future-ready-scaffold",
+  "consumed_by": "NONE (inactive dimension per config/learning-scope.json)",
+  "activate_when": "CTA selection logic is added to render-lane-page.js",
+  "primary_cta_variants": {
+    "default": {
+      "id": "cta_primary_default",
+      "label": "Get Instant Quote",
+      "url_template": "/get-quote?lane={slug}",
+      "notes": "Current production CTA."
+    },
+    "rate_specific": {
+      "id": "cta_primary_rate",
+      "label": "See {mode} Rates",
+      "url_template": "/get-quote?lane={slug}&mode={mode}",
+      "notes": "Mode-specific rate framing."
+    },
+    "lane_specific": {
+      "id": "cta_primary_lane",
+      "label": "Quote {origin} to {destination}",
+      "url_template": "/get-quote?lane={slug}",
+      "notes": "Lane-specific CTA for high-intent pages."
+    },
+    "pilot_specific": {
+      "id": "cta_primary_pilot",
+      "label": "Start a Pilot Shipment",
+      "url_template": "/get-quote?lane={slug}&type=pilot",
+      "notes": "Pilot-oriented for enterprise/evaluation pages."
+    }
+  },
+  "secondary_cta_variants": {
+    "default": {
+      "id": "cta_secondary_default",
+      "label": "Talk to WARP",
+      "url_template": "/contact?lane={slug}",
+      "notes": "Current production secondary CTA."
+    },
+    "expert_specific": {
+      "id": "cta_secondary_expert",
+      "label": "Talk to a Freight Expert",
+      "url_template": "/contact?lane={slug}",
+      "notes": "Expert framing for complex lanes."
+    },
+    "strategy_specific": {
+      "id": "cta_secondary_strategy",
+      "label": "Book a Strategy Call",
+      "url_template": "/contact?lane={slug}&type=strategy",
+      "notes": "Strategy call for enterprise segment."
+    }
+  },
+  "constraints": {
+    "primary_max_length": 30,
+    "secondary_max_length": 30,
+    "banned_phrases": ["Book Freight Instantly", "Schedule a Demo", "Get Started Today", "Sign Up Free"]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "sample_size": 20,
+  "max_failed_before_warning": 2,
+  "timeout_ms": 10000
+}

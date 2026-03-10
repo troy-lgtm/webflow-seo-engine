@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.wearewarp.com/sitemaps/sitemap-lanes.xml</loc>
+    <lastmod>2026-03-07</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.wearewarp.com/sitemaps/sitemap-corridors.xml</loc>
+    <lastmod>2026-03-07</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.wearewarp.com/sitemaps/sitemap-metros.xml</loc>
+    <lastmod>2026-03-07</lastmod>
+  </sitemap>
+</sitemapindex>

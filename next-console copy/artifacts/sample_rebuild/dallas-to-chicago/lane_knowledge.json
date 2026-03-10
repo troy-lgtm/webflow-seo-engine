@@ -1,0 +1,107 @@
+{
+  "lane_slug": "dallas-to-chicago",
+  "origin_city": "Dallas",
+  "origin_state": "TX",
+  "destination_city": "Chicago",
+  "destination_state": "IL",
+  "canonical_path": "/lanes/dallas-to-chicago",
+  "corridor_id": null,
+  "mode": "LTL",
+  "region_profile": {
+    "origin": "South Central",
+    "destination": "Midwest"
+  },
+  "distance_band": "regional",
+  "lane_stats": {
+    "estimated_distance_miles": 950,
+    "estimated_transit_days_range": {
+      "min": 3,
+      "max": 4
+    },
+    "estimated_rate_range_usd": {
+      "low": 4408,
+      "high": 5877
+    },
+    "common_equipment": [
+      "Dry Van",
+      "Reefer (temp-controlled)"
+    ],
+    "seasonality_notes": "Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec.",
+    "confidence": {
+      "transit": "modeled",
+      "rate": "modeled"
+    },
+    "disclaimers": [
+      "These are modeled estimates, not guaranteed quotes.",
+      "Actual rates depend on freight details, accessorials, and current market conditions."
+    ]
+  },
+  "network_proof": {
+    "estimated_carrier_count": 7,
+    "nearest_cross_docks": [
+      "Dallas Mega Hub",
+      "Houston Terminal",
+      "Memphis Freight Hub",
+      "Chicago Gateway",
+      "Indianapolis Hub"
+    ],
+    "service_notes": [
+      "Real-time scan events at pickup, in-transit, and delivery",
+      "Estimated 3-4 business day transit window",
+      "Pallet-level tracking with delivery appointment scheduling",
+      "Exception alerts within 30 minutes of status change"
+    ],
+    "origin_region": "South Central",
+    "destination_region": "Midwest"
+  },
+  "shipment_profile_fit": [
+    "palletized freight",
+    "scheduled replenishment",
+    "appointment-driven freight"
+  ],
+  "equipment_fit": [
+    "LTL",
+    "box truck where applicable"
+  ],
+  "operational_characteristics": [
+    "retail and store replenishment fit",
+    "scheduled pickup coordination",
+    "visibility and live tracking"
+  ],
+  "pricing_logic": [
+    "per pallet economics",
+    "volume consistency improves planning",
+    "transparent quoting"
+  ],
+  "faq_seeds": [
+    {
+      "q": "How long does LTL freight take from Dallas to Chicago?",
+      "a": "Estimated transit is 3-4 business days on this ~950-mile lane. Actual times depend on carrier routing and weather."
+    },
+    {
+      "q": "How much does LTL shipping from Dallas to Chicago cost?",
+      "a": "Modeled LTL rates range from $4,408 to $5,877 depending on freight details. Get an instant quote for real-time pricing."
+    },
+    {
+      "q": "What equipment is available on the Dallas to Chicago lane?",
+      "a": "Common equipment includes Dry Van, Reefer (temp-controlled). Availability varies by season and demand."
+    },
+    {
+      "q": "Can we start with just this lane before expanding?",
+      "a": "Yes. A single-lane pilot lets you validate performance before committing to additional corridors."
+    },
+    {
+      "q": "How does WARP handle exceptions on this LTL lane?",
+      "a": "WARP detects exceptions automatically with alerts within 30 minutes of any status change."
+    }
+  ],
+  "related_corridor_logic": {
+    "corridor_hub": null,
+    "related_lane_count_target": 8,
+    "tool_link": "/public/freight-quote",
+    "data_link": null
+  },
+  "origin": "Dallas, TX",
+  "destination": "Chicago, IL",
+  "segment": "smb"
+}

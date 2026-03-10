@@ -1,0 +1,95 @@
+{
+  "audit_date": "2026-03-05",
+  "auditor": "system",
+  "verdict": "DECORATIVE — learning weights are computed and stored but never consumed by generation or publish ordering",
+  "dimensions": {
+    "archetype_weights": {
+      "computed": true,
+      "stored": true,
+      "consumed_by_generation": false,
+      "consumed_by_publish_priority": false,
+      "wiring_status": "BROKEN",
+      "fix": "Wire computeLearnedPriorityBoost into publish_next.js hub priority scoring",
+      "fix_applied": true
+    },
+    "faq_weights": {
+      "computed": true,
+      "stored": true,
+      "consumed_by_generation": false,
+      "wiring_status": "BROKEN",
+      "fix": "Wire weightedDeterministicSelect into getArchetypeFaq pool selection in lane-archetypes.js",
+      "fix_applied": true
+    },
+    "title_pattern_weights": {
+      "computed": true,
+      "stored": true,
+      "consumed_by_generation": false,
+      "wiring_status": "NOT_WIREABLE",
+      "reason": "Only one title template exists per page — no pool to select from. Marked inactive.",
+      "fix": "Mark inactive in learning-scope.json. Do not fake a pool.",
+      "fix_applied": true
+    },
+    "meta_pattern_weights": {
+      "computed": true,
+      "stored": true,
+      "consumed_by_generation": false,
+      "wiring_status": "NOT_WIREABLE",
+      "reason": "Only one meta description template exists per page — no pool to select from. Marked inactive.",
+      "fix": "Mark inactive in learning-scope.json. Do not fake a pool.",
+      "fix_applied": true
+    },
+    "cta_weights": {
+      "computed": true,
+      "stored": true,
+      "consumed_by_generation": false,
+      "wiring_status": "NOT_WIREABLE",
+      "reason": "Only one CTA per page. No CTA variant pool exists. Marked inactive.",
+      "fix": "Mark inactive in learning-scope.json.",
+      "fix_applied": true
+    },
+    "intro_pattern_weights": {
+      "computed": true,
+      "stored": true,
+      "consumed_by_generation": false,
+      "wiring_status": "NOT_WIREABLE",
+      "reason": "Intro is generated per-archetype with one template per archetype. No variant pool. Marked inactive.",
+      "fix": "Mark inactive in learning-scope.json.",
+      "fix_applied": true
+    },
+    "link_pattern_weights": {
+      "computed": true,
+      "stored": true,
+      "consumed_by_generation": false,
+      "wiring_status": "NOT_WIREABLE",
+      "reason": "Link selection is deterministic based on page relationships. No variant pool. Marked inactive.",
+      "fix": "Mark inactive in learning-scope.json.",
+      "fix_applied": true
+    }
+  },
+  "hard_gates_audit": {
+    "immutable_keys_defined": true,
+    "immutable_keys": [
+      "uniqueness_thresholds",
+      "usefulness_gate_rules",
+      "slug_rules",
+      "schema_requirements",
+      "duplicate_protection",
+      "live_verification_rules",
+      "domain_path_trust_rules",
+      "collection_template_path"
+    ],
+    "deletion_on_violation": true,
+    "recommendations_generated_on_block": true,
+    "verdict": "SAFE — immutable keys are checked and deleted if found in state"
+  },
+  "signal_sources": {
+    "gsc_import_current.csv": { "type": "real_external", "provides": ["impressions", "clicks", "ctr", "avg_position"] },
+    "ga4_import_current.csv": { "type": "real_external", "provides": ["quote_starts", "sessions"] },
+    "page_postmortems.json": { "type": "derived", "depends_on": ["gsc_import_current.csv", "ga4_import_current.csv", "published_pages.json"] },
+    "ai_extractability_score": { "type": "internal_computed", "concern": "Circular — computed by our code, not externally validated. Weighted at only 15% to limit circular influence." },
+    "publish_success": { "type": "internal_computed", "concern": "Binary internal signal. Weighted at only 10%." },
+    "uniqueness_safety": { "type": "internal_computed", "concern": "Internal gate score. Weighted at only 5%." }
+  },
+  "active_dimensions_after_fix": ["archetype_weights", "faq_weights"],
+  "inactive_dimensions_after_fix": ["title_pattern_weights", "meta_pattern_weights", "cta_weights", "intro_pattern_weights", "link_pattern_weights"]
+}

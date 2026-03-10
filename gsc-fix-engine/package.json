@@ -1,0 +1,35 @@
+{
+  "name": "gsc-fix-engine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3100",
+    "build": "npx prisma generate && next build",
+    "start": "next start --port 3100",
+    "db:push": "npx prisma db push",
+    "db:seed": "npx tsx lib/fixtures/seed.ts",
+    "db:reset": "rm -f prisma/dev.db && npx prisma db push && npx tsx lib/fixtures/seed.ts",
+    "ingest:sample": "curl -s -X POST http://localhost:3100/api/ingest-email -H 'Content-Type: text/plain' --data-binary @public/sample-gsc-faq-email.eml"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "cheerio": "^1.0.0",
+    "mailparser": "^3.7.2",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/mailparser": "^3.4.5",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.4.49",
+    "prisma": "^6.5.0",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

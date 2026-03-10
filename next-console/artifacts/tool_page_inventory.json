@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-03-06T12:00:00.000Z",
+  "tool_pages": [
+    {
+      "slug": "ltl",
+      "title": "LTL Freight Shipping Guide",
+      "canonical_path": "/guides/ltl",
+      "type": "guide",
+      "linked_from_lanes": true,
+      "linked_from_corridors": true,
+      "notes": "Mode guide — linked via lib/link-graph.js (guideLinks.mode.LTL) and lane breadcrumb schema"
+    },
+    {
+      "slug": "ftl",
+      "title": "FTL Freight Shipping Guide",
+      "canonical_path": "/guides/ftl",
+      "type": "guide",
+      "linked_from_lanes": true,
+      "linked_from_corridors": true,
+      "notes": "Mode guide — linked via lib/link-graph.js (guideLinks.mode.FTL)"
+    },
+    {
+      "slug": "cargo-van-box-truck",
+      "title": "Cargo Van & Box Truck Shipping Guide",
+      "canonical_path": "/guides/cargo-van-box-truck",
+      "type": "guide",
+      "linked_from_lanes": true,
+      "linked_from_corridors": true,
+      "notes": "Mode guide — linked via lib/link-graph.js (guideLinks.mode['Cargo Van / Box Truck'])"
+    },
+    {
+      "slug": "smb",
+      "title": "SMB Freight Buyer's Guide",
+      "canonical_path": "/guides/smb",
+      "type": "guide",
+      "linked_from_lanes": true,
+      "linked_from_corridors": false,
+      "notes": "Segment guide — linked via lib/link-graph.js (guideLinks.segment.smb)"
+    },
+    {
+      "slug": "enterprise",
+      "title": "Enterprise Logistics Guide",
+      "canonical_path": "/guides/enterprise",
+      "type": "guide",
+      "linked_from_lanes": true,
+      "linked_from_corridors": false,
+      "notes": "Segment guide — linked via lib/link-graph.js (guideLinks.segment.enterprise)"
+    },
+    {
+      "slug": "midmarket",
+      "title": "Midmarket Freight Guide",
+      "canonical_path": "/guides/midmarket",
+      "type": "guide",
+      "linked_from_lanes": true,
+      "linked_from_corridors": false,
+      "notes": "Segment guide — linked via lib/link-graph.js (guideLinks.segment.midmarket)"
+    },
+    {
+      "slug": "freight-class",
+      "title": "Understanding Freight Classification",
+      "canonical_path": "/guides/freight-class",
+      "type": "guide",
+      "linked_from_lanes": true,
+      "linked_from_corridors": false,
+      "notes": "Problem guide — linked via lib/link-graph.js (guideLinks.problem); also has reference-page in lib/reference-pages/freight-class.js"
+    },
+    {
+      "slug": "damage-prevention",
+      "title": "Freight Damage Prevention Guide",
+      "canonical_path": "/guides/damage-prevention",
+      "type": "guide",
+      "linked_from_lanes": true,
+      "linked_from_corridors": false,
+      "notes": "Problem guide — linked via lib/link-graph.js (guideLinks.problem)"
+    },
+    {
+      "slug": "tendering",
+      "title": "Freight Tendering Best Practices",
+      "canonical_path": "/guides/tendering",
+      "type": "guide",
+      "linked_from_lanes": true,
+      "linked_from_corridors": false,
+      "notes": "Problem guide — linked via lib/link-graph.js (guideLinks.problem)"
+    }
+  ],
+  "reference_pages": [
+    {
+      "slug": "freight-cost-breakdown",
+      "title": "Freight Cost Breakdown: What Drives Shipping Rates",
+      "canonical_path": "/reference/freight-cost-breakdown",
+      "type": "reference",
+      "source_file": "lib/reference-pages/freight-cost-breakdown.js",
+      "linked_from_lanes": true
+    },
+    {
+      "slug": "ltl-vs-ftl-guide",
+      "title": "LTL vs FTL: Complete Comparison Guide",
+      "canonical_path": "/reference/ltl-vs-ftl-guide",
+      "type": "reference",
+      "source_file": "lib/reference-pages/ltl-vs-ftl.js",
+      "linked_from_lanes": true
+    },
+    {
+      "slug": "freight-class",
+      "title": "Freight Class Guide: NMFC Classifications Explained",
+      "canonical_path": "/reference/freight-class",
+      "type": "reference",
+      "source_file": "lib/reference-pages/freight-class.js",
+      "linked_from_lanes": true
+    },
+    {
+      "slug": "freight-accessorials",
+      "title": "Freight Accessorials Reference",
+      "canonical_path": "/reference/freight-accessorials",
+      "type": "reference",
+      "source_file": "lib/reference-pages/freight-accessorials.js",
+      "linked_from_lanes": false
+    },
+    {
+      "slug": "transit-times",
+      "title": "Transit Times by Lane",
+      "canonical_path": "/index/transit-times",
+      "type": "reference",
+      "source_file": "lib/reference-pages/transit-times.js",
+      "linked_from_lanes": true
+    }
+  ],
+  "external_tools": [
+    {
+      "name": "Freight Quote Tool",
+      "url": "https://www.wearewarp.com/quote",
+      "linked_from_lanes": true,
+      "linked_from_corridors": true,
+      "notes": "Primary CTA on all lane pages (via lane-engine.js DEFAULT_QUOTE_URL), corridor hub pages, guide pages, and metro hub pages"
+    },
+    {
+      "name": "App Quote Tool",
+      "url": "https://app.wearewarp.com/quote",
+      "linked_from_lanes": true,
+      "linked_from_corridors": false,
+      "notes": "Used in lane-content-engine.js cta_url for embedded CTAs"
+    }
+  ],
+  "configured_tool_pages": [
+    {
+      "id": "freight-quote",
+      "url": "/public/freight-quote",
+      "intent": "conversion",
+      "matchModes": ["LTL", "FTL", "Cargo Van / Box Truck"],
+      "pageTypes": ["lane_service"],
+      "source": "config/seo-engine.json toolPages[0]"
+    },
+    {
+      "id": "ltl-class-calculator",
+      "url": "/tools/ltl-freight-class-calculator",
+      "intent": "data",
+      "matchModes": ["LTL"],
+      "pageTypes": ["lane_data", "lane_service"],
+      "source": "config/seo-engine.json toolPages[1]",
+      "notes": "Referenced in selectToolPage() but no standalone page exists in app/ — URL points to a Webflow-hosted tool page"
+    },
+    {
+      "id": "ltl-rfp",
+      "url": "/tools/ltl-rfp",
+      "intent": "conversion",
+      "matchModes": ["LTL"],
+      "pageTypes": ["lane_service"],
+      "source": "config/seo-engine.json toolPages[2]",
+      "notes": "Referenced in selectToolPage() but no standalone page exists in app/ — URL points to a Webflow-hosted tool page"
+    }
+  ],
+  "summary": {
+    "total_guide_pages": 9,
+    "total_reference_pages": 5,
+    "total_external_tools": 2,
+    "total_configured_tool_pages": 3,
+    "guide_pages_linked_from_lanes": 9,
+    "guide_pages_linked_from_corridors": 3
+  },
+  "recommendations": [
+    "Add LTL freight class calculator page (currently configured in seo-engine.json toolPages but no Next.js page exists at /tools/ltl-freight-class-calculator)",
+    "Add pallet density calculator tool page to help shippers determine accurate freight class",
+    "Add transit-time estimator tool page (reference data exists in lib/reference-pages/transit-times.js but no interactive tool)",
+    "Add LTL RFP builder tool page (configured in seo-engine.json but no Next.js page at /tools/ltl-rfp)",
+    "Create a guides index page at /guides listing all 9 guides for better discoverability and internal linking",
+    "Create a metros index page at /metros listing all 51 metro hub pages",
+    "Add sitemap entries for guide pages (currently not included in any sitemap)",
+    "Add sitemap entries for reference pages (currently not included in any sitemap)"
+  ]
+}

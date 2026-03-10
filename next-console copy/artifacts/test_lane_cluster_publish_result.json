@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-03-06T12:02:45.860Z",
+  "mode": "live",
+  "summary": {
+    "published": 3,
+    "failed": 0
+  },
+  "pages": [
+    {
+      "lane_slug": "los-angeles-to-phoenix",
+      "published": true,
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-phoenix",
+      "webflow_item_id": "68f464d03263a8d00aca9ce2",
+      "error": null
+    },
+    {
+      "lane_slug": "long-beach-to-phoenix",
+      "published": true,
+      "url": "https://www.wearewarp.com/lanes/long-beach-to-phoenix",
+      "webflow_item_id": "69aac23ab818c98b9b451d16",
+      "error": null
+    },
+    {
+      "lane_slug": "san-diego-to-phoenix",
+      "published": true,
+      "url": "https://www.wearewarp.com/lanes/san-diego-to-phoenix",
+      "webflow_item_id": "69aac24b132d20e97066f47d",
+      "error": null
+    }
+  ]
+}

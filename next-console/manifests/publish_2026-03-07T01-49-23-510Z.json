@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-03-07T01-49-23-510Z",
+  "script_name": "lanes_auto_publish.js",
+  "trigger_source": "autonomous-factory",
+  "dry_run": true,
+  "started_at": "2026-03-07T01:49:23.510Z",
+  "completed_at": "2026-03-07T01:49:23.595Z",
+  "duration_ms": 85,
+  "intended_count": 3,
+  "attempted_count": 3,
+  "published_count": 3,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": "troy@wearewarp.com",
+  "email_error": null,
+  "email_skip_reason": "dry-run mode",
+  "email_provider_response": null,
+  "published_pages": [
+    {
+      "slug": "los-angeles-to-new-york",
+      "webflow_item_id": "dry-run-4183a1a6",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-new-york"
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "webflow_item_id": "dry-run-f7ff9738",
+      "url": "https://www.wearewarp.com/lanes/atlanta-to-new-york"
+    },
+    {
+      "slug": "houston-to-new-york",
+      "webflow_item_id": "dry-run-c8c597b8",
+      "url": "https://www.wearewarp.com/lanes/houston-to-new-york"
+    }
+  ],
+  "failed_pages": [],
+  "blocked_pages": [],
+  "published_urls": [
+    "https://www.wearewarp.com/lanes/los-angeles-to-new-york",
+    "https://www.wearewarp.com/lanes/atlanta-to-new-york",
+    "https://www.wearewarp.com/lanes/houston-to-new-york"
+  ],
+  "sample_live_urls": [],
+  "warnings": [],
+  "mode": "dry-run"
+}

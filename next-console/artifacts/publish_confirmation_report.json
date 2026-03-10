@@ -1,0 +1,47 @@
+{
+  "run_id": "2026-03-08T06-49-23-400Z",
+  "timestamp": "2026-03-08T06:49:23.400Z",
+  "classification": "local_simulation",
+  "display_status": "Simulated local audit",
+  "trust_level": "low",
+  "confirmed_posted_today": false,
+  "reason_codes": [
+    "mode_is_dry",
+    "environment_is_local"
+  ],
+  "date_bucket": "2026-03-07",
+  "summary": {
+    "pages_attempted": 1,
+    "pages_generated": 1,
+    "pages_indexable": 1,
+    "pages_noindex": 0,
+    "pages_blocked": 0,
+    "verification_warning": false
+  },
+  "verification_summary": {
+    "ran": false,
+    "checked": 0,
+    "passed": 0,
+    "failed": 0,
+    "verification_status": "not_run"
+  },
+  "sample_live_urls": [
+    "https://www.wearewarp.com/lanes/chicago-to-dallas"
+  ],
+  "top_corridors": [
+    {
+      "corridor_id": "unknown",
+      "pages_generated": 1,
+      "pages_indexable": 1
+    }
+  ],
+  "deploy": {
+    "provider": "webflow",
+    "deployment_id": "dry-run-item-a48a3f99",
+    "deployment_url": "unknown",
+    "commit_sha": "unknown",
+    "branch": "unknown",
+    "status": "unknown"
+  },
+  "verification": null
+}

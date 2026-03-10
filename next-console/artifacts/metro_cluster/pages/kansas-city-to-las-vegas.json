@@ -1,0 +1,42 @@
+{
+  "slug": "kansas-city-to-las-vegas",
+  "origin": "Kansas City, MO",
+  "destination": "Las Vegas, NV",
+  "mode": "LTL",
+  "archetype": "agriculture_lane",
+  "archetype_label": "Agriculture Lane",
+  "canonical_path": "/kansas-city-to-las-vegas",
+  "seo_title": "Kansas City, MO to Las Vegas, NV LTL Freight Quotes | WARP",
+  "h1": "Kansas City, MO to Las Vegas, NV LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Kansas City, MO to Las Vegas, NV. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "The Kansas City, MO to Las Vegas, NV corridor is an active agriculture lane where seasonal harvest volumes, temperature-controlled freight, and time-sensitive delivery windows define the shipping rhythm. For small and mid-size shipping teams, aligning LTL capacity with planting and harvest cycles, managing reefer availability, and locking in rates before peak season are all priorities. This page outlines LTL strategies for produce, grain, and perishable freight between Kansas City, MO and Las Vegas, NV.",
+  "faq": [
+    {
+      "q": "When is peak season for LTL agriculture freight from Kansas City, MO to Las Vegas, NV?",
+      "a": "Peak agricultural shipping on the Kansas City, MO to Las Vegas, NV lane typically runs from late June through October, depending on crop cycles and regional harvest timing."
+    },
+    {
+      "q": "Are temperature-controlled LTL trailers available from Kansas City, MO to Las Vegas, NV?",
+      "a": "Yes. Reefer trailers with continuous temperature monitoring are available for LTL shipments of produce, dairy, and other perishables on this agriculture corridor."
+    },
+    {
+      "q": "How do I lock in LTL rates before harvest season on the Kansas City, MO to Las Vegas, NV lane?",
+      "a": "Contract rates agreed 30-60 days before peak harvest provide rate stability. Spot LTL rates on this lane can spike 15-25% during peak season."
+    },
+    {
+      "q": "What FSMA compliance requirements apply to LTL food freight from Kansas City, MO to Las Vegas, NV?",
+      "a": "The Sanitary Transportation Rule under FSMA requires temperature records, vehicle cleanliness, and proper handling procedures for LTL food shipments between Kansas City, MO and Las Vegas, NV."
+    },
+    {
+      "q": "How does harvest timing affect LTL capacity between Kansas City, MO and Las Vegas, NV?",
+      "a": "Harvest draws reefer and dry van capacity into agricultural regions, tightening the LTL market. Book early and confirm capacity commitments before harvest peaks."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 1369,
+    "haversine_miles": 1141,
+    "estimated_transit_days": "3-5",
+    "origin_region": "Midwest",
+    "destination_region": "Southwest"
+  }
+}

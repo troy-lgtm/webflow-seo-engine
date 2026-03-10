@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-03-07T02:30:08.721Z",
+  "filter_mode": "LTL",
+  "cluster": null,
+  "target_count": 3,
+  "total_candidates": 865,
+  "evaluated": 3,
+  "would_manufacture": 3,
+  "would_block": 0,
+  "errors": 0,
+  "results": [
+    {
+      "slug": "los-angeles-to-new-york",
+      "origin": "Los Angeles, CA",
+      "destination": "New York, NY",
+      "mode": "LTL",
+      "priority_score": 50.56,
+      "computed_status": "ready_to_manufacture",
+      "quality_score": 100,
+      "validation_gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "status": "would_manufacture"
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "origin": "Atlanta, GA",
+      "destination": "New York, NY",
+      "mode": "LTL",
+      "priority_score": 50.39,
+      "computed_status": "ready_to_manufacture",
+      "quality_score": 100,
+      "validation_gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "status": "would_manufacture"
+    },
+    {
+      "slug": "houston-to-new-york",
+      "origin": "Houston, TX",
+      "destination": "New York, NY",
+      "mode": "LTL",
+      "priority_score": 50.34,
+      "computed_status": "ready_to_manufacture",
+      "quality_score": 100,
+      "validation_gates": {
+        "LANE-CONTENT-01": true,
+        "LANE-BANNED-01": true,
+        "LANE-BANNED-02": true,
+        "LANE-HTML-01": true,
+        "LANE-FAQ-01": true,
+        "LANE-TONE-01": true,
+        "LANE-FALLBACK-01": true
+      },
+      "status": "would_manufacture"
+    }
+  ]
+}

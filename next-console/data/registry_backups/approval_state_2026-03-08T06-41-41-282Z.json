@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "test-mfg-block",
+    "mode": "LTL",
+    "state": "blocked",
+    "approved_by": null,
+    "approved_at": null,
+    "approval_note": "",
+    "manufactured_by": "test",
+    "manufactured_at": "2026-03-08T06:41:41.279Z",
+    "manufacture_note": "",
+    "excluded_reason": "dup",
+    "blocked_rule_id": null,
+    "state_changed_at": "2026-03-08T06:41:41.281Z",
+    "state_history": [
+      {
+        "from": "draft",
+        "to": "manufactured",
+        "at": "2026-03-08T06:41:41.279Z",
+        "by": "test"
+      },
+      {
+        "from": "manufactured",
+        "to": "blocked",
+        "at": "2026-03-08T06:41:41.281Z",
+        "by": "test",
+        "reason": "dup"
+      }
+    ]
+  },
+  {
+    "slug": "test-retry",
+    "mode": "LTL",
+    "state": "failed",
+    "approved_by": null,
+    "approved_at": null,
+    "approval_note": "",
+    "manufactured_by": "test",
+    "manufactured_at": "2026-03-08T06:41:41.281Z",
+    "manufacture_note": "",
+    "excluded_reason": "API error",
+    "blocked_rule_id": null,
+    "state_changed_at": "2026-03-08T06:41:41.282Z",
+    "state_history": [
+      {
+        "from": "draft",
+        "to": "manufactured",
+        "at": "2026-03-08T06:41:41.281Z",
+        "by": "test"
+      },
+      {
+        "from": "manufactured",
+        "to": "failed",
+        "at": "2026-03-08T06:41:41.282Z",
+        "by": "test",
+        "reason": "API error"
+      }
+    ]
+  }
+]

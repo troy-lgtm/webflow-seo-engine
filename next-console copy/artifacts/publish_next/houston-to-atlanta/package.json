@@ -1,0 +1,310 @@
+{
+  "page": {
+    "slug": "houston-to-atlanta",
+    "canonical_path": "/houston-to-atlanta",
+    "seo_title": "Houston, TX to Atlanta, GA LTL Freight Quotes | WARP",
+    "h1": "Houston, TX to Atlanta, GA LTL freight quotes",
+    "meta_description": "Compare LTL freight rates from Houston to Atlanta. Get instant quotes, estimated transit times, and book freight in minutes with WARP.",
+    "target_segment": "smb",
+    "lane": {
+      "origin": "Houston, TX",
+      "destination": "Atlanta, GA",
+      "mode": "LTL"
+    },
+    "lane_stats": {
+      "estimated_distance_miles": 827,
+      "estimated_transit_days_range": {
+        "min": 3,
+        "max": 4
+      },
+      "estimated_rate_range_usd": {
+        "low": 2937,
+        "high": 3916
+      },
+      "common_equipment": [
+        "Dry Van",
+        "Reefer (temp-controlled)"
+      ],
+      "seasonality_notes": "Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec.",
+      "confidence": {
+        "transit": "modeled",
+        "rate": "modeled"
+      },
+      "disclaimers": [
+        "These are modeled estimates, not guaranteed quotes.",
+        "Actual rates depend on freight details, accessorials, and current market conditions."
+      ]
+    },
+    "network_proof": {
+      "estimated_carrier_count": 10,
+      "nearest_cross_docks": [
+        "Houston Terminal",
+        "Dallas Mega Hub",
+        "Memphis Freight Hub",
+        "Atlanta Hub",
+        "Charlotte Terminal"
+      ],
+      "service_notes": [
+        "Real-time scan events at pickup, in-transit, and delivery",
+        "Estimated 3-4 business day transit window",
+        "Pallet-level tracking with delivery appointment scheduling",
+        "Exception alerts within 30 minutes of status change"
+      ],
+      "origin_region": "South Central",
+      "destination_region": "Southeast"
+    },
+    "problem_section": "LTL shippers on the Houston to Atlanta corridor struggle with inconsistent transit times, opaque pricing from legacy brokers, and fragmented visibility across multiple carriers. Most teams spend hours chasing quotes and tracking updates manually.",
+    "solution_section": "WARP provides instant LTL quotes on the Houston to Atlanta lane with real-time carrier comparison, one-click booking, and proactive exception management — replacing days of manual work with minutes of operational efficiency.",
+    "cta_primary": "Book 15-min Fit Call",
+    "cta_secondary": "Get Instant Quote",
+    "cta_primary_url": "https://www.wearewarp.com/book",
+    "cta_secondary_url": "https://www.wearewarp.com/quote",
+    "contrast": {
+      "headline": "Why LTL shippers switch from brokers to WARP",
+      "points": [
+        {
+          "metric": "Quote speed",
+          "legacy": "2–24 hours via phone/email",
+          "warp": "Under 2 minutes, self-serve"
+        },
+        {
+          "metric": "Carrier comparison",
+          "legacy": "Manual spreadsheets",
+          "warp": "Side-by-side dashboard with performance data"
+        },
+        {
+          "metric": "Booking",
+          "legacy": "Email chains, 30–60 min",
+          "warp": "One-click from quote to BOL"
+        },
+        {
+          "metric": "Tracking",
+          "legacy": "Call carrier for updates",
+          "warp": "Real-time dashboard with exception alerts"
+        },
+        {
+          "metric": "Exception handling",
+          "legacy": "Reactive, hours to discover",
+          "warp": "Proactive alerts within 30 minutes"
+        }
+      ],
+      "bottom_line": "Shipping LTL from Houston to Atlanta with WARP eliminates the manual back-and-forth that costs logistics teams hours per shipment."
+    },
+    "intro": "LTL freight from Houston, TX to Atlanta, GA covers approximately 827 miles with estimated transit of 3–4 business days. WARP's carrier network on this corridor includes 10+ providers with cross-dock facilities at Houston Terminal, Dallas Mega Hub, Memphis Freight Hub. Get instant lane-specific quotes, compare carriers, and book in minutes.",
+    "proof_section": "Validate this lane with a controlled pilot: Houston, TX to Atlanta, GA. Track quote response time, transit predictability, and exception rate across 10 active carriers on this 827-mile corridor. Equipment includes Dry Van and Reefer (temp-controlled). Start with this single lane, measure results, and expand based on data.",
+    "faq": [
+      {
+        "q": "How fast can we launch a LTL pilot from Houston to Atlanta?",
+        "a": "Most shipping teams can scope a single-lane pilot and begin quoting within days. Start with this corridor, measure quote speed and transit reliability, then expand based on results."
+      },
+      {
+        "q": "How does WARP handle tracking on the Houston to Atlanta lane?",
+        "a": "WARP provides real-time visibility with scan events at pickup, in-transit checkpoints, and delivery confirmation. Exception alerts fire within 30 minutes of any status change so you can resolve issues before they impact customers."
+      },
+      {
+        "q": "What equipment is available for LTL freight from Houston to Atlanta?",
+        "a": "Common equipment on this lane includes Dry Van, Reefer (temp-controlled). Equipment availability varies by season and demand — WARP's carrier network provides multiple options for your freight profile."
+      },
+      {
+        "q": "Can we start with just the Houston to Atlanta lane before expanding?",
+        "a": "Yes. A single-lane rollout lets you validate WARP's performance on this specific corridor before committing to additional lanes. Most teams expand within weeks after seeing results."
+      },
+      {
+        "q": "How are shipping exceptions handled on this LTL lane?",
+        "a": "WARP's platform detects exceptions automatically and escalates within minutes. You get proactive alerts for delays, appointment changes, and delivery issues — no more chasing carriers for updates."
+      }
+    ],
+    "schema_breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WARP",
+          "item": "https://www.wearewarp.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LTL Freight",
+          "item": "https://www.wearewarp.com/guides/ltl"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Houston to Atlanta"
+        }
+      ]
+    },
+    "schema_service": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "LTL Freight Service — Houston to Atlanta",
+      "provider": {
+        "@type": "Organization",
+        "name": "WARP",
+        "url": "https://www.wearewarp.com"
+      },
+      "areaServed": [
+        "Houston, TX",
+        "Atlanta, GA"
+      ],
+      "description": "LTL freight shipping from Houston, TX to Atlanta, GA with instant quoting, carrier comparison, and real-time tracking."
+    },
+    "schema_organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "WARP",
+      "url": "https://www.wearewarp.com",
+      "description": "Technology-driven freight logistics platform"
+    },
+    "_canonicalData": {
+      "page_title": "Houston, TX to Atlanta, GA LTL Freight | WARP",
+      "meta_description": "LTL freight from Houston to Atlanta: 827-mile lane, 3-4 day transit. Get instant rates, carrier visibility, and book through WARP.",
+      "lane_slug": "houston-to-atlanta",
+      "canonical_path": "/lanes/houston-to-atlanta",
+      "mode": "LTL",
+      "segment": "smb",
+      "origin": "Houston, TX",
+      "destination": "Atlanta, GA",
+      "lane_stats": {
+        "estimated_distance_miles": 827,
+        "estimated_transit_days_range": {
+          "min": 3,
+          "max": 4
+        },
+        "estimated_rate_range_usd": {
+          "low": 2937,
+          "high": 3916
+        },
+        "common_freight_class_range": null,
+        "common_equipment": [
+          "Dry Van",
+          "Reefer (temp-controlled)"
+        ],
+        "seasonality_notes": "Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec.",
+        "confidence": {
+          "transit": "modeled",
+          "rate": "modeled"
+        },
+        "disclaimers": [
+          "These are modeled estimates, not guaranteed quotes.",
+          "Actual rates depend on freight details, accessorials, and current market conditions."
+        ]
+      },
+      "network_proof": {
+        "estimated_carrier_count": 10,
+        "nearest_cross_docks": [
+          "Houston Terminal",
+          "Dallas Mega Hub",
+          "Memphis Freight Hub",
+          "Atlanta Hub",
+          "Charlotte Terminal"
+        ],
+        "service_notes": [
+          "Real-time scan events at pickup, in-transit, and delivery",
+          "Estimated 3-4 business day transit window",
+          "Pallet-level tracking with delivery appointment scheduling",
+          "Exception alerts within 30 minutes of status change"
+        ],
+        "origin_region": "South Central",
+        "destination_region": "Southeast"
+      },
+      "hero": {
+        "headline": "Houston, TX to Atlanta, GA LTL Freight",
+        "subhead": "827 miles. 3-4 business day transit. 10 carriers active on this lane.",
+        "primary_cta": {
+          "label": "Get Instant Quote",
+          "url": "https://www.wearewarp.com/quote"
+        },
+        "secondary_cta": {
+          "label": "Book a Fit Call",
+          "url": "https://www.wearewarp.com/book"
+        }
+      },
+      "lane_overview": {
+        "heading": "Lane Overview",
+        "body": "The Houston to Atlanta LTL lane covers approximately 827 miles between the South Central and Southeast regions. Standard transit runs 3-4 business days depending on carrier routing and terminal schedules. Common equipment on this corridor includes Dry Van, Reefer (temp-controlled). Cross-dock facilities at Houston Terminal, Dallas Mega Hub, Memphis Freight Hub support consolidation and transit optimization. Hurricane season Jun-Nov can disrupt Gulf lanes. Peak retail Oct-Dec."
+      },
+      "warp_fit_for_lane": {
+        "heading": "How WARP Operates the Houston to Atlanta Lane",
+        "body": "WARP covers the Houston to Atlanta corridor with 10 vetted carriers providing LTL capacity. Service capabilities on this lane include: Real-time scan events at pickup, in-transit, and delivery; Estimated 3-4 business day transit window; Pallet-level tracking with delivery appointment scheduling. Shipments receive pallet-level tracking from pickup through delivery with appointment scheduling and delivery confirmation. Nearby cross-dock operations at Houston Terminal and Dallas Mega Hub enable consolidation and re-routing when exceptions occur. Exception alerts fire within 30 minutes of any status change. WARP's operations team manages carrier coordination, rescheduling, and resolution without requiring shipper follow-up."
+      },
+      "operating_details": {
+        "heading": "Operating Details",
+        "items": [
+          "Estimated lane distance: 827 miles (Houston to Atlanta)",
+          "Transit window: 3-4 business days for standard LTL service",
+          "Available equipment: Dry Van, Reefer (temp-controlled)",
+          "Active carriers on this lane: 10",
+          "Nearest cross-dock facilities: Houston Terminal, Dallas Mega Hub, Memphis Freight Hub, Atlanta Hub, Charlotte Terminal",
+          "Real-time scan events at pickup, in-transit, and delivery milestones",
+          "Exception alerts within 30 minutes of status changes with automated escalation",
+          "Delivery appointment scheduling and confirmation managed by WARP operations"
+        ]
+      },
+      "pricing_and_commercial_framing": {
+        "heading": "Pricing & Rate Factors",
+        "body": "Estimated LTL rates on the Houston to Atlanta lane range from $2,937 to $3,916, depending on freight class, weight, pallet count, and seasonal demand. Key cost drivers include NMFC freight classification, shipment density, and whether accessorials such as liftgate, inside delivery, or limited-access pickup apply. At 827 miles, the linehaul distance is the largest cost component (approximately $4.14/mile). Fuel surcharges are applied as a separate line item based on current diesel prices. These are modeled estimates. Enter your shipment details to get a real-time, all-in rate."
+      },
+      "lane_specific_faqs": [
+        {
+          "question": "How much does LTL freight from Houston, TX to Atlanta, GA cost?",
+          "answer": "Estimated LTL rates range from $2,937 to $3,916 based on freight class, weight, and pallet count. Actual rates depend on shipment specifics and current market conditions. Get an instant quote for real-time pricing."
+        },
+        {
+          "question": "What is the transit time for LTL shipments from Houston to Atlanta?",
+          "answer": "Standard LTL transit on this 827-mile lane is 3-4 business days. Actual transit depends on carrier routing, terminal schedules, and pickup timing."
+        },
+        {
+          "question": "What carriers does WARP use on the Houston to Atlanta lane?",
+          "answer": "WARP maintains a vetted network of approximately 10 active carriers on this corridor. Carrier selection is optimized for each shipment based on equipment requirements, transit targets, and performance history."
+        },
+        {
+          "question": "Can I track my LTL shipment from Houston to Atlanta in real time?",
+          "answer": "Yes. Every shipment includes real-time tracking with scan events at pickup, in-transit checkpoints, and delivery. Exception alerts fire within 30 minutes of any status change, and WARP's operations team manages resolution directly."
+        },
+        {
+          "question": "What equipment is available for LTL freight on this lane?",
+          "answer": "Common equipment on the Houston to Atlanta corridor includes Dry Van, Reefer (temp-controlled). Equipment availability varies by season and demand. Specify your requirements when requesting a quote."
+        }
+      ],
+      "related_links": {
+        "corridor_hub": "/corridors/south-central-to-southeast",
+        "related_lanes": [],
+        "tool_link": "https://www.wearewarp.com/quote",
+        "data_link": null,
+        "metro_links": [],
+        "guide_link": null
+      },
+      "lane_relevant_cta": {
+        "headline": "Ship LTL Freight: Houston to Atlanta",
+        "body": "Enter your shipment details to get a real-time LTL rate for the Houston to Atlanta lane. No commitment required.",
+        "primary_cta": {
+          "label": "Get Your Quote",
+          "url": "https://www.wearewarp.com/quote"
+        }
+      }
+    },
+    "quality_score": 100,
+    "banned_content_scan_result": "clean",
+    "rendered_html_validation_result": "passed"
+  },
+  "canonicalPath": "/houston-to-atlanta",
+  "quickAnswers": [
+    {
+      "question": "How much does LTL freight from Houston to Atlanta cost?",
+      "answer": "Estimated LTL rates on the Houston to Atlanta lane range from $2,937 to $3,916 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote with WARP."
+    },
+    {
+      "question": "How long does LTL transit take from Houston to Atlanta?",
+      "answer": "Estimated transit time for LTL freight on this 827-mile lane is 3–4 business days under standard conditions."
+    }
+  ],
+  "contentFingerprint": "852394622",
+  "origin": "Houston, TX",
+  "destination": "Atlanta, GA",
+  "mode": "LTL",
+  "segment": "smb"
+}

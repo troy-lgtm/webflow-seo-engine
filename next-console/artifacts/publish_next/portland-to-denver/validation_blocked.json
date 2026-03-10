@@ -1,0 +1,75 @@
+{
+  "validation": {
+    "valid": false,
+    "quality_score": 95,
+    "quality_breakdown": {
+      "sections": {
+        "score": 30,
+        "max": 30,
+        "found": 6,
+        "total": 6
+      },
+      "faqs": {
+        "score": 10,
+        "max": 10,
+        "count": 5
+      },
+      "banned_content": {
+        "score": 15,
+        "max": 20,
+        "violations": 1
+      },
+      "content_length": {
+        "score": 10,
+        "max": 10,
+        "chars": 13828
+      },
+      "lane_terms": {
+        "score": 10,
+        "max": 10
+      },
+      "internal_links": {
+        "score": 10,
+        "max": 10
+      },
+      "structured_data": {
+        "score": 10,
+        "max": 10
+      }
+    },
+    "gates": {
+      "LANE-CONTENT-01": true,
+      "LANE-BANNED-01": false,
+      "LANE-BANNED-02": true,
+      "LANE-HTML-01": true,
+      "LANE-FAQ-01": true,
+      "LANE-TONE-01": true,
+      "LANE-FALLBACK-01": true
+    },
+    "sections_found": {
+      "lane_overview": true,
+      "warp_fit": true,
+      "operating_details": true,
+      "pricing_section": true,
+      "related_links": true
+    },
+    "sections_missing": [
+      "faqs"
+    ],
+    "faq_count": 5,
+    "banned_content_found": [
+      "Why Shippers Choose Warp"
+    ],
+    "errors": [
+      {
+        "rule_id": "LANE-BANNED-01",
+        "type": "banned_phrase",
+        "found": "Why Shippers Choose Warp",
+        "message": "Banned phrase found: \"Why Shippers Choose Warp\""
+      }
+    ],
+    "warnings": []
+  },
+  "slug": "portland-to-denver",
+  "generated_at": "2026-03-07T09:09:16.770Z"
+}

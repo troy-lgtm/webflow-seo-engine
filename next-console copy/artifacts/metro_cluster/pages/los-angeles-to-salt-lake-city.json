@@ -1,0 +1,42 @@
+{
+  "slug": "los-angeles-to-salt-lake-city",
+  "origin": "Los Angeles, CA",
+  "destination": "Salt Lake City, UT",
+  "mode": "LTL",
+  "archetype": "port_to_inland",
+  "archetype_label": "Port to Inland",
+  "canonical_path": "/los-angeles-to-salt-lake-city",
+  "seo_title": "Los Angeles, CA to Salt Lake City, UT LTL Freight Quotes | WARP",
+  "h1": "Los Angeles, CA to Salt Lake City, UT LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Los Angeles, CA to Salt Lake City, UT. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "The Los Angeles, CA to Salt Lake City, UT lane connects a major port gateway with an inland distribution point, making container drayage, intermodal coordination, and customs clearance central to every shipment. For small and mid-size shipping teams, understanding dwell times, chassis availability, and terminal fees on this corridor is critical. This guide covers LTL options, drayage strategies, and cost-saving approaches for the Los Angeles, CA to Salt Lake City, UT port-to-inland lane.",
+  "faq": [
+    {
+      "q": "How does port congestion at Los Angeles, CA affect LTL transit to Salt Lake City, UT?",
+      "a": "Port dwell times at Los Angeles, CA directly impact drayage schedules. WARP monitors terminal wait times and adjusts LTL pickup windows to minimize delays on the Los Angeles, CA to Salt Lake City, UT lane."
+    },
+    {
+      "q": "What intermodal options exist for LTL freight from Los Angeles, CA to Salt Lake City, UT?",
+      "a": "Container-on-chassis drayage to a nearby rail ramp is common for long-haul segments. For shorter runs, direct LTL trucking from Los Angeles, CA to Salt Lake City, UT is often faster."
+    },
+    {
+      "q": "Are there customs clearance delays on the Los Angeles, CA to Salt Lake City, UT LTL lane?",
+      "a": "If your freight originates as an ocean import, customs clearance at Los Angeles, CA can add 1-3 days. Pre-clearing with a customs broker before vessel arrival reduces this window."
+    },
+    {
+      "q": "How do demurrage and detention fees work on the Los Angeles, CA to Salt Lake City, UT lane?",
+      "a": "Demurrage accrues when containers sit at the port terminal past free time. Detention applies after the container leaves the terminal. Faster LTL drayage to Salt Lake City, UT minimizes both charges."
+    },
+    {
+      "q": "What is the typical LTL drayage cost from Los Angeles, CA port to Salt Lake City, UT?",
+      "a": "Port drayage rates vary by distance, chassis type, and terminal fees. The Los Angeles, CA to Salt Lake City, UT LTL lane benefits from high carrier density at the port."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 696,
+    "haversine_miles": 580,
+    "estimated_transit_days": "2-4",
+    "origin_region": "West Coast",
+    "destination_region": "Mountain"
+  }
+}

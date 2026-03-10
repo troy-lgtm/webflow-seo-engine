@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-03-07T23-39-52-902Z",
+  "script_name": "publish_next.js",
+  "trigger_source": "manual",
+  "dry_run": true,
+  "started_at": "2026-03-07T23:39:52.902Z",
+  "completed_at": "2026-03-07T23:39:52.947Z",
+  "duration_ms": 45,
+  "intended_count": 3,
+  "attempted_count": 2,
+  "published_count": 2,
+  "failed_count": 0,
+  "blocked_count": 1,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": null,
+  "email_error": null,
+  "email_skip_reason": "publish_next does not send email directly",
+  "email_provider_response": null,
+  "published_pages": [
+    {
+      "slug": "los-angeles-to-san-francisco",
+      "webflow_item_id": "dry-run-c92b085a",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-san-francisco"
+    },
+    {
+      "slug": "los-angeles-to-oakland",
+      "webflow_item_id": "dry-run-ab3232ef",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-oakland"
+    }
+  ],
+  "failed_pages": [],
+  "blocked_pages": [
+    {
+      "slug": "los-angeles-to-long-beach",
+      "reason": "duplicate slug",
+      "rule_id": "DUP-SLUG-01"
+    }
+  ],
+  "published_urls": [
+    "https://www.wearewarp.com/lanes/los-angeles-to-san-francisco",
+    "https://www.wearewarp.com/lanes/los-angeles-to-oakland"
+  ],
+  "sample_live_urls": [],
+  "warnings": [],
+  "mode": "dry-run"
+}

@@ -1,0 +1,193 @@
+{
+  "run_id": "metrics-f75105b9",
+  "timestamp": "2026-03-05T19:05:42.885Z",
+  "window": {
+    "days": 7,
+    "start": "2026-02-26",
+    "end": "2026-03-05"
+  },
+  "sources": {
+    "gsc": {
+      "connected": false,
+      "last_pulled_at": null,
+      "coverage": {
+        "pages_with_data": 15,
+        "pages_total": 2000
+      }
+    },
+    "ga4": {
+      "connected": false,
+      "last_pulled_at": null,
+      "coverage": {
+        "pages_with_data": 0,
+        "pages_total": 2000
+      }
+    },
+    "portal": {
+      "connected": false,
+      "last_pulled_at": null,
+      "coverage": {
+        "lanes_with_data": 10,
+        "lanes_total": 2000
+      }
+    },
+    "placeholders": {
+      "enabled": true
+    }
+  },
+  "gsc_data": {
+    "/lanes/chicago-to-dallas": {
+      "impressions": 320,
+      "clicks": 28,
+      "position": 14.2,
+      "source_key": "chicago-to-dallas"
+    },
+    "/lanes/los-angeles-to-phoenix": {
+      "impressions": 280,
+      "clicks": 22,
+      "position": 16.5,
+      "source_key": "los-angeles-to-phoenix"
+    },
+    "/lanes/los-angeles-to-dallas": {
+      "impressions": 210,
+      "clicks": 15,
+      "position": 18.1,
+      "source_key": "los-angeles-to-dallas"
+    },
+    "/lanes/atlanta-to-miami": {
+      "impressions": 190,
+      "clicks": 12,
+      "position": 19.4,
+      "source_key": "atlanta-to-miami"
+    },
+    "/lanes/new-york-to-chicago": {
+      "impressions": 175,
+      "clicks": 14,
+      "position": 15.3,
+      "source_key": "new-york-to-chicago"
+    },
+    "/lanes/houston-to-dallas": {
+      "impressions": 160,
+      "clicks": 11,
+      "position": 17.8,
+      "source_key": "houston-to-dallas"
+    },
+    "/lanes/chicago-to-atlanta": {
+      "impressions": 145,
+      "clicks": 9,
+      "position": 20.1,
+      "source_key": "chicago-to-atlanta"
+    },
+    "/lanes/los-angeles-to-chicago": {
+      "impressions": 130,
+      "clicks": 8,
+      "position": 22.3,
+      "source_key": "los-angeles-to-chicago"
+    },
+    "/lanes/dallas-to-houston": {
+      "impressions": 120,
+      "clicks": 7,
+      "position": 18.6,
+      "source_key": "dallas-to-houston"
+    },
+    "/lanes/seattle-to-los-angeles": {
+      "impressions": 110,
+      "clicks": 6,
+      "position": 21,
+      "source_key": "seattle-to-los-angeles"
+    },
+    "/lanes/miami-to-new-york": {
+      "impressions": 105,
+      "clicks": 5,
+      "position": 23.2,
+      "source_key": "miami-to-new-york"
+    },
+    "/lanes/phoenix-to-los-angeles": {
+      "impressions": 95,
+      "clicks": 4,
+      "position": 24.5,
+      "source_key": "phoenix-to-los-angeles"
+    },
+    "/lanes/chicago-to-indianapolis": {
+      "impressions": 85,
+      "clicks": 3,
+      "position": 26.1,
+      "source_key": "chicago-to-indianapolis"
+    },
+    "/lanes/denver-to-salt-lake-city": {
+      "impressions": 70,
+      "clicks": 2,
+      "position": 28.4,
+      "source_key": "denver-to-salt-lake-city"
+    },
+    "/lanes/nashville-to-atlanta": {
+      "impressions": 65,
+      "clicks": 2,
+      "position": 29,
+      "source_key": "nashville-to-atlanta"
+    }
+  },
+  "ga4_data": {},
+  "portal_data": {
+    "/lanes/chicago-to-dallas": {
+      "monthly_quotes": 42,
+      "avg_value_usd": 890,
+      "bookings": 13,
+      "source_key": "chicago-to-dallas"
+    },
+    "/lanes/los-angeles-to-phoenix": {
+      "monthly_quotes": 35,
+      "avg_value_usd": 620,
+      "bookings": 11,
+      "source_key": "los-angeles-to-phoenix"
+    },
+    "/lanes/los-angeles-to-dallas": {
+      "monthly_quotes": 28,
+      "avg_value_usd": 1450,
+      "bookings": 9,
+      "source_key": "los-angeles-to-dallas"
+    },
+    "/lanes/atlanta-to-miami": {
+      "monthly_quotes": 22,
+      "avg_value_usd": 780,
+      "bookings": 7,
+      "source_key": "atlanta-to-miami"
+    },
+    "/lanes/new-york-to-chicago": {
+      "monthly_quotes": 19,
+      "avg_value_usd": 1120,
+      "bookings": 6,
+      "source_key": "new-york-to-chicago"
+    },
+    "/lanes/houston-to-dallas": {
+      "monthly_quotes": 18,
+      "avg_value_usd": 520,
+      "bookings": 5,
+      "source_key": "houston-to-dallas"
+    },
+    "/lanes/chicago-to-atlanta": {
+      "monthly_quotes": 15,
+      "avg_value_usd": 950,
+      "bookings": 4,
+      "source_key": "chicago-to-atlanta"
+    },
+    "/lanes/dallas-to-houston": {
+      "monthly_quotes": 14,
+      "avg_value_usd": 480,
+      "bookings": 4,
+      "source_key": "dallas-to-houston"
+    },
+    "/lanes/los-angeles-to-chicago": {
+      "monthly_quotes": 12,
+      "avg_value_usd": 1680,
+      "bookings": 3,
+      "source_key": "los-angeles-to-chicago"
+    },
+    "/lanes/seattle-to-los-angeles": {
+      "monthly_quotes": 10,
+      "avg_value_usd": 1350,
+      "bookings": 3,
+      "source_key": "seattle-to-los-angeles"
+    }
+  }
+}

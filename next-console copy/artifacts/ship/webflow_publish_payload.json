@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://api.webflow.com/v2/collections/68dbd9b0badadf2b8fa9a397/items/publish",
+  "method": "POST",
+  "item_id": "dry-run-item-test",
+  "collection_id": "68dbd9b0badadf2b8fa9a397",
+  "dry_run": true,
+  "generated_at": "2026-03-07T02:29:06.407Z"
+}

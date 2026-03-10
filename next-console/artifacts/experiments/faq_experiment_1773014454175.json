@@ -1,0 +1,591 @@
+{
+  "experiment_id": "faq_exp_1773014454174",
+  "experiment_type": "faq_weighting",
+  "challenger_mode": "boost",
+  "timestamp": "2026-03-09T00:00:54.174Z",
+  "benchmark_set": [
+    "atlanta-to-orlando",
+    "atlanta-to-miami",
+    "los-angeles-to-new-york",
+    "chicago-to-dallas",
+    "houston-to-dallas",
+    "los-angeles-to-chicago",
+    "miami-to-atlanta",
+    "dallas-to-houston"
+  ],
+  "benchmark_version": "1.0.0",
+  "baseline_weights_count": 0,
+  "challenger_weights_count": 64,
+  "results": {
+    "pages_total": 8,
+    "pages_scored": 8,
+    "pages_skipped": 0,
+    "avg_baseline_total": 0.855,
+    "avg_challenger_total": 0.855,
+    "avg_delta": 0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 8
+  },
+  "recommendation": {
+    "action": "hold",
+    "reason": "Delta is within noise range (0.0%). No clear winner.",
+    "confidence": "medium"
+  },
+  "page_results": [
+    {
+      "slug": "atlanta-to-orlando",
+      "archetype": "short_haul_metro",
+      "distance_class": "short",
+      "mode": "LTL",
+      "status": "scored",
+      "baseline": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "challenger": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "delta": {
+        "total": 0,
+        "faq_score": 0
+      }
+    },
+    {
+      "slug": "atlanta-to-miami",
+      "archetype": "short_haul_metro",
+      "distance_class": "medium",
+      "mode": "LTL",
+      "status": "scored",
+      "baseline": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "challenger": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "delta": {
+        "total": 0,
+        "faq_score": 0
+      }
+    },
+    {
+      "slug": "los-angeles-to-new-york",
+      "archetype": "long_haul_interstate",
+      "distance_class": "long",
+      "mode": "LTL",
+      "status": "scored",
+      "baseline": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "challenger": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "delta": {
+        "total": 0,
+        "faq_score": 0
+      }
+    },
+    {
+      "slug": "chicago-to-dallas",
+      "archetype": "long_haul_interstate",
+      "distance_class": "long",
+      "mode": "LTL",
+      "status": "scored",
+      "baseline": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "challenger": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "delta": {
+        "total": 0,
+        "faq_score": 0
+      }
+    },
+    {
+      "slug": "houston-to-dallas",
+      "archetype": "energy_corridor",
+      "distance_class": "short",
+      "mode": "LTL",
+      "status": "scored",
+      "baseline": {
+        "total": 0.84,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.85,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "challenger": {
+        "total": 0.84,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.85,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "delta": {
+        "total": 0,
+        "faq_score": 0
+      }
+    },
+    {
+      "slug": "los-angeles-to-chicago",
+      "archetype": "ecommerce_corridor",
+      "distance_class": "long",
+      "mode": "LTL",
+      "status": "scored",
+      "baseline": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "challenger": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "delta": {
+        "total": 0,
+        "faq_score": 0
+      }
+    },
+    {
+      "slug": "miami-to-atlanta",
+      "archetype": "port_to_inland",
+      "distance_class": "medium",
+      "mode": "LTL",
+      "status": "scored",
+      "baseline": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "challenger": {
+        "total": 0.86,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.95,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "delta": {
+        "total": 0,
+        "faq_score": 0
+      }
+    },
+    {
+      "slug": "dallas-to-houston",
+      "archetype": "energy_corridor",
+      "distance_class": "short",
+      "mode": "LTL",
+      "status": "scored",
+      "baseline": {
+        "total": 0.84,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.85,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "challenger": {
+        "total": 0.84,
+        "grade": "B",
+        "dimensions": {
+          "seo_quality": {
+            "score": 0.83,
+            "weight": 0.25
+          },
+          "ai_search_quality": {
+            "score": 0.83,
+            "weight": 0.2
+          },
+          "human_readability": {
+            "score": 0.85,
+            "weight": 0.2
+          },
+          "design_composition": {
+            "score": 0.76,
+            "weight": 0.15
+          },
+          "conversion_readiness": {
+            "score": 0.9,
+            "weight": 0.2
+          }
+        },
+        "faq_score": 0.89,
+        "faq_count": 7
+      },
+      "delta": {
+        "total": 0,
+        "faq_score": 0
+      }
+    }
+  ],
+  "caveats": [
+    "Structural quality scores only — no live GSC/GA4 performance data in this evaluation.",
+    "Challenger weights were applied to scoring heuristics, not to actual page regeneration. Full experiment requires rebuilding pages with challenger weights.",
+    "No baseline learning state found — both arms used default weights. Run learning_weekly.js with GSC data first."
+  ],
+  "immutable_surfaces": [
+    "slug_generation_rules",
+    "canonical_rules",
+    "schema_requirements",
+    "duplicate_protection",
+    "usefulness_gates",
+    "publish_approval_rules",
+    "publish_integrity_checks",
+    "webflow_collection_bindings",
+    "verification_logic",
+    "lane_contract_logic"
+  ],
+  "operator_notes": "Review page_results for per-page breakdown. If recommendation is 'accept', run: node scripts/learning_weekly.js to apply updated weights. If 'reject', investigate which dimensions degraded."
+}

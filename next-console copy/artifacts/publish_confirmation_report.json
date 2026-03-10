@@ -1,0 +1,48 @@
+{
+  "run_id": "2026-03-07T02-29-15-990Z",
+  "timestamp": "2026-03-07T02:29:15.990Z",
+  "classification": "local_simulation",
+  "display_status": "Simulated local audit",
+  "trust_level": "low",
+  "confirmed_posted_today": false,
+  "reason_codes": [
+    "environment_is_local"
+  ],
+  "date_bucket": "2026-03-06",
+  "summary": {
+    "pages_attempted": 3,
+    "pages_generated": 3,
+    "pages_indexable": 3,
+    "pages_noindex": 0,
+    "pages_blocked": 0,
+    "verification_warning": false
+  },
+  "verification_summary": {
+    "ran": false,
+    "checked": 0,
+    "passed": 0,
+    "failed": 0,
+    "verification_status": "not_run"
+  },
+  "sample_live_urls": [
+    "https://www.wearewarp.com/lanes/dallas-to-new-york",
+    "https://www.wearewarp.com/lanes/houston-to-atlanta",
+    "https://www.wearewarp.com/lanes/chicago-to-new-york"
+  ],
+  "top_corridors": [
+    {
+      "corridor_id": "unknown",
+      "pages_generated": 3,
+      "pages_indexable": 3
+    }
+  ],
+  "deploy": {
+    "provider": "webflow",
+    "deployment_id": "dry-run-796556f6",
+    "deployment_url": "unknown",
+    "commit_sha": "unknown",
+    "branch": "unknown",
+    "status": "unknown"
+  },
+  "verification": null
+}

@@ -1,0 +1,68 @@
+{
+  "run_id": "2026-03-07T05-57-40-870Z",
+  "script_name": "lanes_auto_publish.js",
+  "trigger_source": "autonomous-factory",
+  "dry_run": false,
+  "started_at": "2026-03-07T05:57:40.870Z",
+  "completed_at": "2026-03-07T06:10:40.335Z",
+  "duration_ms": 779465,
+  "intended_count": 5,
+  "attempted_count": 5,
+  "published_count": 5,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "deploy_status": "published_to_production",
+  "deploy_id": null,
+  "deploy_provider": "webflow",
+  "email_attempted": true,
+  "email_sent": true,
+  "email_recipient": "troy@wearewarp.com",
+  "email_error": null,
+  "email_skip_reason": null,
+  "email_provider_response": null,
+  "published_pages": [
+    {
+      "slug": "orlando-to-new-york",
+      "webflow_item_id": "69abbe559f28cfcc18584019",
+      "url": "https://www.wearewarp.com/lanes/orlando-to-new-york"
+    },
+    {
+      "slug": "charlotte-to-new-york",
+      "webflow_item_id": "69abbe5a33cee4bc2eb5b9d3",
+      "url": "https://www.wearewarp.com/lanes/charlotte-to-new-york"
+    },
+    {
+      "slug": "seattle-to-chicago",
+      "webflow_item_id": "69abbe5f12f22d49ad63cf32",
+      "url": "https://www.wearewarp.com/lanes/seattle-to-chicago"
+    },
+    {
+      "slug": "portland-to-new-york",
+      "webflow_item_id": "69abbe64305f763d1c882bc2",
+      "url": "https://www.wearewarp.com/lanes/portland-to-new-york"
+    },
+    {
+      "slug": "dallas-to-tampa",
+      "webflow_item_id": "69abbe69476a50ad702ece7c",
+      "url": "https://www.wearewarp.com/lanes/dallas-to-tampa"
+    }
+  ],
+  "failed_pages": [],
+  "blocked_pages": [],
+  "published_urls": [
+    "https://www.wearewarp.com/lanes/orlando-to-new-york",
+    "https://www.wearewarp.com/lanes/charlotte-to-new-york",
+    "https://www.wearewarp.com/lanes/seattle-to-chicago",
+    "https://www.wearewarp.com/lanes/portland-to-new-york",
+    "https://www.wearewarp.com/lanes/dallas-to-tampa"
+  ],
+  "sample_live_urls": [
+    "https://www.wearewarp.com/lanes/orlando-to-new-york",
+    "https://www.wearewarp.com/lanes/charlotte-to-new-york",
+    "https://www.wearewarp.com/lanes/seattle-to-chicago",
+    "https://www.wearewarp.com/lanes/portland-to-new-york",
+    "https://www.wearewarp.com/lanes/dallas-to-tampa"
+  ],
+  "warnings": [],
+  "mode": "live"
+}

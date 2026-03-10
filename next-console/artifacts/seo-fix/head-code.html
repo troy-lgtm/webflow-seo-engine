@@ -1,0 +1,58 @@
+<!-- Warp SEO & Schema Markup (v2 — dynamic per-page canonical) -->
+<script>
+(function(){
+  var p = (location.pathname || '/').replace(/\/+$/, '') || '/';
+  var u = location.origin + (p === '/' ? '' : p);
+  document.write('<link rel="canonical" href="' + u + '" />');
+  document.write('<meta property="og:url" content="' + u + '" />');
+})();
+</script>
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Warp" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Warp",
+  "url": "https://www.wearewarp.com",
+  "logo": "https://www.wearewarp.com/images/warp-logo.png",
+  "description": "Warp is an AI-powered middle-mile freight network that helps brands and retailers optimize FTL, LTL, pool distribution, and parcel shipping. Trusted by Walmart, HelloFresh, DoorDash, and thousands of shippers.",
+  "foundingDate": "2021",
+  "founders": [
+    {"@type": "Person", "name": "Daniel Sokolovsky"},
+    {"@type": "Person", "name": "Troy Lester"}
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1800 Vine Street",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90028",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-213-267-1373",
+    "contactType": "sales",
+    "email": "support@wearewarp.com"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/warp-tech",
+    "https://www.crunchbase.com/organization/wearewarp"
+  ],
+  "award": ["2025 Top Tech Startup Award", "2025 Freight Tech Award", "2025 Most Innovative Companies"],
+  "numberOfEmployees": {"@type": "QuantitativeValue", "minValue": 50, "maxValue": 200},
+  "knowsAbout": ["freight optimization", "middle mile logistics", "LTL shipping", "FTL shipping", "pool distribution", "zone skipping", "freight consolidation", "AI logistics", "cross-dock operations", "store replenishment"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Warp",
+  "url": "https://www.wearewarp.com",
+  "description": "AI-powered freight network optimization platform for FTL, LTL, pool distribution, and parcel shipping.",
+  "publisher": {"@type": "Organization", "name": "Warp", "url": "https://www.wearewarp.com"}
+}
+</script>

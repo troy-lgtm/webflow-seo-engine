@@ -1,0 +1,371 @@
+{
+  "page": {
+    "slug": "miami-to-orlando",
+    "canonical_path": "/miami-to-orlando",
+    "seo_title": "Miami, FL to Orlando, FL Cargo Van / Box Truck Freight Quotes | WARP",
+    "h1": "Miami, FL to Orlando, FL Cargo Van / Box Truck freight quotes",
+    "meta_description": "Compare Cargo Van / Box Truck freight rates from Miami to Orlando. Get instant quotes, estimated transit times, and book freight in minutes with WARP.",
+    "target_segment": "cargo-van",
+    "lane": {
+      "origin": "Miami, FL",
+      "destination": "Orlando, FL",
+      "mode": "Cargo Van / Box Truck"
+    },
+    "lane_stats": {
+      "estimated_distance_miles": 243,
+      "estimated_transit_days_range": {
+        "min": 1,
+        "max": 2
+      },
+      "estimated_rate_range_usd": {
+        "low": 461,
+        "high": 573
+      },
+      "common_equipment": [
+        "Cargo Van",
+        "Box Truck 26'"
+      ],
+      "seasonality_notes": "Hurricane risk Jun-Nov. Consistent retail demand year-round.",
+      "confidence": {
+        "transit": "modeled",
+        "rate": "modeled"
+      },
+      "disclaimers": [
+        "These are modeled estimates, not guaranteed quotes.",
+        "Actual rates depend on freight details, accessorials, and current market conditions."
+      ]
+    },
+    "network_proof": {
+      "estimated_carrier_count": 6,
+      "nearest_cross_docks": [
+        "Atlanta Hub",
+        "NY/NJ Metro Hub",
+        "Dallas Mega Hub"
+      ],
+      "service_notes": [
+        "Real-time scan events at pickup, in-transit, and delivery",
+        "Estimated 1-2 business day transit window",
+        "GPS-equipped trailers with live ETA updates",
+        "Exception alerts within 30 minutes of status change"
+      ],
+      "origin_region": "Southeast",
+      "destination_region": "Southeast"
+    },
+    "problem_section": "Mid-sized shippers moving freight from Miami to Orlando fall between LTL and FTL — paying too much for either without a right-sized vehicle option. Cargo van and box truck service fills this gap but finding providers is difficult.",
+    "solution_section": "WARP's cargo van and box truck service provides right-sized vehicle options for the Miami to Orlando corridor, delivering direct service with the right capacity at competitive pricing, with full visibility from pickup to delivery.",
+    "cta_primary": "Book 15-min Fit Call",
+    "cta_secondary": "Get Instant Quote",
+    "cta_primary_url": "https://www.wearewarp.com/book",
+    "cta_secondary_url": "https://www.wearewarp.com/quote",
+    "contrast": {
+      "headline": "Why Cargo Van / Box Truck shippers switch from brokers to WARP",
+      "points": [
+        {
+          "metric": "Quote speed",
+          "legacy": "2–24 hours via phone/email",
+          "warp": "Under 2 minutes, self-serve"
+        },
+        {
+          "metric": "Carrier comparison",
+          "legacy": "Manual spreadsheets",
+          "warp": "Side-by-side dashboard with performance data"
+        },
+        {
+          "metric": "Booking",
+          "legacy": "Email chains, 30–60 min",
+          "warp": "One-click from quote to BOL"
+        },
+        {
+          "metric": "Tracking",
+          "legacy": "Call carrier for updates",
+          "warp": "Real-time dashboard with exception alerts"
+        },
+        {
+          "metric": "Exception handling",
+          "legacy": "Reactive, hours to discover",
+          "warp": "Proactive alerts within 30 minutes"
+        }
+      ],
+      "bottom_line": "Shipping Cargo Van / Box Truck from Miami to Orlando with WARP eliminates the manual back-and-forth that costs logistics teams hours per shipment."
+    },
+    "intro": "Cargo Van / Box Truck freight from Miami, FL to Orlando, FL covers approximately 243 miles with estimated transit of 1–2 business days. WARP's carrier network on this corridor includes 6+ providers with cross-dock facilities at Atlanta Hub, NY/NJ Metro Hub, Dallas Mega Hub. Get instant lane-specific quotes, compare carriers, and book in minutes.",
+    "proof_section": "Validate this lane with a controlled pilot: Miami, FL to Orlando, FL. Track quote response time, transit predictability, and exception rate across 6 active carriers on this 243-mile corridor.  Start with this single lane, measure results, and expand based on data.",
+    "faq": [
+      {
+        "q": "Can we start with just the Miami to Orlando lane before expanding?",
+        "a": "Yes. A single-lane rollout lets you validate WARP's performance on this specific corridor before committing to additional lanes. Most teams expand within weeks after seeing results."
+      },
+      {
+        "q": "How are shipping exceptions handled on this Cargo Van / Box Truck lane?",
+        "a": "WARP's platform detects exceptions automatically and escalates within minutes. You get proactive alerts for delays, appointment changes, and delivery issues — no more chasing carriers for updates."
+      },
+      {
+        "q": "What metrics should we track on this Cargo Van / Box Truck lane?",
+        "a": "Focus on quote response time, on-time delivery rate, transit time consistency, exception frequency, and cost-per-shipment trends. These give you a clear go/no-go signal for scaling to more lanes."
+      },
+      {
+        "q": "How long does Cargo Van / Box Truck freight take from Miami to Orlando?",
+        "a": "Estimated transit for Cargo Van / Box Truck freight on this 243-mile lane is 1–2 business days. Actual transit depends on pickup schedule, carrier routing, and weather conditions."
+      },
+      {
+        "q": "How much does Cargo Van / Box Truck shipping from Miami to Orlando cost?",
+        "a": "Estimated Cargo Van / Box Truck rates on this lane range from $461 to $573 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote by entering your shipment details."
+      }
+    ],
+    "schema_breadcrumb": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WARP",
+          "item": "https://www.wearewarp.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cargo Van / Box Truck Freight",
+          "item": "https://www.wearewarp.com/guides/cargo van / box truck"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Miami to Orlando"
+        }
+      ]
+    },
+    "schema_service": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Cargo Van / Box Truck Freight Service — Miami to Orlando",
+      "provider": {
+        "@type": "Organization",
+        "name": "WARP",
+        "url": "https://www.wearewarp.com"
+      },
+      "areaServed": [
+        "Miami, FL",
+        "Orlando, FL"
+      ],
+      "description": "Cargo Van / Box Truck freight shipping from Miami, FL to Orlando, FL with instant quoting, carrier comparison, and real-time tracking."
+    },
+    "schema_organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "WARP",
+      "url": "https://www.wearewarp.com",
+      "description": "Technology-driven freight logistics platform"
+    },
+    "_canonicalData": {
+      "page_title": "Miami, FL to Orlando, FL Cargo Van / Box Truck Freight | WARP",
+      "meta_description": "Ship Cargo Van / Box Truck freight from Miami to Orlando: 243-mile lane, 1–2 day transit, 6 carriers. Get instant rates and real-time tracking through WARP.",
+      "lane_slug": "miami-to-orlando",
+      "canonical_path": "/lanes/miami-to-orlando",
+      "mode": "Cargo Van / Box Truck",
+      "segment": "cargo-van",
+      "origin": "Miami, FL",
+      "destination": "Orlando, FL",
+      "ai_answer_summary": "Cargo Van / Box Truck freight from Miami, FL to Orlando, FL covers approximately 243 miles with 1–2 business day transit. Estimated Cargo Van / Box Truck rates range from $461 to $573 depending on freight class, weight, and accessorials. WARP operates this lane with 6 vetted carriers providing Cargo Van, Box Truck 26' capacity. Shippers get instant self-serve quoting, real-time tracking with exception alerts, and managed operations without direct carrier coordination. Get a rate at wearewarp.com/quote.",
+      "lane_stats": {
+        "estimated_distance_miles": 243,
+        "estimated_transit_days_range": {
+          "min": 1,
+          "max": 2
+        },
+        "estimated_rate_range_usd": {
+          "low": 461,
+          "high": 573
+        },
+        "common_freight_class_range": null,
+        "common_equipment": [
+          "Cargo Van",
+          "Box Truck 26'"
+        ],
+        "seasonality_notes": "Hurricane risk Jun-Nov. Consistent retail demand year-round.",
+        "confidence": {
+          "transit": "modeled",
+          "rate": "modeled"
+        },
+        "disclaimers": [
+          "These are modeled estimates, not guaranteed quotes.",
+          "Actual rates depend on freight details, accessorials, and current market conditions."
+        ]
+      },
+      "network_proof": {
+        "estimated_carrier_count": 6,
+        "nearest_cross_docks": [
+          "Atlanta Hub",
+          "NY/NJ Metro Hub",
+          "Dallas Mega Hub"
+        ],
+        "service_notes": [
+          "Real-time scan events at pickup, in-transit, and delivery",
+          "Estimated 1-2 business day transit window",
+          "GPS-equipped trailers with live ETA updates",
+          "Exception alerts within 30 minutes of status change"
+        ],
+        "origin_region": "Southeast",
+        "destination_region": "Southeast"
+      },
+      "hero": {
+        "headline": "Miami, FL to Orlando, FL Cargo Van / Box Truck Freight",
+        "subhead": "Right-sized Cargo Van, Box Truck 26' service for 243-mile loads that do not need a full trailer. Direct routing, 1–2 day transit, and real-time tracking on every shipment.",
+        "primary_cta": {
+          "label": "Get Instant Quote",
+          "url": "https://www.wearewarp.com/quote"
+        },
+        "secondary_cta": {
+          "label": "Book a Fit Call",
+          "url": "https://www.wearewarp.com/book"
+        }
+      },
+      "lane_overview": {
+        "heading": "Why This Corridor Matters",
+        "body": "The Miami to Orlando Cargo Van / Box Truck lane is a freight corridor connecting the Southeast and Southeast regions. At 243 miles, this is a short-haul corridor where transit is predictable and terminal consolidation is minimal. Standard Cargo Van / Box Truck transit runs 1–2 business days. WARP operates this lane with 6 vetted carriers and common equipment including Cargo Van, Box Truck 26'. Cross-dock facilities at Atlanta Hub, NY/NJ Metro Hub, Dallas Mega Hub support consolidation and transit optimization for this corridor. Hurricane risk Jun-Nov. Consistent retail demand year-round."
+      },
+      "warp_fit_for_lane": {
+        "heading": "How WARP Operates the Miami to Orlando Lane",
+        "body": "WARP covers the Miami to Orlando corridor with a vetted network of 6 carriers providing Cargo Van / Box Truck capacity. Service capabilities on this lane include: Real-time scan events at pickup, in-transit, and delivery; Estimated 1-2 business day transit window; GPS-equipped trailers with live ETA updates. Cargo van and box truck shipments on this lane are right-sized for smaller freight — direct service without paying for unused trailer space. Vehicle matching is based on your load dimensions and weight, so you get the right capacity for the shipment. Cross-dock operations at Atlanta Hub and NY/NJ Metro Hub enable consolidation and re-routing when exceptions occur on this corridor. Exception alerts fire within 30 minutes of any status change. WARP's operations team handles carrier coordination, rescheduling, and resolution without requiring shipper follow-up."
+      },
+      "operating_details": {
+        "heading": "Transit and Operating Details",
+        "items": [
+          "Lane distance: 243 miles (Miami to Orlando)",
+          "Standard transit: 1–2 business days for Cargo Van / Box Truck service",
+          "Available equipment: Cargo Van, Box Truck 26'",
+          "Active carriers: 6 vetted providers on this corridor",
+          "Nearest cross-dock facilities: Atlanta Hub, NY/NJ Metro Hub, Dallas Mega Hub",
+          "Real-time scan events at pickup, in-transit checkpoints, and delivery milestones",
+          "Exception alerts within 30 minutes of status changes with automated escalation",
+          "Delivery appointment scheduling and confirmation managed by WARP operations"
+        ]
+      },
+      "pricing_and_commercial_framing": {
+        "heading": "Cargo Van / Box Truck Pricing Factors: Miami to Orlando",
+        "body": "Cargo Van / Box Truck rates on the Miami to Orlando lane typically range from $461 to $573, depending on freight class, weight, pallet count, and seasonal demand. Pricing is driven by vehicle type, lane distance, and right-sized capacity matching for your freight. At 243 miles, the linehaul distance is the largest cost component (approximately $2.13/mile). Fuel surcharges are applied as a separate line item based on current diesel prices. These are modeled estimates. Enter your shipment details to get a real-time, all-in rate."
+      },
+      "best_fit_shipments": {
+        "heading": "Best-Fit Shipments: Miami to Orlando Cargo Van / Box Truck",
+        "intro": "WARP is a strong fit for cargo van and box truck shipments on the Miami to Orlando lane when you need right-sized capacity without overpaying for unused trailer space.",
+        "items": [
+          "Smaller freight loads that do not require a full 53-foot trailer",
+          "Last-mile or final-mile delivery freight on this corridor",
+          "Time-sensitive shipments benefiting from direct, terminal-free routing",
+          "Shippers looking for predictable per-shipment pricing on smaller loads",
+          "Freight requiring flexible pickup and delivery windows"
+        ],
+        "cta_text": "Get an instant quote to see if WARP is the right fit for your Miami to Orlando freight."
+      },
+      "lane_specific_faqs": [
+        {
+          "question": "How much does Cargo Van / Box Truck freight from Miami, FL to Orlando, FL cost?",
+          "answer": "Estimated Cargo Van / Box Truck rates on this lane range from $461 to $573, based on freight class, weight, pallet count, and current market conditions. Enter your shipment details on WARP for an instant, all-in rate."
+        },
+        {
+          "question": "What is the transit time for Cargo Van / Box Truck shipments from Miami to Orlando?",
+          "answer": "Standard Cargo Van / Box Truck transit on the Miami to Orlando lane is 1–2 business days. This 243-mile corridor's actual transit depends on carrier routing, terminal schedules, and pickup timing."
+        },
+        {
+          "question": "What carriers does WARP use on the Miami to Orlando lane?",
+          "answer": "WARP operates this lane with approximately 6 vetted carriers. Carrier selection is optimized for each shipment based on equipment requirements, transit targets, and on-time performance history."
+        },
+        {
+          "question": "Can I track my Cargo Van / Box Truck shipment from Miami to Orlando in real time?",
+          "answer": "Yes. Every WARP shipment includes real-time tracking with scan events at pickup, in-transit checkpoints, and delivery. Exception alerts fire within 30 minutes of any status change, and WARP's operations team manages resolution directly without requiring shipper follow-up."
+        },
+        {
+          "question": "What equipment is available for Cargo Van / Box Truck freight on this lane?",
+          "answer": "Common equipment on the Miami to Orlando corridor includes Cargo Van, Box Truck 26'. Equipment availability varies by season and demand. Specify your requirements when requesting a quote."
+        },
+        {
+          "question": "What affects Cargo Van / Box Truck freight rates from Miami to Orlando?",
+          "answer": "Key rate factors on this lane include freight class (NMFC classification), shipment weight and density, pallet count, accessorial services (liftgate, inside delivery, limited access), seasonal demand, and current carrier capacity. Fuel surcharges are applied separately based on current diesel prices."
+        },
+        {
+          "question": "What makes WARP different from traditional Cargo Van / Box Truck freight brokers?",
+          "answer": "WARP provides self-serve instant quoting (under 2 minutes vs. hours with traditional brokers), a side-by-side carrier comparison dashboard, one-click booking with digital BOL, real-time tracking with proactive exception alerts, and managed operations where WARP handles carrier coordination and resolution directly."
+        }
+      ],
+      "related_links": {
+        "corridor_hub": "/corridors/southeast-to-southeast",
+        "related_lanes": [],
+        "tool_link": "https://www.wearewarp.com/quote",
+        "data_link": null,
+        "metro_links": [],
+        "guide_link": null
+      },
+      "why_warp": {
+        "heading": "Why Shippers Use WARP for Miami to Orlando Freight",
+        "reasons": [
+          {
+            "heading": "Self-Serve Instant Quoting",
+            "body": "Get Cargo Van / Box Truck rates for the Miami to Orlando lane in under 2 minutes. No phone calls, no email chains, no waiting for a broker to call back. Enter your freight details and compare carrier options side-by-side."
+          },
+          {
+            "heading": "Real-Time Shipment Visibility",
+            "body": "Every Cargo Van / Box Truck shipment on this 243-mile corridor includes milestone tracking from pickup through delivery. Exception alerts fire within 30 minutes of any status change — you see issues before they become problems."
+          },
+          {
+            "heading": "Managed Operations",
+            "body": "WARP's operations team handles carrier coordination, appointment scheduling, and exception resolution on the Miami to Orlando lane. You move freight without managing carrier relationships."
+          },
+          {
+            "heading": "Vetted Carrier Network",
+            "body": "6 vetted carriers operate this corridor, providing consistent Cargo Van / Box Truck capacity. Carrier selection is optimized per-shipment based on performance history and equipment fit."
+          },
+          {
+            "heading": "Cross-Dock Infrastructure",
+            "body": "Cross-dock facilities at Atlanta Hub and NY/NJ Metro Hub support consolidation and re-routing when exceptions occur on this corridor. This infrastructure enables better transit reliability on the Miami to Orlando lane."
+          },
+          {
+            "heading": "Transparent Pricing",
+            "body": "All-in Cargo Van / Box Truck rates with no hidden fees. Fuel surcharges, accessorials, and linehaul are broken out clearly. See exactly what you're paying before you book."
+          }
+        ]
+      },
+      "final_cta": {
+        "headline": "Ready to Ship Cargo Van / Box Truck Freight from Miami to Orlando?",
+        "body": "Get an instant Cargo Van / Box Truck rate for this 243-mile corridor. 1–2 day transit, real-time tracking, and managed operations included. No commitment required — enter your shipment details and compare options.",
+        "primary_cta": {
+          "label": "Get Instant Quote",
+          "url": "https://www.wearewarp.com/quote"
+        },
+        "secondary_cta": {
+          "label": "Talk to an Expert",
+          "url": "https://www.wearewarp.com/book"
+        },
+        "trust_signals": [
+          "Instant rate in under 2 minutes",
+          "No commitment to book",
+          "Real-time tracking included",
+          "Managed exception handling"
+        ]
+      },
+      "lane_relevant_cta": {
+        "headline": "Ship Cargo Van / Box Truck Freight: Miami to Orlando",
+        "body": "Enter your shipment details to get a real-time Cargo Van / Box Truck rate for the Miami to Orlando lane. No commitment required.",
+        "primary_cta": {
+          "label": "Get Your Quote",
+          "url": "https://www.wearewarp.com/quote"
+        }
+      }
+    }
+  },
+  "canonicalPath": "/miami-to-orlando",
+  "quickAnswers": [
+    {
+      "question": "How much does Cargo Van / Box Truck freight from Miami to Orlando cost?",
+      "answer": "Estimated Cargo Van / Box Truck rates on the Miami to Orlando lane range from $461 to $573 depending on weight, freight class, pallet count, and seasonal demand. These are modeled estimates — get an exact quote with WARP."
+    },
+    {
+      "question": "How long does Cargo Van / Box Truck transit take from Miami to Orlando?",
+      "answer": "Estimated transit time for Cargo Van / Box Truck freight on this 243-mile lane is 1–2 business days under standard conditions."
+    }
+  ],
+  "contentFingerprint": "1837239761",
+  "origin": "Miami, FL",
+  "destination": "Orlando, FL",
+  "mode": "Cargo Van / Box Truck",
+  "segment": "cargo-van"
+}

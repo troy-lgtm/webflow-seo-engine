@@ -1,0 +1,42 @@
+{
+  "slug": "houston-to-tampa",
+  "origin": "Houston, TX",
+  "destination": "Tampa, FL",
+  "mode": "LTL",
+  "archetype": "port_to_inland",
+  "archetype_label": "Port to Inland",
+  "canonical_path": "/houston-to-tampa",
+  "seo_title": "Houston, TX to Tampa, FL LTL Freight Quotes | WARP",
+  "h1": "Houston, TX to Tampa, FL LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Houston, TX to Tampa, FL. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "The Houston, TX to Tampa, FL lane connects a major port gateway with an inland distribution point, making container drayage, intermodal coordination, and customs clearance central to every shipment. For small and mid-size shipping teams, understanding dwell times, chassis availability, and terminal fees on this corridor is critical. This guide covers LTL options, drayage strategies, and cost-saving approaches for the Houston, TX to Tampa, FL port-to-inland lane.",
+  "faq": [
+    {
+      "q": "Are there customs clearance delays on the Houston, TX to Tampa, FL LTL lane?",
+      "a": "If your freight originates as an ocean import, customs clearance at Houston, TX can add 1-3 days. Pre-clearing with a customs broker before vessel arrival reduces this window."
+    },
+    {
+      "q": "How do demurrage and detention fees work on the Houston, TX to Tampa, FL lane?",
+      "a": "Demurrage accrues when containers sit at the port terminal past free time. Detention applies after the container leaves the terminal. Faster LTL drayage to Tampa, FL minimizes both charges."
+    },
+    {
+      "q": "What intermodal options exist for LTL freight from Houston, TX to Tampa, FL?",
+      "a": "Container-on-chassis drayage to a nearby rail ramp is common for long-haul segments. For shorter runs, direct LTL trucking from Houston, TX to Tampa, FL is often faster."
+    },
+    {
+      "q": "How does port congestion at Houston, TX affect LTL transit to Tampa, FL?",
+      "a": "Port dwell times at Houston, TX directly impact drayage schedules. WARP monitors terminal wait times and adjusts LTL pickup windows to minimize delays on the Houston, TX to Tampa, FL lane."
+    },
+    {
+      "q": "What is the typical LTL drayage cost from Houston, TX port to Tampa, FL?",
+      "a": "Port drayage rates vary by distance, chassis type, and terminal fees. The Houston, TX to Tampa, FL LTL lane benefits from high carrier density at the port."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 949,
+    "haversine_miles": 791,
+    "estimated_transit_days": "3-5",
+    "origin_region": "South Central",
+    "destination_region": "Southeast"
+  }
+}

@@ -1,0 +1,26 @@
+<style>
+.mc-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin:20px 0; }
+.mc-card { border:1px solid #d6dde5; border-radius:14px; padding:16px; background:linear-gradient(180deg,#ffffff 0%,#f6f9fc 100%); }
+.mc-kicker { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:#4e5d71; }
+.mc-value { margin-top:8px; font-size:20px; font-weight:700; color:#102136; }
+.mc-card p { margin:10px 0 0; font-size:14px; line-height:1.5; color:#2c3f56; }
+.workflow-shell { margin-top:22px; border:1px solid #d6dde5; border-radius:14px; padding:16px; background:#0d1726; color:#d9ecff; }
+.workflow-title { margin:0 0 10px; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:#9fc5f8; }
+@media (max-width: 900px) { .mc-grid { grid-template-columns:1fr; } }
+</style>
+
+<div class="mc-grid">
+<div class="mc-card"><div class="mc-kicker">Execution Velocity</div><div class="mc-value">Faster quote-to-book cycle</div><p>Operators move from reactive triage to scheduled decision windows.</p></div>
+<div class="mc-card"><div class="mc-kicker">Service Predictability</div><div class="mc-value">Fewer handoff surprises</div><p>Shared visibility reduces back-and-forth across lane owners.</p></div>
+<div class="mc-card"><div class="mc-kicker">Commercial Control</div><div class="mc-value">KPI-based expansion gating</div><p>Scale only after pilot lanes hit agreed thresholds.</p></div>
+</div>
+
+<div class="workflow-shell">
+  <div class="workflow-title">Workflow Map (Game-Inspired Ops Loop)</div>
+  <pre class="mermaid">flowchart LR
+  A[Signal Intake\nOrders + Carrier Updates] --> B[Routing Intelligence Layer]
+  B --> C[Execution Control Tower]
+  C --> D[Exception Escalation Queue]
+  D --> E[Customer-Ready Update]
+  E --> F[Quote + Capacity Feedback Loop]</pre>
+</div>

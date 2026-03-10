@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-03-05T21:58:21.919Z",
+  "overall_status": "minor_issues",
+  "classification": {
+    "classification": "local_simulation",
+    "display_status": "Simulated local audit",
+    "trust_level": "low",
+    "confirmed_posted_today": false,
+    "reason_codes": [
+      "mode_is_dry",
+      "environment_is_local",
+      "missing_deploy_provider",
+      "missing_deploy_id",
+      "manual_audit_bundle_run"
+    ]
+  },
+  "issues": [
+    {
+      "severity": "medium",
+      "type": "unknown_deploy_status",
+      "message": "Deploy status is unknown — cannot confirm pages are live in production"
+    },
+    {
+      "severity": "low",
+      "type": "verification_not_run",
+      "message": "Live page verification has not been run — pages are unverified"
+    },
+    {
+      "severity": "medium",
+      "type": "disconnected_source_with_data",
+      "source": "gsc",
+      "message": "GSC is disconnected but has data — values may be stale"
+    },
+    {
+      "severity": "medium",
+      "type": "disconnected_source_with_data",
+      "source": "portal",
+      "message": "PORTAL is disconnected but has data — values may be stale"
+    }
+  ],
+  "summary": {
+    "high": 0,
+    "medium": 3,
+    "low": 1,
+    "total": 4
+  }
+}

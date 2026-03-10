@@ -1,0 +1,42 @@
+{
+  "slug": "orlando-to-portland",
+  "origin": "Orlando, FL",
+  "destination": "Portland, OR",
+  "mode": "LTL",
+  "archetype": "coastal_to_coastal",
+  "archetype_label": "Coastal to Coastal",
+  "canonical_path": "/orlando-to-portland",
+  "seo_title": "Orlando, FL to Portland, OR LTL Freight Quotes | WARP",
+  "h1": "Orlando, FL to Portland, OR LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Orlando, FL to Portland, OR. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "Shipping LTL freight from Orlando, FL to Portland, OR spans a cross-country corridor that crosses multiple time zones and climate regions. For small and mid-size shipping teams, planning multimodal options, managing extended transit windows, and building contingency into coast-to-coast schedules are essential. This page details LTL transit benchmarks, intermodal alternatives, and routing strategies for the Orlando, FL to Portland, OR lane.",
+  "faq": [
+    {
+      "q": "What is the typical LTL transit time from Orlando, FL to Portland, OR?",
+      "a": "Coast-to-coast LTL transit between Orlando, FL and Portland, OR typically ranges from 4 to 7 business days depending on routing, weather, and carrier network."
+    },
+    {
+      "q": "Is intermodal LTL a viable option from Orlando, FL to Portland, OR?",
+      "a": "Yes. Rail-truck intermodal can reduce costs by 15-30% versus over-the-road LTL on the Orlando, FL to Portland, OR lane, with a 1-2 day transit trade-off."
+    },
+    {
+      "q": "How do time zone differences affect LTL delivery scheduling between Orlando, FL and Portland, OR?",
+      "a": "A 3-hour time difference between Orlando, FL and Portland, OR impacts pickup and delivery appointment windows. Coordinate cutoff times across time zones to avoid missed appointments."
+    },
+    {
+      "q": "What weather risks apply to cross-country LTL freight from Orlando, FL to Portland, OR?",
+      "a": "Mountain passes, Great Plains storms, and seasonal weather patterns can delay LTL transit. Build 1-2 buffer days into coast-to-coast schedules."
+    },
+    {
+      "q": "How does fuel cost impact LTL rates on the Orlando, FL to Portland, OR lane?",
+      "a": "Cross-country lanes are fuel-sensitive. LTL fuel surcharges on the Orlando, FL to Portland, OR corridor fluctuate with diesel prices and add 15-25% to base rates."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 3031,
+    "haversine_miles": 2526,
+    "estimated_transit_days": "4-7",
+    "origin_region": "Southeast",
+    "destination_region": "Pacific Northwest"
+  }
+}

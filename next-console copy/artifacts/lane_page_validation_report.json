@@ -1,0 +1,7337 @@
+{
+  "timestamp": "2026-03-06T10:23:47.461Z",
+  "total_validated": 1220,
+  "passed": 1220,
+  "failed": 0,
+  "avg_quality_score": 100,
+  "quality_distribution": {
+    "90-100": 1220,
+    "80-89": 0,
+    "70-79": 0,
+    "below-70": 0
+  },
+  "banned_content_pages": 0,
+  "missing_fields_pages": 0,
+  "results": [
+    {
+      "slug": "atlanta-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "atlanta-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "austin-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "baltimore-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "charlotte-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "chicago-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cincinnati-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "cleveland-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "columbus-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "dallas-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "denver-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "detroit-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "fort-worth-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "houston-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "indianapolis-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "jacksonville-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "kansas-city-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-portland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-seattle",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-tacoma",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "las-vegas-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-las-vegas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-oakland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-phoenix",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-portland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-san-diego",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-san-francisco",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-seattle",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-tacoma",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "long-beach-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-las-vegas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-long-beach",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-oakland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-phoenix",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-portland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-san-diego",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-san-francisco",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-seattle",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-tacoma",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "los-angeles-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "memphis-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "miami-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "milwaukee-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "minneapolis-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "nashville-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "new-york-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "newark-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-las-vegas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-phoenix",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-portland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-san-diego",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-seattle",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-tacoma",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "oakland-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "orlando-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "philadelphia-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-las-vegas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-portland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-seattle",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-tacoma",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "phoenix-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "portland-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "raleigh-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "salt-lake-city-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-antonio-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-las-vegas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-phoenix",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-portland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-seattle",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-tacoma",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-diego-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-las-vegas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-oakland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-phoenix",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-portland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-san-diego",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-seattle",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-tacoma",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "san-francisco-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-portland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-tacoma",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "seattle-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "st-louis-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-atlanta",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-austin",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-charlotte",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-chicago",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-cincinnati",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-cleveland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-columbus",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-dallas",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-denver",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-detroit",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-fort-worth",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-houston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-indianapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-jacksonville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-kansas-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-memphis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-milwaukee",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-minneapolis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-nashville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-orlando",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-portland",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-raleigh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-salt-lake-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-san-antonio",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-st-louis",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-tampa",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tacoma-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-albuquerque",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-baltimore",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-boise",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-boston",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-louisville",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-miami",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-new-orleans",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-new-york",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-newark",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-oklahoma-city",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-philadelphia",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-pittsburgh",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-sacramento",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-san-jose",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-spokane",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    },
+    {
+      "slug": "tampa-to-washington",
+      "score": 100,
+      "passed": true,
+      "issues": []
+    }
+  ]
+}

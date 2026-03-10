@@ -1,0 +1,55 @@
+{
+  "run_id": "2026-03-07T11-14-22-353Z",
+  "script_name": "lanes_auto_publish.js",
+  "receipt_generated_at": "2026-03-07T11:27:26.528Z",
+  "started_at": "2026-03-07T11:14:22.353Z",
+  "completed_at": "2026-03-07T11:27:26.526Z",
+  "final_status": "all_verified_live",
+  "intended_count": 5,
+  "attempted_count": 5,
+  "published_count": 5,
+  "verified_live_count": 5,
+  "published_unverified_count": 0,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "recipient": "troy@wearewarp.com",
+  "email_attempted": true,
+  "email_sent": true,
+  "email_provider_status": "sent",
+  "manifest_path": "manifests/publish_2026-03-07T11-14-22-353Z.json",
+  "verified_live_urls": [
+    {
+      "slug": "chicago-to-indianapolis",
+      "url": "https://www.wearewarp.com/lanes/chicago-to-indianapolis",
+      "httpStatus": 200,
+      "webflowItemId": "69ac088ee377d114ad3bdbc5"
+    },
+    {
+      "slug": "atlanta-to-orlando",
+      "url": "https://www.wearewarp.com/lanes/atlanta-to-orlando",
+      "httpStatus": 200,
+      "webflowItemId": "69ac08949e2175e051ab0e6d"
+    },
+    {
+      "slug": "tampa-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/tampa-to-new-york",
+      "httpStatus": 200,
+      "webflowItemId": "69ac089b53d25ffb9bff11e9"
+    },
+    {
+      "slug": "los-angeles-to-denver",
+      "url": "https://www.wearewarp.com/lanes/los-angeles-to-denver",
+      "httpStatus": 200,
+      "webflowItemId": "69ac08a1b9709c7d87e730b4"
+    },
+    {
+      "slug": "phoenix-to-new-york",
+      "url": "https://www.wearewarp.com/lanes/phoenix-to-new-york",
+      "httpStatus": 200,
+      "webflowItemId": "69ac08a7afd8ad39f59f3d94"
+    }
+  ],
+  "published_unverified_urls": [],
+  "failed_slugs": [],
+  "blocked_slugs": []
+}

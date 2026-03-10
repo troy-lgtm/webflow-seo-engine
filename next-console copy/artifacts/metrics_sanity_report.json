@@ -1,0 +1,144 @@
+{
+  "run_id": "metrics-f75105b9",
+  "timestamp": "2026-03-05T19:05:42.885Z",
+  "window": {
+    "days": 7,
+    "start": "2026-02-26",
+    "end": "2026-03-05"
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/los-angeles-to-phoenix",
+      "details": {
+        "clicks": 22,
+        "quote_starts": 35,
+        "ratio": "1.59",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    },
+    {
+      "severity": "medium",
+      "type": "metric_without_connected_source",
+      "details": {
+        "source": "gsc",
+        "explanation": "GSC metrics present but source not connected. Values are from local stub data.",
+        "note": "Applies to all lanes with this source's data."
+      }
+    },
+    {
+      "severity": "medium",
+      "type": "metric_without_connected_source",
+      "details": {
+        "source": "portal",
+        "explanation": "Portal metrics present but source not connected. Values are from local stub data.",
+        "note": "Applies to all lanes with this source's data."
+      }
+    },
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/los-angeles-to-dallas",
+      "details": {
+        "clicks": 15,
+        "quote_starts": 28,
+        "ratio": "1.87",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    },
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/los-angeles-to-chicago",
+      "details": {
+        "clicks": 8,
+        "quote_starts": 12,
+        "ratio": "1.50",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    },
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/seattle-to-los-angeles",
+      "details": {
+        "clicks": 6,
+        "quote_starts": 10,
+        "ratio": "1.67",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    },
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/dallas-to-houston",
+      "details": {
+        "clicks": 7,
+        "quote_starts": 14,
+        "ratio": "2.00",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    },
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/houston-to-dallas",
+      "details": {
+        "clicks": 11,
+        "quote_starts": 18,
+        "ratio": "1.64",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    },
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/chicago-to-dallas",
+      "details": {
+        "clicks": 28,
+        "quote_starts": 42,
+        "ratio": "1.50",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    },
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/chicago-to-atlanta",
+      "details": {
+        "clicks": 9,
+        "quote_starts": 15,
+        "ratio": "1.67",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    },
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/atlanta-to-miami",
+      "details": {
+        "clicks": 12,
+        "quote_starts": 22,
+        "ratio": "1.83",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    },
+    {
+      "severity": "high",
+      "type": "funnel_inversion_quotes_gt_clicks",
+      "canonical_path": "/lanes/new-york-to-chicago",
+      "details": {
+        "clicks": 14,
+        "quote_starts": 19,
+        "ratio": "1.36",
+        "explanation": "Quote starts exceed clicks for same lane. Possible attribution gap or cross-session conversion. Requires manual review."
+      }
+    }
+  ],
+  "summary": {
+    "high": 10,
+    "medium": 2,
+    "low": 0
+  }
+}

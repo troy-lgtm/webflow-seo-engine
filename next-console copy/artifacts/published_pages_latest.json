@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-03-07T02-29-15-990Z",
+  "timestamp": "2026-03-07T02:29:15.990Z",
+  "live_indexable_pages": [
+    {
+      "page_path": "/lanes/dallas-to-new-york",
+      "page_type": "lane",
+      "lane_slug": "dallas-to-new-york",
+      "corridor_id": "unknown"
+    },
+    {
+      "page_path": "/lanes/houston-to-atlanta",
+      "page_type": "lane",
+      "lane_slug": "houston-to-atlanta",
+      "corridor_id": "unknown"
+    },
+    {
+      "page_path": "/lanes/chicago-to-new-york",
+      "page_type": "lane",
+      "lane_slug": "chicago-to-new-york",
+      "corridor_id": "unknown"
+    }
+  ],
+  "live_noindex_pages": [],
+  "blocked_pages": []
+}

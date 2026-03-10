@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "flexport-alternative",
+    "sessions": 1200,
+    "cta_book_clicks": 86,
+    "cta_quote_clicks": 64,
+    "quote_starts": 49,
+    "book_starts": 61,
+    "form_submits": 23
+  },
+  {
+    "slug": "self-service-freight-quotes",
+    "sessions": 980,
+    "cta_book_clicks": 38,
+    "cta_quote_clicks": 112,
+    "quote_starts": 94,
+    "book_starts": 26,
+    "form_submits": 31
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "timestamp": "2026-03-06T08:11:54.045Z",
+  "mode": "offline",
+  "summary": {
+    "total": 15,
+    "valid_lane_pages": 15,
+    "generic_template_pages": 0,
+    "fallback_content_pages": 0,
+    "thin_lane_pages": 0,
+    "banned_content_pages": 0,
+    "fetch_errors": 0
+  },
+  "pages": [
+    {
+      "lane_slug": "atlanta-to-dallas",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "atlanta-to-chicago",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "chicago-to-dallas",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "dallas-to-atlanta",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "dallas-to-chicago",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "chicago-to-atlanta",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "dallas-to-new-york",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "houston-to-atlanta",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "atlanta-to-miami",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "dallas-to-charlotte",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "new-york-to-atlanta",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "miami-to-chicago",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "chicago-to-new-york",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "miami-to-atlanta",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    },
+    {
+      "lane_slug": "los-angeles-to-chicago",
+      "classification": "valid_lane_page",
+      "quality_score": 96,
+      "reasons": []
+    }
+  ]
+}

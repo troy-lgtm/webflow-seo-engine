@@ -1,0 +1,19 @@
+{
+  "_comment": "GSC impression data stub. Swap with real data from GSC API integration.",
+  "_format": "key = lowercase 'origin-to-destination', value = { impressions, clicks, position }",
+  "chicago-to-dallas": { "impressions": 320, "clicks": 28, "position": 14.2 },
+  "los-angeles-to-phoenix": { "impressions": 280, "clicks": 22, "position": 16.5 },
+  "los-angeles-to-dallas": { "impressions": 210, "clicks": 15, "position": 18.1 },
+  "atlanta-to-miami": { "impressions": 190, "clicks": 12, "position": 19.4 },
+  "new-york-to-chicago": { "impressions": 175, "clicks": 14, "position": 15.3 },
+  "houston-to-dallas": { "impressions": 160, "clicks": 11, "position": 17.8 },
+  "chicago-to-atlanta": { "impressions": 145, "clicks": 9, "position": 20.1 },
+  "los-angeles-to-chicago": { "impressions": 130, "clicks": 8, "position": 22.3 },
+  "dallas-to-houston": { "impressions": 120, "clicks": 7, "position": 18.6 },
+  "seattle-to-los-angeles": { "impressions": 110, "clicks": 6, "position": 21.0 },
+  "miami-to-new-york": { "impressions": 105, "clicks": 5, "position": 23.2 },
+  "phoenix-to-los-angeles": { "impressions": 95, "clicks": 4, "position": 24.5 },
+  "chicago-to-indianapolis": { "impressions": 85, "clicks": 3, "position": 26.1 },
+  "denver-to-salt-lake-city": { "impressions": 70, "clicks": 2, "position": 28.4 },
+  "nashville-to-atlanta": { "impressions": 65, "clicks": 2, "position": 29.0 }
+}

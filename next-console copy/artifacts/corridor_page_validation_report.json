@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-03-06T09:59:10.341Z",
+  "total_corridors": 13,
+  "corridors_passing": 13,
+  "corridors_failing": 0,
+  "avg_score": 100,
+  "results": [
+    {
+      "corridor_id": "chicago-dfw",
+      "score": 100,
+      "passed": true,
+      "lane_count": 2,
+      "issues": []
+    },
+    {
+      "corridor_id": "socal-phoenix",
+      "score": 100,
+      "passed": true,
+      "lane_count": 3,
+      "issues": []
+    },
+    {
+      "corridor_id": "texas-triangle",
+      "score": 100,
+      "passed": true,
+      "lane_count": 10,
+      "issues": []
+    },
+    {
+      "corridor_id": "northeast-regional",
+      "score": 100,
+      "passed": true,
+      "lane_count": 10,
+      "issues": []
+    },
+    {
+      "corridor_id": "southeast-retail",
+      "score": 100,
+      "passed": true,
+      "lane_count": 25,
+      "issues": []
+    },
+    {
+      "corridor_id": "la-chicago",
+      "score": 100,
+      "passed": true,
+      "lane_count": 2,
+      "issues": []
+    },
+    {
+      "corridor_id": "midwest-southeast",
+      "score": 100,
+      "passed": true,
+      "lane_count": 35,
+      "issues": []
+    },
+    {
+      "corridor_id": "pnw-socal",
+      "score": 100,
+      "passed": true,
+      "lane_count": 12,
+      "issues": []
+    },
+    {
+      "corridor_id": "texas-southeast",
+      "score": 100,
+      "passed": true,
+      "lane_count": 28,
+      "issues": []
+    },
+    {
+      "corridor_id": "mountain-west",
+      "score": 100,
+      "passed": true,
+      "lane_count": 10,
+      "issues": []
+    },
+    {
+      "corridor_id": "northeast-midwest",
+      "score": 100,
+      "passed": true,
+      "lane_count": 20,
+      "issues": []
+    },
+    {
+      "corridor_id": "socal-texas",
+      "score": 100,
+      "passed": true,
+      "lane_count": 12,
+      "issues": []
+    },
+    {
+      "corridor_id": "florida-northeast",
+      "score": 100,
+      "passed": true,
+      "lane_count": 16,
+      "issues": []
+    }
+  ]
+}

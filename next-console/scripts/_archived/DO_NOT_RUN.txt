@@ -1,0 +1,10 @@
+These scripts have been archived because they have dangerous side effects:
+
+- _check_webflow_items.js — publishes entire Webflow site as a side effect of listing items
+- _fix_publish.js — deletes and recreates Webflow items using hardcoded IDs, no dry-run
+- _publish_cluster_v2.js — deletes Webflow items by hardcoded ID, known to overwrite published_pages.json
+
+Use the canonical factory instead:
+  npm run lanes:factory -- --count=N --interval=4 --notify=troy@wearewarp.com
+
+Archived: 2026-03-07

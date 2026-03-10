@@ -1,0 +1,2001 @@
+origin_city,origin_state,destination_city,destination_state,lane_set,why_this_lane
+Los Angeles,CA,Long Beach,CA,tier1_core,high demand metro to metro lane
+Los Angeles,CA,San Francisco,CA,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Oakland,CA,tier1_core,high demand metro to metro lane
+Los Angeles,CA,San Diego,CA,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Seattle,WA,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Tacoma,WA,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Portland,OR,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Denver,CO,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Dallas,TX,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Houston,TX,tier1_core,high demand metro to metro lane
+Los Angeles,CA,San Antonio,TX,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Austin,TX,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Kansas City,MO,tier1_core,high demand metro to metro lane
+Los Angeles,CA,St Louis,MO,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Chicago,IL,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Columbus,OH,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Cleveland,OH,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Detroit,MI,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Nashville,TN,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Memphis,TN,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Atlanta,GA,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Charlotte,NC,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Raleigh,NC,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Orlando,FL,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Tampa,FL,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Miami,FL,tier1_core,high demand metro to metro lane
+Los Angeles,CA,New York,NY,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Newark,NJ,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Baltimore,MD,tier1_core,high demand metro to metro lane
+Long Beach,CA,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Long Beach,CA,San Francisco,CA,tier1_core,high demand metro to metro lane
+Long Beach,CA,Oakland,CA,tier1_core,high demand metro to metro lane
+Long Beach,CA,San Diego,CA,tier1_core,high demand metro to metro lane
+Long Beach,CA,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Long Beach,CA,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Long Beach,CA,Seattle,WA,tier1_core,high demand metro to metro lane
+Long Beach,CA,Tacoma,WA,tier1_core,high demand metro to metro lane
+Long Beach,CA,Portland,OR,tier1_core,high demand metro to metro lane
+Long Beach,CA,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Long Beach,CA,Denver,CO,tier1_core,high demand metro to metro lane
+Long Beach,CA,Dallas,TX,tier1_core,high demand metro to metro lane
+Long Beach,CA,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Long Beach,CA,Houston,TX,tier1_core,high demand metro to metro lane
+Long Beach,CA,San Antonio,TX,tier1_core,high demand metro to metro lane
+Long Beach,CA,Austin,TX,tier1_core,high demand metro to metro lane
+Long Beach,CA,Kansas City,MO,tier1_core,high demand metro to metro lane
+Long Beach,CA,St Louis,MO,tier1_core,high demand metro to metro lane
+Long Beach,CA,Chicago,IL,tier1_core,high demand metro to metro lane
+Long Beach,CA,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Long Beach,CA,Columbus,OH,tier1_core,high demand metro to metro lane
+Long Beach,CA,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Long Beach,CA,Cleveland,OH,tier1_core,high demand metro to metro lane
+Long Beach,CA,Detroit,MI,tier1_core,high demand metro to metro lane
+Long Beach,CA,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Long Beach,CA,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Long Beach,CA,Nashville,TN,tier1_core,high demand metro to metro lane
+Long Beach,CA,Memphis,TN,tier1_core,high demand metro to metro lane
+Long Beach,CA,Atlanta,GA,tier1_core,high demand metro to metro lane
+Long Beach,CA,Charlotte,NC,tier1_core,high demand metro to metro lane
+Long Beach,CA,Raleigh,NC,tier1_core,high demand metro to metro lane
+Long Beach,CA,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Long Beach,CA,Orlando,FL,tier1_core,high demand metro to metro lane
+Long Beach,CA,Tampa,FL,tier1_core,high demand metro to metro lane
+Long Beach,CA,Miami,FL,tier1_core,high demand metro to metro lane
+Long Beach,CA,New York,NY,tier1_core,high demand metro to metro lane
+Long Beach,CA,Newark,NJ,tier1_core,high demand metro to metro lane
+Long Beach,CA,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Long Beach,CA,Baltimore,MD,tier1_core,high demand metro to metro lane
+San Francisco,CA,Los Angeles,CA,tier1_core,high demand metro to metro lane
+San Francisco,CA,Long Beach,CA,tier1_core,high demand metro to metro lane
+San Francisco,CA,Oakland,CA,tier1_core,high demand metro to metro lane
+San Francisco,CA,San Diego,CA,tier1_core,high demand metro to metro lane
+San Francisco,CA,Phoenix,AZ,tier1_core,high demand metro to metro lane
+San Francisco,CA,Las Vegas,NV,tier1_core,high demand metro to metro lane
+San Francisco,CA,Seattle,WA,tier1_core,high demand metro to metro lane
+San Francisco,CA,Tacoma,WA,tier1_core,high demand metro to metro lane
+San Francisco,CA,Portland,OR,tier1_core,high demand metro to metro lane
+San Francisco,CA,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+San Francisco,CA,Denver,CO,tier1_core,high demand metro to metro lane
+San Francisco,CA,Dallas,TX,tier1_core,high demand metro to metro lane
+San Francisco,CA,Fort Worth,TX,tier1_core,high demand metro to metro lane
+San Francisco,CA,Houston,TX,tier1_core,high demand metro to metro lane
+San Francisco,CA,San Antonio,TX,tier1_core,high demand metro to metro lane
+San Francisco,CA,Austin,TX,tier1_core,high demand metro to metro lane
+San Francisco,CA,Kansas City,MO,tier1_core,high demand metro to metro lane
+San Francisco,CA,St Louis,MO,tier1_core,high demand metro to metro lane
+San Francisco,CA,Chicago,IL,tier1_core,high demand metro to metro lane
+San Francisco,CA,Indianapolis,IN,tier1_core,high demand metro to metro lane
+San Francisco,CA,Columbus,OH,tier1_core,high demand metro to metro lane
+San Francisco,CA,Cincinnati,OH,tier1_core,high demand metro to metro lane
+San Francisco,CA,Cleveland,OH,tier1_core,high demand metro to metro lane
+San Francisco,CA,Detroit,MI,tier1_core,high demand metro to metro lane
+San Francisco,CA,Minneapolis,MN,tier1_core,high demand metro to metro lane
+San Francisco,CA,Milwaukee,WI,tier1_core,high demand metro to metro lane
+San Francisco,CA,Nashville,TN,tier1_core,high demand metro to metro lane
+San Francisco,CA,Memphis,TN,tier1_core,high demand metro to metro lane
+San Francisco,CA,Atlanta,GA,tier1_core,high demand metro to metro lane
+San Francisco,CA,Charlotte,NC,tier1_core,high demand metro to metro lane
+San Francisco,CA,Raleigh,NC,tier1_core,high demand metro to metro lane
+San Francisco,CA,Jacksonville,FL,tier1_core,high demand metro to metro lane
+San Francisco,CA,Orlando,FL,tier1_core,high demand metro to metro lane
+San Francisco,CA,Tampa,FL,tier1_core,high demand metro to metro lane
+San Francisco,CA,Miami,FL,tier1_core,high demand metro to metro lane
+San Francisco,CA,New York,NY,tier1_core,high demand metro to metro lane
+San Francisco,CA,Newark,NJ,tier1_core,high demand metro to metro lane
+San Francisco,CA,Philadelphia,PA,tier1_core,high demand metro to metro lane
+San Francisco,CA,Baltimore,MD,tier1_core,high demand metro to metro lane
+Oakland,CA,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Oakland,CA,Long Beach,CA,tier1_core,high demand metro to metro lane
+Oakland,CA,San Francisco,CA,tier1_core,high demand metro to metro lane
+Oakland,CA,San Diego,CA,tier1_core,high demand metro to metro lane
+Oakland,CA,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Oakland,CA,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Oakland,CA,Seattle,WA,tier1_core,high demand metro to metro lane
+Oakland,CA,Tacoma,WA,tier1_core,high demand metro to metro lane
+Oakland,CA,Portland,OR,tier1_core,high demand metro to metro lane
+Oakland,CA,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Oakland,CA,Denver,CO,tier1_core,high demand metro to metro lane
+Oakland,CA,Dallas,TX,tier1_core,high demand metro to metro lane
+Oakland,CA,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Oakland,CA,Houston,TX,tier1_core,high demand metro to metro lane
+Oakland,CA,San Antonio,TX,tier1_core,high demand metro to metro lane
+Oakland,CA,Austin,TX,tier1_core,high demand metro to metro lane
+Oakland,CA,Kansas City,MO,tier1_core,high demand metro to metro lane
+Oakland,CA,St Louis,MO,tier1_core,high demand metro to metro lane
+Oakland,CA,Chicago,IL,tier1_core,high demand metro to metro lane
+Oakland,CA,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Oakland,CA,Columbus,OH,tier1_core,high demand metro to metro lane
+Oakland,CA,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Oakland,CA,Cleveland,OH,tier1_core,high demand metro to metro lane
+Oakland,CA,Detroit,MI,tier1_core,high demand metro to metro lane
+Oakland,CA,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Oakland,CA,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Oakland,CA,Nashville,TN,tier1_core,high demand metro to metro lane
+Oakland,CA,Memphis,TN,tier1_core,high demand metro to metro lane
+Oakland,CA,Atlanta,GA,tier1_core,high demand metro to metro lane
+Oakland,CA,Charlotte,NC,tier1_core,high demand metro to metro lane
+Oakland,CA,Raleigh,NC,tier1_core,high demand metro to metro lane
+Oakland,CA,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Oakland,CA,Orlando,FL,tier1_core,high demand metro to metro lane
+Oakland,CA,Tampa,FL,tier1_core,high demand metro to metro lane
+Oakland,CA,Miami,FL,tier1_core,high demand metro to metro lane
+Oakland,CA,New York,NY,tier1_core,high demand metro to metro lane
+Oakland,CA,Newark,NJ,tier1_core,high demand metro to metro lane
+Oakland,CA,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Oakland,CA,Baltimore,MD,tier1_core,high demand metro to metro lane
+San Diego,CA,Los Angeles,CA,tier1_core,high demand metro to metro lane
+San Diego,CA,Long Beach,CA,tier1_core,high demand metro to metro lane
+San Diego,CA,San Francisco,CA,tier1_core,high demand metro to metro lane
+San Diego,CA,Oakland,CA,tier1_core,high demand metro to metro lane
+San Diego,CA,Phoenix,AZ,tier1_core,high demand metro to metro lane
+San Diego,CA,Las Vegas,NV,tier1_core,high demand metro to metro lane
+San Diego,CA,Seattle,WA,tier1_core,high demand metro to metro lane
+San Diego,CA,Tacoma,WA,tier1_core,high demand metro to metro lane
+San Diego,CA,Portland,OR,tier1_core,high demand metro to metro lane
+San Diego,CA,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+San Diego,CA,Denver,CO,tier1_core,high demand metro to metro lane
+San Diego,CA,Dallas,TX,tier1_core,high demand metro to metro lane
+San Diego,CA,Fort Worth,TX,tier1_core,high demand metro to metro lane
+San Diego,CA,Houston,TX,tier1_core,high demand metro to metro lane
+San Diego,CA,San Antonio,TX,tier1_core,high demand metro to metro lane
+San Diego,CA,Austin,TX,tier1_core,high demand metro to metro lane
+San Diego,CA,Kansas City,MO,tier1_core,high demand metro to metro lane
+San Diego,CA,St Louis,MO,tier1_core,high demand metro to metro lane
+San Diego,CA,Chicago,IL,tier1_core,high demand metro to metro lane
+San Diego,CA,Indianapolis,IN,tier1_core,high demand metro to metro lane
+San Diego,CA,Columbus,OH,tier1_core,high demand metro to metro lane
+San Diego,CA,Cincinnati,OH,tier1_core,high demand metro to metro lane
+San Diego,CA,Cleveland,OH,tier1_core,high demand metro to metro lane
+San Diego,CA,Detroit,MI,tier1_core,high demand metro to metro lane
+San Diego,CA,Minneapolis,MN,tier1_core,high demand metro to metro lane
+San Diego,CA,Milwaukee,WI,tier1_core,high demand metro to metro lane
+San Diego,CA,Nashville,TN,tier1_core,high demand metro to metro lane
+San Diego,CA,Memphis,TN,tier1_core,high demand metro to metro lane
+San Diego,CA,Atlanta,GA,tier1_core,high demand metro to metro lane
+San Diego,CA,Charlotte,NC,tier1_core,high demand metro to metro lane
+San Diego,CA,Raleigh,NC,tier1_core,high demand metro to metro lane
+San Diego,CA,Jacksonville,FL,tier1_core,high demand metro to metro lane
+San Diego,CA,Orlando,FL,tier1_core,high demand metro to metro lane
+San Diego,CA,Tampa,FL,tier1_core,high demand metro to metro lane
+San Diego,CA,Miami,FL,tier1_core,high demand metro to metro lane
+San Diego,CA,New York,NY,tier1_core,high demand metro to metro lane
+San Diego,CA,Newark,NJ,tier1_core,high demand metro to metro lane
+San Diego,CA,Philadelphia,PA,tier1_core,high demand metro to metro lane
+San Diego,CA,Baltimore,MD,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Long Beach,CA,tier1_core,high demand metro to metro lane
+Phoenix,AZ,San Francisco,CA,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Oakland,CA,tier1_core,high demand metro to metro lane
+Phoenix,AZ,San Diego,CA,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Seattle,WA,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Tacoma,WA,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Portland,OR,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Denver,CO,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Dallas,TX,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Houston,TX,tier1_core,high demand metro to metro lane
+Phoenix,AZ,San Antonio,TX,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Austin,TX,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Kansas City,MO,tier1_core,high demand metro to metro lane
+Phoenix,AZ,St Louis,MO,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Chicago,IL,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Columbus,OH,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Cleveland,OH,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Detroit,MI,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Nashville,TN,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Memphis,TN,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Atlanta,GA,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Charlotte,NC,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Raleigh,NC,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Orlando,FL,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Tampa,FL,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Miami,FL,tier1_core,high demand metro to metro lane
+Phoenix,AZ,New York,NY,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Newark,NJ,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Phoenix,AZ,Baltimore,MD,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Long Beach,CA,tier1_core,high demand metro to metro lane
+Las Vegas,NV,San Francisco,CA,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Oakland,CA,tier1_core,high demand metro to metro lane
+Las Vegas,NV,San Diego,CA,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Seattle,WA,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Tacoma,WA,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Portland,OR,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Denver,CO,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Dallas,TX,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Houston,TX,tier1_core,high demand metro to metro lane
+Las Vegas,NV,San Antonio,TX,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Austin,TX,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Kansas City,MO,tier1_core,high demand metro to metro lane
+Las Vegas,NV,St Louis,MO,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Chicago,IL,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Columbus,OH,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Cleveland,OH,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Detroit,MI,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Nashville,TN,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Memphis,TN,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Atlanta,GA,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Charlotte,NC,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Raleigh,NC,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Orlando,FL,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Tampa,FL,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Miami,FL,tier1_core,high demand metro to metro lane
+Las Vegas,NV,New York,NY,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Newark,NJ,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Las Vegas,NV,Baltimore,MD,tier1_core,high demand metro to metro lane
+Seattle,WA,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Seattle,WA,Long Beach,CA,tier1_core,high demand metro to metro lane
+Seattle,WA,San Francisco,CA,tier1_core,high demand metro to metro lane
+Seattle,WA,Oakland,CA,tier1_core,high demand metro to metro lane
+Seattle,WA,San Diego,CA,tier1_core,high demand metro to metro lane
+Seattle,WA,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Seattle,WA,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Seattle,WA,Tacoma,WA,tier1_core,high demand metro to metro lane
+Seattle,WA,Portland,OR,tier1_core,high demand metro to metro lane
+Seattle,WA,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Seattle,WA,Denver,CO,tier1_core,high demand metro to metro lane
+Seattle,WA,Dallas,TX,tier1_core,high demand metro to metro lane
+Seattle,WA,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Seattle,WA,Houston,TX,tier1_core,high demand metro to metro lane
+Seattle,WA,San Antonio,TX,tier1_core,high demand metro to metro lane
+Seattle,WA,Austin,TX,tier1_core,high demand metro to metro lane
+Seattle,WA,Kansas City,MO,tier1_core,high demand metro to metro lane
+Seattle,WA,St Louis,MO,tier1_core,high demand metro to metro lane
+Seattle,WA,Chicago,IL,tier1_core,high demand metro to metro lane
+Seattle,WA,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Seattle,WA,Columbus,OH,tier1_core,high demand metro to metro lane
+Seattle,WA,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Seattle,WA,Cleveland,OH,tier1_core,high demand metro to metro lane
+Seattle,WA,Detroit,MI,tier1_core,high demand metro to metro lane
+Seattle,WA,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Seattle,WA,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Seattle,WA,Nashville,TN,tier1_core,high demand metro to metro lane
+Seattle,WA,Memphis,TN,tier1_core,high demand metro to metro lane
+Seattle,WA,Atlanta,GA,tier1_core,high demand metro to metro lane
+Seattle,WA,Charlotte,NC,tier1_core,high demand metro to metro lane
+Seattle,WA,Raleigh,NC,tier1_core,high demand metro to metro lane
+Seattle,WA,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Seattle,WA,Orlando,FL,tier1_core,high demand metro to metro lane
+Seattle,WA,Tampa,FL,tier1_core,high demand metro to metro lane
+Seattle,WA,Miami,FL,tier1_core,high demand metro to metro lane
+Seattle,WA,New York,NY,tier1_core,high demand metro to metro lane
+Seattle,WA,Newark,NJ,tier1_core,high demand metro to metro lane
+Seattle,WA,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Seattle,WA,Baltimore,MD,tier1_core,high demand metro to metro lane
+Tacoma,WA,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Tacoma,WA,Long Beach,CA,tier1_core,high demand metro to metro lane
+Tacoma,WA,San Francisco,CA,tier1_core,high demand metro to metro lane
+Tacoma,WA,Oakland,CA,tier1_core,high demand metro to metro lane
+Tacoma,WA,San Diego,CA,tier1_core,high demand metro to metro lane
+Tacoma,WA,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Tacoma,WA,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Tacoma,WA,Seattle,WA,tier1_core,high demand metro to metro lane
+Tacoma,WA,Portland,OR,tier1_core,high demand metro to metro lane
+Tacoma,WA,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Tacoma,WA,Denver,CO,tier1_core,high demand metro to metro lane
+Tacoma,WA,Dallas,TX,tier1_core,high demand metro to metro lane
+Tacoma,WA,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Tacoma,WA,Houston,TX,tier1_core,high demand metro to metro lane
+Tacoma,WA,San Antonio,TX,tier1_core,high demand metro to metro lane
+Tacoma,WA,Austin,TX,tier1_core,high demand metro to metro lane
+Tacoma,WA,Kansas City,MO,tier1_core,high demand metro to metro lane
+Tacoma,WA,St Louis,MO,tier1_core,high demand metro to metro lane
+Tacoma,WA,Chicago,IL,tier1_core,high demand metro to metro lane
+Tacoma,WA,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Tacoma,WA,Columbus,OH,tier1_core,high demand metro to metro lane
+Tacoma,WA,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Tacoma,WA,Cleveland,OH,tier1_core,high demand metro to metro lane
+Tacoma,WA,Detroit,MI,tier1_core,high demand metro to metro lane
+Tacoma,WA,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Tacoma,WA,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Tacoma,WA,Nashville,TN,tier1_core,high demand metro to metro lane
+Tacoma,WA,Memphis,TN,tier1_core,high demand metro to metro lane
+Tacoma,WA,Atlanta,GA,tier1_core,high demand metro to metro lane
+Tacoma,WA,Charlotte,NC,tier1_core,high demand metro to metro lane
+Tacoma,WA,Raleigh,NC,tier1_core,high demand metro to metro lane
+Tacoma,WA,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Tacoma,WA,Orlando,FL,tier1_core,high demand metro to metro lane
+Tacoma,WA,Tampa,FL,tier1_core,high demand metro to metro lane
+Tacoma,WA,Miami,FL,tier1_core,high demand metro to metro lane
+Tacoma,WA,New York,NY,tier1_core,high demand metro to metro lane
+Tacoma,WA,Newark,NJ,tier1_core,high demand metro to metro lane
+Tacoma,WA,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Tacoma,WA,Baltimore,MD,tier1_core,high demand metro to metro lane
+Portland,OR,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Portland,OR,Long Beach,CA,tier1_core,high demand metro to metro lane
+Portland,OR,San Francisco,CA,tier1_core,high demand metro to metro lane
+Portland,OR,Oakland,CA,tier1_core,high demand metro to metro lane
+Portland,OR,San Diego,CA,tier1_core,high demand metro to metro lane
+Portland,OR,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Portland,OR,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Portland,OR,Seattle,WA,tier1_core,high demand metro to metro lane
+Portland,OR,Tacoma,WA,tier1_core,high demand metro to metro lane
+Portland,OR,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Portland,OR,Denver,CO,tier1_core,high demand metro to metro lane
+Portland,OR,Dallas,TX,tier1_core,high demand metro to metro lane
+Portland,OR,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Portland,OR,Houston,TX,tier1_core,high demand metro to metro lane
+Portland,OR,San Antonio,TX,tier1_core,high demand metro to metro lane
+Portland,OR,Austin,TX,tier1_core,high demand metro to metro lane
+Portland,OR,Kansas City,MO,tier1_core,high demand metro to metro lane
+Portland,OR,St Louis,MO,tier1_core,high demand metro to metro lane
+Portland,OR,Chicago,IL,tier1_core,high demand metro to metro lane
+Portland,OR,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Portland,OR,Columbus,OH,tier1_core,high demand metro to metro lane
+Portland,OR,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Portland,OR,Cleveland,OH,tier1_core,high demand metro to metro lane
+Portland,OR,Detroit,MI,tier1_core,high demand metro to metro lane
+Portland,OR,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Portland,OR,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Portland,OR,Nashville,TN,tier1_core,high demand metro to metro lane
+Portland,OR,Memphis,TN,tier1_core,high demand metro to metro lane
+Portland,OR,Atlanta,GA,tier1_core,high demand metro to metro lane
+Portland,OR,Charlotte,NC,tier1_core,high demand metro to metro lane
+Portland,OR,Raleigh,NC,tier1_core,high demand metro to metro lane
+Portland,OR,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Portland,OR,Orlando,FL,tier1_core,high demand metro to metro lane
+Portland,OR,Tampa,FL,tier1_core,high demand metro to metro lane
+Portland,OR,Miami,FL,tier1_core,high demand metro to metro lane
+Portland,OR,New York,NY,tier1_core,high demand metro to metro lane
+Portland,OR,Newark,NJ,tier1_core,high demand metro to metro lane
+Portland,OR,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Portland,OR,Baltimore,MD,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Long Beach,CA,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,San Francisco,CA,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Oakland,CA,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,San Diego,CA,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Seattle,WA,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Tacoma,WA,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Portland,OR,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Denver,CO,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Dallas,TX,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Houston,TX,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,San Antonio,TX,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Austin,TX,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Kansas City,MO,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,St Louis,MO,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Chicago,IL,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Columbus,OH,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Cleveland,OH,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Detroit,MI,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Nashville,TN,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Memphis,TN,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Atlanta,GA,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Charlotte,NC,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Raleigh,NC,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Orlando,FL,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Tampa,FL,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Miami,FL,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,New York,NY,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Newark,NJ,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Salt Lake City,UT,Baltimore,MD,tier1_core,high demand metro to metro lane
+Denver,CO,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Denver,CO,Long Beach,CA,tier1_core,high demand metro to metro lane
+Denver,CO,San Francisco,CA,tier1_core,high demand metro to metro lane
+Denver,CO,Oakland,CA,tier1_core,high demand metro to metro lane
+Denver,CO,San Diego,CA,tier1_core,high demand metro to metro lane
+Denver,CO,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Denver,CO,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Denver,CO,Seattle,WA,tier1_core,high demand metro to metro lane
+Denver,CO,Tacoma,WA,tier1_core,high demand metro to metro lane
+Denver,CO,Portland,OR,tier1_core,high demand metro to metro lane
+Denver,CO,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Denver,CO,Dallas,TX,tier1_core,high demand metro to metro lane
+Denver,CO,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Denver,CO,Houston,TX,tier1_core,high demand metro to metro lane
+Denver,CO,San Antonio,TX,tier1_core,high demand metro to metro lane
+Denver,CO,Austin,TX,tier1_core,high demand metro to metro lane
+Denver,CO,Kansas City,MO,tier1_core,high demand metro to metro lane
+Denver,CO,St Louis,MO,tier1_core,high demand metro to metro lane
+Denver,CO,Chicago,IL,tier1_core,high demand metro to metro lane
+Denver,CO,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Denver,CO,Columbus,OH,tier1_core,high demand metro to metro lane
+Denver,CO,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Denver,CO,Cleveland,OH,tier1_core,high demand metro to metro lane
+Denver,CO,Detroit,MI,tier1_core,high demand metro to metro lane
+Denver,CO,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Denver,CO,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Denver,CO,Nashville,TN,tier1_core,high demand metro to metro lane
+Denver,CO,Memphis,TN,tier1_core,high demand metro to metro lane
+Denver,CO,Atlanta,GA,tier1_core,high demand metro to metro lane
+Denver,CO,Charlotte,NC,tier1_core,high demand metro to metro lane
+Denver,CO,Raleigh,NC,tier1_core,high demand metro to metro lane
+Denver,CO,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Denver,CO,Orlando,FL,tier1_core,high demand metro to metro lane
+Denver,CO,Tampa,FL,tier1_core,high demand metro to metro lane
+Denver,CO,Miami,FL,tier1_core,high demand metro to metro lane
+Denver,CO,New York,NY,tier1_core,high demand metro to metro lane
+Denver,CO,Newark,NJ,tier1_core,high demand metro to metro lane
+Denver,CO,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Denver,CO,Baltimore,MD,tier1_core,high demand metro to metro lane
+Dallas,TX,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Dallas,TX,Long Beach,CA,tier1_core,high demand metro to metro lane
+Dallas,TX,San Francisco,CA,tier1_core,high demand metro to metro lane
+Dallas,TX,Oakland,CA,tier1_core,high demand metro to metro lane
+Dallas,TX,San Diego,CA,tier1_core,high demand metro to metro lane
+Dallas,TX,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Dallas,TX,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Dallas,TX,Seattle,WA,tier1_core,high demand metro to metro lane
+Dallas,TX,Tacoma,WA,tier1_core,high demand metro to metro lane
+Dallas,TX,Portland,OR,tier1_core,high demand metro to metro lane
+Dallas,TX,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Dallas,TX,Denver,CO,tier1_core,high demand metro to metro lane
+Dallas,TX,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Dallas,TX,Houston,TX,tier1_core,high demand metro to metro lane
+Dallas,TX,San Antonio,TX,tier1_core,high demand metro to metro lane
+Dallas,TX,Austin,TX,tier1_core,high demand metro to metro lane
+Dallas,TX,Kansas City,MO,tier1_core,high demand metro to metro lane
+Dallas,TX,St Louis,MO,tier1_core,high demand metro to metro lane
+Dallas,TX,Chicago,IL,tier1_core,high demand metro to metro lane
+Dallas,TX,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Dallas,TX,Columbus,OH,tier1_core,high demand metro to metro lane
+Dallas,TX,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Dallas,TX,Cleveland,OH,tier1_core,high demand metro to metro lane
+Dallas,TX,Detroit,MI,tier1_core,high demand metro to metro lane
+Dallas,TX,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Dallas,TX,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Dallas,TX,Nashville,TN,tier1_core,high demand metro to metro lane
+Dallas,TX,Memphis,TN,tier1_core,high demand metro to metro lane
+Dallas,TX,Atlanta,GA,tier1_core,high demand metro to metro lane
+Dallas,TX,Charlotte,NC,tier1_core,high demand metro to metro lane
+Dallas,TX,Raleigh,NC,tier1_core,high demand metro to metro lane
+Dallas,TX,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Dallas,TX,Orlando,FL,tier1_core,high demand metro to metro lane
+Dallas,TX,Tampa,FL,tier1_core,high demand metro to metro lane
+Dallas,TX,Miami,FL,tier1_core,high demand metro to metro lane
+Dallas,TX,New York,NY,tier1_core,high demand metro to metro lane
+Dallas,TX,Newark,NJ,tier1_core,high demand metro to metro lane
+Dallas,TX,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Dallas,TX,Baltimore,MD,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Long Beach,CA,tier1_core,high demand metro to metro lane
+Fort Worth,TX,San Francisco,CA,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Oakland,CA,tier1_core,high demand metro to metro lane
+Fort Worth,TX,San Diego,CA,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Seattle,WA,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Tacoma,WA,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Portland,OR,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Denver,CO,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Dallas,TX,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Houston,TX,tier1_core,high demand metro to metro lane
+Fort Worth,TX,San Antonio,TX,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Austin,TX,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Kansas City,MO,tier1_core,high demand metro to metro lane
+Fort Worth,TX,St Louis,MO,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Chicago,IL,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Columbus,OH,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Cleveland,OH,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Detroit,MI,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Nashville,TN,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Memphis,TN,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Atlanta,GA,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Charlotte,NC,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Raleigh,NC,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Orlando,FL,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Tampa,FL,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Miami,FL,tier1_core,high demand metro to metro lane
+Fort Worth,TX,New York,NY,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Newark,NJ,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Fort Worth,TX,Baltimore,MD,tier1_core,high demand metro to metro lane
+Houston,TX,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Houston,TX,Long Beach,CA,tier1_core,high demand metro to metro lane
+Houston,TX,San Francisco,CA,tier1_core,high demand metro to metro lane
+Houston,TX,Oakland,CA,tier1_core,high demand metro to metro lane
+Houston,TX,San Diego,CA,tier1_core,high demand metro to metro lane
+Houston,TX,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Houston,TX,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Houston,TX,Seattle,WA,tier1_core,high demand metro to metro lane
+Houston,TX,Tacoma,WA,tier1_core,high demand metro to metro lane
+Houston,TX,Portland,OR,tier1_core,high demand metro to metro lane
+Houston,TX,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Houston,TX,Denver,CO,tier1_core,high demand metro to metro lane
+Houston,TX,Dallas,TX,tier1_core,high demand metro to metro lane
+Houston,TX,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Houston,TX,San Antonio,TX,tier1_core,high demand metro to metro lane
+Houston,TX,Austin,TX,tier1_core,high demand metro to metro lane
+Houston,TX,Kansas City,MO,tier1_core,high demand metro to metro lane
+Houston,TX,St Louis,MO,tier1_core,high demand metro to metro lane
+Houston,TX,Chicago,IL,tier1_core,high demand metro to metro lane
+Houston,TX,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Houston,TX,Columbus,OH,tier1_core,high demand metro to metro lane
+Houston,TX,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Houston,TX,Cleveland,OH,tier1_core,high demand metro to metro lane
+Houston,TX,Detroit,MI,tier1_core,high demand metro to metro lane
+Houston,TX,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Houston,TX,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Houston,TX,Nashville,TN,tier1_core,high demand metro to metro lane
+Houston,TX,Memphis,TN,tier1_core,high demand metro to metro lane
+Houston,TX,Atlanta,GA,tier1_core,high demand metro to metro lane
+Houston,TX,Charlotte,NC,tier1_core,high demand metro to metro lane
+Houston,TX,Raleigh,NC,tier1_core,high demand metro to metro lane
+Houston,TX,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Houston,TX,Orlando,FL,tier1_core,high demand metro to metro lane
+Houston,TX,Tampa,FL,tier1_core,high demand metro to metro lane
+Houston,TX,Miami,FL,tier1_core,high demand metro to metro lane
+Houston,TX,New York,NY,tier1_core,high demand metro to metro lane
+Houston,TX,Newark,NJ,tier1_core,high demand metro to metro lane
+Houston,TX,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Houston,TX,Baltimore,MD,tier1_core,high demand metro to metro lane
+San Antonio,TX,Los Angeles,CA,tier1_core,high demand metro to metro lane
+San Antonio,TX,Long Beach,CA,tier1_core,high demand metro to metro lane
+San Antonio,TX,San Francisco,CA,tier1_core,high demand metro to metro lane
+San Antonio,TX,Oakland,CA,tier1_core,high demand metro to metro lane
+San Antonio,TX,San Diego,CA,tier1_core,high demand metro to metro lane
+San Antonio,TX,Phoenix,AZ,tier1_core,high demand metro to metro lane
+San Antonio,TX,Las Vegas,NV,tier1_core,high demand metro to metro lane
+San Antonio,TX,Seattle,WA,tier1_core,high demand metro to metro lane
+San Antonio,TX,Tacoma,WA,tier1_core,high demand metro to metro lane
+San Antonio,TX,Portland,OR,tier1_core,high demand metro to metro lane
+San Antonio,TX,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+San Antonio,TX,Denver,CO,tier1_core,high demand metro to metro lane
+San Antonio,TX,Dallas,TX,tier1_core,high demand metro to metro lane
+San Antonio,TX,Fort Worth,TX,tier1_core,high demand metro to metro lane
+San Antonio,TX,Houston,TX,tier1_core,high demand metro to metro lane
+San Antonio,TX,Austin,TX,tier1_core,high demand metro to metro lane
+San Antonio,TX,Kansas City,MO,tier1_core,high demand metro to metro lane
+San Antonio,TX,St Louis,MO,tier1_core,high demand metro to metro lane
+San Antonio,TX,Chicago,IL,tier1_core,high demand metro to metro lane
+San Antonio,TX,Indianapolis,IN,tier1_core,high demand metro to metro lane
+San Antonio,TX,Columbus,OH,tier1_core,high demand metro to metro lane
+San Antonio,TX,Cincinnati,OH,tier1_core,high demand metro to metro lane
+San Antonio,TX,Cleveland,OH,tier1_core,high demand metro to metro lane
+San Antonio,TX,Detroit,MI,tier1_core,high demand metro to metro lane
+San Antonio,TX,Minneapolis,MN,tier1_core,high demand metro to metro lane
+San Antonio,TX,Milwaukee,WI,tier1_core,high demand metro to metro lane
+San Antonio,TX,Nashville,TN,tier1_core,high demand metro to metro lane
+San Antonio,TX,Memphis,TN,tier1_core,high demand metro to metro lane
+San Antonio,TX,Atlanta,GA,tier1_core,high demand metro to metro lane
+San Antonio,TX,Charlotte,NC,tier1_core,high demand metro to metro lane
+San Antonio,TX,Raleigh,NC,tier1_core,high demand metro to metro lane
+San Antonio,TX,Jacksonville,FL,tier1_core,high demand metro to metro lane
+San Antonio,TX,Orlando,FL,tier1_core,high demand metro to metro lane
+San Antonio,TX,Tampa,FL,tier1_core,high demand metro to metro lane
+San Antonio,TX,Miami,FL,tier1_core,high demand metro to metro lane
+San Antonio,TX,New York,NY,tier1_core,high demand metro to metro lane
+San Antonio,TX,Newark,NJ,tier1_core,high demand metro to metro lane
+San Antonio,TX,Philadelphia,PA,tier1_core,high demand metro to metro lane
+San Antonio,TX,Baltimore,MD,tier1_core,high demand metro to metro lane
+Austin,TX,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Austin,TX,Long Beach,CA,tier1_core,high demand metro to metro lane
+Austin,TX,San Francisco,CA,tier1_core,high demand metro to metro lane
+Austin,TX,Oakland,CA,tier1_core,high demand metro to metro lane
+Austin,TX,San Diego,CA,tier1_core,high demand metro to metro lane
+Austin,TX,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Austin,TX,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Austin,TX,Seattle,WA,tier1_core,high demand metro to metro lane
+Austin,TX,Tacoma,WA,tier1_core,high demand metro to metro lane
+Austin,TX,Portland,OR,tier1_core,high demand metro to metro lane
+Austin,TX,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Austin,TX,Denver,CO,tier1_core,high demand metro to metro lane
+Austin,TX,Dallas,TX,tier1_core,high demand metro to metro lane
+Austin,TX,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Austin,TX,Houston,TX,tier1_core,high demand metro to metro lane
+Austin,TX,San Antonio,TX,tier1_core,high demand metro to metro lane
+Austin,TX,Kansas City,MO,tier1_core,high demand metro to metro lane
+Austin,TX,St Louis,MO,tier1_core,high demand metro to metro lane
+Austin,TX,Chicago,IL,tier1_core,high demand metro to metro lane
+Austin,TX,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Austin,TX,Columbus,OH,tier1_core,high demand metro to metro lane
+Austin,TX,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Austin,TX,Cleveland,OH,tier1_core,high demand metro to metro lane
+Austin,TX,Detroit,MI,tier1_core,high demand metro to metro lane
+Austin,TX,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Austin,TX,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Austin,TX,Nashville,TN,tier1_core,high demand metro to metro lane
+Austin,TX,Memphis,TN,tier1_core,high demand metro to metro lane
+Austin,TX,Atlanta,GA,tier1_core,high demand metro to metro lane
+Austin,TX,Charlotte,NC,tier1_core,high demand metro to metro lane
+Austin,TX,Raleigh,NC,tier1_core,high demand metro to metro lane
+Austin,TX,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Austin,TX,Orlando,FL,tier1_core,high demand metro to metro lane
+Austin,TX,Tampa,FL,tier1_core,high demand metro to metro lane
+Austin,TX,Miami,FL,tier1_core,high demand metro to metro lane
+Austin,TX,New York,NY,tier1_core,high demand metro to metro lane
+Austin,TX,Newark,NJ,tier1_core,high demand metro to metro lane
+Austin,TX,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Austin,TX,Baltimore,MD,tier1_core,high demand metro to metro lane
+Kansas City,MO,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Kansas City,MO,Long Beach,CA,tier1_core,high demand metro to metro lane
+Kansas City,MO,San Francisco,CA,tier1_core,high demand metro to metro lane
+Kansas City,MO,Oakland,CA,tier1_core,high demand metro to metro lane
+Kansas City,MO,San Diego,CA,tier1_core,high demand metro to metro lane
+Kansas City,MO,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Kansas City,MO,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Kansas City,MO,Seattle,WA,tier1_core,high demand metro to metro lane
+Kansas City,MO,Tacoma,WA,tier1_core,high demand metro to metro lane
+Kansas City,MO,Portland,OR,tier1_core,high demand metro to metro lane
+Kansas City,MO,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Kansas City,MO,Denver,CO,tier1_core,high demand metro to metro lane
+Kansas City,MO,Dallas,TX,tier1_core,high demand metro to metro lane
+Kansas City,MO,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Kansas City,MO,Houston,TX,tier1_core,high demand metro to metro lane
+Kansas City,MO,San Antonio,TX,tier1_core,high demand metro to metro lane
+Kansas City,MO,Austin,TX,tier1_core,high demand metro to metro lane
+Kansas City,MO,St Louis,MO,tier1_core,high demand metro to metro lane
+Kansas City,MO,Chicago,IL,tier1_core,high demand metro to metro lane
+Kansas City,MO,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Kansas City,MO,Columbus,OH,tier1_core,high demand metro to metro lane
+Kansas City,MO,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Kansas City,MO,Cleveland,OH,tier1_core,high demand metro to metro lane
+Kansas City,MO,Detroit,MI,tier1_core,high demand metro to metro lane
+Kansas City,MO,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Kansas City,MO,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Kansas City,MO,Nashville,TN,tier1_core,high demand metro to metro lane
+Kansas City,MO,Memphis,TN,tier1_core,high demand metro to metro lane
+Kansas City,MO,Atlanta,GA,tier1_core,high demand metro to metro lane
+Kansas City,MO,Charlotte,NC,tier1_core,high demand metro to metro lane
+Kansas City,MO,Raleigh,NC,tier1_core,high demand metro to metro lane
+Kansas City,MO,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Kansas City,MO,Orlando,FL,tier1_core,high demand metro to metro lane
+Kansas City,MO,Tampa,FL,tier1_core,high demand metro to metro lane
+Kansas City,MO,Miami,FL,tier1_core,high demand metro to metro lane
+Kansas City,MO,New York,NY,tier1_core,high demand metro to metro lane
+Kansas City,MO,Newark,NJ,tier1_core,high demand metro to metro lane
+Kansas City,MO,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Kansas City,MO,Baltimore,MD,tier1_core,high demand metro to metro lane
+St Louis,MO,Los Angeles,CA,tier1_core,high demand metro to metro lane
+St Louis,MO,Long Beach,CA,tier1_core,high demand metro to metro lane
+St Louis,MO,San Francisco,CA,tier1_core,high demand metro to metro lane
+St Louis,MO,Oakland,CA,tier1_core,high demand metro to metro lane
+St Louis,MO,San Diego,CA,tier1_core,high demand metro to metro lane
+St Louis,MO,Phoenix,AZ,tier1_core,high demand metro to metro lane
+St Louis,MO,Las Vegas,NV,tier1_core,high demand metro to metro lane
+St Louis,MO,Seattle,WA,tier1_core,high demand metro to metro lane
+St Louis,MO,Tacoma,WA,tier1_core,high demand metro to metro lane
+St Louis,MO,Portland,OR,tier1_core,high demand metro to metro lane
+St Louis,MO,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+St Louis,MO,Denver,CO,tier1_core,high demand metro to metro lane
+St Louis,MO,Dallas,TX,tier1_core,high demand metro to metro lane
+St Louis,MO,Fort Worth,TX,tier1_core,high demand metro to metro lane
+St Louis,MO,Houston,TX,tier1_core,high demand metro to metro lane
+St Louis,MO,San Antonio,TX,tier1_core,high demand metro to metro lane
+St Louis,MO,Austin,TX,tier1_core,high demand metro to metro lane
+St Louis,MO,Kansas City,MO,tier1_core,high demand metro to metro lane
+St Louis,MO,Chicago,IL,tier1_core,high demand metro to metro lane
+St Louis,MO,Indianapolis,IN,tier1_core,high demand metro to metro lane
+St Louis,MO,Columbus,OH,tier1_core,high demand metro to metro lane
+St Louis,MO,Cincinnati,OH,tier1_core,high demand metro to metro lane
+St Louis,MO,Cleveland,OH,tier1_core,high demand metro to metro lane
+St Louis,MO,Detroit,MI,tier1_core,high demand metro to metro lane
+St Louis,MO,Minneapolis,MN,tier1_core,high demand metro to metro lane
+St Louis,MO,Milwaukee,WI,tier1_core,high demand metro to metro lane
+St Louis,MO,Nashville,TN,tier1_core,high demand metro to metro lane
+St Louis,MO,Memphis,TN,tier1_core,high demand metro to metro lane
+St Louis,MO,Atlanta,GA,tier1_core,high demand metro to metro lane
+St Louis,MO,Charlotte,NC,tier1_core,high demand metro to metro lane
+St Louis,MO,Raleigh,NC,tier1_core,high demand metro to metro lane
+St Louis,MO,Jacksonville,FL,tier1_core,high demand metro to metro lane
+St Louis,MO,Orlando,FL,tier1_core,high demand metro to metro lane
+St Louis,MO,Tampa,FL,tier1_core,high demand metro to metro lane
+St Louis,MO,Miami,FL,tier1_core,high demand metro to metro lane
+St Louis,MO,New York,NY,tier1_core,high demand metro to metro lane
+St Louis,MO,Newark,NJ,tier1_core,high demand metro to metro lane
+St Louis,MO,Philadelphia,PA,tier1_core,high demand metro to metro lane
+St Louis,MO,Baltimore,MD,tier1_core,high demand metro to metro lane
+Chicago,IL,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Chicago,IL,Long Beach,CA,tier1_core,high demand metro to metro lane
+Chicago,IL,San Francisco,CA,tier1_core,high demand metro to metro lane
+Chicago,IL,Oakland,CA,tier1_core,high demand metro to metro lane
+Chicago,IL,San Diego,CA,tier1_core,high demand metro to metro lane
+Chicago,IL,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Chicago,IL,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Chicago,IL,Seattle,WA,tier1_core,high demand metro to metro lane
+Chicago,IL,Tacoma,WA,tier1_core,high demand metro to metro lane
+Chicago,IL,Portland,OR,tier1_core,high demand metro to metro lane
+Chicago,IL,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Chicago,IL,Denver,CO,tier1_core,high demand metro to metro lane
+Chicago,IL,Dallas,TX,tier1_core,high demand metro to metro lane
+Chicago,IL,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Chicago,IL,Houston,TX,tier1_core,high demand metro to metro lane
+Chicago,IL,San Antonio,TX,tier1_core,high demand metro to metro lane
+Chicago,IL,Austin,TX,tier1_core,high demand metro to metro lane
+Chicago,IL,Kansas City,MO,tier1_core,high demand metro to metro lane
+Chicago,IL,St Louis,MO,tier1_core,high demand metro to metro lane
+Chicago,IL,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Chicago,IL,Columbus,OH,tier1_core,high demand metro to metro lane
+Chicago,IL,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Chicago,IL,Cleveland,OH,tier1_core,high demand metro to metro lane
+Chicago,IL,Detroit,MI,tier1_core,high demand metro to metro lane
+Chicago,IL,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Chicago,IL,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Chicago,IL,Nashville,TN,tier1_core,high demand metro to metro lane
+Chicago,IL,Memphis,TN,tier1_core,high demand metro to metro lane
+Chicago,IL,Atlanta,GA,tier1_core,high demand metro to metro lane
+Chicago,IL,Charlotte,NC,tier1_core,high demand metro to metro lane
+Chicago,IL,Raleigh,NC,tier1_core,high demand metro to metro lane
+Chicago,IL,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Chicago,IL,Orlando,FL,tier1_core,high demand metro to metro lane
+Chicago,IL,Tampa,FL,tier1_core,high demand metro to metro lane
+Chicago,IL,Miami,FL,tier1_core,high demand metro to metro lane
+Chicago,IL,New York,NY,tier1_core,high demand metro to metro lane
+Chicago,IL,Newark,NJ,tier1_core,high demand metro to metro lane
+Chicago,IL,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Chicago,IL,Baltimore,MD,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Long Beach,CA,tier1_core,high demand metro to metro lane
+Indianapolis,IN,San Francisco,CA,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Oakland,CA,tier1_core,high demand metro to metro lane
+Indianapolis,IN,San Diego,CA,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Seattle,WA,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Tacoma,WA,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Portland,OR,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Denver,CO,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Dallas,TX,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Houston,TX,tier1_core,high demand metro to metro lane
+Indianapolis,IN,San Antonio,TX,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Austin,TX,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Kansas City,MO,tier1_core,high demand metro to metro lane
+Indianapolis,IN,St Louis,MO,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Chicago,IL,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Columbus,OH,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Cleveland,OH,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Detroit,MI,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Nashville,TN,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Memphis,TN,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Atlanta,GA,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Charlotte,NC,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Raleigh,NC,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Orlando,FL,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Tampa,FL,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Miami,FL,tier1_core,high demand metro to metro lane
+Indianapolis,IN,New York,NY,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Newark,NJ,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Indianapolis,IN,Baltimore,MD,tier1_core,high demand metro to metro lane
+Columbus,OH,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Columbus,OH,Long Beach,CA,tier1_core,high demand metro to metro lane
+Columbus,OH,San Francisco,CA,tier1_core,high demand metro to metro lane
+Columbus,OH,Oakland,CA,tier1_core,high demand metro to metro lane
+Columbus,OH,San Diego,CA,tier1_core,high demand metro to metro lane
+Columbus,OH,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Columbus,OH,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Columbus,OH,Seattle,WA,tier1_core,high demand metro to metro lane
+Columbus,OH,Tacoma,WA,tier1_core,high demand metro to metro lane
+Columbus,OH,Portland,OR,tier1_core,high demand metro to metro lane
+Columbus,OH,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Columbus,OH,Denver,CO,tier1_core,high demand metro to metro lane
+Columbus,OH,Dallas,TX,tier1_core,high demand metro to metro lane
+Columbus,OH,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Columbus,OH,Houston,TX,tier1_core,high demand metro to metro lane
+Columbus,OH,San Antonio,TX,tier1_core,high demand metro to metro lane
+Columbus,OH,Austin,TX,tier1_core,high demand metro to metro lane
+Columbus,OH,Kansas City,MO,tier1_core,high demand metro to metro lane
+Columbus,OH,St Louis,MO,tier1_core,high demand metro to metro lane
+Columbus,OH,Chicago,IL,tier1_core,high demand metro to metro lane
+Columbus,OH,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Columbus,OH,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Columbus,OH,Cleveland,OH,tier1_core,high demand metro to metro lane
+Columbus,OH,Detroit,MI,tier1_core,high demand metro to metro lane
+Columbus,OH,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Columbus,OH,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Columbus,OH,Nashville,TN,tier1_core,high demand metro to metro lane
+Columbus,OH,Memphis,TN,tier1_core,high demand metro to metro lane
+Columbus,OH,Atlanta,GA,tier1_core,high demand metro to metro lane
+Columbus,OH,Charlotte,NC,tier1_core,high demand metro to metro lane
+Columbus,OH,Raleigh,NC,tier1_core,high demand metro to metro lane
+Columbus,OH,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Columbus,OH,Orlando,FL,tier1_core,high demand metro to metro lane
+Columbus,OH,Tampa,FL,tier1_core,high demand metro to metro lane
+Columbus,OH,Miami,FL,tier1_core,high demand metro to metro lane
+Columbus,OH,New York,NY,tier1_core,high demand metro to metro lane
+Columbus,OH,Newark,NJ,tier1_core,high demand metro to metro lane
+Columbus,OH,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Columbus,OH,Baltimore,MD,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Long Beach,CA,tier1_core,high demand metro to metro lane
+Cincinnati,OH,San Francisco,CA,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Oakland,CA,tier1_core,high demand metro to metro lane
+Cincinnati,OH,San Diego,CA,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Seattle,WA,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Tacoma,WA,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Portland,OR,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Denver,CO,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Dallas,TX,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Houston,TX,tier1_core,high demand metro to metro lane
+Cincinnati,OH,San Antonio,TX,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Austin,TX,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Kansas City,MO,tier1_core,high demand metro to metro lane
+Cincinnati,OH,St Louis,MO,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Chicago,IL,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Columbus,OH,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Cleveland,OH,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Detroit,MI,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Nashville,TN,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Memphis,TN,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Atlanta,GA,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Charlotte,NC,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Raleigh,NC,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Orlando,FL,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Tampa,FL,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Miami,FL,tier1_core,high demand metro to metro lane
+Cincinnati,OH,New York,NY,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Newark,NJ,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Cincinnati,OH,Baltimore,MD,tier1_core,high demand metro to metro lane
+Cleveland,OH,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Cleveland,OH,Long Beach,CA,tier1_core,high demand metro to metro lane
+Cleveland,OH,San Francisco,CA,tier1_core,high demand metro to metro lane
+Cleveland,OH,Oakland,CA,tier1_core,high demand metro to metro lane
+Cleveland,OH,San Diego,CA,tier1_core,high demand metro to metro lane
+Cleveland,OH,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Cleveland,OH,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Cleveland,OH,Seattle,WA,tier1_core,high demand metro to metro lane
+Cleveland,OH,Tacoma,WA,tier1_core,high demand metro to metro lane
+Cleveland,OH,Portland,OR,tier1_core,high demand metro to metro lane
+Cleveland,OH,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Cleveland,OH,Denver,CO,tier1_core,high demand metro to metro lane
+Cleveland,OH,Dallas,TX,tier1_core,high demand metro to metro lane
+Cleveland,OH,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Cleveland,OH,Houston,TX,tier1_core,high demand metro to metro lane
+Cleveland,OH,San Antonio,TX,tier1_core,high demand metro to metro lane
+Cleveland,OH,Austin,TX,tier1_core,high demand metro to metro lane
+Cleveland,OH,Kansas City,MO,tier1_core,high demand metro to metro lane
+Cleveland,OH,St Louis,MO,tier1_core,high demand metro to metro lane
+Cleveland,OH,Chicago,IL,tier1_core,high demand metro to metro lane
+Cleveland,OH,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Cleveland,OH,Columbus,OH,tier1_core,high demand metro to metro lane
+Cleveland,OH,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Cleveland,OH,Detroit,MI,tier1_core,high demand metro to metro lane
+Cleveland,OH,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Cleveland,OH,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Cleveland,OH,Nashville,TN,tier1_core,high demand metro to metro lane
+Cleveland,OH,Memphis,TN,tier1_core,high demand metro to metro lane
+Cleveland,OH,Atlanta,GA,tier1_core,high demand metro to metro lane
+Cleveland,OH,Charlotte,NC,tier1_core,high demand metro to metro lane
+Cleveland,OH,Raleigh,NC,tier1_core,high demand metro to metro lane
+Cleveland,OH,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Cleveland,OH,Orlando,FL,tier1_core,high demand metro to metro lane
+Cleveland,OH,Tampa,FL,tier1_core,high demand metro to metro lane
+Cleveland,OH,Miami,FL,tier1_core,high demand metro to metro lane
+Cleveland,OH,New York,NY,tier1_core,high demand metro to metro lane
+Cleveland,OH,Newark,NJ,tier1_core,high demand metro to metro lane
+Cleveland,OH,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Cleveland,OH,Baltimore,MD,tier1_core,high demand metro to metro lane
+Detroit,MI,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Detroit,MI,Long Beach,CA,tier1_core,high demand metro to metro lane
+Detroit,MI,San Francisco,CA,tier1_core,high demand metro to metro lane
+Detroit,MI,Oakland,CA,tier1_core,high demand metro to metro lane
+Detroit,MI,San Diego,CA,tier1_core,high demand metro to metro lane
+Detroit,MI,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Detroit,MI,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Detroit,MI,Seattle,WA,tier1_core,high demand metro to metro lane
+Detroit,MI,Tacoma,WA,tier1_core,high demand metro to metro lane
+Detroit,MI,Portland,OR,tier1_core,high demand metro to metro lane
+Detroit,MI,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Detroit,MI,Denver,CO,tier1_core,high demand metro to metro lane
+Detroit,MI,Dallas,TX,tier1_core,high demand metro to metro lane
+Detroit,MI,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Detroit,MI,Houston,TX,tier1_core,high demand metro to metro lane
+Detroit,MI,San Antonio,TX,tier1_core,high demand metro to metro lane
+Detroit,MI,Austin,TX,tier1_core,high demand metro to metro lane
+Detroit,MI,Kansas City,MO,tier1_core,high demand metro to metro lane
+Detroit,MI,St Louis,MO,tier1_core,high demand metro to metro lane
+Detroit,MI,Chicago,IL,tier1_core,high demand metro to metro lane
+Detroit,MI,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Detroit,MI,Columbus,OH,tier1_core,high demand metro to metro lane
+Detroit,MI,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Detroit,MI,Cleveland,OH,tier1_core,high demand metro to metro lane
+Detroit,MI,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Detroit,MI,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Detroit,MI,Nashville,TN,tier1_core,high demand metro to metro lane
+Detroit,MI,Memphis,TN,tier1_core,high demand metro to metro lane
+Detroit,MI,Atlanta,GA,tier1_core,high demand metro to metro lane
+Detroit,MI,Charlotte,NC,tier1_core,high demand metro to metro lane
+Detroit,MI,Raleigh,NC,tier1_core,high demand metro to metro lane
+Detroit,MI,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Detroit,MI,Orlando,FL,tier1_core,high demand metro to metro lane
+Detroit,MI,Tampa,FL,tier1_core,high demand metro to metro lane
+Detroit,MI,Miami,FL,tier1_core,high demand metro to metro lane
+Detroit,MI,New York,NY,tier1_core,high demand metro to metro lane
+Detroit,MI,Newark,NJ,tier1_core,high demand metro to metro lane
+Detroit,MI,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Detroit,MI,Baltimore,MD,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Long Beach,CA,tier1_core,high demand metro to metro lane
+Minneapolis,MN,San Francisco,CA,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Oakland,CA,tier1_core,high demand metro to metro lane
+Minneapolis,MN,San Diego,CA,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Seattle,WA,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Tacoma,WA,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Portland,OR,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Denver,CO,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Dallas,TX,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Houston,TX,tier1_core,high demand metro to metro lane
+Minneapolis,MN,San Antonio,TX,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Austin,TX,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Kansas City,MO,tier1_core,high demand metro to metro lane
+Minneapolis,MN,St Louis,MO,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Chicago,IL,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Columbus,OH,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Cleveland,OH,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Detroit,MI,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Nashville,TN,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Memphis,TN,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Atlanta,GA,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Charlotte,NC,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Raleigh,NC,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Orlando,FL,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Tampa,FL,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Miami,FL,tier1_core,high demand metro to metro lane
+Minneapolis,MN,New York,NY,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Newark,NJ,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Minneapolis,MN,Baltimore,MD,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Long Beach,CA,tier1_core,high demand metro to metro lane
+Milwaukee,WI,San Francisco,CA,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Oakland,CA,tier1_core,high demand metro to metro lane
+Milwaukee,WI,San Diego,CA,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Seattle,WA,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Tacoma,WA,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Portland,OR,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Denver,CO,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Dallas,TX,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Houston,TX,tier1_core,high demand metro to metro lane
+Milwaukee,WI,San Antonio,TX,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Austin,TX,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Kansas City,MO,tier1_core,high demand metro to metro lane
+Milwaukee,WI,St Louis,MO,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Chicago,IL,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Columbus,OH,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Cleveland,OH,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Detroit,MI,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Nashville,TN,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Memphis,TN,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Atlanta,GA,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Charlotte,NC,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Raleigh,NC,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Orlando,FL,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Tampa,FL,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Miami,FL,tier1_core,high demand metro to metro lane
+Milwaukee,WI,New York,NY,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Newark,NJ,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Milwaukee,WI,Baltimore,MD,tier1_core,high demand metro to metro lane
+Nashville,TN,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Nashville,TN,Long Beach,CA,tier1_core,high demand metro to metro lane
+Nashville,TN,San Francisco,CA,tier1_core,high demand metro to metro lane
+Nashville,TN,Oakland,CA,tier1_core,high demand metro to metro lane
+Nashville,TN,San Diego,CA,tier1_core,high demand metro to metro lane
+Nashville,TN,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Nashville,TN,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Nashville,TN,Seattle,WA,tier1_core,high demand metro to metro lane
+Nashville,TN,Tacoma,WA,tier1_core,high demand metro to metro lane
+Nashville,TN,Portland,OR,tier1_core,high demand metro to metro lane
+Nashville,TN,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Nashville,TN,Denver,CO,tier1_core,high demand metro to metro lane
+Nashville,TN,Dallas,TX,tier1_core,high demand metro to metro lane
+Nashville,TN,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Nashville,TN,Houston,TX,tier1_core,high demand metro to metro lane
+Nashville,TN,San Antonio,TX,tier1_core,high demand metro to metro lane
+Nashville,TN,Austin,TX,tier1_core,high demand metro to metro lane
+Nashville,TN,Kansas City,MO,tier1_core,high demand metro to metro lane
+Nashville,TN,St Louis,MO,tier1_core,high demand metro to metro lane
+Nashville,TN,Chicago,IL,tier1_core,high demand metro to metro lane
+Nashville,TN,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Nashville,TN,Columbus,OH,tier1_core,high demand metro to metro lane
+Nashville,TN,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Nashville,TN,Cleveland,OH,tier1_core,high demand metro to metro lane
+Nashville,TN,Detroit,MI,tier1_core,high demand metro to metro lane
+Nashville,TN,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Nashville,TN,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Nashville,TN,Memphis,TN,tier1_core,high demand metro to metro lane
+Nashville,TN,Atlanta,GA,tier1_core,high demand metro to metro lane
+Nashville,TN,Charlotte,NC,tier1_core,high demand metro to metro lane
+Nashville,TN,Raleigh,NC,tier1_core,high demand metro to metro lane
+Nashville,TN,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Nashville,TN,Orlando,FL,tier1_core,high demand metro to metro lane
+Nashville,TN,Tampa,FL,tier1_core,high demand metro to metro lane
+Nashville,TN,Miami,FL,tier1_core,high demand metro to metro lane
+Nashville,TN,New York,NY,tier1_core,high demand metro to metro lane
+Nashville,TN,Newark,NJ,tier1_core,high demand metro to metro lane
+Nashville,TN,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Nashville,TN,Baltimore,MD,tier1_core,high demand metro to metro lane
+Memphis,TN,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Memphis,TN,Long Beach,CA,tier1_core,high demand metro to metro lane
+Memphis,TN,San Francisco,CA,tier1_core,high demand metro to metro lane
+Memphis,TN,Oakland,CA,tier1_core,high demand metro to metro lane
+Memphis,TN,San Diego,CA,tier1_core,high demand metro to metro lane
+Memphis,TN,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Memphis,TN,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Memphis,TN,Seattle,WA,tier1_core,high demand metro to metro lane
+Memphis,TN,Tacoma,WA,tier1_core,high demand metro to metro lane
+Memphis,TN,Portland,OR,tier1_core,high demand metro to metro lane
+Memphis,TN,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Memphis,TN,Denver,CO,tier1_core,high demand metro to metro lane
+Memphis,TN,Dallas,TX,tier1_core,high demand metro to metro lane
+Memphis,TN,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Memphis,TN,Houston,TX,tier1_core,high demand metro to metro lane
+Memphis,TN,San Antonio,TX,tier1_core,high demand metro to metro lane
+Memphis,TN,Austin,TX,tier1_core,high demand metro to metro lane
+Memphis,TN,Kansas City,MO,tier1_core,high demand metro to metro lane
+Memphis,TN,St Louis,MO,tier1_core,high demand metro to metro lane
+Memphis,TN,Chicago,IL,tier1_core,high demand metro to metro lane
+Memphis,TN,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Memphis,TN,Columbus,OH,tier1_core,high demand metro to metro lane
+Memphis,TN,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Memphis,TN,Cleveland,OH,tier1_core,high demand metro to metro lane
+Memphis,TN,Detroit,MI,tier1_core,high demand metro to metro lane
+Memphis,TN,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Memphis,TN,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Memphis,TN,Nashville,TN,tier1_core,high demand metro to metro lane
+Memphis,TN,Atlanta,GA,tier1_core,high demand metro to metro lane
+Memphis,TN,Charlotte,NC,tier1_core,high demand metro to metro lane
+Memphis,TN,Raleigh,NC,tier1_core,high demand metro to metro lane
+Memphis,TN,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Memphis,TN,Orlando,FL,tier1_core,high demand metro to metro lane
+Memphis,TN,Tampa,FL,tier1_core,high demand metro to metro lane
+Memphis,TN,Miami,FL,tier1_core,high demand metro to metro lane
+Memphis,TN,New York,NY,tier1_core,high demand metro to metro lane
+Memphis,TN,Newark,NJ,tier1_core,high demand metro to metro lane
+Memphis,TN,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Memphis,TN,Baltimore,MD,tier1_core,high demand metro to metro lane
+Atlanta,GA,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Atlanta,GA,Long Beach,CA,tier1_core,high demand metro to metro lane
+Atlanta,GA,San Francisco,CA,tier1_core,high demand metro to metro lane
+Atlanta,GA,Oakland,CA,tier1_core,high demand metro to metro lane
+Atlanta,GA,San Diego,CA,tier1_core,high demand metro to metro lane
+Atlanta,GA,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Atlanta,GA,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Atlanta,GA,Seattle,WA,tier1_core,high demand metro to metro lane
+Atlanta,GA,Tacoma,WA,tier1_core,high demand metro to metro lane
+Atlanta,GA,Portland,OR,tier1_core,high demand metro to metro lane
+Atlanta,GA,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Atlanta,GA,Denver,CO,tier1_core,high demand metro to metro lane
+Atlanta,GA,Dallas,TX,tier1_core,high demand metro to metro lane
+Atlanta,GA,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Atlanta,GA,Houston,TX,tier1_core,high demand metro to metro lane
+Atlanta,GA,San Antonio,TX,tier1_core,high demand metro to metro lane
+Atlanta,GA,Austin,TX,tier1_core,high demand metro to metro lane
+Atlanta,GA,Kansas City,MO,tier1_core,high demand metro to metro lane
+Atlanta,GA,St Louis,MO,tier1_core,high demand metro to metro lane
+Atlanta,GA,Chicago,IL,tier1_core,high demand metro to metro lane
+Atlanta,GA,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Atlanta,GA,Columbus,OH,tier1_core,high demand metro to metro lane
+Atlanta,GA,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Atlanta,GA,Cleveland,OH,tier1_core,high demand metro to metro lane
+Atlanta,GA,Detroit,MI,tier1_core,high demand metro to metro lane
+Atlanta,GA,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Atlanta,GA,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Atlanta,GA,Nashville,TN,tier1_core,high demand metro to metro lane
+Atlanta,GA,Memphis,TN,tier1_core,high demand metro to metro lane
+Atlanta,GA,Charlotte,NC,tier1_core,high demand metro to metro lane
+Atlanta,GA,Raleigh,NC,tier1_core,high demand metro to metro lane
+Atlanta,GA,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Atlanta,GA,Orlando,FL,tier1_core,high demand metro to metro lane
+Atlanta,GA,Tampa,FL,tier1_core,high demand metro to metro lane
+Atlanta,GA,Miami,FL,tier1_core,high demand metro to metro lane
+Atlanta,GA,New York,NY,tier1_core,high demand metro to metro lane
+Atlanta,GA,Newark,NJ,tier1_core,high demand metro to metro lane
+Atlanta,GA,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Atlanta,GA,Baltimore,MD,tier1_core,high demand metro to metro lane
+Charlotte,NC,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Charlotte,NC,Long Beach,CA,tier1_core,high demand metro to metro lane
+Charlotte,NC,San Francisco,CA,tier1_core,high demand metro to metro lane
+Charlotte,NC,Oakland,CA,tier1_core,high demand metro to metro lane
+Charlotte,NC,San Diego,CA,tier1_core,high demand metro to metro lane
+Charlotte,NC,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Charlotte,NC,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Charlotte,NC,Seattle,WA,tier1_core,high demand metro to metro lane
+Charlotte,NC,Tacoma,WA,tier1_core,high demand metro to metro lane
+Charlotte,NC,Portland,OR,tier1_core,high demand metro to metro lane
+Charlotte,NC,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Charlotte,NC,Denver,CO,tier1_core,high demand metro to metro lane
+Charlotte,NC,Dallas,TX,tier1_core,high demand metro to metro lane
+Charlotte,NC,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Charlotte,NC,Houston,TX,tier1_core,high demand metro to metro lane
+Charlotte,NC,San Antonio,TX,tier1_core,high demand metro to metro lane
+Charlotte,NC,Austin,TX,tier1_core,high demand metro to metro lane
+Charlotte,NC,Kansas City,MO,tier1_core,high demand metro to metro lane
+Charlotte,NC,St Louis,MO,tier1_core,high demand metro to metro lane
+Charlotte,NC,Chicago,IL,tier1_core,high demand metro to metro lane
+Charlotte,NC,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Charlotte,NC,Columbus,OH,tier1_core,high demand metro to metro lane
+Charlotte,NC,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Charlotte,NC,Cleveland,OH,tier1_core,high demand metro to metro lane
+Charlotte,NC,Detroit,MI,tier1_core,high demand metro to metro lane
+Charlotte,NC,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Charlotte,NC,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Charlotte,NC,Nashville,TN,tier1_core,high demand metro to metro lane
+Charlotte,NC,Memphis,TN,tier1_core,high demand metro to metro lane
+Charlotte,NC,Atlanta,GA,tier1_core,high demand metro to metro lane
+Charlotte,NC,Raleigh,NC,tier1_core,high demand metro to metro lane
+Charlotte,NC,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Charlotte,NC,Orlando,FL,tier1_core,high demand metro to metro lane
+Charlotte,NC,Tampa,FL,tier1_core,high demand metro to metro lane
+Charlotte,NC,Miami,FL,tier1_core,high demand metro to metro lane
+Charlotte,NC,New York,NY,tier1_core,high demand metro to metro lane
+Charlotte,NC,Newark,NJ,tier1_core,high demand metro to metro lane
+Charlotte,NC,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Charlotte,NC,Baltimore,MD,tier1_core,high demand metro to metro lane
+Raleigh,NC,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Raleigh,NC,Long Beach,CA,tier1_core,high demand metro to metro lane
+Raleigh,NC,San Francisco,CA,tier1_core,high demand metro to metro lane
+Raleigh,NC,Oakland,CA,tier1_core,high demand metro to metro lane
+Raleigh,NC,San Diego,CA,tier1_core,high demand metro to metro lane
+Raleigh,NC,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Raleigh,NC,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Raleigh,NC,Seattle,WA,tier1_core,high demand metro to metro lane
+Raleigh,NC,Tacoma,WA,tier1_core,high demand metro to metro lane
+Raleigh,NC,Portland,OR,tier1_core,high demand metro to metro lane
+Raleigh,NC,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Raleigh,NC,Denver,CO,tier1_core,high demand metro to metro lane
+Raleigh,NC,Dallas,TX,tier1_core,high demand metro to metro lane
+Raleigh,NC,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Raleigh,NC,Houston,TX,tier1_core,high demand metro to metro lane
+Raleigh,NC,San Antonio,TX,tier1_core,high demand metro to metro lane
+Raleigh,NC,Austin,TX,tier1_core,high demand metro to metro lane
+Raleigh,NC,Kansas City,MO,tier1_core,high demand metro to metro lane
+Raleigh,NC,St Louis,MO,tier1_core,high demand metro to metro lane
+Raleigh,NC,Chicago,IL,tier1_core,high demand metro to metro lane
+Raleigh,NC,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Raleigh,NC,Columbus,OH,tier1_core,high demand metro to metro lane
+Raleigh,NC,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Raleigh,NC,Cleveland,OH,tier1_core,high demand metro to metro lane
+Raleigh,NC,Detroit,MI,tier1_core,high demand metro to metro lane
+Raleigh,NC,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Raleigh,NC,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Raleigh,NC,Nashville,TN,tier1_core,high demand metro to metro lane
+Raleigh,NC,Memphis,TN,tier1_core,high demand metro to metro lane
+Raleigh,NC,Atlanta,GA,tier1_core,high demand metro to metro lane
+Raleigh,NC,Charlotte,NC,tier1_core,high demand metro to metro lane
+Raleigh,NC,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Raleigh,NC,Orlando,FL,tier1_core,high demand metro to metro lane
+Raleigh,NC,Tampa,FL,tier1_core,high demand metro to metro lane
+Raleigh,NC,Miami,FL,tier1_core,high demand metro to metro lane
+Raleigh,NC,New York,NY,tier1_core,high demand metro to metro lane
+Raleigh,NC,Newark,NJ,tier1_core,high demand metro to metro lane
+Raleigh,NC,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Raleigh,NC,Baltimore,MD,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Long Beach,CA,tier1_core,high demand metro to metro lane
+Jacksonville,FL,San Francisco,CA,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Oakland,CA,tier1_core,high demand metro to metro lane
+Jacksonville,FL,San Diego,CA,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Seattle,WA,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Tacoma,WA,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Portland,OR,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Denver,CO,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Dallas,TX,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Houston,TX,tier1_core,high demand metro to metro lane
+Jacksonville,FL,San Antonio,TX,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Austin,TX,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Kansas City,MO,tier1_core,high demand metro to metro lane
+Jacksonville,FL,St Louis,MO,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Chicago,IL,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Columbus,OH,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Cleveland,OH,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Detroit,MI,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Nashville,TN,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Memphis,TN,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Atlanta,GA,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Charlotte,NC,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Raleigh,NC,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Orlando,FL,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Tampa,FL,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Miami,FL,tier1_core,high demand metro to metro lane
+Jacksonville,FL,New York,NY,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Newark,NJ,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Jacksonville,FL,Baltimore,MD,tier1_core,high demand metro to metro lane
+Orlando,FL,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Orlando,FL,Long Beach,CA,tier1_core,high demand metro to metro lane
+Orlando,FL,San Francisco,CA,tier1_core,high demand metro to metro lane
+Orlando,FL,Oakland,CA,tier1_core,high demand metro to metro lane
+Orlando,FL,San Diego,CA,tier1_core,high demand metro to metro lane
+Orlando,FL,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Orlando,FL,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Orlando,FL,Seattle,WA,tier1_core,high demand metro to metro lane
+Orlando,FL,Tacoma,WA,tier1_core,high demand metro to metro lane
+Orlando,FL,Portland,OR,tier1_core,high demand metro to metro lane
+Orlando,FL,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Orlando,FL,Denver,CO,tier1_core,high demand metro to metro lane
+Orlando,FL,Dallas,TX,tier1_core,high demand metro to metro lane
+Orlando,FL,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Orlando,FL,Houston,TX,tier1_core,high demand metro to metro lane
+Orlando,FL,San Antonio,TX,tier1_core,high demand metro to metro lane
+Orlando,FL,Austin,TX,tier1_core,high demand metro to metro lane
+Orlando,FL,Kansas City,MO,tier1_core,high demand metro to metro lane
+Orlando,FL,St Louis,MO,tier1_core,high demand metro to metro lane
+Orlando,FL,Chicago,IL,tier1_core,high demand metro to metro lane
+Orlando,FL,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Orlando,FL,Columbus,OH,tier1_core,high demand metro to metro lane
+Orlando,FL,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Orlando,FL,Cleveland,OH,tier1_core,high demand metro to metro lane
+Orlando,FL,Detroit,MI,tier1_core,high demand metro to metro lane
+Orlando,FL,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Orlando,FL,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Orlando,FL,Nashville,TN,tier1_core,high demand metro to metro lane
+Orlando,FL,Memphis,TN,tier1_core,high demand metro to metro lane
+Orlando,FL,Atlanta,GA,tier1_core,high demand metro to metro lane
+Orlando,FL,Charlotte,NC,tier1_core,high demand metro to metro lane
+Orlando,FL,Raleigh,NC,tier1_core,high demand metro to metro lane
+Orlando,FL,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Orlando,FL,Tampa,FL,tier1_core,high demand metro to metro lane
+Orlando,FL,Miami,FL,tier1_core,high demand metro to metro lane
+Orlando,FL,New York,NY,tier1_core,high demand metro to metro lane
+Orlando,FL,Newark,NJ,tier1_core,high demand metro to metro lane
+Orlando,FL,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Orlando,FL,Baltimore,MD,tier1_core,high demand metro to metro lane
+Tampa,FL,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Tampa,FL,Long Beach,CA,tier1_core,high demand metro to metro lane
+Tampa,FL,San Francisco,CA,tier1_core,high demand metro to metro lane
+Tampa,FL,Oakland,CA,tier1_core,high demand metro to metro lane
+Tampa,FL,San Diego,CA,tier1_core,high demand metro to metro lane
+Tampa,FL,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Tampa,FL,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Tampa,FL,Seattle,WA,tier1_core,high demand metro to metro lane
+Tampa,FL,Tacoma,WA,tier1_core,high demand metro to metro lane
+Tampa,FL,Portland,OR,tier1_core,high demand metro to metro lane
+Tampa,FL,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Tampa,FL,Denver,CO,tier1_core,high demand metro to metro lane
+Tampa,FL,Dallas,TX,tier1_core,high demand metro to metro lane
+Tampa,FL,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Tampa,FL,Houston,TX,tier1_core,high demand metro to metro lane
+Tampa,FL,San Antonio,TX,tier1_core,high demand metro to metro lane
+Tampa,FL,Austin,TX,tier1_core,high demand metro to metro lane
+Tampa,FL,Kansas City,MO,tier1_core,high demand metro to metro lane
+Tampa,FL,St Louis,MO,tier1_core,high demand metro to metro lane
+Tampa,FL,Chicago,IL,tier1_core,high demand metro to metro lane
+Tampa,FL,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Tampa,FL,Columbus,OH,tier1_core,high demand metro to metro lane
+Tampa,FL,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Tampa,FL,Cleveland,OH,tier1_core,high demand metro to metro lane
+Tampa,FL,Detroit,MI,tier1_core,high demand metro to metro lane
+Tampa,FL,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Tampa,FL,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Tampa,FL,Nashville,TN,tier1_core,high demand metro to metro lane
+Tampa,FL,Memphis,TN,tier1_core,high demand metro to metro lane
+Tampa,FL,Atlanta,GA,tier1_core,high demand metro to metro lane
+Tampa,FL,Charlotte,NC,tier1_core,high demand metro to metro lane
+Tampa,FL,Raleigh,NC,tier1_core,high demand metro to metro lane
+Tampa,FL,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Tampa,FL,Orlando,FL,tier1_core,high demand metro to metro lane
+Tampa,FL,Miami,FL,tier1_core,high demand metro to metro lane
+Tampa,FL,New York,NY,tier1_core,high demand metro to metro lane
+Tampa,FL,Newark,NJ,tier1_core,high demand metro to metro lane
+Tampa,FL,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Tampa,FL,Baltimore,MD,tier1_core,high demand metro to metro lane
+Miami,FL,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Miami,FL,Long Beach,CA,tier1_core,high demand metro to metro lane
+Miami,FL,San Francisco,CA,tier1_core,high demand metro to metro lane
+Miami,FL,Oakland,CA,tier1_core,high demand metro to metro lane
+Miami,FL,San Diego,CA,tier1_core,high demand metro to metro lane
+Miami,FL,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Miami,FL,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Miami,FL,Seattle,WA,tier1_core,high demand metro to metro lane
+Miami,FL,Tacoma,WA,tier1_core,high demand metro to metro lane
+Miami,FL,Portland,OR,tier1_core,high demand metro to metro lane
+Miami,FL,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Miami,FL,Denver,CO,tier1_core,high demand metro to metro lane
+Miami,FL,Dallas,TX,tier1_core,high demand metro to metro lane
+Miami,FL,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Miami,FL,Houston,TX,tier1_core,high demand metro to metro lane
+Miami,FL,San Antonio,TX,tier1_core,high demand metro to metro lane
+Miami,FL,Austin,TX,tier1_core,high demand metro to metro lane
+Miami,FL,Kansas City,MO,tier1_core,high demand metro to metro lane
+Miami,FL,St Louis,MO,tier1_core,high demand metro to metro lane
+Miami,FL,Chicago,IL,tier1_core,high demand metro to metro lane
+Miami,FL,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Miami,FL,Columbus,OH,tier1_core,high demand metro to metro lane
+Miami,FL,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Miami,FL,Cleveland,OH,tier1_core,high demand metro to metro lane
+Miami,FL,Detroit,MI,tier1_core,high demand metro to metro lane
+Miami,FL,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Miami,FL,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Miami,FL,Nashville,TN,tier1_core,high demand metro to metro lane
+Miami,FL,Memphis,TN,tier1_core,high demand metro to metro lane
+Miami,FL,Atlanta,GA,tier1_core,high demand metro to metro lane
+Miami,FL,Charlotte,NC,tier1_core,high demand metro to metro lane
+Miami,FL,Raleigh,NC,tier1_core,high demand metro to metro lane
+Miami,FL,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Miami,FL,Orlando,FL,tier1_core,high demand metro to metro lane
+Miami,FL,Tampa,FL,tier1_core,high demand metro to metro lane
+Miami,FL,New York,NY,tier1_core,high demand metro to metro lane
+Miami,FL,Newark,NJ,tier1_core,high demand metro to metro lane
+Miami,FL,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Miami,FL,Baltimore,MD,tier1_core,high demand metro to metro lane
+New York,NY,Los Angeles,CA,tier1_core,high demand metro to metro lane
+New York,NY,Long Beach,CA,tier1_core,high demand metro to metro lane
+New York,NY,San Francisco,CA,tier1_core,high demand metro to metro lane
+New York,NY,Oakland,CA,tier1_core,high demand metro to metro lane
+New York,NY,San Diego,CA,tier1_core,high demand metro to metro lane
+New York,NY,Phoenix,AZ,tier1_core,high demand metro to metro lane
+New York,NY,Las Vegas,NV,tier1_core,high demand metro to metro lane
+New York,NY,Seattle,WA,tier1_core,high demand metro to metro lane
+New York,NY,Tacoma,WA,tier1_core,high demand metro to metro lane
+New York,NY,Portland,OR,tier1_core,high demand metro to metro lane
+New York,NY,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+New York,NY,Denver,CO,tier1_core,high demand metro to metro lane
+New York,NY,Dallas,TX,tier1_core,high demand metro to metro lane
+New York,NY,Fort Worth,TX,tier1_core,high demand metro to metro lane
+New York,NY,Houston,TX,tier1_core,high demand metro to metro lane
+New York,NY,San Antonio,TX,tier1_core,high demand metro to metro lane
+New York,NY,Austin,TX,tier1_core,high demand metro to metro lane
+New York,NY,Kansas City,MO,tier1_core,high demand metro to metro lane
+New York,NY,St Louis,MO,tier1_core,high demand metro to metro lane
+New York,NY,Chicago,IL,tier1_core,high demand metro to metro lane
+New York,NY,Indianapolis,IN,tier1_core,high demand metro to metro lane
+New York,NY,Columbus,OH,tier1_core,high demand metro to metro lane
+New York,NY,Cincinnati,OH,tier1_core,high demand metro to metro lane
+New York,NY,Cleveland,OH,tier1_core,high demand metro to metro lane
+New York,NY,Detroit,MI,tier1_core,high demand metro to metro lane
+New York,NY,Minneapolis,MN,tier1_core,high demand metro to metro lane
+New York,NY,Milwaukee,WI,tier1_core,high demand metro to metro lane
+New York,NY,Nashville,TN,tier1_core,high demand metro to metro lane
+New York,NY,Memphis,TN,tier1_core,high demand metro to metro lane
+New York,NY,Atlanta,GA,tier1_core,high demand metro to metro lane
+New York,NY,Charlotte,NC,tier1_core,high demand metro to metro lane
+New York,NY,Raleigh,NC,tier1_core,high demand metro to metro lane
+New York,NY,Jacksonville,FL,tier1_core,high demand metro to metro lane
+New York,NY,Orlando,FL,tier1_core,high demand metro to metro lane
+New York,NY,Tampa,FL,tier1_core,high demand metro to metro lane
+New York,NY,Miami,FL,tier1_core,high demand metro to metro lane
+New York,NY,Newark,NJ,tier1_core,high demand metro to metro lane
+New York,NY,Philadelphia,PA,tier1_core,high demand metro to metro lane
+New York,NY,Baltimore,MD,tier1_core,high demand metro to metro lane
+Newark,NJ,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Newark,NJ,Long Beach,CA,tier1_core,high demand metro to metro lane
+Newark,NJ,San Francisco,CA,tier1_core,high demand metro to metro lane
+Newark,NJ,Oakland,CA,tier1_core,high demand metro to metro lane
+Newark,NJ,San Diego,CA,tier1_core,high demand metro to metro lane
+Newark,NJ,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Newark,NJ,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Newark,NJ,Seattle,WA,tier1_core,high demand metro to metro lane
+Newark,NJ,Tacoma,WA,tier1_core,high demand metro to metro lane
+Newark,NJ,Portland,OR,tier1_core,high demand metro to metro lane
+Newark,NJ,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Newark,NJ,Denver,CO,tier1_core,high demand metro to metro lane
+Newark,NJ,Dallas,TX,tier1_core,high demand metro to metro lane
+Newark,NJ,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Newark,NJ,Houston,TX,tier1_core,high demand metro to metro lane
+Newark,NJ,San Antonio,TX,tier1_core,high demand metro to metro lane
+Newark,NJ,Austin,TX,tier1_core,high demand metro to metro lane
+Newark,NJ,Kansas City,MO,tier1_core,high demand metro to metro lane
+Newark,NJ,St Louis,MO,tier1_core,high demand metro to metro lane
+Newark,NJ,Chicago,IL,tier1_core,high demand metro to metro lane
+Newark,NJ,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Newark,NJ,Columbus,OH,tier1_core,high demand metro to metro lane
+Newark,NJ,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Newark,NJ,Cleveland,OH,tier1_core,high demand metro to metro lane
+Newark,NJ,Detroit,MI,tier1_core,high demand metro to metro lane
+Newark,NJ,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Newark,NJ,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Newark,NJ,Nashville,TN,tier1_core,high demand metro to metro lane
+Newark,NJ,Memphis,TN,tier1_core,high demand metro to metro lane
+Newark,NJ,Atlanta,GA,tier1_core,high demand metro to metro lane
+Newark,NJ,Charlotte,NC,tier1_core,high demand metro to metro lane
+Newark,NJ,Raleigh,NC,tier1_core,high demand metro to metro lane
+Newark,NJ,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Newark,NJ,Orlando,FL,tier1_core,high demand metro to metro lane
+Newark,NJ,Tampa,FL,tier1_core,high demand metro to metro lane
+Newark,NJ,Miami,FL,tier1_core,high demand metro to metro lane
+Newark,NJ,New York,NY,tier1_core,high demand metro to metro lane
+Newark,NJ,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Newark,NJ,Baltimore,MD,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Long Beach,CA,tier1_core,high demand metro to metro lane
+Philadelphia,PA,San Francisco,CA,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Oakland,CA,tier1_core,high demand metro to metro lane
+Philadelphia,PA,San Diego,CA,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Seattle,WA,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Tacoma,WA,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Portland,OR,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Denver,CO,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Dallas,TX,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Houston,TX,tier1_core,high demand metro to metro lane
+Philadelphia,PA,San Antonio,TX,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Austin,TX,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Kansas City,MO,tier1_core,high demand metro to metro lane
+Philadelphia,PA,St Louis,MO,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Chicago,IL,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Columbus,OH,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Cleveland,OH,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Detroit,MI,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Nashville,TN,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Memphis,TN,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Atlanta,GA,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Charlotte,NC,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Raleigh,NC,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Orlando,FL,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Tampa,FL,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Miami,FL,tier1_core,high demand metro to metro lane
+Philadelphia,PA,New York,NY,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Newark,NJ,tier1_core,high demand metro to metro lane
+Philadelphia,PA,Baltimore,MD,tier1_core,high demand metro to metro lane
+Baltimore,MD,Los Angeles,CA,tier1_core,high demand metro to metro lane
+Baltimore,MD,Long Beach,CA,tier1_core,high demand metro to metro lane
+Baltimore,MD,San Francisco,CA,tier1_core,high demand metro to metro lane
+Baltimore,MD,Oakland,CA,tier1_core,high demand metro to metro lane
+Baltimore,MD,San Diego,CA,tier1_core,high demand metro to metro lane
+Baltimore,MD,Phoenix,AZ,tier1_core,high demand metro to metro lane
+Baltimore,MD,Las Vegas,NV,tier1_core,high demand metro to metro lane
+Baltimore,MD,Seattle,WA,tier1_core,high demand metro to metro lane
+Baltimore,MD,Tacoma,WA,tier1_core,high demand metro to metro lane
+Baltimore,MD,Portland,OR,tier1_core,high demand metro to metro lane
+Baltimore,MD,Salt Lake City,UT,tier1_core,high demand metro to metro lane
+Baltimore,MD,Denver,CO,tier1_core,high demand metro to metro lane
+Baltimore,MD,Dallas,TX,tier1_core,high demand metro to metro lane
+Baltimore,MD,Fort Worth,TX,tier1_core,high demand metro to metro lane
+Baltimore,MD,Houston,TX,tier1_core,high demand metro to metro lane
+Baltimore,MD,San Antonio,TX,tier1_core,high demand metro to metro lane
+Baltimore,MD,Austin,TX,tier1_core,high demand metro to metro lane
+Baltimore,MD,Kansas City,MO,tier1_core,high demand metro to metro lane
+Baltimore,MD,St Louis,MO,tier1_core,high demand metro to metro lane
+Baltimore,MD,Chicago,IL,tier1_core,high demand metro to metro lane
+Baltimore,MD,Indianapolis,IN,tier1_core,high demand metro to metro lane
+Baltimore,MD,Columbus,OH,tier1_core,high demand metro to metro lane
+Baltimore,MD,Cincinnati,OH,tier1_core,high demand metro to metro lane
+Baltimore,MD,Cleveland,OH,tier1_core,high demand metro to metro lane
+Baltimore,MD,Detroit,MI,tier1_core,high demand metro to metro lane
+Baltimore,MD,Minneapolis,MN,tier1_core,high demand metro to metro lane
+Baltimore,MD,Milwaukee,WI,tier1_core,high demand metro to metro lane
+Baltimore,MD,Nashville,TN,tier1_core,high demand metro to metro lane
+Baltimore,MD,Memphis,TN,tier1_core,high demand metro to metro lane
+Baltimore,MD,Atlanta,GA,tier1_core,high demand metro to metro lane
+Baltimore,MD,Charlotte,NC,tier1_core,high demand metro to metro lane
+Baltimore,MD,Raleigh,NC,tier1_core,high demand metro to metro lane
+Baltimore,MD,Jacksonville,FL,tier1_core,high demand metro to metro lane
+Baltimore,MD,Orlando,FL,tier1_core,high demand metro to metro lane
+Baltimore,MD,Tampa,FL,tier1_core,high demand metro to metro lane
+Baltimore,MD,Miami,FL,tier1_core,high demand metro to metro lane
+Baltimore,MD,New York,NY,tier1_core,high demand metro to metro lane
+Baltimore,MD,Newark,NJ,tier1_core,high demand metro to metro lane
+Baltimore,MD,Philadelphia,PA,tier1_core,high demand metro to metro lane
+Los Angeles,CA,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Los Angeles,CA,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Long Beach,CA,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Francisco,CA,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Oakland,CA,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Diego,CA,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Phoenix,AZ,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Las Vegas,NV,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Seattle,WA,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tacoma,WA,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Portland,OR,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Salt Lake City,UT,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Denver,CO,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Dallas,TX,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Fort Worth,TX,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Houston,TX,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+San Antonio,TX,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Austin,TX,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Kansas City,MO,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+St Louis,MO,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Chicago,IL,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Indianapolis,IN,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Columbus,OH,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cincinnati,OH,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Cleveland,OH,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Detroit,MI,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Minneapolis,MN,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Milwaukee,WI,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Nashville,TN,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Memphis,TN,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Atlanta,GA,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Charlotte,NC,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Raleigh,NC,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Jacksonville,FL,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Orlando,FL,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Tampa,FL,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Miami,FL,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+New York,NY,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Newark,NJ,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Philadelphia,PA,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,Sacramento,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,San Jose,CA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,Spokane,WA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,Boise,ID,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,Albuquerque,NM,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,Oklahoma City,OK,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,New Orleans,LA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,Louisville,KY,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,Pittsburgh,PA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,Boston,MA,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand
+Baltimore,MD,Washington,DC,tier1_to_tier2_expansion,expand into secondary freight node with strong adjacency and search demand

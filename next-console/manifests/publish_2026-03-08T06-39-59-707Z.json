@@ -1,0 +1,32 @@
+{
+  "run_id": "2026-03-08T06-39-59-707Z",
+  "script_name": "send_daily_publish_summary.js",
+  "trigger_source": "manual",
+  "dry_run": true,
+  "started_at": "2026-03-08T06:39:59.707Z",
+  "completed_at": "2026-03-08T06:39:59.708Z",
+  "duration_ms": 1,
+  "intended_count": 0,
+  "attempted_count": 0,
+  "published_count": 0,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "deploy_status": null,
+  "deploy_id": null,
+  "deploy_provider": null,
+  "email_attempted": false,
+  "email_sent": false,
+  "email_recipient": "override-test@example.com",
+  "email_error": null,
+  "email_skip_reason": "dry-run mode",
+  "email_provider_response": null,
+  "published_pages": [],
+  "failed_pages": [],
+  "blocked_pages": [],
+  "published_urls": [],
+  "sample_live_urls": [],
+  "warnings": [
+    "Recipient overridden from troy@wearewarp.com to override-test@example.com"
+  ],
+  "mode": "dry-run"
+}

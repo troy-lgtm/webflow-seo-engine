@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "test-mfg-block",
+    "mode": "LTL",
+    "state": "blocked",
+    "approved_by": null,
+    "approved_at": null,
+    "approval_note": "",
+    "manufactured_by": "test",
+    "manufactured_at": "2026-03-08T06:49:28.499Z",
+    "manufacture_note": "",
+    "excluded_reason": "dup",
+    "blocked_rule_id": null,
+    "state_changed_at": "2026-03-08T06:49:28.500Z",
+    "state_history": [
+      {
+        "from": "draft",
+        "to": "manufactured",
+        "at": "2026-03-08T06:49:28.499Z",
+        "by": "test"
+      },
+      {
+        "from": "manufactured",
+        "to": "blocked",
+        "at": "2026-03-08T06:49:28.500Z",
+        "by": "test",
+        "reason": "dup"
+      }
+    ]
+  },
+  {
+    "slug": "test-retry",
+    "mode": "LTL",
+    "state": "manufactured",
+    "approved_by": null,
+    "approved_at": null,
+    "approval_note": "",
+    "manufactured_by": "test",
+    "manufactured_at": "2026-03-08T06:49:28.501Z",
+    "manufacture_note": "retry",
+    "excluded_reason": null,
+    "blocked_rule_id": null,
+    "state_changed_at": "2026-03-08T06:49:28.501Z",
+    "state_history": [
+      {
+        "from": "draft",
+        "to": "manufactured",
+        "at": "2026-03-08T06:49:28.501Z",
+        "by": "test"
+      },
+      {
+        "from": "manufactured",
+        "to": "failed",
+        "at": "2026-03-08T06:49:28.501Z",
+        "by": "test",
+        "reason": "API error"
+      },
+      {
+        "from": "failed",
+        "to": "manufactured",
+        "at": "2026-03-08T06:49:28.501Z",
+        "by": "test",
+        "note": "retry"
+      }
+    ]
+  },
+  {
+    "slug": "test-unblock",
+    "mode": "LTL",
+    "state": "blocked",
+    "approved_by": null,
+    "approved_at": null,
+    "approval_note": "",
+    "manufactured_by": null,
+    "manufactured_at": null,
+    "manufacture_note": "",
+    "excluded_reason": "initial",
+    "blocked_rule_id": null,
+    "state_changed_at": "2026-03-08T06:49:28.502Z",
+    "state_history": [
+      {
+        "from": "draft",
+        "to": "blocked",
+        "at": "2026-03-08T06:49:28.502Z",
+        "by": "test",
+        "reason": "initial"
+      }
+    ]
+  }
+]

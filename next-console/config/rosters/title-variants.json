@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "description": "Approved title template variants by archetype. NOT yet consumed by page generation — activate_when title_pattern_weights moves to ACTIVE in learning-scope.json.",
+  "classification": "future-ready-scaffold",
+  "consumed_by": "NONE (inactive dimension per config/learning-scope.json)",
+  "activate_when": "Title selection logic is added to lib/lane-page-schema.js → buildCanonicalLanePageData()",
+  "current_template": "{mode} Freight from {Origin} to {Destination} | WARP",
+  "variants": {
+    "default": {
+      "id": "title_default",
+      "template": "{mode} Freight from {origin} to {destination} | WARP",
+      "notes": "Current production template. Origin/dest are full city names."
+    },
+    "cost_lead": {
+      "id": "title_cost_lead",
+      "template": "{mode} Shipping Rates: {origin} to {destination} | WARP",
+      "notes": "Leads with cost intent signal for transactional queries."
+    },
+    "route_lead": {
+      "id": "title_route_lead",
+      "template": "{origin} to {destination} {mode} Freight Shipping | WARP",
+      "notes": "Leads with route for navigational/geographic queries."
+    },
+    "service_lead": {
+      "id": "title_service_lead",
+      "template": "{mode} Freight Service: {origin} to {destination} | WARP",
+      "notes": "Leads with service framing for brand+service queries."
+    }
+  },
+  "constraints": {
+    "max_length": 70,
+    "must_contain": ["origin_city", "destination_city", "mode"],
+    "must_end_with": "| WARP"
+  }
+}

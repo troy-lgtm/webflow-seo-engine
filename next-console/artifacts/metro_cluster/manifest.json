@@ -1,0 +1,1221 @@
+{
+  "generated_at": "2026-03-05T12:37:21.023Z",
+  "total_pages": 200,
+  "limit": 200,
+  "dry_run": false,
+  "metros_used": 20,
+  "total_possible_pairs": 380,
+  "archetype_distribution": {
+    "port_to_inland": 83,
+    "coastal_to_coastal": 14,
+    "sunbelt_growth": 16,
+    "energy_corridor": 43,
+    "agriculture_lane": 14,
+    "midwest_distribution": 9,
+    "short_haul_metro": 13,
+    "standard_lane": 6,
+    "ecommerce_corridor": 2
+  },
+  "pages": [
+    {
+      "slug": "houston-to-phoenix",
+      "origin": "Houston, TX",
+      "destination": "Phoenix, AZ",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "orlando-to-portland",
+      "origin": "Orlando, FL",
+      "destination": "Portland, OR",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "orlando-to-charlotte",
+      "origin": "Orlando, FL",
+      "destination": "Charlotte, NC",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "orlando-to-dallas",
+      "origin": "Orlando, FL",
+      "destination": "Dallas, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "salt-lake-city-to-chicago",
+      "origin": "Salt Lake City, UT",
+      "destination": "Chicago, IL",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "new-york-to-nashville",
+      "origin": "New York, NY",
+      "destination": "Nashville, TN",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "charlotte-to-tampa",
+      "origin": "Charlotte, NC",
+      "destination": "Tampa, FL",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "denver-to-indianapolis",
+      "origin": "Denver, CO",
+      "destination": "Indianapolis, IN",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "seattle-to-nashville",
+      "origin": "Seattle, WA",
+      "destination": "Nashville, TN",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "houston-to-indianapolis",
+      "origin": "Houston, TX",
+      "destination": "Indianapolis, IN",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "miami-to-portland",
+      "origin": "Miami, FL",
+      "destination": "Portland, OR",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "dallas-to-miami",
+      "origin": "Dallas, TX",
+      "destination": "Miami, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "salt-lake-city-to-portland",
+      "origin": "Salt Lake City, UT",
+      "destination": "Portland, OR",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "kansas-city-to-las-vegas",
+      "origin": "Kansas City, MO",
+      "destination": "Las Vegas, NV",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "new-york-to-seattle",
+      "origin": "New York, NY",
+      "destination": "Seattle, WA",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "chicago-to-charlotte",
+      "origin": "Chicago, IL",
+      "destination": "Charlotte, NC",
+      "archetype": "midwest_distribution"
+    },
+    {
+      "slug": "charlotte-to-chicago",
+      "origin": "Charlotte, NC",
+      "destination": "Chicago, IL",
+      "archetype": "midwest_distribution"
+    },
+    {
+      "slug": "houston-to-seattle",
+      "origin": "Houston, TX",
+      "destination": "Seattle, WA",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "dallas-to-salt-lake-city",
+      "origin": "Dallas, TX",
+      "destination": "Salt Lake City, UT",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "houston-to-san-francisco",
+      "origin": "Houston, TX",
+      "destination": "San Francisco, CA",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "tampa-to-portland",
+      "origin": "Tampa, FL",
+      "destination": "Portland, OR",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "kansas-city-to-denver",
+      "origin": "Kansas City, MO",
+      "destination": "Denver, CO",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "chicago-to-orlando",
+      "origin": "Chicago, IL",
+      "destination": "Orlando, FL",
+      "archetype": "midwest_distribution"
+    },
+    {
+      "slug": "nashville-to-san-francisco",
+      "origin": "Nashville, TN",
+      "destination": "San Francisco, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "new-york-to-phoenix",
+      "origin": "New York, NY",
+      "destination": "Phoenix, AZ",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "salt-lake-city-to-atlanta",
+      "origin": "Salt Lake City, UT",
+      "destination": "Atlanta, GA",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "dallas-to-atlanta",
+      "origin": "Dallas, TX",
+      "destination": "Atlanta, GA",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "kansas-city-to-new-york",
+      "origin": "Kansas City, MO",
+      "destination": "New York, NY",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "chicago-to-portland",
+      "origin": "Chicago, IL",
+      "destination": "Portland, OR",
+      "archetype": "midwest_distribution"
+    },
+    {
+      "slug": "los-angeles-to-atlanta",
+      "origin": "Los Angeles, CA",
+      "destination": "Atlanta, GA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "miami-to-dallas",
+      "origin": "Miami, FL",
+      "destination": "Dallas, TX",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "orlando-to-chicago",
+      "origin": "Orlando, FL",
+      "destination": "Chicago, IL",
+      "archetype": "midwest_distribution"
+    },
+    {
+      "slug": "orlando-to-miami",
+      "origin": "Orlando, FL",
+      "destination": "Miami, FL",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "indianapolis-to-new-york",
+      "origin": "Indianapolis, IN",
+      "destination": "New York, NY",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "charlotte-to-atlanta",
+      "origin": "Charlotte, NC",
+      "destination": "Atlanta, GA",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "seattle-to-las-vegas",
+      "origin": "Seattle, WA",
+      "destination": "Las Vegas, NV",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "phoenix-to-chicago",
+      "origin": "Phoenix, AZ",
+      "destination": "Chicago, IL",
+      "archetype": "midwest_distribution"
+    },
+    {
+      "slug": "orlando-to-new-york",
+      "origin": "Orlando, FL",
+      "destination": "New York, NY",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "las-vegas-to-portland",
+      "origin": "Las Vegas, NV",
+      "destination": "Portland, OR",
+      "archetype": "standard_lane"
+    },
+    {
+      "slug": "salt-lake-city-to-las-vegas",
+      "origin": "Salt Lake City, UT",
+      "destination": "Las Vegas, NV",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "portland-to-phoenix",
+      "origin": "Portland, OR",
+      "destination": "Phoenix, AZ",
+      "archetype": "standard_lane"
+    },
+    {
+      "slug": "atlanta-to-kansas-city",
+      "origin": "Atlanta, GA",
+      "destination": "Kansas City, MO",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "indianapolis-to-charlotte",
+      "origin": "Indianapolis, IN",
+      "destination": "Charlotte, NC",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "atlanta-to-houston",
+      "origin": "Atlanta, GA",
+      "destination": "Houston, TX",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "las-vegas-to-chicago",
+      "origin": "Las Vegas, NV",
+      "destination": "Chicago, IL",
+      "archetype": "midwest_distribution"
+    },
+    {
+      "slug": "las-vegas-to-salt-lake-city",
+      "origin": "Las Vegas, NV",
+      "destination": "Salt Lake City, UT",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "miami-to-denver",
+      "origin": "Miami, FL",
+      "destination": "Denver, CO",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "denver-to-chicago",
+      "origin": "Denver, CO",
+      "destination": "Chicago, IL",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "seattle-to-los-angeles",
+      "origin": "Seattle, WA",
+      "destination": "Los Angeles, CA",
+      "archetype": "standard_lane"
+    },
+    {
+      "slug": "salt-lake-city-to-kansas-city",
+      "origin": "Salt Lake City, UT",
+      "destination": "Kansas City, MO",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "seattle-to-tampa",
+      "origin": "Seattle, WA",
+      "destination": "Tampa, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "charlotte-to-las-vegas",
+      "origin": "Charlotte, NC",
+      "destination": "Las Vegas, NV",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "atlanta-to-indianapolis",
+      "origin": "Atlanta, GA",
+      "destination": "Indianapolis, IN",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "portland-to-seattle",
+      "origin": "Portland, OR",
+      "destination": "Seattle, WA",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "las-vegas-to-tampa",
+      "origin": "Las Vegas, NV",
+      "destination": "Tampa, FL",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "nashville-to-salt-lake-city",
+      "origin": "Nashville, TN",
+      "destination": "Salt Lake City, UT",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "san-francisco-to-charlotte",
+      "origin": "San Francisco, CA",
+      "destination": "Charlotte, NC",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "miami-to-nashville",
+      "origin": "Miami, FL",
+      "destination": "Nashville, TN",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "nashville-to-los-angeles",
+      "origin": "Nashville, TN",
+      "destination": "Los Angeles, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "atlanta-to-seattle",
+      "origin": "Atlanta, GA",
+      "destination": "Seattle, WA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "seattle-to-orlando",
+      "origin": "Seattle, WA",
+      "destination": "Orlando, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "phoenix-to-atlanta",
+      "origin": "Phoenix, AZ",
+      "destination": "Atlanta, GA",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "miami-to-phoenix",
+      "origin": "Miami, FL",
+      "destination": "Phoenix, AZ",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "nashville-to-dallas",
+      "origin": "Nashville, TN",
+      "destination": "Dallas, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "kansas-city-to-portland",
+      "origin": "Kansas City, MO",
+      "destination": "Portland, OR",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "chicago-to-new-york",
+      "origin": "Chicago, IL",
+      "destination": "New York, NY",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "phoenix-to-los-angeles",
+      "origin": "Phoenix, AZ",
+      "destination": "Los Angeles, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "indianapolis-to-orlando",
+      "origin": "Indianapolis, IN",
+      "destination": "Orlando, FL",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "phoenix-to-salt-lake-city",
+      "origin": "Phoenix, AZ",
+      "destination": "Salt Lake City, UT",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "las-vegas-to-atlanta",
+      "origin": "Las Vegas, NV",
+      "destination": "Atlanta, GA",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "miami-to-kansas-city",
+      "origin": "Miami, FL",
+      "destination": "Kansas City, MO",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "chicago-to-san-francisco",
+      "origin": "Chicago, IL",
+      "destination": "San Francisco, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "salt-lake-city-to-nashville",
+      "origin": "Salt Lake City, UT",
+      "destination": "Nashville, TN",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "san-francisco-to-chicago",
+      "origin": "San Francisco, CA",
+      "destination": "Chicago, IL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "denver-to-atlanta",
+      "origin": "Denver, CO",
+      "destination": "Atlanta, GA",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "atlanta-to-phoenix",
+      "origin": "Atlanta, GA",
+      "destination": "Phoenix, AZ",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "indianapolis-to-miami",
+      "origin": "Indianapolis, IN",
+      "destination": "Miami, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "portland-to-san-francisco",
+      "origin": "Portland, OR",
+      "destination": "San Francisco, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "miami-to-seattle",
+      "origin": "Miami, FL",
+      "destination": "Seattle, WA",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "salt-lake-city-to-denver",
+      "origin": "Salt Lake City, UT",
+      "destination": "Denver, CO",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "tampa-to-charlotte",
+      "origin": "Tampa, FL",
+      "destination": "Charlotte, NC",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "las-vegas-to-new-york",
+      "origin": "Las Vegas, NV",
+      "destination": "New York, NY",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "portland-to-miami",
+      "origin": "Portland, OR",
+      "destination": "Miami, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "los-angeles-to-salt-lake-city",
+      "origin": "Los Angeles, CA",
+      "destination": "Salt Lake City, UT",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "nashville-to-denver",
+      "origin": "Nashville, TN",
+      "destination": "Denver, CO",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "salt-lake-city-to-los-angeles",
+      "origin": "Salt Lake City, UT",
+      "destination": "Los Angeles, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "miami-to-atlanta",
+      "origin": "Miami, FL",
+      "destination": "Atlanta, GA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "nashville-to-houston",
+      "origin": "Nashville, TN",
+      "destination": "Houston, TX",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "seattle-to-kansas-city",
+      "origin": "Seattle, WA",
+      "destination": "Kansas City, MO",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "orlando-to-salt-lake-city",
+      "origin": "Orlando, FL",
+      "destination": "Salt Lake City, UT",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "houston-to-kansas-city",
+      "origin": "Houston, TX",
+      "destination": "Kansas City, MO",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "kansas-city-to-houston",
+      "origin": "Kansas City, MO",
+      "destination": "Houston, TX",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "new-york-to-houston",
+      "origin": "New York, NY",
+      "destination": "Houston, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "salt-lake-city-to-dallas",
+      "origin": "Salt Lake City, UT",
+      "destination": "Dallas, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "kansas-city-to-nashville",
+      "origin": "Kansas City, MO",
+      "destination": "Nashville, TN",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "las-vegas-to-denver",
+      "origin": "Las Vegas, NV",
+      "destination": "Denver, CO",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "charlotte-to-dallas",
+      "origin": "Charlotte, NC",
+      "destination": "Dallas, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "san-francisco-to-houston",
+      "origin": "San Francisco, CA",
+      "destination": "Houston, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "denver-to-kansas-city",
+      "origin": "Denver, CO",
+      "destination": "Kansas City, MO",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "kansas-city-to-san-francisco",
+      "origin": "Kansas City, MO",
+      "destination": "San Francisco, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "los-angeles-to-miami",
+      "origin": "Los Angeles, CA",
+      "destination": "Miami, FL",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "atlanta-to-los-angeles",
+      "origin": "Atlanta, GA",
+      "destination": "Los Angeles, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "new-york-to-las-vegas",
+      "origin": "New York, NY",
+      "destination": "Las Vegas, NV",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "atlanta-to-tampa",
+      "origin": "Atlanta, GA",
+      "destination": "Tampa, FL",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "charlotte-to-los-angeles",
+      "origin": "Charlotte, NC",
+      "destination": "Los Angeles, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "portland-to-atlanta",
+      "origin": "Portland, OR",
+      "destination": "Atlanta, GA",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "atlanta-to-portland",
+      "origin": "Atlanta, GA",
+      "destination": "Portland, OR",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "las-vegas-to-kansas-city",
+      "origin": "Las Vegas, NV",
+      "destination": "Kansas City, MO",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "miami-to-chicago",
+      "origin": "Miami, FL",
+      "destination": "Chicago, IL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "tampa-to-orlando",
+      "origin": "Tampa, FL",
+      "destination": "Orlando, FL",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "chicago-to-atlanta",
+      "origin": "Chicago, IL",
+      "destination": "Atlanta, GA",
+      "archetype": "ecommerce_corridor"
+    },
+    {
+      "slug": "nashville-to-seattle",
+      "origin": "Nashville, TN",
+      "destination": "Seattle, WA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "dallas-to-orlando",
+      "origin": "Dallas, TX",
+      "destination": "Orlando, FL",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "los-angeles-to-phoenix",
+      "origin": "Los Angeles, CA",
+      "destination": "Phoenix, AZ",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "tampa-to-phoenix",
+      "origin": "Tampa, FL",
+      "destination": "Phoenix, AZ",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "dallas-to-phoenix",
+      "origin": "Dallas, TX",
+      "destination": "Phoenix, AZ",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "houston-to-salt-lake-city",
+      "origin": "Houston, TX",
+      "destination": "Salt Lake City, UT",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "seattle-to-chicago",
+      "origin": "Seattle, WA",
+      "destination": "Chicago, IL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "indianapolis-to-tampa",
+      "origin": "Indianapolis, IN",
+      "destination": "Tampa, FL",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "denver-to-salt-lake-city",
+      "origin": "Denver, CO",
+      "destination": "Salt Lake City, UT",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "los-angeles-to-las-vegas",
+      "origin": "Los Angeles, CA",
+      "destination": "Las Vegas, NV",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "dallas-to-denver",
+      "origin": "Dallas, TX",
+      "destination": "Denver, CO",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "tampa-to-indianapolis",
+      "origin": "Tampa, FL",
+      "destination": "Indianapolis, IN",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "denver-to-miami",
+      "origin": "Denver, CO",
+      "destination": "Miami, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "dallas-to-indianapolis",
+      "origin": "Dallas, TX",
+      "destination": "Indianapolis, IN",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "los-angeles-to-seattle",
+      "origin": "Los Angeles, CA",
+      "destination": "Seattle, WA",
+      "archetype": "standard_lane"
+    },
+    {
+      "slug": "kansas-city-to-los-angeles",
+      "origin": "Kansas City, MO",
+      "destination": "Los Angeles, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "indianapolis-to-chicago",
+      "origin": "Indianapolis, IN",
+      "destination": "Chicago, IL",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "chicago-to-kansas-city",
+      "origin": "Chicago, IL",
+      "destination": "Kansas City, MO",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "dallas-to-seattle",
+      "origin": "Dallas, TX",
+      "destination": "Seattle, WA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "denver-to-tampa",
+      "origin": "Denver, CO",
+      "destination": "Tampa, FL",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "orlando-to-houston",
+      "origin": "Orlando, FL",
+      "destination": "Houston, TX",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "nashville-to-charlotte",
+      "origin": "Nashville, TN",
+      "destination": "Charlotte, NC",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "chicago-to-denver",
+      "origin": "Chicago, IL",
+      "destination": "Denver, CO",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "salt-lake-city-to-san-francisco",
+      "origin": "Salt Lake City, UT",
+      "destination": "San Francisco, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "atlanta-to-new-york",
+      "origin": "Atlanta, GA",
+      "destination": "New York, NY",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "indianapolis-to-dallas",
+      "origin": "Indianapolis, IN",
+      "destination": "Dallas, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "los-angeles-to-denver",
+      "origin": "Los Angeles, CA",
+      "destination": "Denver, CO",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "houston-to-los-angeles",
+      "origin": "Houston, TX",
+      "destination": "Los Angeles, CA",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "seattle-to-miami",
+      "origin": "Seattle, WA",
+      "destination": "Miami, FL",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "seattle-to-atlanta",
+      "origin": "Seattle, WA",
+      "destination": "Atlanta, GA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "houston-to-atlanta",
+      "origin": "Houston, TX",
+      "destination": "Atlanta, GA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "portland-to-new-york",
+      "origin": "Portland, OR",
+      "destination": "New York, NY",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "houston-to-orlando",
+      "origin": "Houston, TX",
+      "destination": "Orlando, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "phoenix-to-portland",
+      "origin": "Phoenix, AZ",
+      "destination": "Portland, OR",
+      "archetype": "standard_lane"
+    },
+    {
+      "slug": "seattle-to-salt-lake-city",
+      "origin": "Seattle, WA",
+      "destination": "Salt Lake City, UT",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "houston-to-tampa",
+      "origin": "Houston, TX",
+      "destination": "Tampa, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "atlanta-to-orlando",
+      "origin": "Atlanta, GA",
+      "destination": "Orlando, FL",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "seattle-to-indianapolis",
+      "origin": "Seattle, WA",
+      "destination": "Indianapolis, IN",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "chicago-to-dallas",
+      "origin": "Chicago, IL",
+      "destination": "Dallas, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "miami-to-tampa",
+      "origin": "Miami, FL",
+      "destination": "Tampa, FL",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "atlanta-to-dallas",
+      "origin": "Atlanta, GA",
+      "destination": "Dallas, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "indianapolis-to-phoenix",
+      "origin": "Indianapolis, IN",
+      "destination": "Phoenix, AZ",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "atlanta-to-miami",
+      "origin": "Atlanta, GA",
+      "destination": "Miami, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "dallas-to-los-angeles",
+      "origin": "Dallas, TX",
+      "destination": "Los Angeles, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "tampa-to-los-angeles",
+      "origin": "Tampa, FL",
+      "destination": "Los Angeles, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "houston-to-nashville",
+      "origin": "Houston, TX",
+      "destination": "Nashville, TN",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "orlando-to-tampa",
+      "origin": "Orlando, FL",
+      "destination": "Tampa, FL",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "las-vegas-to-indianapolis",
+      "origin": "Las Vegas, NV",
+      "destination": "Indianapolis, IN",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "phoenix-to-las-vegas",
+      "origin": "Phoenix, AZ",
+      "destination": "Las Vegas, NV",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "los-angeles-to-tampa",
+      "origin": "Los Angeles, CA",
+      "destination": "Tampa, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "seattle-to-phoenix",
+      "origin": "Seattle, WA",
+      "destination": "Phoenix, AZ",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "portland-to-dallas",
+      "origin": "Portland, OR",
+      "destination": "Dallas, TX",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "miami-to-orlando",
+      "origin": "Miami, FL",
+      "destination": "Orlando, FL",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "new-york-to-san-francisco",
+      "origin": "New York, NY",
+      "destination": "San Francisco, CA",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "san-francisco-to-denver",
+      "origin": "San Francisco, CA",
+      "destination": "Denver, CO",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "tampa-to-chicago",
+      "origin": "Tampa, FL",
+      "destination": "Chicago, IL",
+      "archetype": "midwest_distribution"
+    },
+    {
+      "slug": "dallas-to-charlotte",
+      "origin": "Dallas, TX",
+      "destination": "Charlotte, NC",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "miami-to-salt-lake-city",
+      "origin": "Miami, FL",
+      "destination": "Salt Lake City, UT",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "houston-to-denver",
+      "origin": "Houston, TX",
+      "destination": "Denver, CO",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "atlanta-to-charlotte",
+      "origin": "Atlanta, GA",
+      "destination": "Charlotte, NC",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "denver-to-nashville",
+      "origin": "Denver, CO",
+      "destination": "Nashville, TN",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "denver-to-new-york",
+      "origin": "Denver, CO",
+      "destination": "New York, NY",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "atlanta-to-salt-lake-city",
+      "origin": "Atlanta, GA",
+      "destination": "Salt Lake City, UT",
+      "archetype": "energy_corridor"
+    },
+    {
+      "slug": "portland-to-tampa",
+      "origin": "Portland, OR",
+      "destination": "Tampa, FL",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "new-york-to-denver",
+      "origin": "New York, NY",
+      "destination": "Denver, CO",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "tampa-to-atlanta",
+      "origin": "Tampa, FL",
+      "destination": "Atlanta, GA",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "san-francisco-to-new-york",
+      "origin": "San Francisco, CA",
+      "destination": "New York, NY",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "phoenix-to-nashville",
+      "origin": "Phoenix, AZ",
+      "destination": "Nashville, TN",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "phoenix-to-new-york",
+      "origin": "Phoenix, AZ",
+      "destination": "New York, NY",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "chicago-to-los-angeles",
+      "origin": "Chicago, IL",
+      "destination": "Los Angeles, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "portland-to-orlando",
+      "origin": "Portland, OR",
+      "destination": "Orlando, FL",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "seattle-to-san-francisco",
+      "origin": "Seattle, WA",
+      "destination": "San Francisco, CA",
+      "archetype": "standard_lane"
+    },
+    {
+      "slug": "houston-to-las-vegas",
+      "origin": "Houston, TX",
+      "destination": "Las Vegas, NV",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "portland-to-charlotte",
+      "origin": "Portland, OR",
+      "destination": "Charlotte, NC",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "atlanta-to-san-francisco",
+      "origin": "Atlanta, GA",
+      "destination": "San Francisco, CA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "miami-to-san-francisco",
+      "origin": "Miami, FL",
+      "destination": "San Francisco, CA",
+      "archetype": "coastal_to_coastal"
+    },
+    {
+      "slug": "houston-to-dallas",
+      "origin": "Houston, TX",
+      "destination": "Dallas, TX",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "los-angeles-to-new-york",
+      "origin": "Los Angeles, CA",
+      "destination": "New York, NY",
+      "archetype": "ecommerce_corridor"
+    },
+    {
+      "slug": "new-york-to-chicago",
+      "origin": "New York, NY",
+      "destination": "Chicago, IL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "charlotte-to-seattle",
+      "origin": "Charlotte, NC",
+      "destination": "Seattle, WA",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "kansas-city-to-tampa",
+      "origin": "Kansas City, MO",
+      "destination": "Tampa, FL",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "slug": "chicago-to-indianapolis",
+      "origin": "Chicago, IL",
+      "destination": "Indianapolis, IN",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "slug": "new-york-to-dallas",
+      "origin": "New York, NY",
+      "destination": "Dallas, TX",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "new-york-to-orlando",
+      "origin": "New York, NY",
+      "destination": "Orlando, FL",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "chicago-to-phoenix",
+      "origin": "Chicago, IL",
+      "destination": "Phoenix, AZ",
+      "archetype": "midwest_distribution"
+    },
+    {
+      "slug": "orlando-to-phoenix",
+      "origin": "Orlando, FL",
+      "destination": "Phoenix, AZ",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "slug": "new-york-to-portland",
+      "origin": "New York, NY",
+      "destination": "Portland, OR",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "los-angeles-to-kansas-city",
+      "origin": "Los Angeles, CA",
+      "destination": "Kansas City, MO",
+      "archetype": "port_to_inland"
+    },
+    {
+      "slug": "tampa-to-nashville",
+      "origin": "Tampa, FL",
+      "destination": "Nashville, TN",
+      "archetype": "sunbelt_growth"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "charlotte-to-atlanta",
+  "origin": "Charlotte, NC",
+  "destination": "Atlanta, GA",
+  "mode": "LTL",
+  "archetype": "short_haul_metro",
+  "archetype_label": "Short-Haul Metro",
+  "canonical_path": "/charlotte-to-atlanta",
+  "seo_title": "Charlotte, NC to Atlanta, GA LTL Freight Quotes | WARP",
+  "h1": "Charlotte, NC to Atlanta, GA LTL freight quotes",
+  "meta_description": "Compare LTL freight options from Charlotte, NC to Atlanta, GA. Small and mid-size shipping teams get lane-specific estimated pricing, performance data, and a fast, self-serve evaluation workflow.",
+  "intro": "LTL freight between Charlotte, NC and Atlanta, GA covers one of the shortest metro-to-metro corridors in the network. For small and mid-size shipping teams, that means same-day and next-day options are realistic, last-mile scheduling is tighter, and per-shipment costs stay competitive. This page breaks down transit windows, carrier density, and booking strategies tailored to short-haul LTL shippers on the Charlotte, NC to Atlanta, GA lane.",
+  "faq": [
+    {
+      "q": "What is the average LTL cost from Charlotte, NC to Atlanta, GA?",
+      "a": "Short-haul LTL rates on the Charlotte, NC to Atlanta, GA lane are among the lowest per-mile in the network due to the short distance and high carrier density."
+    },
+    {
+      "q": "How does carrier availability compare on the Charlotte, NC to Atlanta, GA LTL lane?",
+      "a": "Both Charlotte, NC and Atlanta, GA are metro hubs with deep carrier pools, so capacity is consistent year-round for LTL shipments."
+    },
+    {
+      "q": "How fast is LTL transit from Charlotte, NC to Atlanta, GA?",
+      "a": "Short-haul metro lanes like Charlotte, NC to Atlanta, GA typically deliver within 1 business day for LTL, with same-day options available for expedited shipments."
+    },
+    {
+      "q": "Can I schedule last-mile delivery windows for LTL freight arriving in Atlanta, GA?",
+      "a": "Absolutely. Metro destinations like Atlanta, GA support appointment-based delivery scheduling for LTL freight, including liftgate and inside delivery."
+    },
+    {
+      "q": "Are same-day LTL pickups available from Charlotte, NC?",
+      "a": "Yes. Because Charlotte, NC and Atlanta, GA are both major metros, most carriers offer same-day pickup windows for LTL freight on this corridor."
+    }
+  ],
+  "lane_stats": {
+    "estimated_distance_miles": 272,
+    "haversine_miles": 227,
+    "estimated_transit_days": "1-2",
+    "origin_region": "Southeast",
+    "destination_region": "Southeast"
+  }
+}

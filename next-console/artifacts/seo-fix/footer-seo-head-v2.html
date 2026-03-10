@@ -1,0 +1,60 @@
+<script id="warp-seo-p0-head-v2">
+(function(){
+  function run(){
+    try {
+      var d = document;
+      function cleanText(s){ return String(s || "").replace(/\s+/g, " ").trim(); }
+      function firstText(sel){ var el = d.querySelector(sel); return el ? cleanText(el.textContent) : ""; }
+      function stripWarpSuffix(t){ return cleanText(String(t || "").replace(/\s*\|\s*Warp.*$/i, "")); }
+
+      var h1 = firstText("h1");
+      var rawTitle = cleanText(d.title);
+      var currentTitle = stripWarpSuffix(rawTitle);
+      if (/^warp landing page/i.test(rawTitle) && h1) {
+        d.title = h1 + " | Warp";
+        currentTitle = h1;
+      }
+
+      var desc = d.querySelector("meta[name=\"description\"]");
+      if (!desc) {
+        desc = d.createElement("meta");
+        desc.setAttribute("name", "description");
+        d.head.appendChild(desc);
+      }
+      var currentDesc = cleanText(desc.getAttribute("content"));
+      if (!currentDesc) {
+        var path = location.pathname || "/";
+        var p = firstText("article p, main p, .w-richtext p, p");
+        var source = p || h1 || currentTitle;
+        if (source) {
+          var text = cleanText(source);
+          if (path.indexOf("/warp-blogs/") === 0) {
+            text = "Freight strategy insights: " + text;
+          }
+          if (text.length > 155) text = text.slice(0, 152).trim() + "...";
+          desc.setAttribute("content", text);
+        }
+      }
+
+      /* Deduplicate canonical tags — keep only the first one */
+      var canonicals = Array.from(d.querySelectorAll('link[rel="canonical"]'));
+      for (var i = 1; i < canonicals.length; i++) {
+        canonicals[i].parentNode.removeChild(canonicals[i]);
+      }
+
+      /* Deduplicate og:url tags — keep only the first one */
+      var ogUrls = Array.from(d.querySelectorAll('meta[property="og:url"]'));
+      for (var j = 1; j < ogUrls.length; j++) {
+        ogUrls[j].parentNode.removeChild(ogUrls[j]);
+      }
+    } catch (err) {
+      console.warn("warp seo head v2 patch error", err);
+    }
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", run, { once: true });
+  } else {
+    run();
+  }
+})();
+</script>

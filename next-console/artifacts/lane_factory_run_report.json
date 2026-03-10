@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-03-07T11-14-22-353Z",
+  "generated_at": "2026-03-07T11:27:26.529Z",
+  "elapsed_seconds": 784.2,
+  "dry_run": false,
+  "filter_mode": "LTL",
+  "cluster": null,
+  "target_count": 5,
+  "interval_seconds": 4,
+  "notify_email": "troy@wearewarp.com",
+  "manufactured": 5,
+  "produced": 5,
+  "blocked": 0,
+  "failed": 0,
+  "verified_live": 5,
+  "email_sent": true,
+  "produced_slugs": [
+    "chicago-to-indianapolis",
+    "atlanta-to-orlando",
+    "tampa-to-new-york",
+    "los-angeles-to-denver",
+    "phoenix-to-new-york"
+  ],
+  "blocked_slugs": [],
+  "failed_slugs": [],
+  "verified_urls": [
+    "https://www.wearewarp.com/lanes/chicago-to-indianapolis",
+    "https://www.wearewarp.com/lanes/atlanta-to-orlando",
+    "https://www.wearewarp.com/lanes/tampa-to-new-york",
+    "https://www.wearewarp.com/lanes/los-angeles-to-denver",
+    "https://www.wearewarp.com/lanes/phoenix-to-new-york"
+  ]
+}

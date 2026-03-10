@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "description": "Defines which learning dimensions are active (actually wired to change output) vs inactive (computed but not consumed). Inactive dimensions are preserved in learning_state.json for future use but the updater will not compute weights for them.",
+  "active_dimensions": {
+    "archetype_weights": {
+      "consumed_by": "scripts/publish_next.js → computeHubPriority()",
+      "effect": "Adds 0-20 priority boost to publish ordering based on learned archetype performance",
+      "signal_sources": ["gsc_import_current.csv", "ga4_import_current.csv"],
+      "min_confidence": "medium"
+    },
+    "faq_weights": {
+      "consumed_by": "lib/lane-archetypes.js → getArchetypeFaq()",
+      "effect": "Reweights FAQ pool selection so higher-performing FAQ questions are more likely to be selected",
+      "signal_sources": ["gsc_import_current.csv", "ga4_import_current.csv"],
+      "min_confidence": "medium"
+    }
+  },
+  "inactive_dimensions": {
+    "title_pattern_weights": {
+      "reason": "Only one title template per page. No variant pool to select from.",
+      "activate_when": "Multiple title templates are added to lane-engine.js"
+    },
+    "meta_pattern_weights": {
+      "reason": "Only one meta description template per page. No variant pool.",
+      "activate_when": "Multiple meta templates are added"
+    },
+    "cta_weights": {
+      "reason": "Only one CTA per page. No CTA variant pool exists.",
+      "activate_when": "CTA variant pool is implemented"
+    },
+    "intro_pattern_weights": {
+      "reason": "One intro template per archetype. No variant pool within archetypes.",
+      "activate_when": "Multiple intro variants per archetype are added"
+    },
+    "link_pattern_weights": {
+      "reason": "Link selection is deterministic based on page relationships.",
+      "activate_when": "Link strategy variants are implemented"
+    }
+  },
+  "immutable_keys": [
+    "uniqueness_thresholds",
+    "usefulness_gate_rules",
+    "slug_rules",
+    "schema_requirements",
+    "duplicate_protection",
+    "live_verification_rules",
+    "domain_path_trust_rules",
+    "collection_template_path"
+  ],
+  "signal_confidence_levels": {
+    "high": "Has real GSC data (impressions > 0)",
+    "medium": "Has GA4 data (quote_starts or sessions > 0) but no GSC",
+    "low": "Internal signals only (AI score, publish success). Does NOT drive weight updates."
+  }
+}

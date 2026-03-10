@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-03-06T10:40:43.509Z",
+  "lanes": [
+    {
+      "lane_slug": "los-angeles-to-phoenix",
+      "rendered": true,
+      "fields": 23,
+      "body_length": 4363,
+      "has_hero": true,
+      "has_overview": true,
+      "has_warp_fit": false,
+      "has_ops": true,
+      "has_pricing": true,
+      "has_faqs": true,
+      "has_related": true,
+      "has_cta": true
+    },
+    {
+      "lane_slug": "long-beach-to-phoenix",
+      "rendered": true,
+      "fields": 23,
+      "body_length": 4342,
+      "has_hero": true,
+      "has_overview": true,
+      "has_warp_fit": false,
+      "has_ops": true,
+      "has_pricing": true,
+      "has_faqs": true,
+      "has_related": true,
+      "has_cta": true
+    },
+    {
+      "lane_slug": "san-diego-to-phoenix",
+      "rendered": true,
+      "fields": 23,
+      "body_length": 4223,
+      "has_hero": true,
+      "has_overview": true,
+      "has_warp_fit": false,
+      "has_ops": true,
+      "has_pricing": true,
+      "has_faqs": true,
+      "has_related": true,
+      "has_cta": true
+    }
+  ]
+}
