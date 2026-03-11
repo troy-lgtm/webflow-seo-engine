@@ -748,6 +748,62 @@ export function renderValidation(pageData) {
 </div>`;
 }
 
+// ── Authority Links Renderer ─────────────────────────────────────────
+//
+// Renders authority entity links derived from the lane-authority classifier.
+// Groups links by family (Solutions, Network Capabilities, Equipment) and
+// presents them as operational internal links — not SEO filler.
+//
+// This is a DEDICATED renderer. It is called from:
+//   1. renderRelatedLinks() — for the static/preview pipeline
+//   2. renderWebflowFields() — as the "authority-links" CMS field
+//
+// ARCHITECTURE: This renderer does NOT call the classifier. It consumes
+// pre-computed authority_links from canonical page data (lane-page-schema.js).
+
+/**
+ * Family display labels and ordering for authority link groups.
+ * @type {Array<{family: string, heading: string}>}
+ */
+const AUTHORITY_FAMILY_ORDER = [
+  { family: "solution", heading: "Solutions" },
+  { family: "concept", heading: "Network Capabilities" },
+  { family: "equipment", heading: "Equipment" },
+];
+
+/**
+ * Render authority links as HTML grouped by entity family.
+ * Only includes primary and secondary relationships (tertiary omitted
+ * to keep the page focused).
+ *
+ * @param {object} pageData - Canonical page data with authority_links
+ * @returns {string} HTML string, or empty string if no links
+ */
+export function renderAuthorityLinks(pageData) {
+  const links = pageData.authority_links || [];
+  // Only render primary and secondary — tertiary is too weak to surface
+  const visible = links.filter(l => l.rank === "primary" || l.rank === "secondary");
+  if (visible.length === 0) return "";
+
+  const parts = [];
+  parts.push(`<div style="background:#121418;border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:28px 24px;margin:24px 0;color:#F5F7FA;">`);
+  parts.push(`<h2 style="margin:0 0 16px;font-size:1.2rem;font-weight:700;color:#F5F7FA;font-family:'Space Grotesk',-apple-system,sans-serif;">Related WARP Capabilities</h2>`);
+
+  for (const { family, heading } of AUTHORITY_FAMILY_ORDER) {
+    const familyLinks = visible.filter(l => l.family === family);
+    if (familyLinks.length === 0) continue;
+
+    parts.push(`<p style="margin:12px 0 6px;font-size:13px;font-weight:600;color:#8B95A5;text-transform:uppercase;letter-spacing:0.05em;">${escHtml(heading)}</p>`);
+    const linkHtml = familyLinks.map(l =>
+      `<a href="${SITE_BASE}${escHtml(l.path)}" style="color:#4A9EFF;text-decoration:none;font-size:15px;">${escHtml(l.label)}</a>`
+    ).join(` <span style="color:#3A4050;margin:0 4px;">\u00B7</span> `);
+    parts.push(`<p style="margin:0 0 8px;line-height:1.8;">${linkHtml}</p>`);
+  }
+
+  parts.push(`</div>`);
+  return parts.join("\n");
+}
+
 /**
  * Section 8 — Related Freight Pages. Internal cross-links for SEO.
  * @param {object} pageData
@@ -783,6 +839,12 @@ function renderRelatedLinks(pageData) {
     parts.push(`<ul>${lanes.map(l =>
       `<li><a href="${l.url.startsWith("http") ? escHtml(l.url) : SITE_BASE + escHtml(l.url)}">${escHtml(l.label)}</a></li>`
     ).join("")}</ul>`);
+  }
+
+  // Authority entity links (solutions, concepts, equipment)
+  const authorityHtml = renderAuthorityLinks(pageData);
+  if (authorityHtml) {
+    parts.push(authorityHtml);
   }
 
   // Only render if we have more than just the heading
@@ -1646,6 +1708,7 @@ export function buildWarpLtl(mode) {
  * | JSON-LD Schemas      | renderBreadcrumbSchemaEmbed()     | renderInlineSchemas()      | YES → buildLaneSchemaObjects()  |
  * | How WARP Operates    | N/A                              | renderWarpFit()            | Preview only                    |
  * | Related Links        | N/A                              | renderRelatedLinks()       | Preview only                    |
+ * | Authority Links      | renderAuthorityLinks() (dedicated)| renderAuthorityLinks()    | YES → renderAuthorityLinks()    |
  *
  * @param {object} pageData - Canonical page data from buildCanonicalLanePageData
  * @returns {object} Webflow CMS field payload
@@ -1712,6 +1775,7 @@ export function renderWebflowFields(pageData) {
     // ── Dedicated Content Sections (Rich Text) ────────────────────
     "lane-intelligence-panel": renderLaneIntelligencePanel(pageData),
     "execution-flow": renderExecutionFlow(pageData),
+    "authority-links": renderAuthorityLinks(pageData),
 
     // ── Structured Data (code embeds) ──────────────────────────────
     "faq-schema": renderFaqSchemaEmbed(pageData),

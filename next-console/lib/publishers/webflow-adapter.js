@@ -40,7 +40,7 @@ const WEBFLOW_SCHEMA_FIELDS = new Set([
   "traditional-ltl", "warp-ltl",
   "proof-section",
   "cta-primary-text", "cta-primary-url", "cta-secondary-text", "cta-secondary-url",
-  "lane-intelligence-panel", "execution-flow",
+  "lane-intelligence-panel", "execution-flow", "authority-links",
   "faq-schema", "breadcrumb-schema",
   "hero-video-enabled", "hero-map-enabled", "lane-mode-enabled", "index-page",
   "lane-badge",

@@ -473,7 +473,7 @@ const WEBFLOW_SCHEMA_FIELDS = new Set([
   "cta-primary-text", "cta-primary-url",
   "cta-secondary-text", "cta-secondary-url",
   // Dedicated content sections (RichText — premium template elements)
-  "lane-intelligence-panel", "execution-flow",
+  "lane-intelligence-panel", "execution-flow", "authority-links",
   // Structured data (RichText — contains hide CSS + schemas + FAQ HTML)
   "faq-schema", "breadcrumb-schema",
   // Template flags (Switch)
