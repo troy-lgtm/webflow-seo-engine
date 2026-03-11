@@ -1,0 +1,320 @@
+{
+  "_generated_at": "2026-03-10T11:45:50.210Z",
+  "_generator": "generate_authority_pages.js",
+  "entity": {
+    "id": "box-truck",
+    "family": "equipment",
+    "label": "Box Truck"
+  },
+  "page_data": {
+    "page_type": "equipment",
+    "entity_id": "box-truck",
+    "slug": "box-truck",
+    "canonical_path": "/equipment/box-truck",
+    "page_title": "Box Truck Freight Shipping | WARP",
+    "meta_description": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes. Get an instant quote from WARP.",
+    "mode": "Cargo Van / Box Truck",
+    "hero": {
+      "headline": "Box Truck Freight Shipping",
+      "subhead": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes",
+      "primary_cta": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary_cta": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "overview": {
+      "heading": "Box Truck Overview",
+      "content": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes",
+      "mode": "Cargo Van / Box Truck"
+    },
+    "specs": {
+      "heading": "Box Truck Specifications",
+      "data": {
+        "capacity_pallets": "4-12",
+        "capacity_lbs": "8,000-16,000",
+        "interior_length_ft": "16-26",
+        "interior_height_ft": "7-8",
+        "door_type": "roll-up with optional liftgate"
+      }
+    },
+    "best_fit": {
+      "heading": "Best Fit Freight for Box Truck",
+      "items": [
+        "Multi-stop retail delivery routes (4-12 pallets per stop)",
+        "Store replenishment at locations without dock access",
+        "Regional distribution within 300-mile radius",
+        "Freight requiring liftgate for ground-level delivery"
+      ]
+    },
+    "not_ideal": {
+      "heading": "When to Choose a Different Vehicle",
+      "items": [
+        "Full truckload volumes exceeding 12 pallets",
+        "Long-haul linehaul over 500 miles",
+        "Oversized or flatbed-required freight",
+        "Bulk commodities requiring maximum cubic capacity"
+      ]
+    },
+    "related_solutions": {
+      "heading": "Solutions Using This Equipment",
+      "solutions": [
+        {
+          "id": "store-replenishment",
+          "label": "Store Replenishment",
+          "path": "/solutions/store-replenishment",
+          "description": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets"
+        },
+        {
+          "id": "pool-distribution",
+          "label": "Pool Distribution",
+          "path": "/solutions/pool-distribution",
+          "description": "Consolidated freight pooling from distribution centers to regional delivery zones"
+        },
+        {
+          "id": "vendor-consolidation",
+          "label": "Vendor Consolidation",
+          "path": "/solutions/vendor-consolidation",
+          "description": "Multi-vendor pickup consolidation into single linehaul shipments"
+        },
+        {
+          "id": "zone-skipping",
+          "label": "Zone Skipping",
+          "path": "/solutions/zone-skipping",
+          "description": "Bypass carrier sort hubs by injecting freight closer to final delivery zones"
+        }
+      ]
+    },
+    "related_concepts": {
+      "heading": "Related Network Capabilities",
+      "concepts": [
+        {
+          "id": "right-sized-assets",
+          "label": "Right-Sized Assets",
+          "path": "/network/right-sized-assets",
+          "description": "Matching vehicle type and capacity to actual shipment size for cost efficiency"
+        },
+        {
+          "id": "flexible-routing",
+          "label": "Flexible Routing",
+          "path": "/network/flexible-routing",
+          "description": "Dynamic route optimization based on real-time freight density and delivery requirements"
+        },
+        {
+          "id": "cross-docking",
+          "label": "Cross-Docking",
+          "path": "/network/cross-docking",
+          "description": "Direct transfer of freight between inbound and outbound vehicles without warehousing"
+        },
+        {
+          "id": "scan-level-visibility",
+          "label": "Scan-Level Visibility",
+          "path": "/network/scan-level-visibility",
+          "description": "Item-level or pallet-level tracking with scan events at every handling point"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Box Truck FAQ",
+      "items": [
+        {
+          "q": "What freight fits in a box truck?",
+          "a": "Multi-stop retail delivery routes (4-12 pallets per stop). Store replenishment at locations without dock access."
+        },
+        {
+          "q": "How many pallets can a box truck carry?",
+          "a": "A box truck typically handles 4-12 pallets with a max weight capacity of 8,000-16,000 lbs."
+        },
+        {
+          "q": "When should I NOT use a box truck?",
+          "a": "Full truckload volumes exceeding 12 pallets. Long-haul linehaul over 500 miles."
+        },
+        {
+          "q": "Does WARP offer box truck shipping?",
+          "a": "Yes. WARP operates a fleet that includes box truck capacity, matched to shipment size through our right-sized asset approach."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ship with Box Truck Today",
+      "primary": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "_section_order": [
+      "hero",
+      "overview",
+      "specs",
+      "best_fit",
+      "not_ideal",
+      "related_solutions",
+      "related_concepts",
+      "faq",
+      "cta"
+    ],
+    "internal_links": {
+      "solutions": [
+        {
+          "href": "/solutions/store-replenishment",
+          "text": "Store Replenishment",
+          "family": "solution"
+        },
+        {
+          "href": "/solutions/pool-distribution",
+          "text": "Pool Distribution",
+          "family": "solution"
+        },
+        {
+          "href": "/solutions/vendor-consolidation",
+          "text": "Vendor Consolidation",
+          "family": "solution"
+        },
+        {
+          "href": "/solutions/zone-skipping",
+          "text": "Zone Skipping",
+          "family": "solution"
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/network/right-sized-assets",
+          "text": "Right-Sized Assets",
+          "family": "concept"
+        },
+        {
+          "href": "/network/flexible-routing",
+          "text": "Flexible Routing",
+          "family": "concept"
+        },
+        {
+          "href": "/network/cross-docking",
+          "text": "Cross-Docking",
+          "family": "concept"
+        },
+        {
+          "href": "/network/scan-level-visibility",
+          "text": "Scan-Level Visibility",
+          "family": "concept"
+        }
+      ]
+    }
+  },
+  "rendered": {
+    "body_text": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes\n\nA box truck handles 4-12 pallets with a capacity of 8,000-16,000 lbs. Interior dimensions: 16-26 ft length, 7-8 ft height.\n\nBest fit for: Multi-stop retail delivery routes (4-12 pallets per stop); Store replenishment at locations without dock access.\n\nGet an instant box truck freight rate at wearewarp.com/quote.",
+    "primary_content_html": "<h2>Box Truck Overview</h2>\n<p>Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes</p>\n<p><strong>Mode:</strong> Cargo Van / Box Truck</p>\n<h2>Box Truck Specifications</h2>\n<table><thead><tr><th>Specification</th><th>Value</th></tr></thead><tbody>\n<tr><td>Capacity Pallets</td><td>4-12</td></tr>\n<tr><td>Capacity Lbs</td><td>8,000-16,000</td></tr>\n<tr><td>Interior Length Ft</td><td>16-26</td></tr>\n<tr><td>Interior Height Ft</td><td>7-8</td></tr>\n<tr><td>Door Type</td><td>roll-up with optional liftgate</td></tr>\n</tbody></table>\n<h2>Best Fit Freight for Box Truck</h2>\n<ul>\n<li>Multi-stop retail delivery routes (4-12 pallets per stop)</li>\n<li>Store replenishment at locations without dock access</li>\n<li>Regional distribution within 300-mile radius</li>\n<li>Freight requiring liftgate for ground-level delivery</li>\n</ul>\n<h2>When to Choose a Different Vehicle</h2>\n<ul>\n<li>Full truckload volumes exceeding 12 pallets</li>\n<li>Long-haul linehaul over 500 miles</li>\n<li>Oversized or flatbed-required freight</li>\n<li>Bulk commodities requiring maximum cubic capacity</li>\n</ul>\n<h2>Solutions Using This Equipment</h2>\n<ul>\n<li><a href=\"/solutions/store-replenishment\">Store Replenishment</a> — Scheduled multi-stop retail freight delivery using LTL and right-sized assets</li>\n<li><a href=\"/solutions/pool-distribution\">Pool Distribution</a> — Consolidated freight pooling from distribution centers to regional delivery zones</li>\n<li><a href=\"/solutions/vendor-consolidation\">Vendor Consolidation</a> — Multi-vendor pickup consolidation into single linehaul shipments</li>\n<li><a href=\"/solutions/zone-skipping\">Zone Skipping</a> — Bypass carrier sort hubs by injecting freight closer to final delivery zones</li>\n</ul>\n<h2>Related Network Capabilities</h2>\n<ul>\n<li><a href=\"/network/right-sized-assets\">Right-Sized Assets</a> — Matching vehicle type and capacity to actual shipment size for cost efficiency</li>\n<li><a href=\"/network/flexible-routing\">Flexible Routing</a> — Dynamic route optimization based on real-time freight density and delivery requirements</li>\n<li><a href=\"/network/cross-docking\">Cross-Docking</a> — Direct transfer of freight between inbound and outbound vehicles without warehousing</li>\n<li><a href=\"/network/scan-level-visibility\">Scan-Level Visibility</a> — Item-level or pallet-level tracking with scan events at every handling point</li>\n</ul>\n<div class=\"authority-cta\">\n<h2>Ship with Box Truck Today</h2>\n<a href=\"https://www.wearewarp.com/quote\" class=\"cta-primary\">Get Instant Quote</a>\n<a href=\"https://www.wearewarp.com/book\" class=\"cta-secondary\">Book a Fit Call</a>\n</div>",
+    "faq_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What freight fits in a box truck?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Multi-stop retail delivery routes (4-12 pallets per stop). Store replenishment at locations without dock access.\"}},{\"@type\":\"Question\",\"name\":\"How many pallets can a box truck carry?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A box truck typically handles 4-12 pallets with a max weight capacity of 8,000-16,000 lbs.\"}},{\"@type\":\"Question\",\"name\":\"When should I NOT use a box truck?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Full truckload volumes exceeding 12 pallets. Long-haul linehaul over 500 miles.\"}},{\"@type\":\"Question\",\"name\":\"Does WARP offer box truck shipping?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. WARP operates a fleet that includes box truck capacity, matched to shipment size through our right-sized asset approach.\"}}]}</script>",
+    "breadcrumb_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.wearewarp.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Equipment\",\"item\":\"https://www.wearewarp.com/equipment\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Box Truck Freight Shipping\",\"item\":\"https://www.wearewarp.com/equipment/box-truck\"}]}</script>",
+    "service_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Box Truck Freight Shipping\",\"description\":\"Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes. Get an instant quote from WARP.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"WARP\",\"url\":\"https://www.wearewarp.com\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"serviceType\":\"Freight Logistics\"}</script>"
+  },
+  "quality": {
+    "publishable": true,
+    "grade": "A",
+    "score": 95,
+    "gates": {
+      "AQ-STRUCT-01": true,
+      "AQ-STRUCT-02": true,
+      "AQ-STRUCT-03": true,
+      "AQ-CONTENT-01": true,
+      "AQ-CONTENT-02": true,
+      "AQ-CONTENT-03": true,
+      "AQ-CONTENT-04": true,
+      "AQ-SCHEMA-01": true,
+      "AQ-SCHEMA-02": true,
+      "AQ-LINK-01": true,
+      "AQ-QUALITY-01": true
+    },
+    "gates_passed": 11,
+    "gate_count": 11,
+    "dimensions": {
+      "seo": 90,
+      "content": 95,
+      "authority": 95,
+      "linking": 100,
+      "structure": 100
+    },
+    "errors": [],
+    "warnings": [],
+    "page_type": "equipment",
+    "entity_id": "box-truck"
+  },
+  "links": [
+    {
+      "href": "/network/cross-docking",
+      "text": "Cross-Docking",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/network/scan-level-visibility",
+      "text": "Scan-Level Visibility",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 73
+    },
+    {
+      "href": "/solutions/store-replenishment",
+      "text": "Store Replenishment",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 73
+    },
+    {
+      "href": "/network/right-sized-assets",
+      "text": "Right-Sized Assets",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 72
+    },
+    {
+      "href": "/network/flexible-routing",
+      "text": "Flexible Routing",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 71
+    },
+    {
+      "href": "/equipment/cargo-van",
+      "text": "Cargo Van",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 69
+    },
+    {
+      "href": "/solutions/pool-distribution",
+      "text": "Pool Distribution",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 68
+    },
+    {
+      "href": "/solutions/vendor-consolidation",
+      "text": "Vendor Consolidation",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 68
+    },
+    {
+      "href": "/solutions/zone-skipping",
+      "text": "Zone Skipping",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 65
+    },
+    {
+      "href": "/equipment/53-foot-trailer",
+      "text": "53-Foot Trailer",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 62
+    }
+  ]
+}

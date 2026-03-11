@@ -1,0 +1,291 @@
+{
+  "_generated_at": "2026-03-10T11:45:50.208Z",
+  "_generator": "generate_authority_pages.js",
+  "entity": {
+    "id": "scan-level-visibility",
+    "family": "concept",
+    "label": "Scan-Level Visibility"
+  },
+  "page_data": {
+    "page_type": "concept",
+    "entity_id": "scan-level-visibility",
+    "slug": "scan-level-visibility",
+    "canonical_path": "/network/scan-level-visibility",
+    "page_title": "Scan-Level Visibility in Freight Logistics | WARP",
+    "meta_description": "Item-level or pallet-level tracking with scan events at every handling point. Get an instant quote from WARP.",
+    "applies_to_modes": [
+      "LTL",
+      "Cargo Van / Box Truck"
+    ],
+    "hero": {
+      "headline": "Scan-Level Visibility in Freight Logistics",
+      "subhead": "Item-level or pallet-level tracking with scan events at every handling point",
+      "primary_cta": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary_cta": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "overview": {
+      "heading": "What Is Scan-Level Visibility?",
+      "content": "Item-level or pallet-level tracking with scan events at every handling point",
+      "modes": [
+        "LTL",
+        "Cargo Van / Box Truck"
+      ]
+    },
+    "how_it_works": {
+      "heading": "How Scan-Level Visibility Works",
+      "content": "Every handling event generates a scan record — pickup, cross-dock transfer, loading, delivery. Drivers capture barcode scans and photo POD at each stop. Data flows to a real-time dashboard accessible to shippers."
+    },
+    "warp_implementation": {
+      "heading": "How WARP Uses Scan-Level Visibility",
+      "points": [
+        "Barcode scanning at pickup, cross-dock, and delivery",
+        "Photo proof of delivery with timestamp and GPS coordinates",
+        "Real-time exception alerts for missed scans or delays",
+        "Shipper dashboard with live shipment status per SKU"
+      ]
+    },
+    "when_to_use": {
+      "heading": "When to Use Scan-Level Visibility",
+      "content": "Essential for retail replenishment (planogram compliance), vendor-managed inventory, and any program where per-item or per-pallet accountability is required."
+    },
+    "metrics": {
+      "heading": "Scan-Level Visibility Performance Metrics",
+      "items": [
+        {
+          "label": "Scan Compliance Rate",
+          "description": "scan compliance rate"
+        },
+        {
+          "label": "POD Capture Rate",
+          "description": "POD capture rate"
+        },
+        {
+          "label": "Exception Response Time",
+          "description": "exception response time"
+        },
+        {
+          "label": "Data Latency",
+          "description": "data latency"
+        }
+      ]
+    },
+    "related": {
+      "heading": "Related Solutions & Capabilities",
+      "solutions": [
+        {
+          "id": "store-replenishment",
+          "label": "Store Replenishment",
+          "path": "/solutions/store-replenishment",
+          "description": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets"
+        },
+        {
+          "id": "vendor-consolidation",
+          "label": "Vendor Consolidation",
+          "path": "/solutions/vendor-consolidation",
+          "description": "Multi-vendor pickup consolidation into single linehaul shipments"
+        }
+      ],
+      "equipment": [
+        {
+          "id": "cargo-van",
+          "label": "Cargo Van",
+          "path": "/equipment/cargo-van",
+          "description": "Enclosed cargo van for small-freight and last-mile delivery"
+        },
+        {
+          "id": "box-truck",
+          "label": "Box Truck",
+          "path": "/equipment/box-truck",
+          "description": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes"
+        }
+      ],
+      "concepts": [
+        {
+          "id": "cross-docking",
+          "label": "Cross-Docking",
+          "path": "/network/cross-docking",
+          "description": "Direct transfer of freight between inbound and outbound vehicles without warehousing"
+        },
+        {
+          "id": "flexible-routing",
+          "label": "Flexible Routing",
+          "path": "/network/flexible-routing",
+          "description": "Dynamic route optimization based on real-time freight density and delivery requirements"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Scan-Level Visibility FAQ",
+      "items": [
+        {
+          "q": "What is scan-level visibility in freight?",
+          "a": "Item-level or pallet-level tracking with scan events at every handling point"
+        },
+        {
+          "q": "How does scan-level visibility work?",
+          "a": "Every handling event generates a scan record — pickup, cross-dock transfer, loading, delivery. Drivers capture barcode scans and photo POD at each stop. Data flows to a real-time dashboard accessible to shippers."
+        },
+        {
+          "q": "When should a shipper use scan-level visibility?",
+          "a": "Essential for retail replenishment (planogram compliance), vendor-managed inventory, and any program where per-item or per-pallet accountability is required."
+        },
+        {
+          "q": "How does WARP implement scan-level visibility?",
+          "a": "Barcode scanning at pickup, cross-dock, and delivery. Photo proof of delivery with timestamp and GPS coordinates. Real-time exception alerts for missed scans or delays."
+        },
+        {
+          "q": "What metrics matter for scan-level visibility?",
+          "a": "Key performance metrics include scan compliance rate, POD capture rate, exception response time, data latency."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ship with Scan-Level Visibility",
+      "primary": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "_section_order": [
+      "hero",
+      "overview",
+      "how_it_works",
+      "warp_implementation",
+      "when_to_use",
+      "metrics",
+      "related",
+      "faq",
+      "cta"
+    ],
+    "internal_links": {
+      "solutions": [
+        {
+          "href": "/solutions/store-replenishment",
+          "text": "Store Replenishment",
+          "family": "solution"
+        },
+        {
+          "href": "/solutions/vendor-consolidation",
+          "text": "Vendor Consolidation",
+          "family": "solution"
+        }
+      ],
+      "equipment": [
+        {
+          "href": "/equipment/cargo-van",
+          "text": "Cargo Van",
+          "family": "equipment"
+        },
+        {
+          "href": "/equipment/box-truck",
+          "text": "Box Truck",
+          "family": "equipment"
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/network/cross-docking",
+          "text": "Cross-Docking",
+          "family": "concept"
+        },
+        {
+          "href": "/network/flexible-routing",
+          "text": "Flexible Routing",
+          "family": "concept"
+        }
+      ]
+    }
+  },
+  "rendered": {
+    "body_text": "Item-level or pallet-level tracking with scan events at every handling point\n\nEvery handling event generates a scan record — pickup, cross-dock transfer, loading, delivery. Drivers capture barcode scans and photo POD at each stop. Data flows to a real-time dashboard accessible to shippers.\n\nApplies to LTL, Cargo Van / Box Truck freight operations. Learn how WARP implements this at wearewarp.com/quote.",
+    "primary_content_html": "<h2>What Is Scan-Level Visibility?</h2>\n<p>Item-level or pallet-level tracking with scan events at every handling point</p>\n<p><strong>Applies to:</strong> LTL, Cargo Van / Box Truck</p>\n<h2>How Scan-Level Visibility Works</h2>\n<p>Every handling event generates a scan record — pickup, cross-dock transfer, loading, delivery. Drivers capture barcode scans and photo POD at each stop. Data flows to a real-time dashboard accessible to shippers.</p>\n<h2>How WARP Uses Scan-Level Visibility</h2>\n<ul>\n<li>Barcode scanning at pickup, cross-dock, and delivery</li>\n<li>Photo proof of delivery with timestamp and GPS coordinates</li>\n<li>Real-time exception alerts for missed scans or delays</li>\n<li>Shipper dashboard with live shipment status per SKU</li>\n</ul>\n<h2>When to Use Scan-Level Visibility</h2>\n<p>Essential for retail replenishment (planogram compliance), vendor-managed inventory, and any program where per-item or per-pallet accountability is required.</p>\n<h2>Scan-Level Visibility Performance Metrics</h2>\n<ul>\n<li><strong>Scan Compliance Rate</strong></li>\n<li><strong>POD Capture Rate</strong></li>\n<li><strong>Exception Response Time</strong></li>\n<li><strong>Data Latency</strong></li>\n</ul>\n<h2>Related Solutions &amp; Capabilities</h2>\n<h3>Solutions</h3><ul>\n<li><a href=\"/solutions/store-replenishment\">Store Replenishment</a> — Scheduled multi-stop retail freight delivery using LTL and right-sized assets</li>\n<li><a href=\"/solutions/vendor-consolidation\">Vendor Consolidation</a> — Multi-vendor pickup consolidation into single linehaul shipments</li>\n</ul>\n<h3>Equipment</h3><ul>\n<li><a href=\"/equipment/cargo-van\">Cargo Van</a> — Enclosed cargo van for small-freight and last-mile delivery</li>\n<li><a href=\"/equipment/box-truck\">Box Truck</a> — Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes</li>\n</ul>\n<h3>Related Concepts</h3><ul>\n<li><a href=\"/network/cross-docking\">Cross-Docking</a> — Direct transfer of freight between inbound and outbound vehicles without warehousing</li>\n<li><a href=\"/network/flexible-routing\">Flexible Routing</a> — Dynamic route optimization based on real-time freight density and delivery requirements</li>\n</ul>\n<div class=\"authority-cta\">\n<h2>Ship with Scan-Level Visibility</h2>\n<a href=\"https://www.wearewarp.com/quote\" class=\"cta-primary\">Get Instant Quote</a>\n<a href=\"https://www.wearewarp.com/book\" class=\"cta-secondary\">Book a Fit Call</a>\n</div>",
+    "faq_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is scan-level visibility in freight?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Item-level or pallet-level tracking with scan events at every handling point\"}},{\"@type\":\"Question\",\"name\":\"How does scan-level visibility work?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Every handling event generates a scan record — pickup, cross-dock transfer, loading, delivery. Drivers capture barcode scans and photo POD at each stop. Data flows to a real-time dashboard accessible to shippers.\"}},{\"@type\":\"Question\",\"name\":\"When should a shipper use scan-level visibility?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Essential for retail replenishment (planogram compliance), vendor-managed inventory, and any program where per-item or per-pallet accountability is required.\"}},{\"@type\":\"Question\",\"name\":\"How does WARP implement scan-level visibility?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Barcode scanning at pickup, cross-dock, and delivery. Photo proof of delivery with timestamp and GPS coordinates. Real-time exception alerts for missed scans or delays.\"}},{\"@type\":\"Question\",\"name\":\"What metrics matter for scan-level visibility?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Key performance metrics include scan compliance rate, POD capture rate, exception response time, data latency.\"}}]}</script>",
+    "breadcrumb_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.wearewarp.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Network\",\"item\":\"https://www.wearewarp.com/network\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Scan-Level Visibility in Freight Logistics\",\"item\":\"https://www.wearewarp.com/network/scan-level-visibility\"}]}</script>",
+    "service_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Scan-Level Visibility in Freight Logistics\",\"description\":\"Item-level or pallet-level tracking with scan events at every handling point. Get an instant quote from WARP.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"WARP\",\"url\":\"https://www.wearewarp.com\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"serviceType\":\"Freight Logistics\"}</script>"
+  },
+  "quality": {
+    "publishable": true,
+    "grade": "A",
+    "score": 97,
+    "gates": {
+      "AQ-STRUCT-01": true,
+      "AQ-STRUCT-02": true,
+      "AQ-STRUCT-03": true,
+      "AQ-CONTENT-01": true,
+      "AQ-CONTENT-02": true,
+      "AQ-CONTENT-03": true,
+      "AQ-CONTENT-04": true,
+      "AQ-SCHEMA-01": true,
+      "AQ-SCHEMA-02": true,
+      "AQ-LINK-01": true,
+      "AQ-QUALITY-01": true
+    },
+    "gates_passed": 11,
+    "gate_count": 11,
+    "dimensions": {
+      "seo": 90,
+      "content": 100,
+      "authority": 95,
+      "linking": 100,
+      "structure": 100
+    },
+    "errors": [],
+    "warnings": [],
+    "page_type": "concept",
+    "entity_id": "scan-level-visibility"
+  },
+  "links": [
+    {
+      "href": "/solutions/store-replenishment",
+      "text": "Store Replenishment",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 75
+    },
+    {
+      "href": "/network/flexible-routing",
+      "text": "Flexible Routing",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/solutions/vendor-consolidation",
+      "text": "Vendor Consolidation",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 72
+    },
+    {
+      "href": "/network/cross-docking",
+      "text": "Cross-Docking",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 71
+    },
+    {
+      "href": "/equipment/cargo-van",
+      "text": "Cargo Van",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 71
+    },
+    {
+      "href": "/equipment/box-truck",
+      "text": "Box Truck",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 70
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "_generated_at": "2026-03-10T11:45:50.203Z",
+  "_generator": "generate_authority_pages.js",
+  "entity": {
+    "id": "store-replenishment",
+    "family": "solution",
+    "label": "Store Replenishment"
+  },
+  "page_data": {
+    "page_type": "solution",
+    "entity_id": "store-replenishment",
+    "slug": "store-replenishment",
+    "canonical_path": "/solutions/store-replenishment",
+    "page_title": "Store Replenishment Freight Solutions | WARP",
+    "meta_description": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets. Get an instant quote from WARP.",
+    "modes": [
+      "LTL",
+      "Cargo Van / Box Truck"
+    ],
+    "segments": [
+      "smb",
+      "mid-market",
+      "enterprise"
+    ],
+    "hero": {
+      "headline": "Store Replenishment Freight Solutions",
+      "subhead": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets",
+      "primary_cta": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary_cta": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "overview": {
+      "heading": "What Is Store Replenishment?",
+      "content": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets",
+      "modes": [
+        "LTL",
+        "Cargo Van / Box Truck"
+      ]
+    },
+    "how_it_works": {
+      "heading": "How Store Replenishment Works",
+      "steps": [
+        "DC-to-store replenishment on fixed schedules",
+        "Multi-stop retail delivery routes",
+        "Regional store network coverage"
+      ]
+    },
+    "warp_approach": {
+      "heading": "How WARP Runs Store Replenishment",
+      "differentiators": [
+        "Multi-stop route optimization across retail locations",
+        "Right-sized assets matched to pallet counts per stop",
+        "Appointment scheduling with live ETA visibility",
+        "Scan-level proof of delivery at each location"
+      ]
+    },
+    "use_cases": {
+      "heading": "Store Replenishment Use Cases",
+      "cases": [
+        "DC-to-store replenishment on fixed schedules",
+        "Multi-stop retail delivery routes",
+        "Regional store network coverage"
+      ]
+    },
+    "equipment_fit": {
+      "heading": "Equipment for This Solution",
+      "equipment": [
+        {
+          "id": "cargo-van",
+          "label": "Cargo Van",
+          "path": "/equipment/cargo-van",
+          "description": "Enclosed cargo van for small-freight and last-mile delivery",
+          "specs": {
+            "capacity_pallets": "1-2",
+            "capacity_lbs": "2,500-3,500",
+            "interior_length_ft": "10-12",
+            "interior_height_ft": "5-6",
+            "door_type": "rear swing or roll-up"
+          }
+        },
+        {
+          "id": "box-truck",
+          "label": "Box Truck",
+          "path": "/equipment/box-truck",
+          "description": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes",
+          "specs": {
+            "capacity_pallets": "4-12",
+            "capacity_lbs": "8,000-16,000",
+            "interior_length_ft": "16-26",
+            "interior_height_ft": "7-8",
+            "door_type": "roll-up with optional liftgate"
+          }
+        }
+      ]
+    },
+    "related_concepts": {
+      "heading": "Related Network Capabilities",
+      "concepts": [
+        {
+          "id": "cross-docking",
+          "label": "Cross-Docking",
+          "path": "/network/cross-docking",
+          "description": "Direct transfer of freight between inbound and outbound vehicles without warehousing"
+        },
+        {
+          "id": "scan-level-visibility",
+          "label": "Scan-Level Visibility",
+          "path": "/network/scan-level-visibility",
+          "description": "Item-level or pallet-level tracking with scan events at every handling point"
+        },
+        {
+          "id": "right-sized-assets",
+          "label": "Right-Sized Assets",
+          "path": "/network/right-sized-assets",
+          "description": "Matching vehicle type and capacity to actual shipment size for cost efficiency"
+        },
+        {
+          "id": "flexible-routing",
+          "label": "Flexible Routing",
+          "path": "/network/flexible-routing",
+          "description": "Dynamic route optimization based on real-time freight density and delivery requirements"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Store Replenishment FAQ",
+      "items": [
+        {
+          "q": "What is store replenishment in freight logistics?",
+          "a": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets"
+        },
+        {
+          "q": "What shipping modes does WARP use for store replenishment?",
+          "a": "WARP operates store replenishment programs using LTL and Cargo Van / Box Truck modes, matching the right vehicle and routing to each shipper's volume and delivery requirements."
+        },
+        {
+          "q": "How does WARP handle store replenishment differently?",
+          "a": "Multi-stop route optimization across retail locations. Right-sized assets matched to pallet counts per stop. Appointment scheduling with live ETA visibility."
+        },
+        {
+          "q": "When should I use store replenishment?",
+          "a": "DC-to-store replenishment on fixed schedules. Multi-stop retail delivery routes. Regional store network coverage."
+        },
+        {
+          "q": "What equipment does WARP use for store replenishment?",
+          "a": "WARP deploys cargo van, box truck for store replenishment programs, matching vehicle size to load requirements at each stop."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ship Smarter with Store Replenishment",
+      "primary": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "_section_order": [
+      "hero",
+      "overview",
+      "how_it_works",
+      "warp_approach",
+      "use_cases",
+      "equipment_fit",
+      "related_concepts",
+      "faq",
+      "cta"
+    ],
+    "internal_links": {
+      "concepts": [
+        {
+          "href": "/network/cross-docking",
+          "text": "Cross-Docking",
+          "family": "concept"
+        },
+        {
+          "href": "/network/scan-level-visibility",
+          "text": "Scan-Level Visibility",
+          "family": "concept"
+        },
+        {
+          "href": "/network/right-sized-assets",
+          "text": "Right-Sized Assets",
+          "family": "concept"
+        },
+        {
+          "href": "/network/flexible-routing",
+          "text": "Flexible Routing",
+          "family": "concept"
+        }
+      ],
+      "equipment": [
+        {
+          "href": "/equipment/cargo-van",
+          "text": "Cargo Van",
+          "family": "equipment"
+        },
+        {
+          "href": "/equipment/box-truck",
+          "text": "Box Truck",
+          "family": "equipment"
+        }
+      ]
+    }
+  },
+  "rendered": {
+    "body_text": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets\n\nWARP runs store replenishment programs with multi-stop route optimization across retail locations, and right-sized assets matched to pallet counts per stop.\n\nAvailable across LTL and Cargo Van / Box Truck shipping modes. Get an instant rate at wearewarp.com/quote.",
+    "primary_content_html": "<h2>What Is Store Replenishment?</h2>\n<p>Scheduled multi-stop retail freight delivery using LTL and right-sized assets</p>\n<p><strong>Shipping modes:</strong> LTL, Cargo Van / Box Truck</p>\n<h2>How Store Replenishment Works</h2>\n<ul>\n<li>DC-to-store replenishment on fixed schedules</li>\n<li>Multi-stop retail delivery routes</li>\n<li>Regional store network coverage</li>\n</ul>\n<h2>How WARP Runs Store Replenishment</h2>\n<ul>\n<li>Multi-stop route optimization across retail locations</li>\n<li>Right-sized assets matched to pallet counts per stop</li>\n<li>Appointment scheduling with live ETA visibility</li>\n<li>Scan-level proof of delivery at each location</li>\n</ul>\n<h2>Store Replenishment Use Cases</h2>\n<ul>\n<li>DC-to-store replenishment on fixed schedules</li>\n<li>Multi-stop retail delivery routes</li>\n<li>Regional store network coverage</li>\n</ul>\n<h2>Equipment for This Solution</h2>\n<h3><a href=\"/equipment/cargo-van\">Cargo Van</a></h3>\n<p>Enclosed cargo van for small-freight and last-mile delivery</p>\n<p>Capacity: 1-2 pallets, 2,500-3,500 lbs</p>\n<h3><a href=\"/equipment/box-truck\">Box Truck</a></h3>\n<p>Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes</p>\n<p>Capacity: 4-12 pallets, 8,000-16,000 lbs</p>\n<h2>Related Network Capabilities</h2>\n<ul>\n<li><a href=\"/network/cross-docking\">Cross-Docking</a> — Direct transfer of freight between inbound and outbound vehicles without warehousing</li>\n<li><a href=\"/network/scan-level-visibility\">Scan-Level Visibility</a> — Item-level or pallet-level tracking with scan events at every handling point</li>\n<li><a href=\"/network/right-sized-assets\">Right-Sized Assets</a> — Matching vehicle type and capacity to actual shipment size for cost efficiency</li>\n<li><a href=\"/network/flexible-routing\">Flexible Routing</a> — Dynamic route optimization based on real-time freight density and delivery requirements</li>\n</ul>\n<div class=\"authority-cta\">\n<h2>Ship Smarter with Store Replenishment</h2>\n<a href=\"https://www.wearewarp.com/quote\" class=\"cta-primary\">Get Instant Quote</a>\n<a href=\"https://www.wearewarp.com/book\" class=\"cta-secondary\">Book a Fit Call</a>\n</div>",
+    "faq_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is store replenishment in freight logistics?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Scheduled multi-stop retail freight delivery using LTL and right-sized assets\"}},{\"@type\":\"Question\",\"name\":\"What shipping modes does WARP use for store replenishment?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"WARP operates store replenishment programs using LTL and Cargo Van / Box Truck modes, matching the right vehicle and routing to each shipper's volume and delivery requirements.\"}},{\"@type\":\"Question\",\"name\":\"How does WARP handle store replenishment differently?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Multi-stop route optimization across retail locations. Right-sized assets matched to pallet counts per stop. Appointment scheduling with live ETA visibility.\"}},{\"@type\":\"Question\",\"name\":\"When should I use store replenishment?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"DC-to-store replenishment on fixed schedules. Multi-stop retail delivery routes. Regional store network coverage.\"}},{\"@type\":\"Question\",\"name\":\"What equipment does WARP use for store replenishment?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"WARP deploys cargo van, box truck for store replenishment programs, matching vehicle size to load requirements at each stop.\"}}]}</script>",
+    "breadcrumb_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.wearewarp.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Solutions\",\"item\":\"https://www.wearewarp.com/solutions\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Store Replenishment Freight Solutions\",\"item\":\"https://www.wearewarp.com/solutions/store-replenishment\"}]}</script>",
+    "service_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Store Replenishment Freight Solutions\",\"description\":\"Scheduled multi-stop retail freight delivery using LTL and right-sized assets. Get an instant quote from WARP.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"WARP\",\"url\":\"https://www.wearewarp.com\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"serviceType\":\"Freight Logistics\"}</script>"
+  },
+  "quality": {
+    "publishable": true,
+    "grade": "A",
+    "score": 96,
+    "gates": {
+      "AQ-STRUCT-01": true,
+      "AQ-STRUCT-02": true,
+      "AQ-STRUCT-03": true,
+      "AQ-CONTENT-01": true,
+      "AQ-CONTENT-02": true,
+      "AQ-CONTENT-03": true,
+      "AQ-CONTENT-04": true,
+      "AQ-SCHEMA-01": true,
+      "AQ-SCHEMA-02": true,
+      "AQ-LINK-01": true,
+      "AQ-QUALITY-01": true
+    },
+    "gates_passed": 11,
+    "gate_count": 11,
+    "dimensions": {
+      "seo": 90,
+      "content": 95,
+      "authority": 100,
+      "linking": 100,
+      "structure": 100
+    },
+    "errors": [],
+    "warnings": [],
+    "page_type": "solution",
+    "entity_id": "store-replenishment"
+  },
+  "links": [
+    {
+      "href": "/network/cross-docking",
+      "text": "Cross-Docking",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 79
+    },
+    {
+      "href": "/network/scan-level-visibility",
+      "text": "Scan-Level Visibility",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 78
+    },
+    {
+      "href": "/network/flexible-routing",
+      "text": "Flexible Routing",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 78
+    },
+    {
+      "href": "/network/right-sized-assets",
+      "text": "Right-Sized Assets",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 75
+    },
+    {
+      "href": "/equipment/box-truck",
+      "text": "Box Truck",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/equipment/cargo-van",
+      "text": "Cargo Van",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 70
+    }
+  ]
+}

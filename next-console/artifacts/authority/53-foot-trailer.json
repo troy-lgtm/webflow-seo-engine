@@ -1,0 +1,295 @@
+{
+  "_generated_at": "2026-03-10T11:45:50.210Z",
+  "_generator": "generate_authority_pages.js",
+  "entity": {
+    "id": "53-foot-trailer",
+    "family": "equipment",
+    "label": "53-Foot Trailer"
+  },
+  "page_data": {
+    "page_type": "equipment",
+    "entity_id": "53-foot-trailer",
+    "slug": "53-foot-trailer",
+    "canonical_path": "/equipment/53-foot-trailer",
+    "page_title": "53-Foot Trailer Freight Shipping | WARP",
+    "meta_description": "Standard full-size dry van trailer for high-volume linehaul and FTL freight. Get an instant quote from WARP.",
+    "mode": "FTL",
+    "hero": {
+      "headline": "53-Foot Trailer Freight Shipping",
+      "subhead": "Standard full-size dry van trailer for high-volume linehaul and FTL freight",
+      "primary_cta": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary_cta": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "overview": {
+      "heading": "53-Foot Trailer Overview",
+      "content": "Standard full-size dry van trailer for high-volume linehaul and FTL freight",
+      "mode": "FTL"
+    },
+    "specs": {
+      "heading": "53-Foot Trailer Specifications",
+      "data": {
+        "capacity_pallets": "26-30",
+        "capacity_lbs": "42,000-45,000",
+        "interior_length_ft": "53",
+        "interior_height_ft": "9",
+        "door_type": "swing doors, dock-height"
+      }
+    },
+    "best_fit": {
+      "heading": "Best Fit Freight for 53-Foot Trailer",
+      "items": [
+        "Full truckload shipments (12+ pallets)",
+        "Long-haul linehaul between distribution centers",
+        "Pool distribution linehaul legs",
+        "High-volume committed lane freight"
+      ]
+    },
+    "not_ideal": {
+      "heading": "When to Choose a Different Vehicle",
+      "items": [
+        "Small loads under 6 pallets (overpaying for space)",
+        "Locations without dock-height receiving",
+        "Last-mile residential delivery",
+        "Urban areas with vehicle length restrictions"
+      ]
+    },
+    "related_solutions": {
+      "heading": "Solutions Using This Equipment",
+      "solutions": [
+        {
+          "id": "pool-distribution",
+          "label": "Pool Distribution",
+          "path": "/solutions/pool-distribution",
+          "description": "Consolidated freight pooling from distribution centers to regional delivery zones"
+        },
+        {
+          "id": "vendor-consolidation",
+          "label": "Vendor Consolidation",
+          "path": "/solutions/vendor-consolidation",
+          "description": "Multi-vendor pickup consolidation into single linehaul shipments"
+        },
+        {
+          "id": "zone-skipping",
+          "label": "Zone Skipping",
+          "path": "/solutions/zone-skipping",
+          "description": "Bypass carrier sort hubs by injecting freight closer to final delivery zones"
+        }
+      ]
+    },
+    "related_concepts": {
+      "heading": "Related Network Capabilities",
+      "concepts": [
+        {
+          "id": "middle-mile",
+          "label": "Middle Mile",
+          "path": "/network/middle-mile",
+          "description": "The linehaul segment between origin hub and destination hub before final delivery"
+        },
+        {
+          "id": "cross-docking",
+          "label": "Cross-Docking",
+          "path": "/network/cross-docking",
+          "description": "Direct transfer of freight between inbound and outbound vehicles without warehousing"
+        },
+        {
+          "id": "predictable-pricing",
+          "label": "Predictable Pricing",
+          "path": "/network/predictable-pricing",
+          "description": "Consistent rate structures based on lane commitment and volume patterns"
+        },
+        {
+          "id": "right-sized-assets",
+          "label": "Right-Sized Assets",
+          "path": "/network/right-sized-assets",
+          "description": "Matching vehicle type and capacity to actual shipment size for cost efficiency"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "53-Foot Trailer FAQ",
+      "items": [
+        {
+          "q": "What freight fits in a 53-foot trailer?",
+          "a": "Full truckload shipments (12+ pallets). Long-haul linehaul between distribution centers."
+        },
+        {
+          "q": "How many pallets can a 53-foot trailer carry?",
+          "a": "A 53-foot trailer typically handles 26-30 pallets with a max weight capacity of 42,000-45,000 lbs."
+        },
+        {
+          "q": "When should I NOT use a 53-foot trailer?",
+          "a": "Small loads under 6 pallets (overpaying for space). Locations without dock-height receiving."
+        },
+        {
+          "q": "Does WARP offer 53-foot trailer shipping?",
+          "a": "Yes. WARP operates a fleet that includes 53-foot trailer capacity, matched to shipment size through our right-sized asset approach."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ship with 53-Foot Trailer Today",
+      "primary": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "_section_order": [
+      "hero",
+      "overview",
+      "specs",
+      "best_fit",
+      "not_ideal",
+      "related_solutions",
+      "related_concepts",
+      "faq",
+      "cta"
+    ],
+    "internal_links": {
+      "solutions": [
+        {
+          "href": "/solutions/pool-distribution",
+          "text": "Pool Distribution",
+          "family": "solution"
+        },
+        {
+          "href": "/solutions/vendor-consolidation",
+          "text": "Vendor Consolidation",
+          "family": "solution"
+        },
+        {
+          "href": "/solutions/zone-skipping",
+          "text": "Zone Skipping",
+          "family": "solution"
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/network/middle-mile",
+          "text": "Middle Mile",
+          "family": "concept"
+        },
+        {
+          "href": "/network/cross-docking",
+          "text": "Cross-Docking",
+          "family": "concept"
+        },
+        {
+          "href": "/network/predictable-pricing",
+          "text": "Predictable Pricing",
+          "family": "concept"
+        },
+        {
+          "href": "/network/right-sized-assets",
+          "text": "Right-Sized Assets",
+          "family": "concept"
+        }
+      ]
+    }
+  },
+  "rendered": {
+    "body_text": "Standard full-size dry van trailer for high-volume linehaul and FTL freight\n\nA 53-foot trailer handles 26-30 pallets with a capacity of 42,000-45,000 lbs. Interior dimensions: 53 ft length, 9 ft height.\n\nBest fit for: Full truckload shipments (12+ pallets); Long-haul linehaul between distribution centers.\n\nGet an instant 53-foot trailer freight rate at wearewarp.com/quote.",
+    "primary_content_html": "<h2>53-Foot Trailer Overview</h2>\n<p>Standard full-size dry van trailer for high-volume linehaul and FTL freight</p>\n<p><strong>Mode:</strong> FTL</p>\n<h2>53-Foot Trailer Specifications</h2>\n<table><thead><tr><th>Specification</th><th>Value</th></tr></thead><tbody>\n<tr><td>Capacity Pallets</td><td>26-30</td></tr>\n<tr><td>Capacity Lbs</td><td>42,000-45,000</td></tr>\n<tr><td>Interior Length Ft</td><td>53</td></tr>\n<tr><td>Interior Height Ft</td><td>9</td></tr>\n<tr><td>Door Type</td><td>swing doors, dock-height</td></tr>\n</tbody></table>\n<h2>Best Fit Freight for 53-Foot Trailer</h2>\n<ul>\n<li>Full truckload shipments (12+ pallets)</li>\n<li>Long-haul linehaul between distribution centers</li>\n<li>Pool distribution linehaul legs</li>\n<li>High-volume committed lane freight</li>\n</ul>\n<h2>When to Choose a Different Vehicle</h2>\n<ul>\n<li>Small loads under 6 pallets (overpaying for space)</li>\n<li>Locations without dock-height receiving</li>\n<li>Last-mile residential delivery</li>\n<li>Urban areas with vehicle length restrictions</li>\n</ul>\n<h2>Solutions Using This Equipment</h2>\n<ul>\n<li><a href=\"/solutions/pool-distribution\">Pool Distribution</a> — Consolidated freight pooling from distribution centers to regional delivery zones</li>\n<li><a href=\"/solutions/vendor-consolidation\">Vendor Consolidation</a> — Multi-vendor pickup consolidation into single linehaul shipments</li>\n<li><a href=\"/solutions/zone-skipping\">Zone Skipping</a> — Bypass carrier sort hubs by injecting freight closer to final delivery zones</li>\n</ul>\n<h2>Related Network Capabilities</h2>\n<ul>\n<li><a href=\"/network/middle-mile\">Middle Mile</a> — The linehaul segment between origin hub and destination hub before final delivery</li>\n<li><a href=\"/network/cross-docking\">Cross-Docking</a> — Direct transfer of freight between inbound and outbound vehicles without warehousing</li>\n<li><a href=\"/network/predictable-pricing\">Predictable Pricing</a> — Consistent rate structures based on lane commitment and volume patterns</li>\n<li><a href=\"/network/right-sized-assets\">Right-Sized Assets</a> — Matching vehicle type and capacity to actual shipment size for cost efficiency</li>\n</ul>\n<div class=\"authority-cta\">\n<h2>Ship with 53-Foot Trailer Today</h2>\n<a href=\"https://www.wearewarp.com/quote\" class=\"cta-primary\">Get Instant Quote</a>\n<a href=\"https://www.wearewarp.com/book\" class=\"cta-secondary\">Book a Fit Call</a>\n</div>",
+    "faq_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What freight fits in a 53-foot trailer?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Full truckload shipments (12+ pallets). Long-haul linehaul between distribution centers.\"}},{\"@type\":\"Question\",\"name\":\"How many pallets can a 53-foot trailer carry?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A 53-foot trailer typically handles 26-30 pallets with a max weight capacity of 42,000-45,000 lbs.\"}},{\"@type\":\"Question\",\"name\":\"When should I NOT use a 53-foot trailer?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Small loads under 6 pallets (overpaying for space). Locations without dock-height receiving.\"}},{\"@type\":\"Question\",\"name\":\"Does WARP offer 53-foot trailer shipping?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. WARP operates a fleet that includes 53-foot trailer capacity, matched to shipment size through our right-sized asset approach.\"}}]}</script>",
+    "breadcrumb_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.wearewarp.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Equipment\",\"item\":\"https://www.wearewarp.com/equipment\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"53-Foot Trailer Freight Shipping\",\"item\":\"https://www.wearewarp.com/equipment/53-foot-trailer\"}]}</script>",
+    "service_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"53-Foot Trailer Freight Shipping\",\"description\":\"Standard full-size dry van trailer for high-volume linehaul and FTL freight. Get an instant quote from WARP.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"WARP\",\"url\":\"https://www.wearewarp.com\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"serviceType\":\"Freight Logistics\"}</script>"
+  },
+  "quality": {
+    "publishable": true,
+    "grade": "A",
+    "score": 94,
+    "gates": {
+      "AQ-STRUCT-01": true,
+      "AQ-STRUCT-02": true,
+      "AQ-STRUCT-03": true,
+      "AQ-CONTENT-01": true,
+      "AQ-CONTENT-02": true,
+      "AQ-CONTENT-03": true,
+      "AQ-CONTENT-04": true,
+      "AQ-SCHEMA-01": true,
+      "AQ-SCHEMA-02": true,
+      "AQ-LINK-01": true,
+      "AQ-QUALITY-01": true
+    },
+    "gates_passed": 11,
+    "gate_count": 11,
+    "dimensions": {
+      "seo": 90,
+      "content": 95,
+      "authority": 90,
+      "linking": 100,
+      "structure": 100
+    },
+    "errors": [],
+    "warnings": [],
+    "page_type": "equipment",
+    "entity_id": "53-foot-trailer"
+  },
+  "links": [
+    {
+      "href": "/network/middle-mile",
+      "text": "Middle Mile",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/solutions/vendor-consolidation",
+      "text": "Vendor Consolidation",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/solutions/pool-distribution",
+      "text": "Pool Distribution",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 72
+    },
+    {
+      "href": "/solutions/zone-skipping",
+      "text": "Zone Skipping",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 72
+    },
+    {
+      "href": "/network/cross-docking",
+      "text": "Cross-Docking",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 71
+    },
+    {
+      "href": "/network/predictable-pricing",
+      "text": "Predictable Pricing",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 71
+    },
+    {
+      "href": "/network/right-sized-assets",
+      "text": "Right-Sized Assets",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 68
+    },
+    {
+      "href": "/equipment/box-truck",
+      "text": "Box Truck",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 64
+    }
+  ]
+}

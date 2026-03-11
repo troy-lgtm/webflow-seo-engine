@@ -1,0 +1,291 @@
+{
+  "_generated_at": "2026-03-10T11:45:50.208Z",
+  "_generator": "generate_authority_pages.js",
+  "entity": {
+    "id": "middle-mile",
+    "family": "concept",
+    "label": "Middle Mile"
+  },
+  "page_data": {
+    "page_type": "concept",
+    "entity_id": "middle-mile",
+    "slug": "middle-mile",
+    "canonical_path": "/network/middle-mile",
+    "page_title": "Middle Mile in Freight Logistics | WARP",
+    "meta_description": "The linehaul segment between origin hub and destination hub before final delivery. Get an instant quote from WARP.",
+    "applies_to_modes": [
+      "LTL",
+      "FTL"
+    ],
+    "hero": {
+      "headline": "Middle Mile in Freight Logistics",
+      "subhead": "The linehaul segment between origin hub and destination hub before final delivery",
+      "primary_cta": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary_cta": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "overview": {
+      "heading": "What Is Middle Mile?",
+      "content": "The linehaul segment between origin hub and destination hub before final delivery",
+      "modes": [
+        "LTL",
+        "FTL"
+      ]
+    },
+    "how_it_works": {
+      "heading": "How Middle Mile Works",
+      "content": "Middle mile is the longest-distance segment of a freight movement, connecting origin region to destination region. WARP operates dedicated middle-mile capacity on high-volume corridors with consistent trailer availability."
+    },
+    "warp_implementation": {
+      "heading": "How WARP Uses Middle Mile",
+      "points": [
+        "Dedicated middle-mile capacity on high-volume corridors",
+        "Trailer pool management for consistent linehaul availability",
+        "Real-time middle-mile tracking with milestone updates",
+        "Optimized routing to reduce empty miles on return legs"
+      ]
+    },
+    "when_to_use": {
+      "heading": "When to Use Middle Mile",
+      "content": "Critical for multi-leg freight movements where origin and destination are in different regions. Particularly important for pool distribution and zone-skipping programs."
+    },
+    "metrics": {
+      "heading": "Middle Mile Performance Metrics",
+      "items": [
+        {
+          "label": "Linehaul Cost Per Mile",
+          "description": "linehaul cost per mile"
+        },
+        {
+          "label": "Empty Mile Ratio",
+          "description": "empty mile ratio"
+        },
+        {
+          "label": "Trailer Utilization",
+          "description": "trailer utilization"
+        },
+        {
+          "label": "On-Time Departure",
+          "description": "on-time departure"
+        }
+      ]
+    },
+    "related": {
+      "heading": "Related Solutions & Capabilities",
+      "solutions": [
+        {
+          "id": "pool-distribution",
+          "label": "Pool Distribution",
+          "path": "/solutions/pool-distribution",
+          "description": "Consolidated freight pooling from distribution centers to regional delivery zones"
+        },
+        {
+          "id": "zone-skipping",
+          "label": "Zone Skipping",
+          "path": "/solutions/zone-skipping",
+          "description": "Bypass carrier sort hubs by injecting freight closer to final delivery zones"
+        }
+      ],
+      "equipment": [
+        {
+          "id": "53-foot-trailer",
+          "label": "53-Foot Trailer",
+          "path": "/equipment/53-foot-trailer",
+          "description": "Standard full-size dry van trailer for high-volume linehaul and FTL freight"
+        }
+      ],
+      "concepts": [
+        {
+          "id": "cross-docking",
+          "label": "Cross-Docking",
+          "path": "/network/cross-docking",
+          "description": "Direct transfer of freight between inbound and outbound vehicles without warehousing"
+        },
+        {
+          "id": "predictable-pricing",
+          "label": "Predictable Pricing",
+          "path": "/network/predictable-pricing",
+          "description": "Consistent rate structures based on lane commitment and volume patterns"
+        },
+        {
+          "id": "flexible-routing",
+          "label": "Flexible Routing",
+          "path": "/network/flexible-routing",
+          "description": "Dynamic route optimization based on real-time freight density and delivery requirements"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Middle Mile FAQ",
+      "items": [
+        {
+          "q": "What is middle mile in freight?",
+          "a": "The linehaul segment between origin hub and destination hub before final delivery"
+        },
+        {
+          "q": "How does middle mile work?",
+          "a": "Middle mile is the longest-distance segment of a freight movement, connecting origin region to destination region. WARP operates dedicated middle-mile capacity on high-volume corridors with consistent trailer availability."
+        },
+        {
+          "q": "When should a shipper use middle mile?",
+          "a": "Critical for multi-leg freight movements where origin and destination are in different regions. Particularly important for pool distribution and zone-skipping programs."
+        },
+        {
+          "q": "How does WARP implement middle mile?",
+          "a": "Dedicated middle-mile capacity on high-volume corridors. Trailer pool management for consistent linehaul availability. Real-time middle-mile tracking with milestone updates."
+        },
+        {
+          "q": "What metrics matter for middle mile?",
+          "a": "Key performance metrics include linehaul cost per mile, empty mile ratio, trailer utilization, on-time departure."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ship with Middle Mile",
+      "primary": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "_section_order": [
+      "hero",
+      "overview",
+      "how_it_works",
+      "warp_implementation",
+      "when_to_use",
+      "metrics",
+      "related",
+      "faq",
+      "cta"
+    ],
+    "internal_links": {
+      "solutions": [
+        {
+          "href": "/solutions/pool-distribution",
+          "text": "Pool Distribution",
+          "family": "solution"
+        },
+        {
+          "href": "/solutions/zone-skipping",
+          "text": "Zone Skipping",
+          "family": "solution"
+        }
+      ],
+      "equipment": [
+        {
+          "href": "/equipment/53-foot-trailer",
+          "text": "53-Foot Trailer",
+          "family": "equipment"
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/network/cross-docking",
+          "text": "Cross-Docking",
+          "family": "concept"
+        },
+        {
+          "href": "/network/predictable-pricing",
+          "text": "Predictable Pricing",
+          "family": "concept"
+        },
+        {
+          "href": "/network/flexible-routing",
+          "text": "Flexible Routing",
+          "family": "concept"
+        }
+      ]
+    }
+  },
+  "rendered": {
+    "body_text": "The linehaul segment between origin hub and destination hub before final delivery\n\nMiddle mile is the longest-distance segment of a freight movement, connecting origin region to destination region. WARP operates dedicated middle-mile capacity on high-volume corridors with consistent trailer availability.\n\nApplies to LTL, FTL freight operations. Learn how WARP implements this at wearewarp.com/quote.",
+    "primary_content_html": "<h2>What Is Middle Mile?</h2>\n<p>The linehaul segment between origin hub and destination hub before final delivery</p>\n<p><strong>Applies to:</strong> LTL, FTL</p>\n<h2>How Middle Mile Works</h2>\n<p>Middle mile is the longest-distance segment of a freight movement, connecting origin region to destination region. WARP operates dedicated middle-mile capacity on high-volume corridors with consistent trailer availability.</p>\n<h2>How WARP Uses Middle Mile</h2>\n<ul>\n<li>Dedicated middle-mile capacity on high-volume corridors</li>\n<li>Trailer pool management for consistent linehaul availability</li>\n<li>Real-time middle-mile tracking with milestone updates</li>\n<li>Optimized routing to reduce empty miles on return legs</li>\n</ul>\n<h2>When to Use Middle Mile</h2>\n<p>Critical for multi-leg freight movements where origin and destination are in different regions. Particularly important for pool distribution and zone-skipping programs.</p>\n<h2>Middle Mile Performance Metrics</h2>\n<ul>\n<li><strong>Linehaul Cost Per Mile</strong></li>\n<li><strong>Empty Mile Ratio</strong></li>\n<li><strong>Trailer Utilization</strong></li>\n<li><strong>On-Time Departure</strong></li>\n</ul>\n<h2>Related Solutions &amp; Capabilities</h2>\n<h3>Solutions</h3><ul>\n<li><a href=\"/solutions/pool-distribution\">Pool Distribution</a> — Consolidated freight pooling from distribution centers to regional delivery zones</li>\n<li><a href=\"/solutions/zone-skipping\">Zone Skipping</a> — Bypass carrier sort hubs by injecting freight closer to final delivery zones</li>\n</ul>\n<h3>Equipment</h3><ul>\n<li><a href=\"/equipment/53-foot-trailer\">53-Foot Trailer</a> — Standard full-size dry van trailer for high-volume linehaul and FTL freight</li>\n</ul>\n<h3>Related Concepts</h3><ul>\n<li><a href=\"/network/cross-docking\">Cross-Docking</a> — Direct transfer of freight between inbound and outbound vehicles without warehousing</li>\n<li><a href=\"/network/predictable-pricing\">Predictable Pricing</a> — Consistent rate structures based on lane commitment and volume patterns</li>\n<li><a href=\"/network/flexible-routing\">Flexible Routing</a> — Dynamic route optimization based on real-time freight density and delivery requirements</li>\n</ul>\n<div class=\"authority-cta\">\n<h2>Ship with Middle Mile</h2>\n<a href=\"https://www.wearewarp.com/quote\" class=\"cta-primary\">Get Instant Quote</a>\n<a href=\"https://www.wearewarp.com/book\" class=\"cta-secondary\">Book a Fit Call</a>\n</div>",
+    "faq_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is middle mile in freight?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The linehaul segment between origin hub and destination hub before final delivery\"}},{\"@type\":\"Question\",\"name\":\"How does middle mile work?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Middle mile is the longest-distance segment of a freight movement, connecting origin region to destination region. WARP operates dedicated middle-mile capacity on high-volume corridors with consistent trailer availability.\"}},{\"@type\":\"Question\",\"name\":\"When should a shipper use middle mile?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Critical for multi-leg freight movements where origin and destination are in different regions. Particularly important for pool distribution and zone-skipping programs.\"}},{\"@type\":\"Question\",\"name\":\"How does WARP implement middle mile?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Dedicated middle-mile capacity on high-volume corridors. Trailer pool management for consistent linehaul availability. Real-time middle-mile tracking with milestone updates.\"}},{\"@type\":\"Question\",\"name\":\"What metrics matter for middle mile?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Key performance metrics include linehaul cost per mile, empty mile ratio, trailer utilization, on-time departure.\"}}]}</script>",
+    "breadcrumb_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.wearewarp.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Network\",\"item\":\"https://www.wearewarp.com/network\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Middle Mile in Freight Logistics\",\"item\":\"https://www.wearewarp.com/network/middle-mile\"}]}</script>",
+    "service_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Middle Mile in Freight Logistics\",\"description\":\"The linehaul segment between origin hub and destination hub before final delivery. Get an instant quote from WARP.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"WARP\",\"url\":\"https://www.wearewarp.com\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"serviceType\":\"Freight Logistics\"}</script>"
+  },
+  "quality": {
+    "publishable": true,
+    "grade": "A",
+    "score": 97,
+    "gates": {
+      "AQ-STRUCT-01": true,
+      "AQ-STRUCT-02": true,
+      "AQ-STRUCT-03": true,
+      "AQ-CONTENT-01": true,
+      "AQ-CONTENT-02": true,
+      "AQ-CONTENT-03": true,
+      "AQ-CONTENT-04": true,
+      "AQ-SCHEMA-01": true,
+      "AQ-SCHEMA-02": true,
+      "AQ-LINK-01": true,
+      "AQ-QUALITY-01": true
+    },
+    "gates_passed": 11,
+    "gate_count": 11,
+    "dimensions": {
+      "seo": 90,
+      "content": 100,
+      "authority": 95,
+      "linking": 100,
+      "structure": 100
+    },
+    "errors": [],
+    "warnings": [],
+    "page_type": "concept",
+    "entity_id": "middle-mile"
+  },
+  "links": [
+    {
+      "href": "/solutions/zone-skipping",
+      "text": "Zone Skipping",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 78
+    },
+    {
+      "href": "/solutions/pool-distribution",
+      "text": "Pool Distribution",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 77
+    },
+    {
+      "href": "/network/cross-docking",
+      "text": "Cross-Docking",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/network/predictable-pricing",
+      "text": "Predictable Pricing",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 70
+    },
+    {
+      "href": "/equipment/53-foot-trailer",
+      "text": "53-Foot Trailer",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 70
+    },
+    {
+      "href": "/network/flexible-routing",
+      "text": "Flexible Routing",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 69
+    }
+  ]
+}

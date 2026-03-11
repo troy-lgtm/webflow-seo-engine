@@ -696,7 +696,13 @@ function renderBestFitShipments(pageData) {
  * @param {object} pageData
  * @returns {string} HTML
  */
-function renderValidation(pageData) {
+/**
+ * Render the "Validate This Lane" proof/pilot section.
+ * Exported for use by the CMS-neutral publish contract.
+ * @param {object} pageData - Canonical page data
+ * @returns {string} Proof section HTML
+ */
+export function renderValidation(pageData) {
   const ls = pageData.lane_stats || {};
   const np = pageData.network_proof || {};
   const oCity = cityFrom(pageData.origin);
@@ -1606,12 +1612,12 @@ export function renderBreadcrumbSchemaEmbed(pageData) {
 // - Tests verify these fields remain populated (section-ownership.test.js).
 
 /** @param {string} [mode="LTL"] @returns {string} Traditional comparison text (mode-specific) */
-function buildTraditionalLtl(mode) {
+export function buildTraditionalLtl(mode) {
   return getComparisonPointsForMode(mode).map((p) => `${p.metric}: ${p.traditional}`).join("\n");
 }
 
 /** @param {string} [mode="LTL"] @returns {string} WARP comparison text (mode-specific) */
-function buildWarpLtl(mode) {
+export function buildWarpLtl(mode) {
   return getComparisonPointsForMode(mode).map((p) => `${p.metric}: ${p.warp}`).join("\n");
 }
 

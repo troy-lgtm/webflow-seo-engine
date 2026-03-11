@@ -1,0 +1,434 @@
+{
+  "_version": "1.0.0",
+  "_description": "Canonical entity registry for WARP authority page generation. Defines all entity families, their attributes, and knowledge graph relationships.",
+
+  "solutions": {
+    "store-replenishment": {
+      "id": "store-replenishment",
+      "family": "solution",
+      "label": "Store Replenishment",
+      "slug": "store-replenishment",
+      "canonical_path": "/solutions/store-replenishment",
+      "short_description": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets",
+      "modes": ["LTL", "Cargo Van / Box Truck"],
+      "segments": ["smb", "mid-market", "enterprise"],
+      "warp_differentiators": [
+        "Multi-stop route optimization across retail locations",
+        "Right-sized assets matched to pallet counts per stop",
+        "Appointment scheduling with live ETA visibility",
+        "Scan-level proof of delivery at each location"
+      ],
+      "operational_keywords": [
+        "replenishment cycle", "store delivery", "retail distribution",
+        "multi-stop routing", "pallet-level visibility", "appointment delivery",
+        "planogram compliance", "DC-to-store", "replenishment frequency"
+      ],
+      "related_concepts": ["cross-docking", "scan-level-visibility", "right-sized-assets", "flexible-routing"],
+      "related_equipment": ["cargo-van", "box-truck"],
+      "lane_archetype_affinity": ["short_haul_metro", "ecommerce_distribution", "sunbelt_regional"],
+      "primary_use_cases": [
+        "DC-to-store replenishment on fixed schedules",
+        "Multi-stop retail delivery routes",
+        "Regional store network coverage"
+      ]
+    },
+    "pool-distribution": {
+      "id": "pool-distribution",
+      "family": "solution",
+      "label": "Pool Distribution",
+      "slug": "pool-distribution",
+      "canonical_path": "/solutions/pool-distribution",
+      "short_description": "Consolidated freight pooling from distribution centers to regional delivery zones",
+      "modes": ["LTL", "FTL"],
+      "segments": ["mid-market", "enterprise"],
+      "warp_differentiators": [
+        "Consolidated linehaul with local deconsolidation",
+        "Cross-dock pooling reduces per-unit freight cost",
+        "Flexible delivery windows at final destination",
+        "Carrier pool visibility across consolidation points"
+      ],
+      "operational_keywords": [
+        "pool distribution", "freight consolidation", "deconsolidation",
+        "linehaul pooling", "regional delivery", "cross-dock transfer",
+        "pool point", "final mile distribution", "consolidated freight"
+      ],
+      "related_concepts": ["cross-docking", "middle-mile", "predictable-pricing"],
+      "related_equipment": ["53-foot-trailer", "box-truck"],
+      "lane_archetype_affinity": ["long_distance_intermodal", "midwest_corridor", "ecommerce_distribution"],
+      "primary_use_cases": [
+        "National distribution with regional deconsolidation",
+        "High-volume lanes with multi-destination final delivery",
+        "Cost optimization through freight consolidation"
+      ]
+    },
+    "vendor-consolidation": {
+      "id": "vendor-consolidation",
+      "family": "solution",
+      "label": "Vendor Consolidation",
+      "slug": "vendor-consolidation",
+      "canonical_path": "/solutions/vendor-consolidation",
+      "short_description": "Multi-vendor pickup consolidation into single linehaul shipments",
+      "modes": ["LTL", "FTL"],
+      "segments": ["mid-market", "enterprise"],
+      "warp_differentiators": [
+        "Multi-vendor pickup coordination on single route",
+        "Consolidation at origin reduces linehaul moves",
+        "Vendor compliance tracking with scan-level visibility",
+        "Predictable pickup windows across vendor locations"
+      ],
+      "operational_keywords": [
+        "vendor consolidation", "multi-vendor pickup", "inbound consolidation",
+        "vendor compliance", "pickup consolidation", "origin consolidation",
+        "vendor management", "consolidated inbound", "supplier freight"
+      ],
+      "related_concepts": ["cross-docking", "scan-level-visibility", "flexible-routing", "predictable-pricing"],
+      "related_equipment": ["box-truck", "53-foot-trailer"],
+      "lane_archetype_affinity": ["port_to_inland", "midwest_corridor", "ecommerce_distribution"],
+      "primary_use_cases": [
+        "Retailer inbound freight from multiple vendors",
+        "Manufacturing inbound from regional suppliers",
+        "Consolidated vendor pickups reducing receiving dock touches"
+      ]
+    },
+    "zone-skipping": {
+      "id": "zone-skipping",
+      "family": "solution",
+      "label": "Zone Skipping",
+      "slug": "zone-skipping",
+      "canonical_path": "/solutions/zone-skipping",
+      "short_description": "Bypass carrier sort hubs by injecting freight closer to final delivery zones",
+      "modes": ["LTL", "FTL"],
+      "segments": ["mid-market", "enterprise"],
+      "warp_differentiators": [
+        "Direct injection past carrier sort facilities",
+        "Reduced handling touches lower damage rates",
+        "Faster transit by eliminating intermediate terminals",
+        "Cost reduction through zone-based pricing optimization"
+      ],
+      "operational_keywords": [
+        "zone skipping", "freight injection", "sort bypass",
+        "terminal bypass", "zone optimization", "parcel zone skip",
+        "injection point", "regional sort", "last mile injection"
+      ],
+      "related_concepts": ["middle-mile", "cross-docking", "predictable-pricing"],
+      "related_equipment": ["53-foot-trailer", "box-truck"],
+      "lane_archetype_affinity": ["long_distance_intermodal", "ecommerce_distribution", "northeast_regional"],
+      "primary_use_cases": [
+        "E-commerce fulfillment with zone-based injection",
+        "High-volume parcel zone skip programs",
+        "Regional sort bypass for faster delivery"
+      ]
+    }
+  },
+
+  "concepts": {
+    "cross-docking": {
+      "id": "cross-docking",
+      "family": "concept",
+      "label": "Cross-Docking",
+      "slug": "cross-docking",
+      "canonical_path": "/network/cross-docking",
+      "short_description": "Direct transfer of freight between inbound and outbound vehicles without warehousing",
+      "applies_to_modes": ["LTL", "FTL", "Cargo Van / Box Truck"],
+      "warp_implementation": [
+        "Strategic cross-dock locations in high-density freight corridors",
+        "Inbound/outbound coordination for same-day transfer",
+        "Scan-level tracking through cross-dock facility",
+        "No warehousing costs — freight moves directly to outbound"
+      ],
+      "operational_keywords": [
+        "cross-dock", "cross-docking", "break-bulk", "transload",
+        "dock transfer", "flow-through", "hub-and-spoke",
+        "terminal transfer", "consolidation point"
+      ],
+      "related_solutions": ["store-replenishment", "pool-distribution", "vendor-consolidation", "zone-skipping"],
+      "related_concepts": ["middle-mile", "scan-level-visibility", "flexible-routing"],
+      "related_equipment": ["box-truck", "53-foot-trailer"],
+      "technical_depth": {
+        "how_it_works": "Freight arrives at a cross-dock facility and is sorted directly from inbound trailers to outbound vehicles without entering long-term storage. This eliminates warehousing costs and reduces transit time.",
+        "when_to_use": "Best for high-velocity freight that doesn't require storage, value-added services, or picking. Ideal for retail replenishment, pool distribution, and consolidation programs.",
+        "key_metrics": ["dock-to-dock time", "touch count", "damage rate", "throughput volume"]
+      }
+    },
+    "middle-mile": {
+      "id": "middle-mile",
+      "family": "concept",
+      "label": "Middle Mile",
+      "slug": "middle-mile",
+      "canonical_path": "/network/middle-mile",
+      "short_description": "The linehaul segment between origin hub and destination hub before final delivery",
+      "applies_to_modes": ["LTL", "FTL"],
+      "warp_implementation": [
+        "Dedicated middle-mile capacity on high-volume corridors",
+        "Trailer pool management for consistent linehaul availability",
+        "Real-time middle-mile tracking with milestone updates",
+        "Optimized routing to reduce empty miles on return legs"
+      ],
+      "operational_keywords": [
+        "middle mile", "linehaul", "trunk route", "stem haul",
+        "intercity freight", "corridor capacity", "hub-to-hub",
+        "linehaul optimization", "trailer pooling"
+      ],
+      "related_solutions": ["pool-distribution", "zone-skipping"],
+      "related_concepts": ["cross-docking", "predictable-pricing", "flexible-routing"],
+      "related_equipment": ["53-foot-trailer"],
+      "technical_depth": {
+        "how_it_works": "Middle mile is the longest-distance segment of a freight movement, connecting origin region to destination region. WARP operates dedicated middle-mile capacity on high-volume corridors with consistent trailer availability.",
+        "when_to_use": "Critical for multi-leg freight movements where origin and destination are in different regions. Particularly important for pool distribution and zone-skipping programs.",
+        "key_metrics": ["linehaul cost per mile", "empty mile ratio", "trailer utilization", "on-time departure"]
+      }
+    },
+    "scan-level-visibility": {
+      "id": "scan-level-visibility",
+      "family": "concept",
+      "label": "Scan-Level Visibility",
+      "slug": "scan-level-visibility",
+      "canonical_path": "/network/scan-level-visibility",
+      "short_description": "Item-level or pallet-level tracking with scan events at every handling point",
+      "applies_to_modes": ["LTL", "Cargo Van / Box Truck"],
+      "warp_implementation": [
+        "Barcode scanning at pickup, cross-dock, and delivery",
+        "Photo proof of delivery with timestamp and GPS coordinates",
+        "Real-time exception alerts for missed scans or delays",
+        "Shipper dashboard with live shipment status per SKU"
+      ],
+      "operational_keywords": [
+        "scan visibility", "item-level tracking", "pallet tracking",
+        "proof of delivery", "POD", "barcode scanning", "GPS tracking",
+        "shipment visibility", "real-time tracking", "exception management"
+      ],
+      "related_solutions": ["store-replenishment", "vendor-consolidation"],
+      "related_concepts": ["cross-docking", "flexible-routing"],
+      "related_equipment": ["cargo-van", "box-truck"],
+      "technical_depth": {
+        "how_it_works": "Every handling event generates a scan record — pickup, cross-dock transfer, loading, delivery. Drivers capture barcode scans and photo POD at each stop. Data flows to a real-time dashboard accessible to shippers.",
+        "when_to_use": "Essential for retail replenishment (planogram compliance), vendor-managed inventory, and any program where per-item or per-pallet accountability is required.",
+        "key_metrics": ["scan compliance rate", "POD capture rate", "exception response time", "data latency"]
+      }
+    },
+    "predictable-pricing": {
+      "id": "predictable-pricing",
+      "family": "concept",
+      "label": "Predictable Pricing",
+      "slug": "predictable-pricing",
+      "canonical_path": "/network/predictable-pricing",
+      "short_description": "Consistent rate structures based on lane commitment and volume patterns",
+      "applies_to_modes": ["LTL", "FTL", "Cargo Van / Box Truck"],
+      "warp_implementation": [
+        "Lane-based pricing tied to committed volume, not spot markets",
+        "Rate lock programs with quarterly or annual terms",
+        "Transparent accessorial schedules with no hidden fees",
+        "Volume-based tiering that rewards consistency"
+      ],
+      "operational_keywords": [
+        "predictable pricing", "rate stability", "committed rates",
+        "volume pricing", "rate lock", "contract rates", "transparent pricing",
+        "accessorial schedule", "cost predictability", "budget freight"
+      ],
+      "related_solutions": ["pool-distribution", "vendor-consolidation", "zone-skipping"],
+      "related_concepts": ["middle-mile"],
+      "related_equipment": ["cargo-van", "box-truck", "53-foot-trailer"],
+      "technical_depth": {
+        "how_it_works": "WARP prices freight based on lane commitment and volume consistency rather than daily spot market fluctuations. Shippers who commit volume on specific lanes receive rate stability with published accessorial schedules.",
+        "when_to_use": "Best for shippers with consistent lane patterns who need budget predictability. Particularly valuable for retail and CPG shippers with fixed distribution networks.",
+        "key_metrics": ["rate variance month-over-month", "accessorial ratio", "cost per unit shipped", "budget accuracy"]
+      }
+    },
+    "flexible-routing": {
+      "id": "flexible-routing",
+      "family": "concept",
+      "label": "Flexible Routing",
+      "slug": "flexible-routing",
+      "canonical_path": "/network/flexible-routing",
+      "short_description": "Dynamic route optimization based on real-time freight density and delivery requirements",
+      "applies_to_modes": ["LTL", "Cargo Van / Box Truck"],
+      "warp_implementation": [
+        "Dynamic route building based on daily freight density",
+        "Multi-stop optimization that adjusts to real-time volume",
+        "Same-day route changes without rebilling complexity",
+        "Pickup and delivery window flexibility within committed SLAs"
+      ],
+      "operational_keywords": [
+        "flexible routing", "dynamic routing", "route optimization",
+        "multi-stop routing", "delivery windows", "route density",
+        "route planning", "daily route building", "on-demand routing"
+      ],
+      "related_solutions": ["store-replenishment", "vendor-consolidation"],
+      "related_concepts": ["cross-docking", "middle-mile", "scan-level-visibility", "right-sized-assets"],
+      "related_equipment": ["cargo-van", "box-truck"],
+      "technical_depth": {
+        "how_it_works": "WARP builds routes daily based on available freight density, delivery windows, and vehicle capacity. Routes are optimized in real-time as pickups confirm and volumes fluctuate throughout the day.",
+        "when_to_use": "Best for multi-stop delivery programs where stop counts and volumes vary daily. Particularly effective for store replenishment and vendor consolidation where flexibility reduces empty miles.",
+        "key_metrics": ["stops per route", "miles per stop", "route density", "on-time delivery rate"]
+      }
+    },
+    "right-sized-assets": {
+      "id": "right-sized-assets",
+      "family": "concept",
+      "label": "Right-Sized Assets",
+      "slug": "right-sized-assets",
+      "canonical_path": "/network/right-sized-assets",
+      "short_description": "Matching vehicle type and capacity to actual shipment size for cost efficiency",
+      "applies_to_modes": ["LTL", "Cargo Van / Box Truck"],
+      "warp_implementation": [
+        "Vehicle selection from cargo van to 53-foot trailer based on cube and weight",
+        "No paying for unused trailer space on partial loads",
+        "Mixed fleet deployment across route stops",
+        "Automatic vehicle upgrade/downgrade based on volume changes"
+      ],
+      "operational_keywords": [
+        "right-sized", "vehicle matching", "fleet optimization",
+        "capacity matching", "mixed fleet", "vehicle selection",
+        "load optimization", "cube utilization", "right-size vehicle"
+      ],
+      "related_solutions": ["store-replenishment"],
+      "related_concepts": ["flexible-routing"],
+      "related_equipment": ["cargo-van", "box-truck", "53-foot-trailer"],
+      "technical_depth": {
+        "how_it_works": "WARP's fleet spans cargo vans through 53-foot trailers. Each shipment is matched to the smallest vehicle that fits the load, so shippers don't pay for empty trailer space. Multi-stop routes may use different vehicle types across stops.",
+        "when_to_use": "Critical for shippers with variable load sizes, especially retail replenishment where pallet counts differ per store. Also valuable for shippers currently overpaying for full trailers on partial loads.",
+        "key_metrics": ["cube utilization", "cost per pallet", "vehicle match accuracy", "deadhead reduction"]
+      }
+    }
+  },
+
+  "equipment": {
+    "cargo-van": {
+      "id": "cargo-van",
+      "family": "equipment",
+      "label": "Cargo Van",
+      "slug": "cargo-van",
+      "canonical_path": "/equipment/cargo-van",
+      "short_description": "Enclosed cargo van for small-freight and last-mile delivery",
+      "specs": {
+        "capacity_pallets": "1-2",
+        "capacity_lbs": "2,500-3,500",
+        "interior_length_ft": "10-12",
+        "interior_height_ft": "5-6",
+        "door_type": "rear swing or roll-up"
+      },
+      "best_fit_freight": [
+        "Small parcel deliveries under 2 pallets",
+        "Last-mile residential or commercial delivery",
+        "Expedited local freight within metro areas",
+        "High-value, low-weight shipments requiring direct handling"
+      ],
+      "not_ideal_for": [
+        "Freight exceeding 3,500 lbs",
+        "Standard pallet loads requiring dock-height access",
+        "Temperature-controlled shipments",
+        "Loads requiring liftgate (no liftgate option)"
+      ],
+      "operational_keywords": [
+        "cargo van", "sprinter van", "delivery van", "small freight",
+        "last mile", "local delivery", "expedited delivery",
+        "direct delivery", "van freight"
+      ],
+      "related_solutions": ["store-replenishment"],
+      "related_concepts": ["right-sized-assets", "flexible-routing", "scan-level-visibility"],
+      "related_equipment": ["box-truck"],
+      "mode": "Cargo Van / Box Truck"
+    },
+    "box-truck": {
+      "id": "box-truck",
+      "family": "equipment",
+      "label": "Box Truck",
+      "slug": "box-truck",
+      "canonical_path": "/equipment/box-truck",
+      "short_description": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes",
+      "specs": {
+        "capacity_pallets": "4-12",
+        "capacity_lbs": "8,000-16,000",
+        "interior_length_ft": "16-26",
+        "interior_height_ft": "7-8",
+        "door_type": "roll-up with optional liftgate"
+      },
+      "best_fit_freight": [
+        "Multi-stop retail delivery routes (4-12 pallets per stop)",
+        "Store replenishment at locations without dock access",
+        "Regional distribution within 300-mile radius",
+        "Freight requiring liftgate for ground-level delivery"
+      ],
+      "not_ideal_for": [
+        "Full truckload volumes exceeding 12 pallets",
+        "Long-haul linehaul over 500 miles",
+        "Oversized or flatbed-required freight",
+        "Bulk commodities requiring maximum cubic capacity"
+      ],
+      "operational_keywords": [
+        "box truck", "straight truck", "medium duty", "liftgate",
+        "multi-stop", "regional delivery", "ground level delivery",
+        "26 foot truck", "dock-height", "store delivery"
+      ],
+      "related_solutions": ["store-replenishment", "pool-distribution", "vendor-consolidation", "zone-skipping"],
+      "related_concepts": ["right-sized-assets", "flexible-routing", "cross-docking", "scan-level-visibility"],
+      "related_equipment": ["cargo-van", "53-foot-trailer"],
+      "mode": "Cargo Van / Box Truck"
+    },
+    "53-foot-trailer": {
+      "id": "53-foot-trailer",
+      "family": "equipment",
+      "label": "53-Foot Trailer",
+      "slug": "53-foot-trailer",
+      "canonical_path": "/equipment/53-foot-trailer",
+      "short_description": "Standard full-size dry van trailer for high-volume linehaul and FTL freight",
+      "specs": {
+        "capacity_pallets": "26-30",
+        "capacity_lbs": "42,000-45,000",
+        "interior_length_ft": "53",
+        "interior_height_ft": "9",
+        "door_type": "swing doors, dock-height"
+      },
+      "best_fit_freight": [
+        "Full truckload shipments (12+ pallets)",
+        "Long-haul linehaul between distribution centers",
+        "Pool distribution linehaul legs",
+        "High-volume committed lane freight"
+      ],
+      "not_ideal_for": [
+        "Small loads under 6 pallets (overpaying for space)",
+        "Locations without dock-height receiving",
+        "Last-mile residential delivery",
+        "Urban areas with vehicle length restrictions"
+      ],
+      "operational_keywords": [
+        "53 foot trailer", "dry van", "full truckload", "FTL",
+        "linehaul", "trailer load", "dock-height", "truckload",
+        "full van", "standard trailer"
+      ],
+      "related_solutions": ["pool-distribution", "vendor-consolidation", "zone-skipping"],
+      "related_concepts": ["middle-mile", "cross-docking", "predictable-pricing", "right-sized-assets"],
+      "related_equipment": ["box-truck"],
+      "mode": "FTL"
+    }
+  },
+
+  "_relationship_index": {
+    "_description": "Pre-computed bidirectional relationship index for O(1) graph traversal. Rebuild with authority-graph.js rebuildIndex().",
+    "solution_to_concept": {
+      "store-replenishment": ["cross-docking", "scan-level-visibility", "right-sized-assets", "flexible-routing"],
+      "pool-distribution": ["cross-docking", "middle-mile", "predictable-pricing"],
+      "vendor-consolidation": ["cross-docking", "scan-level-visibility", "flexible-routing", "predictable-pricing"],
+      "zone-skipping": ["middle-mile", "cross-docking", "predictable-pricing"]
+    },
+    "concept_to_solution": {
+      "cross-docking": ["store-replenishment", "pool-distribution", "vendor-consolidation", "zone-skipping"],
+      "middle-mile": ["pool-distribution", "zone-skipping"],
+      "scan-level-visibility": ["store-replenishment", "vendor-consolidation"],
+      "predictable-pricing": ["pool-distribution", "vendor-consolidation", "zone-skipping"],
+      "flexible-routing": ["store-replenishment", "vendor-consolidation"],
+      "right-sized-assets": ["store-replenishment"]
+    },
+    "solution_to_equipment": {
+      "store-replenishment": ["cargo-van", "box-truck"],
+      "pool-distribution": ["53-foot-trailer", "box-truck"],
+      "vendor-consolidation": ["box-truck", "53-foot-trailer"],
+      "zone-skipping": ["53-foot-trailer", "box-truck"]
+    },
+    "equipment_to_solution": {
+      "cargo-van": ["store-replenishment"],
+      "box-truck": ["store-replenishment", "pool-distribution", "vendor-consolidation", "zone-skipping"],
+      "53-foot-trailer": ["pool-distribution", "vendor-consolidation", "zone-skipping"]
+    }
+  }
+}
