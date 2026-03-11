@@ -202,6 +202,10 @@ function renderSolutionContent(pd) {
     parts.push("</ul>");
   }
 
+  // Associated lanes
+  const lanesHtml = renderAssociatedLanes(pd);
+  if (lanesHtml) parts.push(lanesHtml);
+
   // CTA
   parts.push(renderCtaSection(pd.cta));
 
@@ -281,6 +285,10 @@ function renderConceptContent(pd) {
     }
   }
 
+  // Associated lanes
+  const lanesHtml = renderAssociatedLanes(pd);
+  if (lanesHtml) parts.push(lanesHtml);
+
   // CTA
   parts.push(renderCtaSection(pd.cta));
 
@@ -348,9 +356,39 @@ function renderEquipmentContent(pd) {
     parts.push("</ul>");
   }
 
+  // Associated lanes
+  const eqLanesHtml = renderAssociatedLanes(pd);
+  if (eqLanesHtml) parts.push(eqLanesHtml);
+
   // CTA
   parts.push(renderCtaSection(pd.cta));
 
+  return parts.join("\n");
+}
+
+// ── Associated Lanes Renderer ────────────────────────────────────────
+
+/**
+ * Render the associated lanes section linking authority pages back to lane pages.
+ * Returns empty string if no lanes are associated.
+ *
+ * @param {object} pageData - Canonical authority page data
+ * @returns {string} HTML section or empty string
+ */
+export function renderAssociatedLanes(pageData) {
+  const lanes = pageData.associated_lanes || [];
+  if (lanes.length === 0) return "";
+
+  const parts = [];
+  parts.push(`<section class="associated-lanes">`);
+  parts.push(`<h2>Associated Freight Lanes</h2>`);
+  parts.push(`<ul>`);
+  for (const lane of lanes) {
+    const href = `/lanes/${escapeHtml(lane.slug)}`;
+    parts.push(`<li><a href="${href}">${escapeHtml(lane.label)}</a></li>`);
+  }
+  parts.push(`</ul>`);
+  parts.push(`</section>`);
   return parts.join("\n");
 }
 
@@ -497,6 +535,7 @@ export function renderAuthorityPage(pageData) {
   return {
     body_text: renderAuthorityPageBody(pageData),
     primary_content_html: renderAuthorityPrimaryContent(pageData),
+    associated_lanes_html: renderAssociatedLanes(pageData),
     faq_schema_html: renderAuthorityFaqSchema(pageData),
     breadcrumb_schema_html: renderAuthorityBreadcrumbSchema(pageData),
     service_schema_html: renderAuthorityServiceSchema(pageData),

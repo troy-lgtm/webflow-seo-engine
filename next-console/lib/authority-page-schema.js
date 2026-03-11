@@ -18,6 +18,10 @@
  * @module authority-page-schema
  */
 
+import { readFileSync } from "fs";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
+
 import {
   getEntity,
   getRelatedEntities,
@@ -27,7 +31,11 @@ import {
 
 // ── Constants ────────────────────────────────────────────────────────
 
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ARTIFACTS_DIR = join(__dirname, "..", "artifacts", "authority", "entity_lanes");
+
 const SITE_BASE = "https://www.wearewarp.com";
+export const MAX_ASSOCIATED_LANES = 10;
 const QUOTE_URL = `${SITE_BASE}/quote`;
 const BOOK_URL = `${SITE_BASE}/book`;
 
@@ -89,6 +97,57 @@ function stableHash(str) {
     hash = ((hash << 5) + hash + str.charCodeAt(i)) & 0x7fffffff;
   }
   return hash;
+}
+
+// ── Associated Lanes Loader ──────────────────────────────────────────
+
+/**
+ * Load associated lanes for an entity from the expansion artifacts.
+ * Returns the strongest lanes sorted deterministically:
+ *   1. Primary relationships first, then secondary
+ *   2. Within same rank: score descending
+ *   3. Within same score: lane_slug ascending (alphabetical)
+ *
+ * @param {string} entityId - Entity ID
+ * @returns {object[]} Array of lane objects (max MAX_ASSOCIATED_LANES)
+ */
+function loadAssociatedLanes(entityId) {
+  try {
+    const filePath = join(ARTIFACTS_DIR, `${entityId}.json`);
+    const raw = readFileSync(filePath, "utf-8");
+    const data = JSON.parse(raw);
+    const lanes = data.lanes || [];
+
+    // Rank ordering: primary first, then secondary, then tertiary
+    const rankOrder = { primary: 0, secondary: 1, tertiary: 2 };
+
+    // Filter to primary + secondary only, then sort deterministically
+    const eligible = lanes
+      .filter(l => l.rank === "primary" || l.rank === "secondary")
+      .sort((a, b) => {
+        // 1. Rank: primary before secondary
+        const ra = rankOrder[a.rank] ?? 9;
+        const rb = rankOrder[b.rank] ?? 9;
+        if (ra !== rb) return ra - rb;
+        // 2. Score descending
+        if (b.score !== a.score) return b.score - a.score;
+        // 3. Slug ascending (alphabetical tiebreaker)
+        return a.lane_slug.localeCompare(b.lane_slug);
+      })
+      .slice(0, MAX_ASSOCIATED_LANES);
+
+    return eligible.map(l => ({
+      slug: l.lane_slug,
+      label: `${l.origin} → ${l.destination} ${l.mode}`,
+      distance_band: l.distance_band || null,
+      mode: l.mode,
+      rank: l.rank,
+      score: l.score,
+    }));
+  } catch {
+    // Artifact missing or malformed — safe fallback
+    return [];
+  }
 }
 
 // ── FAQ Builders ─────────────────────────────────────────────────────
@@ -305,6 +364,9 @@ export function buildSolutionPageData(entityId) {
     // ── Section ordering (for quality gate) ───────────────────────
     _section_order: SOLUTION_SECTIONS,
 
+    // ── Associated lanes (reverse link: authority → lanes) ────────
+    associated_lanes: loadAssociatedLanes(entityId),
+
     // ── Internal linking data ─────────────────────────────────────
     internal_links: {
       concepts: related.concepts.map(c => ({
@@ -427,6 +489,9 @@ export function buildConceptPageData(entityId) {
     // ── Section ordering ──────────────────────────────────────────
     _section_order: CONCEPT_SECTIONS,
 
+    // ── Associated lanes (reverse link: authority → lanes) ────────
+    associated_lanes: loadAssociatedLanes(entityId),
+
     // ── Internal linking data ─────────────────────────────────────
     internal_links: {
       solutions: related.solutions.map(s => ({
@@ -543,6 +608,9 @@ export function buildEquipmentPageData(entityId) {
 
     // ── Section ordering ──────────────────────────────────────────
     _section_order: EQUIPMENT_SECTIONS,
+
+    // ── Associated lanes (reverse link: authority → lanes) ────────
+    associated_lanes: loadAssociatedLanes(entityId),
 
     // ── Internal linking data ─────────────────────────────────────
     internal_links: {
