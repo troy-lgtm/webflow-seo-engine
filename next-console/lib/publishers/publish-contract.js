@@ -32,6 +32,7 @@ import {
   renderFaqSchemaEmbed,
   renderBreadcrumbSchemaEmbed,
   renderValidation,
+  renderAuthorityLinks,
   buildTraditionalLtl,
   buildWarpLtl,
 } from "../render-lane-page.js";
@@ -192,6 +193,7 @@ export function buildPublishContract(canonicalPageData, qualityReport) {
     sections: {
       kpi_panel_html: renderLaneIntelligencePanel(pd),
       execution_flow_html: renderExecutionFlow(pd),
+      authority_links_html: renderAuthorityLinks(pd),
     },
 
     // ── Comparison ────────────────────────────────────────────────
@@ -299,6 +301,7 @@ export function contractToRenderedFields(contract) {
     "proof-section": contract.content?.proof_html || "",
     "lane-intelligence-panel": contract.sections?.kpi_panel_html || "",
     "execution-flow": contract.sections?.execution_flow_html || "",
+    "authority-links": contract.sections?.authority_links_html || "",
     "traditional-ltl": contract.comparison?.traditional_text || "",
     "warp-ltl": contract.comparison?.warp_text || "",
     "seo-title": contract.seo?.title || "",

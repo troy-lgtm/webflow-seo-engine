@@ -17,6 +17,8 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { buildClassificationProfile, classifyLaneAuthority } from "./lane-authority-classifier.js";
+import { getEntity } from "./authority-graph.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -501,6 +503,11 @@ export function buildCanonicalLanePageData(knowledge, relatedLinks, optionalMetr
     guide_link: relatedLinks?.guide_link || null,
   };
 
+  // ── Authority Links (derived from lane-authority classifier) ──
+  // Classify this lane against the 13 authority entities and attach
+  // non-blocked relationships as render-ready link objects.
+  const authorityLinks = deriveAuthorityLinks(k);
+
   // ── Section 8: Lane-Relevant CTA ──────────────────────────────
   const laneRelevantCta = {
     headline: `Ship ${mode} Freight: ${oCity} to ${dCity}`,
@@ -556,10 +563,46 @@ export function buildCanonicalLanePageData(knowledge, relatedLinks, optionalMetr
     best_fit_shipments: bestFitShipments,
     lane_specific_faqs: laneSpecificFaqs,
     related_links: related,
+    authority_links: authorityLinks,
     why_warp: whyWarp,
     final_cta: finalCta,
     lane_relevant_cta: laneRelevantCta,
   };
+}
+
+// ── Authority Link Derivation ────────────────────────────────────────
+
+/**
+ * Derive authority links for a lane by running the lane-authority classifier.
+ * Returns a stable, deterministic array of render-ready link objects sorted
+ * by score descending, then entity_id ascending for tie-breaking.
+ *
+ * @param {object} knowledge - Lane knowledge from buildLaneKnowledge()
+ * @returns {Array<{ entity_id: string, label: string, path: string, family: string, rank: string, score: number }>}
+ */
+function deriveAuthorityLinks(knowledge) {
+  try {
+    const profile = buildClassificationProfile(knowledge);
+    const classification = classifyLaneAuthority(profile);
+    const active = classification.relationships.filter(r => !r.blocked);
+
+    return active
+      .sort((a, b) => b.score - a.score || a.entity_id.localeCompare(b.entity_id))
+      .map(rel => {
+        const entity = getEntity(rel.entity_id);
+        return {
+          entity_id: rel.entity_id,
+          label: entity?.label || rel.entity_id,
+          path: entity?.canonical_path || `/${rel.entity_family}/${rel.entity_id}`,
+          family: rel.entity_family,
+          rank: rel.rank,
+          score: rel.score,
+        };
+      });
+  } catch {
+    // Safe fallback: if classifier fails, return empty array
+    return [];
+  }
 }
 
 // ── Section Copy Builders ────────────────────────────────────────────
