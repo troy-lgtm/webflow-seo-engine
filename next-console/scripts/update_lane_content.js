@@ -7,7 +7,7 @@
  *
  * ARCHITECTURE (post-migration):
  *   buildLaneKnowledge() → buildCanonicalLanePageData() → buildPublishContract()
- *     → assessPublishQuality() → webflow adapter → Webflow CMS API
+ *     → assessPublishQuality() → assessLaneAdmission() → webflow adapter → Webflow CMS API
  *
  * The publish contract is the CMS-neutral boundary. The Webflow adapter maps
  * semantic contract fields to Webflow CMS field names. This script no longer
@@ -30,6 +30,7 @@ import { buildCanonicalLanePageData } from "../lib/lane-page-schema.js";
 import { assessPublishQuality } from "../lib/lane-page-validator.js";
 import { buildPublishContract, contractToRenderedFields } from "../lib/publishers/publish-contract.js";
 import { adaptForPublish, publish as webflowPublish, publishSite as webflowPublishSite, ADAPTER_ID } from "../lib/publishers/webflow-adapter.js";
+import { assessLaneAdmission } from "../lib/lane-admission-gate.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -207,6 +208,19 @@ async function main() {
         for (const w of quality.warnings) {
           console.log(`  ⚠ ${w.gate}: ${w.message}`);
         }
+      }
+
+      // ── Step 5b: Admission gate (page worthiness check) ────────────
+      const admission = assessLaneAdmission(knowledge, pageData);
+      console.log(`  Admission: ${admission.score}% (${admission.grade}) — ${admission.admitted ? "ADMITTED" : "REJECTED"}`);
+
+      if (!admission.admitted) {
+        console.log(`  ⛔ ADMISSION DENIED:`);
+        for (const r of admission.rejections) {
+          console.log(`     • ${r.dimension}: ${r.reason}`);
+        }
+        errors++;
+        continue;
       }
 
       // ── Step 6: Attach quality report to contract ─────────────────
