@@ -22,7 +22,7 @@
       "faq_weights_snapshot": null,
       "mode": "LTL",
       "segment": "smb",
-      "generated_at": "2026-03-09T13:14:20.595Z"
+      "generated_at": "2026-03-10T10:57:33.941Z"
     },
     {
       "slug": "atlanta-to-miami",
@@ -45,7 +45,7 @@
       "faq_weights_snapshot": null,
       "mode": "LTL",
       "segment": "smb",
-      "generated_at": "2026-03-09T13:14:20.598Z"
+      "generated_at": "2026-03-10T10:57:33.944Z"
     },
     {
       "slug": "los-angeles-to-new-york",
@@ -68,7 +68,7 @@
       "faq_weights_snapshot": null,
       "mode": "LTL",
       "segment": "smb",
-      "generated_at": "2026-03-09T13:14:20.599Z"
+      "generated_at": "2026-03-10T10:57:33.944Z"
     },
     {
       "slug": "dallas-to-houston",

@@ -1,0 +1,327 @@
+{
+  "_generated_at": "2026-03-10T11:45:50.209Z",
+  "_generator": "generate_authority_pages.js",
+  "entity": {
+    "id": "flexible-routing",
+    "family": "concept",
+    "label": "Flexible Routing"
+  },
+  "page_data": {
+    "page_type": "concept",
+    "entity_id": "flexible-routing",
+    "slug": "flexible-routing",
+    "canonical_path": "/network/flexible-routing",
+    "page_title": "Flexible Routing in Freight Logistics | WARP",
+    "meta_description": "Dynamic route optimization based on real-time freight density and delivery requirements. Get an instant quote from WARP.",
+    "applies_to_modes": [
+      "LTL",
+      "Cargo Van / Box Truck"
+    ],
+    "hero": {
+      "headline": "Flexible Routing in Freight Logistics",
+      "subhead": "Dynamic route optimization based on real-time freight density and delivery requirements",
+      "primary_cta": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary_cta": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "overview": {
+      "heading": "What Is Flexible Routing?",
+      "content": "Dynamic route optimization based on real-time freight density and delivery requirements",
+      "modes": [
+        "LTL",
+        "Cargo Van / Box Truck"
+      ]
+    },
+    "how_it_works": {
+      "heading": "How Flexible Routing Works",
+      "content": "WARP builds routes daily based on available freight density, delivery windows, and vehicle capacity. Routes are optimized in real-time as pickups confirm and volumes fluctuate throughout the day."
+    },
+    "warp_implementation": {
+      "heading": "How WARP Uses Flexible Routing",
+      "points": [
+        "Dynamic route building based on daily freight density",
+        "Multi-stop optimization that adjusts to real-time volume",
+        "Same-day route changes without rebilling complexity",
+        "Pickup and delivery window flexibility within committed SLAs"
+      ]
+    },
+    "when_to_use": {
+      "heading": "When to Use Flexible Routing",
+      "content": "Best for multi-stop delivery programs where stop counts and volumes vary daily. Particularly effective for store replenishment and vendor consolidation where flexibility reduces empty miles."
+    },
+    "metrics": {
+      "heading": "Flexible Routing Performance Metrics",
+      "items": [
+        {
+          "label": "Stops Per Route",
+          "description": "stops per route"
+        },
+        {
+          "label": "Miles Per Stop",
+          "description": "miles per stop"
+        },
+        {
+          "label": "Route Density",
+          "description": "route density"
+        },
+        {
+          "label": "On-Time Delivery Rate",
+          "description": "on-time delivery rate"
+        }
+      ]
+    },
+    "related": {
+      "heading": "Related Solutions & Capabilities",
+      "solutions": [
+        {
+          "id": "store-replenishment",
+          "label": "Store Replenishment",
+          "path": "/solutions/store-replenishment",
+          "description": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets"
+        },
+        {
+          "id": "vendor-consolidation",
+          "label": "Vendor Consolidation",
+          "path": "/solutions/vendor-consolidation",
+          "description": "Multi-vendor pickup consolidation into single linehaul shipments"
+        }
+      ],
+      "equipment": [
+        {
+          "id": "cargo-van",
+          "label": "Cargo Van",
+          "path": "/equipment/cargo-van",
+          "description": "Enclosed cargo van for small-freight and last-mile delivery"
+        },
+        {
+          "id": "box-truck",
+          "label": "Box Truck",
+          "path": "/equipment/box-truck",
+          "description": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes"
+        }
+      ],
+      "concepts": [
+        {
+          "id": "cross-docking",
+          "label": "Cross-Docking",
+          "path": "/network/cross-docking",
+          "description": "Direct transfer of freight between inbound and outbound vehicles without warehousing"
+        },
+        {
+          "id": "middle-mile",
+          "label": "Middle Mile",
+          "path": "/network/middle-mile",
+          "description": "The linehaul segment between origin hub and destination hub before final delivery"
+        },
+        {
+          "id": "scan-level-visibility",
+          "label": "Scan-Level Visibility",
+          "path": "/network/scan-level-visibility",
+          "description": "Item-level or pallet-level tracking with scan events at every handling point"
+        },
+        {
+          "id": "right-sized-assets",
+          "label": "Right-Sized Assets",
+          "path": "/network/right-sized-assets",
+          "description": "Matching vehicle type and capacity to actual shipment size for cost efficiency"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Flexible Routing FAQ",
+      "items": [
+        {
+          "q": "What is flexible routing in freight?",
+          "a": "Dynamic route optimization based on real-time freight density and delivery requirements"
+        },
+        {
+          "q": "How does flexible routing work?",
+          "a": "WARP builds routes daily based on available freight density, delivery windows, and vehicle capacity. Routes are optimized in real-time as pickups confirm and volumes fluctuate throughout the day."
+        },
+        {
+          "q": "When should a shipper use flexible routing?",
+          "a": "Best for multi-stop delivery programs where stop counts and volumes vary daily. Particularly effective for store replenishment and vendor consolidation where flexibility reduces empty miles."
+        },
+        {
+          "q": "How does WARP implement flexible routing?",
+          "a": "Dynamic route building based on daily freight density. Multi-stop optimization that adjusts to real-time volume. Same-day route changes without rebilling complexity."
+        },
+        {
+          "q": "What metrics matter for flexible routing?",
+          "a": "Key performance metrics include stops per route, miles per stop, route density, on-time delivery rate."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ship with Flexible Routing",
+      "primary": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "_section_order": [
+      "hero",
+      "overview",
+      "how_it_works",
+      "warp_implementation",
+      "when_to_use",
+      "metrics",
+      "related",
+      "faq",
+      "cta"
+    ],
+    "internal_links": {
+      "solutions": [
+        {
+          "href": "/solutions/store-replenishment",
+          "text": "Store Replenishment",
+          "family": "solution"
+        },
+        {
+          "href": "/solutions/vendor-consolidation",
+          "text": "Vendor Consolidation",
+          "family": "solution"
+        }
+      ],
+      "equipment": [
+        {
+          "href": "/equipment/cargo-van",
+          "text": "Cargo Van",
+          "family": "equipment"
+        },
+        {
+          "href": "/equipment/box-truck",
+          "text": "Box Truck",
+          "family": "equipment"
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/network/cross-docking",
+          "text": "Cross-Docking",
+          "family": "concept"
+        },
+        {
+          "href": "/network/middle-mile",
+          "text": "Middle Mile",
+          "family": "concept"
+        },
+        {
+          "href": "/network/scan-level-visibility",
+          "text": "Scan-Level Visibility",
+          "family": "concept"
+        },
+        {
+          "href": "/network/right-sized-assets",
+          "text": "Right-Sized Assets",
+          "family": "concept"
+        }
+      ]
+    }
+  },
+  "rendered": {
+    "body_text": "Dynamic route optimization based on real-time freight density and delivery requirements\n\nWARP builds routes daily based on available freight density, delivery windows, and vehicle capacity. Routes are optimized in real-time as pickups confirm and volumes fluctuate throughout the day.\n\nApplies to LTL, Cargo Van / Box Truck freight operations. Learn how WARP implements this at wearewarp.com/quote.",
+    "primary_content_html": "<h2>What Is Flexible Routing?</h2>\n<p>Dynamic route optimization based on real-time freight density and delivery requirements</p>\n<p><strong>Applies to:</strong> LTL, Cargo Van / Box Truck</p>\n<h2>How Flexible Routing Works</h2>\n<p>WARP builds routes daily based on available freight density, delivery windows, and vehicle capacity. Routes are optimized in real-time as pickups confirm and volumes fluctuate throughout the day.</p>\n<h2>How WARP Uses Flexible Routing</h2>\n<ul>\n<li>Dynamic route building based on daily freight density</li>\n<li>Multi-stop optimization that adjusts to real-time volume</li>\n<li>Same-day route changes without rebilling complexity</li>\n<li>Pickup and delivery window flexibility within committed SLAs</li>\n</ul>\n<h2>When to Use Flexible Routing</h2>\n<p>Best for multi-stop delivery programs where stop counts and volumes vary daily. Particularly effective for store replenishment and vendor consolidation where flexibility reduces empty miles.</p>\n<h2>Flexible Routing Performance Metrics</h2>\n<ul>\n<li><strong>Stops Per Route</strong></li>\n<li><strong>Miles Per Stop</strong></li>\n<li><strong>Route Density</strong></li>\n<li><strong>On-Time Delivery Rate</strong></li>\n</ul>\n<h2>Related Solutions &amp; Capabilities</h2>\n<h3>Solutions</h3><ul>\n<li><a href=\"/solutions/store-replenishment\">Store Replenishment</a> — Scheduled multi-stop retail freight delivery using LTL and right-sized assets</li>\n<li><a href=\"/solutions/vendor-consolidation\">Vendor Consolidation</a> — Multi-vendor pickup consolidation into single linehaul shipments</li>\n</ul>\n<h3>Equipment</h3><ul>\n<li><a href=\"/equipment/cargo-van\">Cargo Van</a> — Enclosed cargo van for small-freight and last-mile delivery</li>\n<li><a href=\"/equipment/box-truck\">Box Truck</a> — Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes</li>\n</ul>\n<h3>Related Concepts</h3><ul>\n<li><a href=\"/network/cross-docking\">Cross-Docking</a> — Direct transfer of freight between inbound and outbound vehicles without warehousing</li>\n<li><a href=\"/network/middle-mile\">Middle Mile</a> — The linehaul segment between origin hub and destination hub before final delivery</li>\n<li><a href=\"/network/scan-level-visibility\">Scan-Level Visibility</a> — Item-level or pallet-level tracking with scan events at every handling point</li>\n<li><a href=\"/network/right-sized-assets\">Right-Sized Assets</a> — Matching vehicle type and capacity to actual shipment size for cost efficiency</li>\n</ul>\n<div class=\"authority-cta\">\n<h2>Ship with Flexible Routing</h2>\n<a href=\"https://www.wearewarp.com/quote\" class=\"cta-primary\">Get Instant Quote</a>\n<a href=\"https://www.wearewarp.com/book\" class=\"cta-secondary\">Book a Fit Call</a>\n</div>",
+    "faq_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is flexible routing in freight?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Dynamic route optimization based on real-time freight density and delivery requirements\"}},{\"@type\":\"Question\",\"name\":\"How does flexible routing work?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"WARP builds routes daily based on available freight density, delivery windows, and vehicle capacity. Routes are optimized in real-time as pickups confirm and volumes fluctuate throughout the day.\"}},{\"@type\":\"Question\",\"name\":\"When should a shipper use flexible routing?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Best for multi-stop delivery programs where stop counts and volumes vary daily. Particularly effective for store replenishment and vendor consolidation where flexibility reduces empty miles.\"}},{\"@type\":\"Question\",\"name\":\"How does WARP implement flexible routing?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Dynamic route building based on daily freight density. Multi-stop optimization that adjusts to real-time volume. Same-day route changes without rebilling complexity.\"}},{\"@type\":\"Question\",\"name\":\"What metrics matter for flexible routing?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Key performance metrics include stops per route, miles per stop, route density, on-time delivery rate.\"}}]}</script>",
+    "breadcrumb_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.wearewarp.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Network\",\"item\":\"https://www.wearewarp.com/network\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Flexible Routing in Freight Logistics\",\"item\":\"https://www.wearewarp.com/network/flexible-routing\"}]}</script>",
+    "service_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Flexible Routing in Freight Logistics\",\"description\":\"Dynamic route optimization based on real-time freight density and delivery requirements. Get an instant quote from WARP.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"WARP\",\"url\":\"https://www.wearewarp.com\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"serviceType\":\"Freight Logistics\"}</script>"
+  },
+  "quality": {
+    "publishable": true,
+    "grade": "A",
+    "score": 98,
+    "gates": {
+      "AQ-STRUCT-01": true,
+      "AQ-STRUCT-02": true,
+      "AQ-STRUCT-03": true,
+      "AQ-CONTENT-01": true,
+      "AQ-CONTENT-02": true,
+      "AQ-CONTENT-03": true,
+      "AQ-CONTENT-04": true,
+      "AQ-SCHEMA-01": true,
+      "AQ-SCHEMA-02": true,
+      "AQ-LINK-01": true,
+      "AQ-QUALITY-01": true
+    },
+    "gates_passed": 11,
+    "gate_count": 11,
+    "dimensions": {
+      "seo": 100,
+      "content": 95,
+      "authority": 95,
+      "linking": 100,
+      "structure": 100
+    },
+    "errors": [],
+    "warnings": [],
+    "page_type": "concept",
+    "entity_id": "flexible-routing"
+  },
+  "links": [
+    {
+      "href": "/solutions/store-replenishment",
+      "text": "Store Replenishment",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 78
+    },
+    {
+      "href": "/network/right-sized-assets",
+      "text": "Right-Sized Assets",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/equipment/box-truck",
+      "text": "Box Truck",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/network/cross-docking",
+      "text": "Cross-Docking",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 72
+    },
+    {
+      "href": "/network/scan-level-visibility",
+      "text": "Scan-Level Visibility",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 72
+    },
+    {
+      "href": "/solutions/vendor-consolidation",
+      "text": "Vendor Consolidation",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 70
+    },
+    {
+      "href": "/equipment/cargo-van",
+      "text": "Cargo Van",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 70
+    },
+    {
+      "href": "/network/middle-mile",
+      "text": "Middle Mile",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 68
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "entity_id": "box-truck",
+  "lane_count": 11,
+  "lanes": [
+    {
+      "lane_slug": "dallas-to-houston",
+      "origin": "Dallas",
+      "destination": "Houston",
+      "mode": "LTL",
+      "score": 55,
+      "rank": "primary",
+      "distance_band": "short_haul",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "lane_slug": "los-angeles-to-las-vegas",
+      "origin": "Los Angeles",
+      "destination": "Las Vegas",
+      "mode": "LTL",
+      "score": 55,
+      "rank": "primary",
+      "distance_band": "short_haul",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "lane_slug": "houston-to-dallas",
+      "origin": "Houston",
+      "destination": "Dallas",
+      "mode": "LTL",
+      "score": 55,
+      "rank": "primary",
+      "distance_band": "short_haul",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "lane_slug": "chicago-to-indianapolis",
+      "origin": "Chicago",
+      "destination": "Indianapolis",
+      "mode": "LTL",
+      "score": 55,
+      "rank": "primary",
+      "distance_band": "short_haul",
+      "archetype": "short_haul_metro"
+    },
+    {
+      "lane_slug": "atlanta-to-orlando",
+      "origin": "Atlanta",
+      "destination": "Orlando",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary",
+      "distance_band": "medium_haul",
+      "archetype": "sunbelt_growth"
+    },
+    {
+      "lane_slug": "los-angeles-to-phoenix",
+      "origin": "Los Angeles",
+      "destination": "Phoenix",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary",
+      "distance_band": "medium_haul",
+      "archetype": "port_to_inland"
+    },
+    {
+      "lane_slug": "miami-to-atlanta",
+      "origin": "Miami",
+      "destination": "Atlanta",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary",
+      "distance_band": "medium_haul",
+      "archetype": "port_to_inland"
+    },
+    {
+      "lane_slug": "chicago-to-nashville",
+      "origin": "Chicago",
+      "destination": "Nashville",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary",
+      "distance_band": "medium_haul",
+      "archetype": "midwest_manufacturing"
+    },
+    {
+      "lane_slug": "indianapolis-to-kansas-city",
+      "origin": "Indianapolis",
+      "destination": "Kansas City",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary",
+      "distance_band": "medium_haul",
+      "archetype": "agriculture_lane"
+    },
+    {
+      "lane_slug": "denver-to-salt-lake-city",
+      "origin": "Denver",
+      "destination": "Salt Lake City",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary",
+      "distance_band": "medium_haul",
+      "archetype": "energy_corridor"
+    },
+    {
+      "lane_slug": "charlotte-to-tampa",
+      "origin": "Charlotte",
+      "destination": "Tampa",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary",
+      "distance_band": "medium_haul",
+      "archetype": "sunbelt_growth"
+    }
+  ],
+  "links": [
+    {
+      "href": "/lanes/dallas-to-houston",
+      "text": "Dallas to Houston Freight",
+      "mode": "LTL",
+      "score": 55,
+      "rank": "primary"
+    },
+    {
+      "href": "/lanes/los-angeles-to-las-vegas",
+      "text": "Los Angeles to Las Vegas Freight",
+      "mode": "LTL",
+      "score": 55,
+      "rank": "primary"
+    },
+    {
+      "href": "/lanes/houston-to-dallas",
+      "text": "Houston to Dallas Freight",
+      "mode": "LTL",
+      "score": 55,
+      "rank": "primary"
+    },
+    {
+      "href": "/lanes/chicago-to-indianapolis",
+      "text": "Chicago to Indianapolis Freight",
+      "mode": "LTL",
+      "score": 55,
+      "rank": "primary"
+    },
+    {
+      "href": "/lanes/atlanta-to-orlando",
+      "text": "Atlanta to Orlando Freight",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary"
+    },
+    {
+      "href": "/lanes/los-angeles-to-phoenix",
+      "text": "Los Angeles to Phoenix Freight",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary"
+    },
+    {
+      "href": "/lanes/miami-to-atlanta",
+      "text": "Miami to Atlanta Freight",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary"
+    },
+    {
+      "href": "/lanes/chicago-to-nashville",
+      "text": "Chicago to Nashville Freight",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary"
+    },
+    {
+      "href": "/lanes/indianapolis-to-kansas-city",
+      "text": "Indianapolis to Kansas City Freight",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary"
+    },
+    {
+      "href": "/lanes/denver-to-salt-lake-city",
+      "text": "Denver to Salt Lake City Freight",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary"
+    }
+  ]
+}

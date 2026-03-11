@@ -1413,3 +1413,14 @@ export function assessPublishQuality(canonicalPageData, renderedFields) {
     },
   };
 }
+
+// ── MIGRATION NOTE ────────────────────────────────────────────────────
+// To assess quality from a CMS-neutral publish contract:
+//   1. Import { contractToRenderedFields } from "./publishers/publish-contract.js"
+//   2. const renderedFields = contractToRenderedFields(contract);
+//   3. const quality = assessPublishQuality(contract.canonical, renderedFields);
+//
+// The contract bridge (contractToRenderedFields) maps semantic contract
+// fields to the Webflow-era field names that this gate still uses internally.
+// See update_lane_content.js for the canonical usage pattern.
+// ─────────────────────────────────────────────────────────────────────

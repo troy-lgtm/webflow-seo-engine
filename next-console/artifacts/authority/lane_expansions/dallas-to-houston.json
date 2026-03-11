@@ -1,0 +1,435 @@
+{
+  "_generated_at": "2026-03-10T12:11:45.881Z",
+  "lane": {
+    "slug": "dallas-to-houston",
+    "origin": "Dallas, TX",
+    "destination": "Houston, TX",
+    "mode": "LTL",
+    "archetype": "short_haul_metro",
+    "distance_band": "short_haul",
+    "distance_miles": 266
+  },
+  "authority_links": [
+    {
+      "href": "/solutions/store-replenishment",
+      "text": "Store Replenishment",
+      "family": "solution",
+      "score": 95,
+      "rank": "primary"
+    },
+    {
+      "href": "/network/cross-docking",
+      "text": "Cross-Docking",
+      "family": "concept",
+      "score": 80,
+      "rank": "primary"
+    },
+    {
+      "href": "/network/flexible-routing",
+      "text": "Flexible Routing",
+      "family": "concept",
+      "score": 80,
+      "rank": "primary"
+    },
+    {
+      "href": "/network/scan-level-visibility",
+      "text": "Scan-Level Visibility",
+      "family": "concept",
+      "score": 65,
+      "rank": "secondary"
+    },
+    {
+      "href": "/network/right-sized-assets",
+      "text": "Right-Sized Assets",
+      "family": "concept",
+      "score": 65,
+      "rank": "secondary"
+    },
+    {
+      "href": "/equipment/cargo-van",
+      "text": "Cargo Van",
+      "family": "equipment",
+      "score": 60,
+      "rank": "primary"
+    },
+    {
+      "href": "/equipment/box-truck",
+      "text": "Box Truck",
+      "family": "equipment",
+      "score": 55,
+      "rank": "primary"
+    },
+    {
+      "href": "/solutions/pool-distribution",
+      "text": "Pool Distribution",
+      "family": "solution",
+      "score": 30,
+      "rank": "tertiary"
+    },
+    {
+      "href": "/network/predictable-pricing",
+      "text": "Predictable Pricing",
+      "family": "concept",
+      "score": 30,
+      "rank": "tertiary"
+    }
+  ],
+  "relationships": [
+    {
+      "entity_id": "store-replenishment",
+      "entity_family": "solution",
+      "score": 95,
+      "rank": "primary",
+      "blocked": false,
+      "block_reason": null,
+      "evidence": [
+        {
+          "rule": "archetype_match",
+          "signal": "short_haul_metro",
+          "weight": 30
+        },
+        {
+          "rule": "mode_fit",
+          "signal": "LTL",
+          "weight": 15
+        },
+        {
+          "rule": "distance_band",
+          "signal": "short_haul",
+          "weight": 15
+        },
+        {
+          "rule": "city_class",
+          "signal": "dest_is_metro",
+          "weight": 10
+        },
+        {
+          "rule": "operational_signal",
+          "signal": "replenishment_profile",
+          "weight": 15
+        },
+        {
+          "rule": "operational_signal",
+          "signal": "retail_operational",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "entity_id": "cross-docking",
+      "entity_family": "concept",
+      "score": 80,
+      "rank": "primary",
+      "blocked": false,
+      "block_reason": null,
+      "evidence": [
+        {
+          "rule": "mode_fit",
+          "signal": "LTL_cross_dock_routing",
+          "weight": 25
+        },
+        {
+          "rule": "network_signal",
+          "signal": "3_cross_docks",
+          "weight": 20
+        },
+        {
+          "rule": "operational_signal",
+          "signal": "cross_dock_operational",
+          "weight": 15
+        },
+        {
+          "rule": "city_class",
+          "signal": "metro_to_metro",
+          "weight": 10
+        },
+        {
+          "rule": "distance_band",
+          "signal": "short_haul",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "entity_id": "flexible-routing",
+      "entity_family": "concept",
+      "score": 80,
+      "rank": "primary",
+      "blocked": false,
+      "block_reason": null,
+      "evidence": [
+        {
+          "rule": "mode_fit",
+          "signal": "LTL_multi_stop",
+          "weight": 20
+        },
+        {
+          "rule": "distance_band",
+          "signal": "short_haul",
+          "weight": 20
+        },
+        {
+          "rule": "city_class",
+          "signal": "metro_density",
+          "weight": 10
+        },
+        {
+          "rule": "operational_signal",
+          "signal": "flexible_operational",
+          "weight": 15
+        },
+        {
+          "rule": "archetype_match",
+          "signal": "short_haul_metro",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "entity_id": "scan-level-visibility",
+      "entity_family": "concept",
+      "score": 65,
+      "rank": "secondary",
+      "blocked": false,
+      "block_reason": null,
+      "evidence": [
+        {
+          "rule": "mode_fit",
+          "signal": "LTL_pallet_tracking",
+          "weight": 20
+        },
+        {
+          "rule": "archetype_match",
+          "signal": "short_haul_metro",
+          "weight": 20
+        },
+        {
+          "rule": "operational_signal",
+          "signal": "tracking_operational",
+          "weight": 15
+        },
+        {
+          "rule": "city_class",
+          "signal": "dest_is_metro",
+          "weight": 10
+        },
+        {
+          "rule": "over_assignment_gate",
+          "signal": "demoted_from_primary_excess_concept",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "entity_id": "right-sized-assets",
+      "entity_family": "concept",
+      "score": 65,
+      "rank": "secondary",
+      "blocked": false,
+      "block_reason": null,
+      "evidence": [
+        {
+          "rule": "mode_distance",
+          "signal": "LTL_short_haul",
+          "weight": 25
+        },
+        {
+          "rule": "mode_fit",
+          "signal": "LTL_partial_load",
+          "weight": 10
+        },
+        {
+          "rule": "operational_signal",
+          "signal": "right_sized_fit",
+          "weight": 15
+        },
+        {
+          "rule": "archetype_match",
+          "signal": "short_haul_metro",
+          "weight": 15
+        },
+        {
+          "rule": "over_assignment_gate",
+          "signal": "demoted_from_primary_excess_concept",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "entity_id": "cargo-van",
+      "entity_family": "equipment",
+      "score": 60,
+      "rank": "primary",
+      "blocked": false,
+      "block_reason": null,
+      "evidence": [
+        {
+          "rule": "archetype_match",
+          "signal": "short_haul_metro",
+          "weight": 20
+        },
+        {
+          "rule": "distance_band",
+          "signal": "short_haul",
+          "weight": 15
+        },
+        {
+          "rule": "equipment_signal",
+          "signal": "cargo_van_fit",
+          "weight": 15
+        },
+        {
+          "rule": "city_class",
+          "signal": "dest_is_metro",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "entity_id": "box-truck",
+      "entity_family": "equipment",
+      "score": 55,
+      "rank": "primary",
+      "blocked": false,
+      "block_reason": null,
+      "evidence": [
+        {
+          "rule": "mode_distance",
+          "signal": "LTL_local_delivery",
+          "weight": 20
+        },
+        {
+          "rule": "mode_fit",
+          "signal": "LTL_PD_trucks",
+          "weight": 10
+        },
+        {
+          "rule": "archetype_match",
+          "signal": "short_haul_metro",
+          "weight": 15
+        },
+        {
+          "rule": "equipment_signal",
+          "signal": "box_truck_fit",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "entity_id": "pool-distribution",
+      "entity_family": "solution",
+      "score": 30,
+      "rank": "tertiary",
+      "blocked": false,
+      "block_reason": null,
+      "evidence": [
+        {
+          "rule": "city_class",
+          "signal": "origin_is_metro",
+          "weight": 10
+        },
+        {
+          "rule": "city_class",
+          "signal": "origin_is_ecommerce",
+          "weight": 10
+        },
+        {
+          "rule": "network_signal",
+          "signal": "3_cross_docks",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "entity_id": "predictable-pricing",
+      "entity_family": "concept",
+      "score": 30,
+      "rank": "tertiary",
+      "blocked": false,
+      "block_reason": null,
+      "evidence": [
+        {
+          "rule": "mode_fit",
+          "signal": "LTL_volume_pricing",
+          "weight": 15
+        },
+        {
+          "rule": "operational_signal",
+          "signal": "transparent_pricing",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "entity_id": "vendor-consolidation",
+      "entity_family": "solution",
+      "score": 20,
+      "rank": "tertiary",
+      "blocked": true,
+      "block_reason": "Score 20 below minimum 30",
+      "evidence": [
+        {
+          "rule": "mode_fit",
+          "signal": "LTL",
+          "weight": 10
+        },
+        {
+          "rule": "network_signal",
+          "signal": "3_cross_docks",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "entity_id": "zone-skipping",
+      "entity_family": "solution",
+      "score": 10,
+      "rank": "tertiary",
+      "blocked": true,
+      "block_reason": "Score 10 below minimum 30",
+      "evidence": [
+        {
+          "rule": "city_class",
+          "signal": "origin_is_ecommerce",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "entity_id": "53-foot-trailer",
+      "entity_family": "equipment",
+      "score": 10,
+      "rank": "tertiary",
+      "blocked": true,
+      "block_reason": "Score 10 below minimum 30",
+      "evidence": [
+        {
+          "rule": "equipment_signal",
+          "signal": "trailer_equipment",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "entity_id": "middle-mile",
+      "entity_family": "concept",
+      "score": 0,
+      "rank": "tertiary",
+      "blocked": true,
+      "block_reason": "Score 0 below minimum 30",
+      "evidence": [
+        {
+          "rule": "distance_exclusion",
+          "signal": "short_haul_not_middle_mile",
+          "weight": -20
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "active": 9,
+    "blocked": 4,
+    "primary": 5,
+    "secondary": 2
+  }
+}

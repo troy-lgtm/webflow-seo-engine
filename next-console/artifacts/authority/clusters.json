@@ -1,0 +1,1240 @@
+[
+  {
+    "entity_id": "cross-docking",
+    "entity_family": "concept",
+    "label": "Cross-Docking",
+    "lanes": [
+      {
+        "slug": "atlanta-to-orlando",
+        "score": 90,
+        "rank": "primary"
+      },
+      {
+        "slug": "dallas-to-houston",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-phoenix",
+        "score": 90,
+        "rank": "primary"
+      },
+      {
+        "slug": "houston-to-dallas",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "miami-to-atlanta",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "chicago-to-nashville",
+        "score": 90,
+        "rank": "primary"
+      },
+      {
+        "slug": "indianapolis-to-kansas-city",
+        "score": 90,
+        "rank": "primary"
+      },
+      {
+        "slug": "denver-to-salt-lake-city",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "charlotte-to-tampa",
+        "score": 90,
+        "rank": "primary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "middle-mile",
+        "family": "concept",
+        "label": "Middle Mile"
+      },
+      {
+        "id": "scan-level-visibility",
+        "family": "concept",
+        "label": "Scan-Level Visibility"
+      },
+      {
+        "id": "flexible-routing",
+        "family": "concept",
+        "label": "Flexible Routing"
+      },
+      {
+        "id": "store-replenishment",
+        "family": "solution",
+        "label": "Store Replenishment"
+      },
+      {
+        "id": "pool-distribution",
+        "family": "solution",
+        "label": "Pool Distribution"
+      },
+      {
+        "id": "vendor-consolidation",
+        "family": "solution",
+        "label": "Vendor Consolidation"
+      },
+      {
+        "id": "zone-skipping",
+        "family": "solution",
+        "label": "Zone Skipping"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      },
+      {
+        "id": "53-foot-trailer",
+        "family": "equipment",
+        "label": "53-Foot Trailer"
+      }
+    ],
+    "lane_count": 15,
+    "avg_score": 83
+  },
+  {
+    "entity_id": "store-replenishment",
+    "entity_family": "solution",
+    "label": "Store Replenishment",
+    "lanes": [
+      {
+        "slug": "atlanta-to-orlando",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "dallas-to-houston",
+        "score": 95,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 95,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-phoenix",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "houston-to-dallas",
+        "score": 100,
+        "rank": "primary"
+      },
+      {
+        "slug": "miami-to-atlanta",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 60,
+        "rank": "secondary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 100,
+        "rank": "primary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "slug": "chicago-to-nashville",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "indianapolis-to-kansas-city",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "denver-to-salt-lake-city",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "charlotte-to-tampa",
+        "score": 50,
+        "rank": "secondary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "cross-docking",
+        "family": "concept",
+        "label": "Cross-Docking"
+      },
+      {
+        "id": "scan-level-visibility",
+        "family": "concept",
+        "label": "Scan-Level Visibility"
+      },
+      {
+        "id": "right-sized-assets",
+        "family": "concept",
+        "label": "Right-Sized Assets"
+      },
+      {
+        "id": "flexible-routing",
+        "family": "concept",
+        "label": "Flexible Routing"
+      },
+      {
+        "id": "cargo-van",
+        "family": "equipment",
+        "label": "Cargo Van"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      }
+    ],
+    "lane_count": 15,
+    "avg_score": 65
+  },
+  {
+    "entity_id": "predictable-pricing",
+    "entity_family": "concept",
+    "label": "Predictable Pricing",
+    "lanes": [
+      {
+        "slug": "atlanta-to-orlando",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "dallas-to-houston",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "los-angeles-to-phoenix",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "houston-to-dallas",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "miami-to-atlanta",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-nashville",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "indianapolis-to-kansas-city",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "denver-to-salt-lake-city",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "charlotte-to-tampa",
+        "score": 50,
+        "rank": "secondary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "middle-mile",
+        "family": "concept",
+        "label": "Middle Mile"
+      },
+      {
+        "id": "pool-distribution",
+        "family": "solution",
+        "label": "Pool Distribution"
+      },
+      {
+        "id": "vendor-consolidation",
+        "family": "solution",
+        "label": "Vendor Consolidation"
+      },
+      {
+        "id": "zone-skipping",
+        "family": "solution",
+        "label": "Zone Skipping"
+      },
+      {
+        "id": "cargo-van",
+        "family": "equipment",
+        "label": "Cargo Van"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      },
+      {
+        "id": "53-foot-trailer",
+        "family": "equipment",
+        "label": "53-Foot Trailer"
+      }
+    ],
+    "lane_count": 15,
+    "avg_score": 41
+  },
+  {
+    "entity_id": "scan-level-visibility",
+    "entity_family": "concept",
+    "label": "Scan-Level Visibility",
+    "lanes": [
+      {
+        "slug": "atlanta-to-orlando",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "dallas-to-houston",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "slug": "los-angeles-to-phoenix",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "houston-to-dallas",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "slug": "miami-to-atlanta",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-nashville",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "indianapolis-to-kansas-city",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "denver-to-salt-lake-city",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "charlotte-to-tampa",
+        "score": 45,
+        "rank": "secondary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "cross-docking",
+        "family": "concept",
+        "label": "Cross-Docking"
+      },
+      {
+        "id": "flexible-routing",
+        "family": "concept",
+        "label": "Flexible Routing"
+      },
+      {
+        "id": "store-replenishment",
+        "family": "solution",
+        "label": "Store Replenishment"
+      },
+      {
+        "id": "vendor-consolidation",
+        "family": "solution",
+        "label": "Vendor Consolidation"
+      },
+      {
+        "id": "cargo-van",
+        "family": "equipment",
+        "label": "Cargo Van"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      }
+    ],
+    "lane_count": 15,
+    "avg_score": 50
+  },
+  {
+    "entity_id": "flexible-routing",
+    "entity_family": "concept",
+    "label": "Flexible Routing",
+    "lanes": [
+      {
+        "slug": "atlanta-to-orlando",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "dallas-to-houston",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-phoenix",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "houston-to-dallas",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "miami-to-atlanta",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-nashville",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "indianapolis-to-kansas-city",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "denver-to-salt-lake-city",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "charlotte-to-tampa",
+        "score": 45,
+        "rank": "secondary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "cross-docking",
+        "family": "concept",
+        "label": "Cross-Docking"
+      },
+      {
+        "id": "middle-mile",
+        "family": "concept",
+        "label": "Middle Mile"
+      },
+      {
+        "id": "scan-level-visibility",
+        "family": "concept",
+        "label": "Scan-Level Visibility"
+      },
+      {
+        "id": "right-sized-assets",
+        "family": "concept",
+        "label": "Right-Sized Assets"
+      },
+      {
+        "id": "store-replenishment",
+        "family": "solution",
+        "label": "Store Replenishment"
+      },
+      {
+        "id": "vendor-consolidation",
+        "family": "solution",
+        "label": "Vendor Consolidation"
+      },
+      {
+        "id": "cargo-van",
+        "family": "equipment",
+        "label": "Cargo Van"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      }
+    ],
+    "lane_count": 15,
+    "avg_score": 54
+  },
+  {
+    "entity_id": "vendor-consolidation",
+    "entity_family": "solution",
+    "label": "Vendor Consolidation",
+    "lanes": [
+      {
+        "slug": "atlanta-to-orlando",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "los-angeles-to-phoenix",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "slug": "houston-to-dallas",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "slug": "miami-to-atlanta",
+        "score": 95,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 85,
+        "rank": "primary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 70,
+        "rank": "primary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 35,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-nashville",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "slug": "indianapolis-to-kansas-city",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "denver-to-salt-lake-city",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "charlotte-to-tampa",
+        "score": 30,
+        "rank": "tertiary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "cross-docking",
+        "family": "concept",
+        "label": "Cross-Docking"
+      },
+      {
+        "id": "scan-level-visibility",
+        "family": "concept",
+        "label": "Scan-Level Visibility"
+      },
+      {
+        "id": "flexible-routing",
+        "family": "concept",
+        "label": "Flexible Routing"
+      },
+      {
+        "id": "predictable-pricing",
+        "family": "concept",
+        "label": "Predictable Pricing"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      },
+      {
+        "id": "53-foot-trailer",
+        "family": "equipment",
+        "label": "53-Foot Trailer"
+      }
+    ],
+    "lane_count": 14,
+    "avg_score": 51
+  },
+  {
+    "entity_id": "pool-distribution",
+    "entity_family": "solution",
+    "label": "Pool Distribution",
+    "lanes": [
+      {
+        "slug": "atlanta-to-orlando",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "dallas-to-houston",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "los-angeles-to-phoenix",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "miami-to-atlanta",
+        "score": 35,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 70,
+        "rank": "primary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 95,
+        "rank": "primary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 65,
+        "rank": "primary"
+      },
+      {
+        "slug": "chicago-to-nashville",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "slug": "indianapolis-to-kansas-city",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "charlotte-to-tampa",
+        "score": 35,
+        "rank": "tertiary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "cross-docking",
+        "family": "concept",
+        "label": "Cross-Docking"
+      },
+      {
+        "id": "middle-mile",
+        "family": "concept",
+        "label": "Middle Mile"
+      },
+      {
+        "id": "predictable-pricing",
+        "family": "concept",
+        "label": "Predictable Pricing"
+      },
+      {
+        "id": "53-foot-trailer",
+        "family": "equipment",
+        "label": "53-Foot Trailer"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      }
+    ],
+    "lane_count": 13,
+    "avg_score": 45
+  },
+  {
+    "entity_id": "box-truck",
+    "entity_family": "equipment",
+    "label": "Box Truck",
+    "lanes": [
+      {
+        "slug": "atlanta-to-orlando",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "dallas-to-houston",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-phoenix",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "houston-to-dallas",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "slug": "miami-to-atlanta",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "slug": "chicago-to-nashville",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "indianapolis-to-kansas-city",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "denver-to-salt-lake-city",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "slug": "charlotte-to-tampa",
+        "score": 40,
+        "rank": "secondary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "right-sized-assets",
+        "family": "concept",
+        "label": "Right-Sized Assets"
+      },
+      {
+        "id": "flexible-routing",
+        "family": "concept",
+        "label": "Flexible Routing"
+      },
+      {
+        "id": "cross-docking",
+        "family": "concept",
+        "label": "Cross-Docking"
+      },
+      {
+        "id": "scan-level-visibility",
+        "family": "concept",
+        "label": "Scan-Level Visibility"
+      },
+      {
+        "id": "store-replenishment",
+        "family": "solution",
+        "label": "Store Replenishment"
+      },
+      {
+        "id": "pool-distribution",
+        "family": "solution",
+        "label": "Pool Distribution"
+      },
+      {
+        "id": "vendor-consolidation",
+        "family": "solution",
+        "label": "Vendor Consolidation"
+      },
+      {
+        "id": "zone-skipping",
+        "family": "solution",
+        "label": "Zone Skipping"
+      },
+      {
+        "id": "cargo-van",
+        "family": "equipment",
+        "label": "Cargo Van"
+      },
+      {
+        "id": "53-foot-trailer",
+        "family": "equipment",
+        "label": "53-Foot Trailer"
+      }
+    ],
+    "lane_count": 11,
+    "avg_score": 45
+  },
+  {
+    "entity_id": "right-sized-assets",
+    "entity_family": "concept",
+    "label": "Right-Sized Assets",
+    "lanes": [
+      {
+        "slug": "dallas-to-houston",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "slug": "houston-to-dallas",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 65,
+        "rank": "secondary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "flexible-routing",
+        "family": "concept",
+        "label": "Flexible Routing"
+      },
+      {
+        "id": "store-replenishment",
+        "family": "solution",
+        "label": "Store Replenishment"
+      },
+      {
+        "id": "cargo-van",
+        "family": "equipment",
+        "label": "Cargo Van"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      },
+      {
+        "id": "53-foot-trailer",
+        "family": "equipment",
+        "label": "53-Foot Trailer"
+      }
+    ],
+    "lane_count": 4,
+    "avg_score": 65
+  },
+  {
+    "entity_id": "cargo-van",
+    "entity_family": "equipment",
+    "label": "Cargo Van",
+    "lanes": [
+      {
+        "slug": "dallas-to-houston",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "slug": "los-angeles-to-las-vegas",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "slug": "houston-to-dallas",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "slug": "chicago-to-indianapolis",
+        "score": 60,
+        "rank": "primary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "right-sized-assets",
+        "family": "concept",
+        "label": "Right-Sized Assets"
+      },
+      {
+        "id": "flexible-routing",
+        "family": "concept",
+        "label": "Flexible Routing"
+      },
+      {
+        "id": "scan-level-visibility",
+        "family": "concept",
+        "label": "Scan-Level Visibility"
+      },
+      {
+        "id": "store-replenishment",
+        "family": "solution",
+        "label": "Store Replenishment"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      }
+    ],
+    "lane_count": 4,
+    "avg_score": 60
+  },
+  {
+    "entity_id": "zone-skipping",
+    "entity_family": "solution",
+    "label": "Zone Skipping",
+    "lanes": [
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 55,
+        "rank": "secondary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 75,
+        "rank": "primary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 40,
+        "rank": "secondary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "middle-mile",
+        "family": "concept",
+        "label": "Middle Mile"
+      },
+      {
+        "id": "cross-docking",
+        "family": "concept",
+        "label": "Cross-Docking"
+      },
+      {
+        "id": "predictable-pricing",
+        "family": "concept",
+        "label": "Predictable Pricing"
+      },
+      {
+        "id": "53-foot-trailer",
+        "family": "equipment",
+        "label": "53-Foot Trailer"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      }
+    ],
+    "lane_count": 4,
+    "avg_score": 54
+  },
+  {
+    "entity_id": "middle-mile",
+    "entity_family": "concept",
+    "label": "Middle Mile",
+    "lanes": [
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 65,
+        "rank": "primary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 40,
+        "rank": "secondary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "cross-docking",
+        "family": "concept",
+        "label": "Cross-Docking"
+      },
+      {
+        "id": "predictable-pricing",
+        "family": "concept",
+        "label": "Predictable Pricing"
+      },
+      {
+        "id": "flexible-routing",
+        "family": "concept",
+        "label": "Flexible Routing"
+      },
+      {
+        "id": "pool-distribution",
+        "family": "solution",
+        "label": "Pool Distribution"
+      },
+      {
+        "id": "zone-skipping",
+        "family": "solution",
+        "label": "Zone Skipping"
+      },
+      {
+        "id": "53-foot-trailer",
+        "family": "equipment",
+        "label": "53-Foot Trailer"
+      }
+    ],
+    "lane_count": 4,
+    "avg_score": 49
+  },
+  {
+    "entity_id": "53-foot-trailer",
+    "entity_family": "equipment",
+    "label": "53-Foot Trailer",
+    "lanes": [
+      {
+        "slug": "los-angeles-to-chicago",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "new-york-to-miami",
+        "score": 65,
+        "rank": "primary"
+      },
+      {
+        "slug": "seattle-to-phoenix",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "slug": "atlanta-to-dallas",
+        "score": 40,
+        "rank": "secondary"
+      }
+    ],
+    "peer_entities": [
+      {
+        "id": "middle-mile",
+        "family": "concept",
+        "label": "Middle Mile"
+      },
+      {
+        "id": "cross-docking",
+        "family": "concept",
+        "label": "Cross-Docking"
+      },
+      {
+        "id": "predictable-pricing",
+        "family": "concept",
+        "label": "Predictable Pricing"
+      },
+      {
+        "id": "right-sized-assets",
+        "family": "concept",
+        "label": "Right-Sized Assets"
+      },
+      {
+        "id": "pool-distribution",
+        "family": "solution",
+        "label": "Pool Distribution"
+      },
+      {
+        "id": "vendor-consolidation",
+        "family": "solution",
+        "label": "Vendor Consolidation"
+      },
+      {
+        "id": "zone-skipping",
+        "family": "solution",
+        "label": "Zone Skipping"
+      },
+      {
+        "id": "box-truck",
+        "family": "equipment",
+        "label": "Box Truck"
+      }
+    ],
+    "lane_count": 4,
+    "avg_score": 49
+  }
+]

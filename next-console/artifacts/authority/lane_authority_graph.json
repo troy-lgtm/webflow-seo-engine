@@ -1,0 +1,6283 @@
+{
+  "_version": "1.0.0",
+  "_exported_at": "2026-03-10T12:11:45.880Z",
+  "_meta": {
+    "created_at": "2026-03-10T12:11:45.876Z",
+    "lane_count": 15,
+    "relationship_count": 133
+  },
+  "lane_to_authority": {
+    "atlanta-to-orlando": [
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 90,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "4_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "network_signal",
+            "signal": "high_cross_dock_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "11_carriers",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "4_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "4_cross_docks",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "dallas-to-houston": [
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 95,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 30
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 65,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_concept",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "right-sized-assets",
+        "entity_family": "concept",
+        "score": 65,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_short_haul",
+            "weight": 25
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_partial_load",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "right_sized_fit",
+            "weight": 15
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_concept",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "cargo-van",
+        "entity_family": "equipment",
+        "score": 60,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 20
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 15
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "cargo_van_fit",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 55,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          }
+        ]
+      }
+    ],
+    "los-angeles-to-las-vegas": [
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 95,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 30
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 65,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_concept",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "right-sized-assets",
+        "entity_family": "concept",
+        "score": 65,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_short_haul",
+            "weight": 25
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_partial_load",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "right_sized_fit",
+            "weight": 15
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_concept",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "cargo-van",
+        "entity_family": "equipment",
+        "score": 60,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 20
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 15
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "cargo_van_fit",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 55,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "city_class",
+            "signal": "origin_is_port",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "network_signal",
+            "signal": "10_carriers",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "los-angeles-to-phoenix": [
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 90,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "4_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "network_signal",
+            "signal": "high_cross_dock_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "port_to_inland",
+            "weight": 30
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_port",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "4_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "6_carriers",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "4_cross_docks",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "houston-to-dallas": [
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 100,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 30
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 65,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_concept",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "right-sized-assets",
+        "entity_family": "concept",
+        "score": 65,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_short_haul",
+            "weight": 25
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_partial_load",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "right_sized_fit",
+            "weight": 15
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_concept",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "cargo-van",
+        "entity_family": "equipment",
+        "score": 60,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 20
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 15
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "cargo_van_fit",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 55,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "city_class",
+            "signal": "origin_is_port",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 15
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 55,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          }
+        ]
+      }
+    ],
+    "miami-to-atlanta": [
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 95,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "port_to_inland",
+            "weight": 30
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_port",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 60,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 35,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_500+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "los-angeles-to-chicago": [
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 85,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "port_to_inland",
+            "weight": 30
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_port",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 15
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "network_signal",
+            "signal": "high_cross_dock_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 70,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 25
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_500+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 60,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_solution",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "zone-skipping",
+        "entity_family": "solution",
+        "score": 55,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 30
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_800+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_solution",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "middle-mile",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 30
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_600+_miles",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "53-foot-trailer",
+        "entity_family": "equipment",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_linehaul_trailer",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 20
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "trailer_equipment",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          }
+        ]
+      }
+    ],
+    "new-york-to-miami": [
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 95,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 25
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "long_haul_hub_to_hub",
+            "weight": 25
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_500+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "network_signal",
+            "signal": "high_cross_dock_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "zone-skipping",
+        "entity_family": "solution",
+        "score": 75,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 30
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "long_haul_hub_to_hub",
+            "weight": 20
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_800+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "middle-mile",
+        "entity_family": "concept",
+        "score": 65,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 30
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_600+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "long_haul_hub_to_hub",
+            "weight": 20
+          }
+        ]
+      },
+      {
+        "entity_id": "53-foot-trailer",
+        "entity_family": "equipment",
+        "score": 65,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_linehaul_trailer",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 20
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "long_haul_hub_to_hub",
+            "weight": 20
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "trailer_equipment",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "city_class",
+            "signal": "origin_is_port",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "network_signal",
+            "signal": "11_carriers",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "seattle-to-phoenix": [
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "network_signal",
+            "signal": "high_cross_dock_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 70,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "port_to_inland",
+            "weight": 30
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_port",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 60,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 25
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_500+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "zone-skipping",
+        "entity_family": "solution",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 30
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_800+_miles",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "middle-mile",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 30
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_600+_miles",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "53-foot-trailer",
+        "entity_family": "equipment",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_linehaul_trailer",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "long_haul",
+            "weight": 20
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "trailer_equipment",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "network_signal",
+            "signal": "8_carriers",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "chicago-to-indianapolis": [
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 100,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 30
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 65,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_concept",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "right-sized-assets",
+        "entity_family": "concept",
+        "score": 65,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_short_haul",
+            "weight": 25
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_partial_load",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "right_sized_fit",
+            "weight": 15
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          },
+          {
+            "rule": "over_assignment_gate",
+            "signal": "demoted_from_primary_excess_concept",
+            "weight": 0
+          }
+        ]
+      },
+      {
+        "entity_id": "cargo-van",
+        "entity_family": "equipment",
+        "score": 60,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 20
+          },
+          {
+            "rule": "distance_band",
+            "signal": "short_haul",
+            "weight": 15
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "cargo_van_fit",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 55,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "archetype_match",
+            "signal": "short_haul_metro",
+            "weight": 15
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 35,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 15
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          }
+        ]
+      }
+    ],
+    "atlanta-to-dallas": [
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "network_signal",
+            "signal": "high_cross_dock_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 65,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "regional",
+            "weight": 20
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_500+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 60,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "regional",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "9_carriers",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_ecommerce",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "regional",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "zone-skipping",
+        "entity_family": "solution",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "regional",
+            "weight": 15
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_800+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "middle-mile",
+        "entity_family": "concept",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "distance_band",
+            "signal": "regional",
+            "weight": 25
+          },
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_600+_miles",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "53-foot-trailer",
+        "entity_family": "equipment",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_linehaul_trailer",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "regional",
+            "weight": 15
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "trailer_equipment",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "chicago-to-nashville": [
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 90,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "network_signal",
+            "signal": "high_cross_dock_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "archetype_match",
+            "signal": "midwest_manufacturing",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "indianapolis-to-kansas-city": [
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 90,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "network_signal",
+            "signal": "high_cross_dock_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "8_carriers",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_500+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_ecommerce",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "5_cross_docks",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "denver-to-salt-lake-city": [
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 80,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "11_carriers",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "3_cross_docks",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "charlotte-to-tampa": [
+      {
+        "entity_id": "cross-docking",
+        "entity_family": "concept",
+        "score": 90,
+        "rank": "primary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_cross_dock_routing",
+            "weight": 25
+          },
+          {
+            "rule": "network_signal",
+            "signal": "4_cross_docks",
+            "weight": 20
+          },
+          {
+            "rule": "network_signal",
+            "signal": "high_cross_dock_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "cross_dock_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_to_metro",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "store-replenishment",
+        "entity_family": "solution",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "replenishment_profile",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "retail_operational",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "predictable-pricing",
+        "entity_family": "concept",
+        "score": 50,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_volume_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "transparent_pricing",
+            "weight": 15
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "8_carriers",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "scan-level-visibility",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_pallet_tracking",
+            "weight": 20
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "tracking_operational",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "dest_is_metro",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "flexible-routing",
+        "entity_family": "concept",
+        "score": 45,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_multi_stop",
+            "weight": 20
+          },
+          {
+            "rule": "city_class",
+            "signal": "metro_density",
+            "weight": 10
+          },
+          {
+            "rule": "operational_signal",
+            "signal": "flexible_operational",
+            "weight": 15
+          }
+        ]
+      },
+      {
+        "entity_id": "box-truck",
+        "entity_family": "equipment",
+        "score": 40,
+        "rank": "secondary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_local_delivery",
+            "weight": 20
+          },
+          {
+            "rule": "mode_fit",
+            "signal": "LTL_PD_trucks",
+            "weight": 10
+          },
+          {
+            "rule": "equipment_signal",
+            "signal": "box_truck_fit",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "pool-distribution",
+        "entity_family": "solution",
+        "score": 35,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_distance",
+            "signal": "LTL_500+_miles",
+            "weight": 15
+          },
+          {
+            "rule": "city_class",
+            "signal": "origin_is_metro",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "4_cross_docks",
+            "weight": 10
+          }
+        ]
+      },
+      {
+        "entity_id": "vendor-consolidation",
+        "entity_family": "solution",
+        "score": 30,
+        "rank": "tertiary",
+        "evidence": [
+          {
+            "rule": "mode_fit",
+            "signal": "LTL",
+            "weight": 10
+          },
+          {
+            "rule": "distance_band",
+            "signal": "medium_haul",
+            "weight": 10
+          },
+          {
+            "rule": "network_signal",
+            "signal": "4_cross_docks",
+            "weight": 10
+          }
+        ]
+      }
+    ]
+  },
+  "authority_to_lanes": {
+    "cross-docking": [
+      {
+        "lane_slug": "atlanta-to-orlando",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Orlando",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 90,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-phoenix",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Phoenix",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 90,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "chicago-to-nashville",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Nashville",
+        "distance_band": "medium_haul",
+        "archetype": "midwest_manufacturing",
+        "score": 90,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "indianapolis-to-kansas-city",
+        "mode": "LTL",
+        "origin": "Indianapolis",
+        "destination": "Kansas City",
+        "distance_band": "medium_haul",
+        "archetype": "agriculture_lane",
+        "score": 90,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "charlotte-to-tampa",
+        "mode": "LTL",
+        "origin": "Charlotte",
+        "destination": "Tampa",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 90,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "dallas-to-houston",
+        "mode": "LTL",
+        "origin": "Dallas",
+        "destination": "Houston",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "houston-to-dallas",
+        "mode": "LTL",
+        "origin": "Houston",
+        "destination": "Dallas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "miami-to-atlanta",
+        "mode": "LTL",
+        "origin": "Miami",
+        "destination": "Atlanta",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "denver-to-salt-lake-city",
+        "mode": "LTL",
+        "origin": "Denver",
+        "destination": "Salt Lake City",
+        "distance_band": "medium_haul",
+        "archetype": "energy_corridor",
+        "score": 80,
+        "rank": "primary"
+      }
+    ],
+    "store-replenishment": [
+      {
+        "lane_slug": "houston-to-dallas",
+        "mode": "LTL",
+        "origin": "Houston",
+        "destination": "Dallas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 100,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 100,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "dallas-to-houston",
+        "mode": "LTL",
+        "origin": "Dallas",
+        "destination": "Houston",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 95,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 95,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "miami-to-atlanta",
+        "mode": "LTL",
+        "origin": "Miami",
+        "destination": "Atlanta",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 60,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "atlanta-to-orlando",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Orlando",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-phoenix",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Phoenix",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "chicago-to-nashville",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Nashville",
+        "distance_band": "medium_haul",
+        "archetype": "midwest_manufacturing",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "indianapolis-to-kansas-city",
+        "mode": "LTL",
+        "origin": "Indianapolis",
+        "destination": "Kansas City",
+        "distance_band": "medium_haul",
+        "archetype": "agriculture_lane",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "denver-to-salt-lake-city",
+        "mode": "LTL",
+        "origin": "Denver",
+        "destination": "Salt Lake City",
+        "distance_band": "medium_haul",
+        "archetype": "energy_corridor",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "charlotte-to-tampa",
+        "mode": "LTL",
+        "origin": "Charlotte",
+        "destination": "Tampa",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 50,
+        "rank": "secondary"
+      }
+    ],
+    "predictable-pricing": [
+      {
+        "lane_slug": "atlanta-to-orlando",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Orlando",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-phoenix",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Phoenix",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "indianapolis-to-kansas-city",
+        "mode": "LTL",
+        "origin": "Indianapolis",
+        "destination": "Kansas City",
+        "distance_band": "medium_haul",
+        "archetype": "agriculture_lane",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "denver-to-salt-lake-city",
+        "mode": "LTL",
+        "origin": "Denver",
+        "destination": "Salt Lake City",
+        "distance_band": "medium_haul",
+        "archetype": "energy_corridor",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "charlotte-to-tampa",
+        "mode": "LTL",
+        "origin": "Charlotte",
+        "destination": "Tampa",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "miami-to-atlanta",
+        "mode": "LTL",
+        "origin": "Miami",
+        "destination": "Atlanta",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "chicago-to-nashville",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Nashville",
+        "distance_band": "medium_haul",
+        "archetype": "midwest_manufacturing",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "dallas-to-houston",
+        "mode": "LTL",
+        "origin": "Dallas",
+        "destination": "Houston",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "houston-to-dallas",
+        "mode": "LTL",
+        "origin": "Houston",
+        "destination": "Dallas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 30,
+        "rank": "tertiary"
+      }
+    ],
+    "scan-level-visibility": [
+      {
+        "lane_slug": "dallas-to-houston",
+        "mode": "LTL",
+        "origin": "Dallas",
+        "destination": "Houston",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "houston-to-dallas",
+        "mode": "LTL",
+        "origin": "Houston",
+        "destination": "Dallas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "atlanta-to-orlando",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Orlando",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-phoenix",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Phoenix",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "miami-to-atlanta",
+        "mode": "LTL",
+        "origin": "Miami",
+        "destination": "Atlanta",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "chicago-to-nashville",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Nashville",
+        "distance_band": "medium_haul",
+        "archetype": "midwest_manufacturing",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "indianapolis-to-kansas-city",
+        "mode": "LTL",
+        "origin": "Indianapolis",
+        "destination": "Kansas City",
+        "distance_band": "medium_haul",
+        "archetype": "agriculture_lane",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "denver-to-salt-lake-city",
+        "mode": "LTL",
+        "origin": "Denver",
+        "destination": "Salt Lake City",
+        "distance_band": "medium_haul",
+        "archetype": "energy_corridor",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "charlotte-to-tampa",
+        "mode": "LTL",
+        "origin": "Charlotte",
+        "destination": "Tampa",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 45,
+        "rank": "secondary"
+      }
+    ],
+    "flexible-routing": [
+      {
+        "lane_slug": "dallas-to-houston",
+        "mode": "LTL",
+        "origin": "Dallas",
+        "destination": "Houston",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "houston-to-dallas",
+        "mode": "LTL",
+        "origin": "Houston",
+        "destination": "Dallas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "atlanta-to-orlando",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Orlando",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-phoenix",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Phoenix",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "miami-to-atlanta",
+        "mode": "LTL",
+        "origin": "Miami",
+        "destination": "Atlanta",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "chicago-to-nashville",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Nashville",
+        "distance_band": "medium_haul",
+        "archetype": "midwest_manufacturing",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "indianapolis-to-kansas-city",
+        "mode": "LTL",
+        "origin": "Indianapolis",
+        "destination": "Kansas City",
+        "distance_band": "medium_haul",
+        "archetype": "agriculture_lane",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "denver-to-salt-lake-city",
+        "mode": "LTL",
+        "origin": "Denver",
+        "destination": "Salt Lake City",
+        "distance_band": "medium_haul",
+        "archetype": "energy_corridor",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "charlotte-to-tampa",
+        "mode": "LTL",
+        "origin": "Charlotte",
+        "destination": "Tampa",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 45,
+        "rank": "secondary"
+      }
+    ],
+    "box-truck": [
+      {
+        "lane_slug": "dallas-to-houston",
+        "mode": "LTL",
+        "origin": "Dallas",
+        "destination": "Houston",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "houston-to-dallas",
+        "mode": "LTL",
+        "origin": "Houston",
+        "destination": "Dallas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "atlanta-to-orlando",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Orlando",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-phoenix",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Phoenix",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "miami-to-atlanta",
+        "mode": "LTL",
+        "origin": "Miami",
+        "destination": "Atlanta",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "chicago-to-nashville",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Nashville",
+        "distance_band": "medium_haul",
+        "archetype": "midwest_manufacturing",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "indianapolis-to-kansas-city",
+        "mode": "LTL",
+        "origin": "Indianapolis",
+        "destination": "Kansas City",
+        "distance_band": "medium_haul",
+        "archetype": "agriculture_lane",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "denver-to-salt-lake-city",
+        "mode": "LTL",
+        "origin": "Denver",
+        "destination": "Salt Lake City",
+        "distance_band": "medium_haul",
+        "archetype": "energy_corridor",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "charlotte-to-tampa",
+        "mode": "LTL",
+        "origin": "Charlotte",
+        "destination": "Tampa",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 40,
+        "rank": "secondary"
+      }
+    ],
+    "pool-distribution": [
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 95,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 70,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 65,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "indianapolis-to-kansas-city",
+        "mode": "LTL",
+        "origin": "Indianapolis",
+        "destination": "Kansas City",
+        "distance_band": "medium_haul",
+        "archetype": "agriculture_lane",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "miami-to-atlanta",
+        "mode": "LTL",
+        "origin": "Miami",
+        "destination": "Atlanta",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 35,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "charlotte-to-tampa",
+        "mode": "LTL",
+        "origin": "Charlotte",
+        "destination": "Tampa",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 35,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "atlanta-to-orlando",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Orlando",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "dallas-to-houston",
+        "mode": "LTL",
+        "origin": "Dallas",
+        "destination": "Houston",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "los-angeles-to-phoenix",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Phoenix",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "chicago-to-nashville",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Nashville",
+        "distance_band": "medium_haul",
+        "archetype": "midwest_manufacturing",
+        "score": 30,
+        "rank": "tertiary"
+      }
+    ],
+    "vendor-consolidation": [
+      {
+        "lane_slug": "miami-to-atlanta",
+        "mode": "LTL",
+        "origin": "Miami",
+        "destination": "Atlanta",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 95,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 85,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-phoenix",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Phoenix",
+        "distance_band": "medium_haul",
+        "archetype": "port_to_inland",
+        "score": 80,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 70,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "houston-to-dallas",
+        "mode": "LTL",
+        "origin": "Houston",
+        "destination": "Dallas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 55,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "chicago-to-nashville",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Nashville",
+        "distance_band": "medium_haul",
+        "archetype": "midwest_manufacturing",
+        "score": 50,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 40,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 35,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "atlanta-to-orlando",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Orlando",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "indianapolis-to-kansas-city",
+        "mode": "LTL",
+        "origin": "Indianapolis",
+        "destination": "Kansas City",
+        "distance_band": "medium_haul",
+        "archetype": "agriculture_lane",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "denver-to-salt-lake-city",
+        "mode": "LTL",
+        "origin": "Denver",
+        "destination": "Salt Lake City",
+        "distance_band": "medium_haul",
+        "archetype": "energy_corridor",
+        "score": 30,
+        "rank": "tertiary"
+      },
+      {
+        "lane_slug": "charlotte-to-tampa",
+        "mode": "LTL",
+        "origin": "Charlotte",
+        "destination": "Tampa",
+        "distance_band": "medium_haul",
+        "archetype": "sunbelt_growth",
+        "score": 30,
+        "rank": "tertiary"
+      }
+    ],
+    "right-sized-assets": [
+      {
+        "lane_slug": "dallas-to-houston",
+        "mode": "LTL",
+        "origin": "Dallas",
+        "destination": "Houston",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "houston-to-dallas",
+        "mode": "LTL",
+        "origin": "Houston",
+        "destination": "Dallas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 65,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 65,
+        "rank": "secondary"
+      }
+    ],
+    "cargo-van": [
+      {
+        "lane_slug": "dallas-to-houston",
+        "mode": "LTL",
+        "origin": "Dallas",
+        "destination": "Houston",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-las-vegas",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Las Vegas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "houston-to-dallas",
+        "mode": "LTL",
+        "origin": "Houston",
+        "destination": "Dallas",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 60,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "chicago-to-indianapolis",
+        "mode": "LTL",
+        "origin": "Chicago",
+        "destination": "Indianapolis",
+        "distance_band": "short_haul",
+        "archetype": "short_haul_metro",
+        "score": 60,
+        "rank": "primary"
+      }
+    ],
+    "zone-skipping": [
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 75,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 55,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 40,
+        "rank": "secondary"
+      }
+    ],
+    "middle-mile": [
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 65,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 40,
+        "rank": "secondary"
+      }
+    ],
+    "53-foot-trailer": [
+      {
+        "lane_slug": "new-york-to-miami",
+        "mode": "LTL",
+        "origin": "New York",
+        "destination": "Miami",
+        "distance_band": "long_haul",
+        "archetype": "long_haul_hub_to_hub",
+        "score": 65,
+        "rank": "primary"
+      },
+      {
+        "lane_slug": "los-angeles-to-chicago",
+        "mode": "LTL",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "seattle-to-phoenix",
+        "mode": "LTL",
+        "origin": "Seattle",
+        "destination": "Phoenix",
+        "distance_band": "long_haul",
+        "archetype": "port_to_inland",
+        "score": 45,
+        "rank": "secondary"
+      },
+      {
+        "lane_slug": "atlanta-to-dallas",
+        "mode": "LTL",
+        "origin": "Atlanta",
+        "destination": "Dallas",
+        "distance_band": "regional",
+        "archetype": "energy_corridor",
+        "score": 40,
+        "rank": "secondary"
+      }
+    ]
+  },
+  "clusters": {
+    "cross-docking": {
+      "entity_id": "cross-docking",
+      "entity_family": "concept",
+      "label": "Cross-Docking",
+      "lanes": [
+        {
+          "slug": "atlanta-to-orlando",
+          "score": 90,
+          "rank": "primary"
+        },
+        {
+          "slug": "dallas-to-houston",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-phoenix",
+          "score": 90,
+          "rank": "primary"
+        },
+        {
+          "slug": "houston-to-dallas",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "miami-to-atlanta",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "chicago-to-nashville",
+          "score": 90,
+          "rank": "primary"
+        },
+        {
+          "slug": "indianapolis-to-kansas-city",
+          "score": 90,
+          "rank": "primary"
+        },
+        {
+          "slug": "denver-to-salt-lake-city",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "charlotte-to-tampa",
+          "score": 90,
+          "rank": "primary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "middle-mile",
+          "family": "concept",
+          "label": "Middle Mile"
+        },
+        {
+          "id": "scan-level-visibility",
+          "family": "concept",
+          "label": "Scan-Level Visibility"
+        },
+        {
+          "id": "flexible-routing",
+          "family": "concept",
+          "label": "Flexible Routing"
+        },
+        {
+          "id": "store-replenishment",
+          "family": "solution",
+          "label": "Store Replenishment"
+        },
+        {
+          "id": "pool-distribution",
+          "family": "solution",
+          "label": "Pool Distribution"
+        },
+        {
+          "id": "vendor-consolidation",
+          "family": "solution",
+          "label": "Vendor Consolidation"
+        },
+        {
+          "id": "zone-skipping",
+          "family": "solution",
+          "label": "Zone Skipping"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        },
+        {
+          "id": "53-foot-trailer",
+          "family": "equipment",
+          "label": "53-Foot Trailer"
+        }
+      ],
+      "lane_count": 15,
+      "avg_score": 83
+    },
+    "store-replenishment": {
+      "entity_id": "store-replenishment",
+      "entity_family": "solution",
+      "label": "Store Replenishment",
+      "lanes": [
+        {
+          "slug": "atlanta-to-orlando",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "dallas-to-houston",
+          "score": 95,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 95,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-phoenix",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "houston-to-dallas",
+          "score": 100,
+          "rank": "primary"
+        },
+        {
+          "slug": "miami-to-atlanta",
+          "score": 60,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 60,
+          "rank": "secondary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 100,
+          "rank": "primary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 60,
+          "rank": "primary"
+        },
+        {
+          "slug": "chicago-to-nashville",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "indianapolis-to-kansas-city",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "denver-to-salt-lake-city",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "charlotte-to-tampa",
+          "score": 50,
+          "rank": "secondary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "cross-docking",
+          "family": "concept",
+          "label": "Cross-Docking"
+        },
+        {
+          "id": "scan-level-visibility",
+          "family": "concept",
+          "label": "Scan-Level Visibility"
+        },
+        {
+          "id": "right-sized-assets",
+          "family": "concept",
+          "label": "Right-Sized Assets"
+        },
+        {
+          "id": "flexible-routing",
+          "family": "concept",
+          "label": "Flexible Routing"
+        },
+        {
+          "id": "cargo-van",
+          "family": "equipment",
+          "label": "Cargo Van"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        }
+      ],
+      "lane_count": 15,
+      "avg_score": 65
+    },
+    "predictable-pricing": {
+      "entity_id": "predictable-pricing",
+      "entity_family": "concept",
+      "label": "Predictable Pricing",
+      "lanes": [
+        {
+          "slug": "atlanta-to-orlando",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "dallas-to-houston",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "los-angeles-to-phoenix",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "houston-to-dallas",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "miami-to-atlanta",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-nashville",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "indianapolis-to-kansas-city",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "denver-to-salt-lake-city",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "charlotte-to-tampa",
+          "score": 50,
+          "rank": "secondary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "middle-mile",
+          "family": "concept",
+          "label": "Middle Mile"
+        },
+        {
+          "id": "pool-distribution",
+          "family": "solution",
+          "label": "Pool Distribution"
+        },
+        {
+          "id": "vendor-consolidation",
+          "family": "solution",
+          "label": "Vendor Consolidation"
+        },
+        {
+          "id": "zone-skipping",
+          "family": "solution",
+          "label": "Zone Skipping"
+        },
+        {
+          "id": "cargo-van",
+          "family": "equipment",
+          "label": "Cargo Van"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        },
+        {
+          "id": "53-foot-trailer",
+          "family": "equipment",
+          "label": "53-Foot Trailer"
+        }
+      ],
+      "lane_count": 15,
+      "avg_score": 41
+    },
+    "scan-level-visibility": {
+      "entity_id": "scan-level-visibility",
+      "entity_family": "concept",
+      "label": "Scan-Level Visibility",
+      "lanes": [
+        {
+          "slug": "atlanta-to-orlando",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "dallas-to-houston",
+          "score": 65,
+          "rank": "secondary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 65,
+          "rank": "secondary"
+        },
+        {
+          "slug": "los-angeles-to-phoenix",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "houston-to-dallas",
+          "score": 65,
+          "rank": "secondary"
+        },
+        {
+          "slug": "miami-to-atlanta",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 65,
+          "rank": "secondary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-nashville",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "indianapolis-to-kansas-city",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "denver-to-salt-lake-city",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "charlotte-to-tampa",
+          "score": 45,
+          "rank": "secondary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "cross-docking",
+          "family": "concept",
+          "label": "Cross-Docking"
+        },
+        {
+          "id": "flexible-routing",
+          "family": "concept",
+          "label": "Flexible Routing"
+        },
+        {
+          "id": "store-replenishment",
+          "family": "solution",
+          "label": "Store Replenishment"
+        },
+        {
+          "id": "vendor-consolidation",
+          "family": "solution",
+          "label": "Vendor Consolidation"
+        },
+        {
+          "id": "cargo-van",
+          "family": "equipment",
+          "label": "Cargo Van"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        }
+      ],
+      "lane_count": 15,
+      "avg_score": 50
+    },
+    "flexible-routing": {
+      "entity_id": "flexible-routing",
+      "entity_family": "concept",
+      "label": "Flexible Routing",
+      "lanes": [
+        {
+          "slug": "atlanta-to-orlando",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "dallas-to-houston",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-phoenix",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "houston-to-dallas",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "miami-to-atlanta",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-nashville",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "indianapolis-to-kansas-city",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "denver-to-salt-lake-city",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "charlotte-to-tampa",
+          "score": 45,
+          "rank": "secondary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "cross-docking",
+          "family": "concept",
+          "label": "Cross-Docking"
+        },
+        {
+          "id": "middle-mile",
+          "family": "concept",
+          "label": "Middle Mile"
+        },
+        {
+          "id": "scan-level-visibility",
+          "family": "concept",
+          "label": "Scan-Level Visibility"
+        },
+        {
+          "id": "right-sized-assets",
+          "family": "concept",
+          "label": "Right-Sized Assets"
+        },
+        {
+          "id": "store-replenishment",
+          "family": "solution",
+          "label": "Store Replenishment"
+        },
+        {
+          "id": "vendor-consolidation",
+          "family": "solution",
+          "label": "Vendor Consolidation"
+        },
+        {
+          "id": "cargo-van",
+          "family": "equipment",
+          "label": "Cargo Van"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        }
+      ],
+      "lane_count": 15,
+      "avg_score": 54
+    },
+    "box-truck": {
+      "entity_id": "box-truck",
+      "entity_family": "equipment",
+      "label": "Box Truck",
+      "lanes": [
+        {
+          "slug": "atlanta-to-orlando",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "dallas-to-houston",
+          "score": 55,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 55,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-phoenix",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "houston-to-dallas",
+          "score": 55,
+          "rank": "primary"
+        },
+        {
+          "slug": "miami-to-atlanta",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 55,
+          "rank": "primary"
+        },
+        {
+          "slug": "chicago-to-nashville",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "indianapolis-to-kansas-city",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "denver-to-salt-lake-city",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "charlotte-to-tampa",
+          "score": 40,
+          "rank": "secondary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "right-sized-assets",
+          "family": "concept",
+          "label": "Right-Sized Assets"
+        },
+        {
+          "id": "flexible-routing",
+          "family": "concept",
+          "label": "Flexible Routing"
+        },
+        {
+          "id": "cross-docking",
+          "family": "concept",
+          "label": "Cross-Docking"
+        },
+        {
+          "id": "scan-level-visibility",
+          "family": "concept",
+          "label": "Scan-Level Visibility"
+        },
+        {
+          "id": "store-replenishment",
+          "family": "solution",
+          "label": "Store Replenishment"
+        },
+        {
+          "id": "pool-distribution",
+          "family": "solution",
+          "label": "Pool Distribution"
+        },
+        {
+          "id": "vendor-consolidation",
+          "family": "solution",
+          "label": "Vendor Consolidation"
+        },
+        {
+          "id": "zone-skipping",
+          "family": "solution",
+          "label": "Zone Skipping"
+        },
+        {
+          "id": "cargo-van",
+          "family": "equipment",
+          "label": "Cargo Van"
+        },
+        {
+          "id": "53-foot-trailer",
+          "family": "equipment",
+          "label": "53-Foot Trailer"
+        }
+      ],
+      "lane_count": 11,
+      "avg_score": 45
+    },
+    "pool-distribution": {
+      "entity_id": "pool-distribution",
+      "entity_family": "solution",
+      "label": "Pool Distribution",
+      "lanes": [
+        {
+          "slug": "atlanta-to-orlando",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "dallas-to-houston",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "los-angeles-to-phoenix",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "miami-to-atlanta",
+          "score": 35,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 70,
+          "rank": "primary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 95,
+          "rank": "primary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 60,
+          "rank": "primary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 65,
+          "rank": "primary"
+        },
+        {
+          "slug": "chicago-to-nashville",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "indianapolis-to-kansas-city",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "charlotte-to-tampa",
+          "score": 35,
+          "rank": "tertiary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "cross-docking",
+          "family": "concept",
+          "label": "Cross-Docking"
+        },
+        {
+          "id": "middle-mile",
+          "family": "concept",
+          "label": "Middle Mile"
+        },
+        {
+          "id": "predictable-pricing",
+          "family": "concept",
+          "label": "Predictable Pricing"
+        },
+        {
+          "id": "53-foot-trailer",
+          "family": "equipment",
+          "label": "53-Foot Trailer"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        }
+      ],
+      "lane_count": 13,
+      "avg_score": 45
+    },
+    "vendor-consolidation": {
+      "entity_id": "vendor-consolidation",
+      "entity_family": "solution",
+      "label": "Vendor Consolidation",
+      "lanes": [
+        {
+          "slug": "atlanta-to-orlando",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "los-angeles-to-phoenix",
+          "score": 80,
+          "rank": "primary"
+        },
+        {
+          "slug": "houston-to-dallas",
+          "score": 55,
+          "rank": "primary"
+        },
+        {
+          "slug": "miami-to-atlanta",
+          "score": 95,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 85,
+          "rank": "primary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 40,
+          "rank": "secondary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 70,
+          "rank": "primary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 35,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-nashville",
+          "score": 50,
+          "rank": "secondary"
+        },
+        {
+          "slug": "indianapolis-to-kansas-city",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "denver-to-salt-lake-city",
+          "score": 30,
+          "rank": "tertiary"
+        },
+        {
+          "slug": "charlotte-to-tampa",
+          "score": 30,
+          "rank": "tertiary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "cross-docking",
+          "family": "concept",
+          "label": "Cross-Docking"
+        },
+        {
+          "id": "scan-level-visibility",
+          "family": "concept",
+          "label": "Scan-Level Visibility"
+        },
+        {
+          "id": "flexible-routing",
+          "family": "concept",
+          "label": "Flexible Routing"
+        },
+        {
+          "id": "predictable-pricing",
+          "family": "concept",
+          "label": "Predictable Pricing"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        },
+        {
+          "id": "53-foot-trailer",
+          "family": "equipment",
+          "label": "53-Foot Trailer"
+        }
+      ],
+      "lane_count": 14,
+      "avg_score": 51
+    },
+    "right-sized-assets": {
+      "entity_id": "right-sized-assets",
+      "entity_family": "concept",
+      "label": "Right-Sized Assets",
+      "lanes": [
+        {
+          "slug": "dallas-to-houston",
+          "score": 65,
+          "rank": "secondary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 65,
+          "rank": "secondary"
+        },
+        {
+          "slug": "houston-to-dallas",
+          "score": 65,
+          "rank": "secondary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 65,
+          "rank": "secondary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "flexible-routing",
+          "family": "concept",
+          "label": "Flexible Routing"
+        },
+        {
+          "id": "store-replenishment",
+          "family": "solution",
+          "label": "Store Replenishment"
+        },
+        {
+          "id": "cargo-van",
+          "family": "equipment",
+          "label": "Cargo Van"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        },
+        {
+          "id": "53-foot-trailer",
+          "family": "equipment",
+          "label": "53-Foot Trailer"
+        }
+      ],
+      "lane_count": 4,
+      "avg_score": 65
+    },
+    "cargo-van": {
+      "entity_id": "cargo-van",
+      "entity_family": "equipment",
+      "label": "Cargo Van",
+      "lanes": [
+        {
+          "slug": "dallas-to-houston",
+          "score": 60,
+          "rank": "primary"
+        },
+        {
+          "slug": "los-angeles-to-las-vegas",
+          "score": 60,
+          "rank": "primary"
+        },
+        {
+          "slug": "houston-to-dallas",
+          "score": 60,
+          "rank": "primary"
+        },
+        {
+          "slug": "chicago-to-indianapolis",
+          "score": 60,
+          "rank": "primary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "right-sized-assets",
+          "family": "concept",
+          "label": "Right-Sized Assets"
+        },
+        {
+          "id": "flexible-routing",
+          "family": "concept",
+          "label": "Flexible Routing"
+        },
+        {
+          "id": "scan-level-visibility",
+          "family": "concept",
+          "label": "Scan-Level Visibility"
+        },
+        {
+          "id": "store-replenishment",
+          "family": "solution",
+          "label": "Store Replenishment"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        }
+      ],
+      "lane_count": 4,
+      "avg_score": 60
+    },
+    "zone-skipping": {
+      "entity_id": "zone-skipping",
+      "entity_family": "solution",
+      "label": "Zone Skipping",
+      "lanes": [
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 55,
+          "rank": "secondary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 75,
+          "rank": "primary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 40,
+          "rank": "secondary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "middle-mile",
+          "family": "concept",
+          "label": "Middle Mile"
+        },
+        {
+          "id": "cross-docking",
+          "family": "concept",
+          "label": "Cross-Docking"
+        },
+        {
+          "id": "predictable-pricing",
+          "family": "concept",
+          "label": "Predictable Pricing"
+        },
+        {
+          "id": "53-foot-trailer",
+          "family": "equipment",
+          "label": "53-Foot Trailer"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        }
+      ],
+      "lane_count": 4,
+      "avg_score": 54
+    },
+    "middle-mile": {
+      "entity_id": "middle-mile",
+      "entity_family": "concept",
+      "label": "Middle Mile",
+      "lanes": [
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 65,
+          "rank": "primary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 40,
+          "rank": "secondary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "cross-docking",
+          "family": "concept",
+          "label": "Cross-Docking"
+        },
+        {
+          "id": "predictable-pricing",
+          "family": "concept",
+          "label": "Predictable Pricing"
+        },
+        {
+          "id": "flexible-routing",
+          "family": "concept",
+          "label": "Flexible Routing"
+        },
+        {
+          "id": "pool-distribution",
+          "family": "solution",
+          "label": "Pool Distribution"
+        },
+        {
+          "id": "zone-skipping",
+          "family": "solution",
+          "label": "Zone Skipping"
+        },
+        {
+          "id": "53-foot-trailer",
+          "family": "equipment",
+          "label": "53-Foot Trailer"
+        }
+      ],
+      "lane_count": 4,
+      "avg_score": 49
+    },
+    "53-foot-trailer": {
+      "entity_id": "53-foot-trailer",
+      "entity_family": "equipment",
+      "label": "53-Foot Trailer",
+      "lanes": [
+        {
+          "slug": "los-angeles-to-chicago",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "new-york-to-miami",
+          "score": 65,
+          "rank": "primary"
+        },
+        {
+          "slug": "seattle-to-phoenix",
+          "score": 45,
+          "rank": "secondary"
+        },
+        {
+          "slug": "atlanta-to-dallas",
+          "score": 40,
+          "rank": "secondary"
+        }
+      ],
+      "peer_entities": [
+        {
+          "id": "middle-mile",
+          "family": "concept",
+          "label": "Middle Mile"
+        },
+        {
+          "id": "cross-docking",
+          "family": "concept",
+          "label": "Cross-Docking"
+        },
+        {
+          "id": "predictable-pricing",
+          "family": "concept",
+          "label": "Predictable Pricing"
+        },
+        {
+          "id": "right-sized-assets",
+          "family": "concept",
+          "label": "Right-Sized Assets"
+        },
+        {
+          "id": "pool-distribution",
+          "family": "solution",
+          "label": "Pool Distribution"
+        },
+        {
+          "id": "vendor-consolidation",
+          "family": "solution",
+          "label": "Vendor Consolidation"
+        },
+        {
+          "id": "zone-skipping",
+          "family": "solution",
+          "label": "Zone Skipping"
+        },
+        {
+          "id": "box-truck",
+          "family": "equipment",
+          "label": "Box Truck"
+        }
+      ],
+      "lane_count": 4,
+      "avg_score": 49
+    }
+  }
+}

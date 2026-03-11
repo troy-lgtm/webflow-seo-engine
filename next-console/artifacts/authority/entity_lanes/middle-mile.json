@@ -1,0 +1,76 @@
+{
+  "entity_id": "middle-mile",
+  "lane_count": 4,
+  "lanes": [
+    {
+      "lane_slug": "new-york-to-miami",
+      "origin": "New York",
+      "destination": "Miami",
+      "mode": "LTL",
+      "score": 65,
+      "rank": "primary",
+      "distance_band": "long_haul",
+      "archetype": "long_haul_hub_to_hub"
+    },
+    {
+      "lane_slug": "los-angeles-to-chicago",
+      "origin": "Los Angeles",
+      "destination": "Chicago",
+      "mode": "LTL",
+      "score": 45,
+      "rank": "secondary",
+      "distance_band": "long_haul",
+      "archetype": "port_to_inland"
+    },
+    {
+      "lane_slug": "seattle-to-phoenix",
+      "origin": "Seattle",
+      "destination": "Phoenix",
+      "mode": "LTL",
+      "score": 45,
+      "rank": "secondary",
+      "distance_band": "long_haul",
+      "archetype": "port_to_inland"
+    },
+    {
+      "lane_slug": "atlanta-to-dallas",
+      "origin": "Atlanta",
+      "destination": "Dallas",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary",
+      "distance_band": "regional",
+      "archetype": "energy_corridor"
+    }
+  ],
+  "links": [
+    {
+      "href": "/lanes/new-york-to-miami",
+      "text": "New York to Miami Freight",
+      "mode": "LTL",
+      "score": 65,
+      "rank": "primary"
+    },
+    {
+      "href": "/lanes/los-angeles-to-chicago",
+      "text": "Los Angeles to Chicago Freight",
+      "mode": "LTL",
+      "score": 45,
+      "rank": "secondary"
+    },
+    {
+      "href": "/lanes/seattle-to-phoenix",
+      "text": "Seattle to Phoenix Freight",
+      "mode": "LTL",
+      "score": 45,
+      "rank": "secondary"
+    },
+    {
+      "href": "/lanes/atlanta-to-dallas",
+      "text": "Atlanta to Dallas Freight",
+      "mode": "LTL",
+      "score": 40,
+      "rank": "secondary"
+    }
+  ]
+}

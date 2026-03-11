@@ -3,7 +3,15 @@
  * update_lane_content.js — Update existing lane pages with improved content
  *
  * Regenerates body-content, hero-headline, subheadline, and all CMS fields
- * using the improved pipeline, then pushes updates to Webflow CMS.
+ * using the canonical pipeline, then pushes updates via the publisher adapter.
+ *
+ * ARCHITECTURE (post-migration):
+ *   buildLaneKnowledge() → buildCanonicalLanePageData() → buildPublishContract()
+ *     → assessPublishQuality() → webflow adapter → Webflow CMS API
+ *
+ * The publish contract is the CMS-neutral boundary. The Webflow adapter maps
+ * semantic contract fields to Webflow CMS field names. This script no longer
+ * constructs Webflow field payloads directly.
  *
  * Usage:
  *   node scripts/update_lane_content.js [--dry-run] [--slugs slug1,slug2,...] [--limit N]
@@ -19,9 +27,9 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { buildLaneKnowledge } from "../lib/lane-knowledge.js";
 import { buildCanonicalLanePageData } from "../lib/lane-page-schema.js";
-import { renderWebflowFields } from "../lib/render-lane-page.js";
-import { sanitizeWebflowFields } from "../lib/lane-factory.js";
 import { assessPublishQuality } from "../lib/lane-page-validator.js";
+import { buildPublishContract, contractToRenderedFields } from "../lib/publishers/publish-contract.js";
+import { adaptForPublish, publish as webflowPublish, publishSite as webflowPublishSite, ADAPTER_ID } from "../lib/publishers/webflow-adapter.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -31,6 +39,7 @@ const CITIES = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "ci
 const API_TOKEN = process.env.WEBFLOW_API_TOKEN || "f03f437275327315aee1f3a8e530726987e9264f4074b3bd49eadb3e0f6dde84";
 const COLLECTION_ID = process.env.WEBFLOW_LANE_COLLECTION_ID || "68dbd9b0badadf2b8fa9a397";
 const SITE_ID = process.env.WEBFLOW_SITE_ID || "688f073c4367c4fcf9651e08";
+const DOMAIN_IDS = ["689442045dc003d002d08285", "689442045dc003d002d08271"];
 
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
@@ -48,57 +57,15 @@ async function fetchItems(offset = 0, pageLimit = 100) {
   return res.json();
 }
 
-async function updateItem(itemId, fields) {
-  const res = await fetch(
-    `https://api.webflow.com/v2/collections/${COLLECTION_ID}/items/${itemId}`,
-    {
-      method: "PATCH",
-      headers: {
-        Authorization: `Bearer ${API_TOKEN}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ fieldData: fields }),
-    }
-  );
-  if (!res.ok) {
-    const errText = await res.text();
-    throw new Error(`Update failed for ${itemId}: ${res.status} ${errText}`);
-  }
-  return res.json();
-}
-
-async function publishSite() {
-  const DOMAIN_IDS = ["689442045dc003d002d08285", "689442045dc003d002d08271"];
-  const res = await fetch(
-    `https://api.webflow.com/v2/sites/${SITE_ID}/publish`,
-    {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${API_TOKEN}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ publishToWebflowSubdomain: false, customDomains: DOMAIN_IDS }),
-    }
-  );
-  if (!res.ok) {
-    const errText = await res.text();
-    throw new Error(`Publish failed: ${res.status} ${errText}`);
-  }
-  return res.json();
-}
-
 /**
  * Resolve a city name to "City, ST" format using cities.json lookup.
  * Falls back to just the city name if state not found.
  */
 function resolveWithState(cityName) {
   const key = cityName.toLowerCase().trim();
-  // Direct match
-  if (CITIES[key]) return cityName; // Already has state if in cities.json
-  // Try prefix match to find "city, st" key
+  if (CITIES[key]) return cityName;
   for (const k of Object.keys(CITIES)) {
     if (k.startsWith(key + ",") || k.startsWith(key + " ")) {
-      // Extract state from the key
       const parts = k.split(",");
       if (parts.length >= 2) {
         return `${cityName}, ${parts[1].trim().toUpperCase()}`;
@@ -109,11 +76,8 @@ function resolveWithState(cityName) {
 }
 
 function parseLaneFromSlug(slug) {
-  // Strip hash suffixes (e.g., "atlanta-to-miami-062c5")
   const clean = slug.replace(/-[0-9a-f]{4,8}$/i, "");
-  // Strip "ltl-freight-" prefix if present
   const stripped = clean.replace(/^ltl-freight-/, "");
-
   const toIdx = stripped.indexOf("-to-");
   if (toIdx < 0) return null;
 
@@ -124,18 +88,16 @@ function parseLaneFromSlug(slug) {
     return s.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
   }
 
-  const originCity = titleCase(originSlug);
-  const destCity = titleCase(destSlug);
-
   return {
-    origin: resolveWithState(originCity),
-    destination: resolveWithState(destCity),
+    origin: resolveWithState(titleCase(originSlug)),
+    destination: resolveWithState(titleCase(destSlug)),
   };
 }
 
 async function main() {
   console.log("═══════════════════════════════════════════════════════════");
-  console.log("  Lane Content Updater — Premium Pipeline Content Push");
+  console.log("  Lane Content Updater — Publisher Adapter Pipeline");
+  console.log(`  Adapter: ${ADAPTER_ID}`);
   console.log("═══════════════════════════════════════════════════════════");
   console.log(`Mode: ${dryRun ? "DRY RUN" : "LIVE UPDATE"}`);
   console.log(`Target slugs: ${targetSlugs ? targetSlugs.join(", ") : "auto-select"}`);
@@ -145,7 +107,6 @@ async function main() {
   // Fetch items
   let items = [];
   if (targetSlugs) {
-    // Fetch all items and filter
     let offset = 0;
     let total = Infinity;
     while (offset < total) {
@@ -153,11 +114,10 @@ async function main() {
       total = page.pagination?.total || 0;
       items.push(...(page.items || []));
       offset += 100;
-      if (offset >= 300) break; // Safety limit for search
+      if (offset >= 300) break;
     }
     items = items.filter(item => targetSlugs.includes(item.fieldData?.slug));
   } else {
-    // Fetch all items and update up to limit
     let offset = 0;
     let total = Infinity;
     while (offset < total) {
@@ -165,7 +125,7 @@ async function main() {
       total = page.pagination?.total || 0;
       items.push(...(page.items || []));
       offset += 100;
-      if (offset >= 500) break; // Safety limit
+      if (offset >= 500) break;
     }
     items = items.slice(0, limit);
   }
@@ -184,17 +144,16 @@ async function main() {
     }
 
     try {
-      // Use mode from CMS item if available, otherwise default to LTL
       const itemMode = item.fieldData?.mode || "LTL";
 
-      // Build knowledge — buildLaneKnowledge takes a lane object
+      // ── Step 1: Build canonical lane knowledge ────────────────────
       const knowledge = buildLaneKnowledge({
         origin: parsed.origin,
         destination: parsed.destination,
         mode: itemMode,
       });
 
-      // Build canonical page data
+      // ── Step 2: Build canonical page data ─────────────────────────
       const pageData = buildCanonicalLanePageData(knowledge, {
         corridor_hub: null,
         related_lanes: [],
@@ -202,18 +161,21 @@ async function main() {
         data_link: null,
       });
 
-      // Render Webflow fields
-      const fields = renderWebflowFields(pageData);
+      // ── Step 3: Build CMS-neutral publish contract ────────────────
+      const contract = buildPublishContract(pageData);
 
-      // Show what we're generating
-      const bodyContent = fields["body-content"];
-      const headline = fields["hero-headline"];
-      const subheadline = fields["subheadline"];
-      const faqSchemaLen = (fields["faq-schema"] || "").length;
-      const proofLen = (fields["proof-section"] || "").length;
-      const tradLen = (fields["traditional-ltl"] || "").length;
-      const warpLen = (fields["warp-ltl"] || "").length;
-      const breadcrumbLen = (fields["breadcrumb-schema"] || "").length;
+      // ── Step 4: Map contract to rendered fields for quality gate ───
+      const renderedFields = contractToRenderedFields(contract);
+
+      // Show generation stats — read from contract (CMS-neutral), not rendered fields
+      const bodyContent = contract.content.body_text;
+      const headline = contract.hero.headline;
+      const subheadline = contract.hero.subhead;
+      const faqSchemaLen = (contract.content.primary_content_html || "").length;
+      const proofLen = (contract.content.proof_html || "").length;
+      const tradLen = (contract.comparison.traditional_text || "").length;
+      const warpLen = (contract.comparison.warp_text || "").length;
+      const breadcrumbLen = (contract.schema.structured_data_html || "").length;
 
       console.log(`──────────────────────────────────────────────────────`);
       console.log(`  📦 ${slug}`);
@@ -225,8 +187,8 @@ async function main() {
       console.log(`  Comparison: traditional=${tradLen} chars, warp=${warpLen} chars`);
       console.log(`  Proof: ${proofLen} chars | FAQ-schema: ${faqSchemaLen} chars | Breadcrumb: ${breadcrumbLen} chars`);
 
-      // ── Quality Gate: Pre-publish validation ───────────────────────
-      const quality = assessPublishQuality(pageData, fields);
+      // ── Step 5: Quality gate (operates on canonical + rendered) ────
+      const quality = assessPublishQuality(pageData, renderedFields);
       console.log(`  Quality: ${quality.score}% (${quality.grade}) — ${quality.gates_passed}/${quality.gate_count} gates passed`);
 
       if (!quality.publishable) {
@@ -247,34 +209,28 @@ async function main() {
         }
       }
 
-      // Sanitize fields: converts newlines to " | " for single-line fields,
-      // filters to known schema fields only
-      const sanitized = sanitizeWebflowFields(fields);
+      // ── Step 6: Attach quality report to contract ─────────────────
+      contract.quality = quality;
 
-      // Remove slug and name — never overwrite these on existing items
-      delete sanitized.slug;
-      delete sanitized.name;
-
-      // Build update payload: sanitized content + template flags
-      const updateFields = {
-        ...sanitized,
-        // Template flags (not in renderWebflowFields but needed for CMS)
-        "index-page": true,
-        "lane-mode-enabled": true,
-        "hero-map-enabled": true,
-        "hero-video-enabled": false,
-      };
+      // ── Step 7: Adapt for Webflow CMS via adapter ─────────────────
+      const updateFields = adaptForPublish(contract);
 
       if (dryRun) {
-        console.log(`  [DRY RUN] Would update with ${Object.keys(updateFields).length} fields`);
+        console.log(`  [DRY RUN] Would update with ${Object.keys(updateFields).length} fields (adapter: ${ADAPTER_ID})`);
         console.log(`  Body preview:`);
         console.log(`  ${bodyContent.substring(0, 300)}...`);
         console.log(`  Traditional comparison preview:`);
-        console.log(`  ${(fields["traditional-ltl"] || "").substring(0, 200)}...`);
+        console.log(`  ${(contract.comparison.traditional_text || "").substring(0, 200)}...`);
         console.log("");
       } else {
-        await updateItem(item.id, updateFields);
-        console.log(`  ✅ Updated successfully`);
+        // ── Step 8: Push to Webflow via adapter ─────────────────────
+        await webflowPublish({
+          itemId: item.id,
+          fields: updateFields,
+          collectionId: COLLECTION_ID,
+          apiToken: API_TOKEN,
+        });
+        console.log(`  ✅ Updated successfully (adapter: ${ADAPTER_ID})`);
         updated++;
 
         // Rate limit: 60 requests/minute for Webflow API
@@ -292,7 +248,11 @@ async function main() {
   if (!dryRun && updated > 0) {
     console.log(`  Publishing site...`);
     try {
-      await publishSite();
+      await webflowPublishSite({
+        siteId: SITE_ID,
+        apiToken: API_TOKEN,
+        domainIds: DOMAIN_IDS,
+      });
       console.log(`  ✅ Site published successfully`);
     } catch (err) {
       console.log(`  ❌ Publish error: ${err.message}`);

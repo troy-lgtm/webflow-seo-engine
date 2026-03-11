@@ -1,0 +1,241 @@
+{
+  "_generated_at": "2026-03-10T11:45:50.209Z",
+  "_generator": "generate_authority_pages.js",
+  "entity": {
+    "id": "cargo-van",
+    "family": "equipment",
+    "label": "Cargo Van"
+  },
+  "page_data": {
+    "page_type": "equipment",
+    "entity_id": "cargo-van",
+    "slug": "cargo-van",
+    "canonical_path": "/equipment/cargo-van",
+    "page_title": "Cargo Van Freight Shipping | WARP",
+    "meta_description": "Enclosed cargo van for small-freight and last-mile delivery. Get an instant quote from WARP.",
+    "mode": "Cargo Van / Box Truck",
+    "hero": {
+      "headline": "Cargo Van Freight Shipping",
+      "subhead": "Enclosed cargo van for small-freight and last-mile delivery",
+      "primary_cta": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary_cta": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "overview": {
+      "heading": "Cargo Van Overview",
+      "content": "Enclosed cargo van for small-freight and last-mile delivery",
+      "mode": "Cargo Van / Box Truck"
+    },
+    "specs": {
+      "heading": "Cargo Van Specifications",
+      "data": {
+        "capacity_pallets": "1-2",
+        "capacity_lbs": "2,500-3,500",
+        "interior_length_ft": "10-12",
+        "interior_height_ft": "5-6",
+        "door_type": "rear swing or roll-up"
+      }
+    },
+    "best_fit": {
+      "heading": "Best Fit Freight for Cargo Van",
+      "items": [
+        "Small parcel deliveries under 2 pallets",
+        "Last-mile residential or commercial delivery",
+        "Expedited local freight within metro areas",
+        "High-value, low-weight shipments requiring direct handling"
+      ]
+    },
+    "not_ideal": {
+      "heading": "When to Choose a Different Vehicle",
+      "items": [
+        "Freight exceeding 3,500 lbs",
+        "Standard pallet loads requiring dock-height access",
+        "Temperature-controlled shipments",
+        "Loads requiring liftgate (no liftgate option)"
+      ]
+    },
+    "related_solutions": {
+      "heading": "Solutions Using This Equipment",
+      "solutions": [
+        {
+          "id": "store-replenishment",
+          "label": "Store Replenishment",
+          "path": "/solutions/store-replenishment",
+          "description": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets"
+        }
+      ]
+    },
+    "related_concepts": {
+      "heading": "Related Network Capabilities",
+      "concepts": [
+        {
+          "id": "right-sized-assets",
+          "label": "Right-Sized Assets",
+          "path": "/network/right-sized-assets",
+          "description": "Matching vehicle type and capacity to actual shipment size for cost efficiency"
+        },
+        {
+          "id": "flexible-routing",
+          "label": "Flexible Routing",
+          "path": "/network/flexible-routing",
+          "description": "Dynamic route optimization based on real-time freight density and delivery requirements"
+        },
+        {
+          "id": "scan-level-visibility",
+          "label": "Scan-Level Visibility",
+          "path": "/network/scan-level-visibility",
+          "description": "Item-level or pallet-level tracking with scan events at every handling point"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Cargo Van FAQ",
+      "items": [
+        {
+          "q": "What freight fits in a cargo van?",
+          "a": "Small parcel deliveries under 2 pallets. Last-mile residential or commercial delivery."
+        },
+        {
+          "q": "How many pallets can a cargo van carry?",
+          "a": "A cargo van typically handles 1-2 pallets with a max weight capacity of 2,500-3,500 lbs."
+        },
+        {
+          "q": "When should I NOT use a cargo van?",
+          "a": "Freight exceeding 3,500 lbs. Standard pallet loads requiring dock-height access."
+        },
+        {
+          "q": "Does WARP offer cargo van shipping?",
+          "a": "Yes. WARP operates a fleet that includes cargo van capacity, matched to shipment size through our right-sized asset approach."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ship with Cargo Van Today",
+      "primary": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "_section_order": [
+      "hero",
+      "overview",
+      "specs",
+      "best_fit",
+      "not_ideal",
+      "related_solutions",
+      "related_concepts",
+      "faq",
+      "cta"
+    ],
+    "internal_links": {
+      "solutions": [
+        {
+          "href": "/solutions/store-replenishment",
+          "text": "Store Replenishment",
+          "family": "solution"
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/network/right-sized-assets",
+          "text": "Right-Sized Assets",
+          "family": "concept"
+        },
+        {
+          "href": "/network/flexible-routing",
+          "text": "Flexible Routing",
+          "family": "concept"
+        },
+        {
+          "href": "/network/scan-level-visibility",
+          "text": "Scan-Level Visibility",
+          "family": "concept"
+        }
+      ]
+    }
+  },
+  "rendered": {
+    "body_text": "Enclosed cargo van for small-freight and last-mile delivery\n\nA cargo van handles 1-2 pallets with a capacity of 2,500-3,500 lbs. Interior dimensions: 10-12 ft length, 5-6 ft height.\n\nBest fit for: Small parcel deliveries under 2 pallets; Last-mile residential or commercial delivery.\n\nGet an instant cargo van freight rate at wearewarp.com/quote.",
+    "primary_content_html": "<h2>Cargo Van Overview</h2>\n<p>Enclosed cargo van for small-freight and last-mile delivery</p>\n<p><strong>Mode:</strong> Cargo Van / Box Truck</p>\n<h2>Cargo Van Specifications</h2>\n<table><thead><tr><th>Specification</th><th>Value</th></tr></thead><tbody>\n<tr><td>Capacity Pallets</td><td>1-2</td></tr>\n<tr><td>Capacity Lbs</td><td>2,500-3,500</td></tr>\n<tr><td>Interior Length Ft</td><td>10-12</td></tr>\n<tr><td>Interior Height Ft</td><td>5-6</td></tr>\n<tr><td>Door Type</td><td>rear swing or roll-up</td></tr>\n</tbody></table>\n<h2>Best Fit Freight for Cargo Van</h2>\n<ul>\n<li>Small parcel deliveries under 2 pallets</li>\n<li>Last-mile residential or commercial delivery</li>\n<li>Expedited local freight within metro areas</li>\n<li>High-value, low-weight shipments requiring direct handling</li>\n</ul>\n<h2>When to Choose a Different Vehicle</h2>\n<ul>\n<li>Freight exceeding 3,500 lbs</li>\n<li>Standard pallet loads requiring dock-height access</li>\n<li>Temperature-controlled shipments</li>\n<li>Loads requiring liftgate (no liftgate option)</li>\n</ul>\n<h2>Solutions Using This Equipment</h2>\n<ul>\n<li><a href=\"/solutions/store-replenishment\">Store Replenishment</a> — Scheduled multi-stop retail freight delivery using LTL and right-sized assets</li>\n</ul>\n<h2>Related Network Capabilities</h2>\n<ul>\n<li><a href=\"/network/right-sized-assets\">Right-Sized Assets</a> — Matching vehicle type and capacity to actual shipment size for cost efficiency</li>\n<li><a href=\"/network/flexible-routing\">Flexible Routing</a> — Dynamic route optimization based on real-time freight density and delivery requirements</li>\n<li><a href=\"/network/scan-level-visibility\">Scan-Level Visibility</a> — Item-level or pallet-level tracking with scan events at every handling point</li>\n</ul>\n<div class=\"authority-cta\">\n<h2>Ship with Cargo Van Today</h2>\n<a href=\"https://www.wearewarp.com/quote\" class=\"cta-primary\">Get Instant Quote</a>\n<a href=\"https://www.wearewarp.com/book\" class=\"cta-secondary\">Book a Fit Call</a>\n</div>",
+    "faq_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What freight fits in a cargo van?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Small parcel deliveries under 2 pallets. Last-mile residential or commercial delivery.\"}},{\"@type\":\"Question\",\"name\":\"How many pallets can a cargo van carry?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A cargo van typically handles 1-2 pallets with a max weight capacity of 2,500-3,500 lbs.\"}},{\"@type\":\"Question\",\"name\":\"When should I NOT use a cargo van?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Freight exceeding 3,500 lbs. Standard pallet loads requiring dock-height access.\"}},{\"@type\":\"Question\",\"name\":\"Does WARP offer cargo van shipping?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. WARP operates a fleet that includes cargo van capacity, matched to shipment size through our right-sized asset approach.\"}}]}</script>",
+    "breadcrumb_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.wearewarp.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Equipment\",\"item\":\"https://www.wearewarp.com/equipment\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Cargo Van Freight Shipping\",\"item\":\"https://www.wearewarp.com/equipment/cargo-van\"}]}</script>",
+    "service_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Cargo Van Freight Shipping\",\"description\":\"Enclosed cargo van for small-freight and last-mile delivery. Get an instant quote from WARP.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"WARP\",\"url\":\"https://www.wearewarp.com\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"serviceType\":\"Freight Logistics\"}</script>"
+  },
+  "quality": {
+    "publishable": true,
+    "grade": "A",
+    "score": 92,
+    "gates": {
+      "AQ-STRUCT-01": true,
+      "AQ-STRUCT-02": true,
+      "AQ-STRUCT-03": true,
+      "AQ-CONTENT-01": true,
+      "AQ-CONTENT-02": true,
+      "AQ-CONTENT-03": true,
+      "AQ-CONTENT-04": true,
+      "AQ-SCHEMA-01": true,
+      "AQ-SCHEMA-02": true,
+      "AQ-LINK-01": true,
+      "AQ-QUALITY-01": true
+    },
+    "gates_passed": 11,
+    "gate_count": 11,
+    "dimensions": {
+      "seo": 90,
+      "content": 95,
+      "authority": 85,
+      "linking": 90,
+      "structure": 100
+    },
+    "errors": [],
+    "warnings": [],
+    "page_type": "equipment",
+    "entity_id": "cargo-van"
+  },
+  "links": [
+    {
+      "href": "/network/right-sized-assets",
+      "text": "Right-Sized Assets",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/network/flexible-routing",
+      "text": "Flexible Routing",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 72
+    },
+    {
+      "href": "/network/scan-level-visibility",
+      "text": "Scan-Level Visibility",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 70
+    },
+    {
+      "href": "/solutions/store-replenishment",
+      "text": "Store Replenishment",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 70
+    },
+    {
+      "href": "/equipment/box-truck",
+      "text": "Box Truck",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 69
+    }
+  ]
+}

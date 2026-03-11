@@ -1,0 +1,273 @@
+{
+  "_generated_at": "2026-03-10T11:45:50.209Z",
+  "_generator": "generate_authority_pages.js",
+  "entity": {
+    "id": "right-sized-assets",
+    "family": "concept",
+    "label": "Right-Sized Assets"
+  },
+  "page_data": {
+    "page_type": "concept",
+    "entity_id": "right-sized-assets",
+    "slug": "right-sized-assets",
+    "canonical_path": "/network/right-sized-assets",
+    "page_title": "Right-Sized Assets in Freight Logistics | WARP",
+    "meta_description": "Matching vehicle type and capacity to actual shipment size for cost efficiency. Get an instant quote from WARP.",
+    "applies_to_modes": [
+      "LTL",
+      "Cargo Van / Box Truck"
+    ],
+    "hero": {
+      "headline": "Right-Sized Assets in Freight Logistics",
+      "subhead": "Matching vehicle type and capacity to actual shipment size for cost efficiency",
+      "primary_cta": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary_cta": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "overview": {
+      "heading": "What Is Right-Sized Assets?",
+      "content": "Matching vehicle type and capacity to actual shipment size for cost efficiency",
+      "modes": [
+        "LTL",
+        "Cargo Van / Box Truck"
+      ]
+    },
+    "how_it_works": {
+      "heading": "How Right-Sized Assets Works",
+      "content": "WARP's fleet spans cargo vans through 53-foot trailers. Each shipment is matched to the smallest vehicle that fits the load, so shippers don't pay for empty trailer space. Multi-stop routes may use different vehicle types across stops."
+    },
+    "warp_implementation": {
+      "heading": "How WARP Uses Right-Sized Assets",
+      "points": [
+        "Vehicle selection from cargo van to 53-foot trailer based on cube and weight",
+        "No paying for unused trailer space on partial loads",
+        "Mixed fleet deployment across route stops",
+        "Automatic vehicle upgrade/downgrade based on volume changes"
+      ]
+    },
+    "when_to_use": {
+      "heading": "When to Use Right-Sized Assets",
+      "content": "Critical for shippers with variable load sizes, especially retail replenishment where pallet counts differ per store. Also valuable for shippers currently overpaying for full trailers on partial loads."
+    },
+    "metrics": {
+      "heading": "Right-Sized Assets Performance Metrics",
+      "items": [
+        {
+          "label": "Cube Utilization",
+          "description": "cube utilization"
+        },
+        {
+          "label": "Cost Per Pallet",
+          "description": "cost per pallet"
+        },
+        {
+          "label": "Vehicle Match Accuracy",
+          "description": "vehicle match accuracy"
+        },
+        {
+          "label": "Deadhead Reduction",
+          "description": "deadhead reduction"
+        }
+      ]
+    },
+    "related": {
+      "heading": "Related Solutions & Capabilities",
+      "solutions": [
+        {
+          "id": "store-replenishment",
+          "label": "Store Replenishment",
+          "path": "/solutions/store-replenishment",
+          "description": "Scheduled multi-stop retail freight delivery using LTL and right-sized assets"
+        }
+      ],
+      "equipment": [
+        {
+          "id": "cargo-van",
+          "label": "Cargo Van",
+          "path": "/equipment/cargo-van",
+          "description": "Enclosed cargo van for small-freight and last-mile delivery"
+        },
+        {
+          "id": "box-truck",
+          "label": "Box Truck",
+          "path": "/equipment/box-truck",
+          "description": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes"
+        },
+        {
+          "id": "53-foot-trailer",
+          "label": "53-Foot Trailer",
+          "path": "/equipment/53-foot-trailer",
+          "description": "Standard full-size dry van trailer for high-volume linehaul and FTL freight"
+        }
+      ],
+      "concepts": [
+        {
+          "id": "flexible-routing",
+          "label": "Flexible Routing",
+          "path": "/network/flexible-routing",
+          "description": "Dynamic route optimization based on real-time freight density and delivery requirements"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Right-Sized Assets FAQ",
+      "items": [
+        {
+          "q": "What is right-sized assets in freight?",
+          "a": "Matching vehicle type and capacity to actual shipment size for cost efficiency"
+        },
+        {
+          "q": "How does right-sized assets work?",
+          "a": "WARP's fleet spans cargo vans through 53-foot trailers. Each shipment is matched to the smallest vehicle that fits the load, so shippers don't pay for empty trailer space. Multi-stop routes may use different vehicle types across stops."
+        },
+        {
+          "q": "When should a shipper use right-sized assets?",
+          "a": "Critical for shippers with variable load sizes, especially retail replenishment where pallet counts differ per store. Also valuable for shippers currently overpaying for full trailers on partial loads."
+        },
+        {
+          "q": "How does WARP implement right-sized assets?",
+          "a": "Vehicle selection from cargo van to 53-foot trailer based on cube and weight. No paying for unused trailer space on partial loads. Mixed fleet deployment across route stops."
+        },
+        {
+          "q": "What metrics matter for right-sized assets?",
+          "a": "Key performance metrics include cube utilization, cost per pallet, vehicle match accuracy, deadhead reduction."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ship with Right-Sized Assets",
+      "primary": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "_section_order": [
+      "hero",
+      "overview",
+      "how_it_works",
+      "warp_implementation",
+      "when_to_use",
+      "metrics",
+      "related",
+      "faq",
+      "cta"
+    ],
+    "internal_links": {
+      "solutions": [
+        {
+          "href": "/solutions/store-replenishment",
+          "text": "Store Replenishment",
+          "family": "solution"
+        }
+      ],
+      "equipment": [
+        {
+          "href": "/equipment/cargo-van",
+          "text": "Cargo Van",
+          "family": "equipment"
+        },
+        {
+          "href": "/equipment/box-truck",
+          "text": "Box Truck",
+          "family": "equipment"
+        },
+        {
+          "href": "/equipment/53-foot-trailer",
+          "text": "53-Foot Trailer",
+          "family": "equipment"
+        }
+      ],
+      "concepts": [
+        {
+          "href": "/network/flexible-routing",
+          "text": "Flexible Routing",
+          "family": "concept"
+        }
+      ]
+    }
+  },
+  "rendered": {
+    "body_text": "Matching vehicle type and capacity to actual shipment size for cost efficiency\n\nWARP's fleet spans cargo vans through 53-foot trailers. Each shipment is matched to the smallest vehicle that fits the load, so shippers don't pay for empty trailer space. Multi-stop routes may use different vehicle types across stops.\n\nApplies to LTL, Cargo Van / Box Truck freight operations. Learn how WARP implements this at wearewarp.com/quote.",
+    "primary_content_html": "<h2>What Is Right-Sized Assets?</h2>\n<p>Matching vehicle type and capacity to actual shipment size for cost efficiency</p>\n<p><strong>Applies to:</strong> LTL, Cargo Van / Box Truck</p>\n<h2>How Right-Sized Assets Works</h2>\n<p>WARP's fleet spans cargo vans through 53-foot trailers. Each shipment is matched to the smallest vehicle that fits the load, so shippers don't pay for empty trailer space. Multi-stop routes may use different vehicle types across stops.</p>\n<h2>How WARP Uses Right-Sized Assets</h2>\n<ul>\n<li>Vehicle selection from cargo van to 53-foot trailer based on cube and weight</li>\n<li>No paying for unused trailer space on partial loads</li>\n<li>Mixed fleet deployment across route stops</li>\n<li>Automatic vehicle upgrade/downgrade based on volume changes</li>\n</ul>\n<h2>When to Use Right-Sized Assets</h2>\n<p>Critical for shippers with variable load sizes, especially retail replenishment where pallet counts differ per store. Also valuable for shippers currently overpaying for full trailers on partial loads.</p>\n<h2>Right-Sized Assets Performance Metrics</h2>\n<ul>\n<li><strong>Cube Utilization</strong></li>\n<li><strong>Cost Per Pallet</strong></li>\n<li><strong>Vehicle Match Accuracy</strong></li>\n<li><strong>Deadhead Reduction</strong></li>\n</ul>\n<h2>Related Solutions &amp; Capabilities</h2>\n<h3>Solutions</h3><ul>\n<li><a href=\"/solutions/store-replenishment\">Store Replenishment</a> — Scheduled multi-stop retail freight delivery using LTL and right-sized assets</li>\n</ul>\n<h3>Equipment</h3><ul>\n<li><a href=\"/equipment/cargo-van\">Cargo Van</a> — Enclosed cargo van for small-freight and last-mile delivery</li>\n<li><a href=\"/equipment/box-truck\">Box Truck</a> — Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes</li>\n<li><a href=\"/equipment/53-foot-trailer\">53-Foot Trailer</a> — Standard full-size dry van trailer for high-volume linehaul and FTL freight</li>\n</ul>\n<h3>Related Concepts</h3><ul>\n<li><a href=\"/network/flexible-routing\">Flexible Routing</a> — Dynamic route optimization based on real-time freight density and delivery requirements</li>\n</ul>\n<div class=\"authority-cta\">\n<h2>Ship with Right-Sized Assets</h2>\n<a href=\"https://www.wearewarp.com/quote\" class=\"cta-primary\">Get Instant Quote</a>\n<a href=\"https://www.wearewarp.com/book\" class=\"cta-secondary\">Book a Fit Call</a>\n</div>",
+    "faq_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is right-sized assets in freight?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Matching vehicle type and capacity to actual shipment size for cost efficiency\"}},{\"@type\":\"Question\",\"name\":\"How does right-sized assets work?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"WARP's fleet spans cargo vans through 53-foot trailers. Each shipment is matched to the smallest vehicle that fits the load, so shippers don't pay for empty trailer space. Multi-stop routes may use different vehicle types across stops.\"}},{\"@type\":\"Question\",\"name\":\"When should a shipper use right-sized assets?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Critical for shippers with variable load sizes, especially retail replenishment where pallet counts differ per store. Also valuable for shippers currently overpaying for full trailers on partial loads.\"}},{\"@type\":\"Question\",\"name\":\"How does WARP implement right-sized assets?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Vehicle selection from cargo van to 53-foot trailer based on cube and weight. No paying for unused trailer space on partial loads. Mixed fleet deployment across route stops.\"}},{\"@type\":\"Question\",\"name\":\"What metrics matter for right-sized assets?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Key performance metrics include cube utilization, cost per pallet, vehicle match accuracy, deadhead reduction.\"}}]}</script>",
+    "breadcrumb_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.wearewarp.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Network\",\"item\":\"https://www.wearewarp.com/network\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Right-Sized Assets in Freight Logistics\",\"item\":\"https://www.wearewarp.com/network/right-sized-assets\"}]}</script>",
+    "service_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Right-Sized Assets in Freight Logistics\",\"description\":\"Matching vehicle type and capacity to actual shipment size for cost efficiency. Get an instant quote from WARP.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"WARP\",\"url\":\"https://www.wearewarp.com\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"serviceType\":\"Freight Logistics\"}</script>"
+  },
+  "quality": {
+    "publishable": true,
+    "grade": "A",
+    "score": 96,
+    "gates": {
+      "AQ-STRUCT-01": true,
+      "AQ-STRUCT-02": true,
+      "AQ-STRUCT-03": true,
+      "AQ-CONTENT-01": true,
+      "AQ-CONTENT-02": true,
+      "AQ-CONTENT-03": true,
+      "AQ-CONTENT-04": true,
+      "AQ-SCHEMA-01": true,
+      "AQ-SCHEMA-02": true,
+      "AQ-LINK-01": true,
+      "AQ-QUALITY-01": true
+    },
+    "gates_passed": 11,
+    "gate_count": 11,
+    "dimensions": {
+      "seo": 90,
+      "content": 100,
+      "authority": 90,
+      "linking": 100,
+      "structure": 100
+    },
+    "errors": [],
+    "warnings": [],
+    "page_type": "concept",
+    "entity_id": "right-sized-assets"
+  },
+  "links": [
+    {
+      "href": "/solutions/store-replenishment",
+      "text": "Store Replenishment",
+      "family": "solution",
+      "relevance": "direct",
+      "score": 78
+    },
+    {
+      "href": "/network/flexible-routing",
+      "text": "Flexible Routing",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 73
+    },
+    {
+      "href": "/equipment/box-truck",
+      "text": "Box Truck",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 72
+    },
+    {
+      "href": "/equipment/cargo-van",
+      "text": "Cargo Van",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 71
+    },
+    {
+      "href": "/equipment/53-foot-trailer",
+      "text": "53-Foot Trailer",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 68
+    }
+  ]
+}

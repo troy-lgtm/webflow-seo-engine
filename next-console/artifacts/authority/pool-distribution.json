@@ -1,0 +1,277 @@
+{
+  "_generated_at": "2026-03-10T11:45:50.207Z",
+  "_generator": "generate_authority_pages.js",
+  "entity": {
+    "id": "pool-distribution",
+    "family": "solution",
+    "label": "Pool Distribution"
+  },
+  "page_data": {
+    "page_type": "solution",
+    "entity_id": "pool-distribution",
+    "slug": "pool-distribution",
+    "canonical_path": "/solutions/pool-distribution",
+    "page_title": "Pool Distribution Freight Solutions | WARP",
+    "meta_description": "Consolidated freight pooling from distribution centers to regional delivery zones. Get an instant quote from WARP.",
+    "modes": [
+      "LTL",
+      "FTL"
+    ],
+    "segments": [
+      "mid-market",
+      "enterprise"
+    ],
+    "hero": {
+      "headline": "Pool Distribution Freight Solutions",
+      "subhead": "Consolidated freight pooling from distribution centers to regional delivery zones",
+      "primary_cta": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary_cta": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "overview": {
+      "heading": "What Is Pool Distribution?",
+      "content": "Consolidated freight pooling from distribution centers to regional delivery zones",
+      "modes": [
+        "LTL",
+        "FTL"
+      ]
+    },
+    "how_it_works": {
+      "heading": "How Pool Distribution Works",
+      "steps": [
+        "National distribution with regional deconsolidation",
+        "High-volume lanes with multi-destination final delivery",
+        "Cost optimization through freight consolidation"
+      ]
+    },
+    "warp_approach": {
+      "heading": "How WARP Runs Pool Distribution",
+      "differentiators": [
+        "Consolidated linehaul with local deconsolidation",
+        "Cross-dock pooling reduces per-unit freight cost",
+        "Flexible delivery windows at final destination",
+        "Carrier pool visibility across consolidation points"
+      ]
+    },
+    "use_cases": {
+      "heading": "Pool Distribution Use Cases",
+      "cases": [
+        "National distribution with regional deconsolidation",
+        "High-volume lanes with multi-destination final delivery",
+        "Cost optimization through freight consolidation"
+      ]
+    },
+    "equipment_fit": {
+      "heading": "Equipment for This Solution",
+      "equipment": [
+        {
+          "id": "53-foot-trailer",
+          "label": "53-Foot Trailer",
+          "path": "/equipment/53-foot-trailer",
+          "description": "Standard full-size dry van trailer for high-volume linehaul and FTL freight",
+          "specs": {
+            "capacity_pallets": "26-30",
+            "capacity_lbs": "42,000-45,000",
+            "interior_length_ft": "53",
+            "interior_height_ft": "9",
+            "door_type": "swing doors, dock-height"
+          }
+        },
+        {
+          "id": "box-truck",
+          "label": "Box Truck",
+          "path": "/equipment/box-truck",
+          "description": "Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes",
+          "specs": {
+            "capacity_pallets": "4-12",
+            "capacity_lbs": "8,000-16,000",
+            "interior_length_ft": "16-26",
+            "interior_height_ft": "7-8",
+            "door_type": "roll-up with optional liftgate"
+          }
+        }
+      ]
+    },
+    "related_concepts": {
+      "heading": "Related Network Capabilities",
+      "concepts": [
+        {
+          "id": "cross-docking",
+          "label": "Cross-Docking",
+          "path": "/network/cross-docking",
+          "description": "Direct transfer of freight between inbound and outbound vehicles without warehousing"
+        },
+        {
+          "id": "middle-mile",
+          "label": "Middle Mile",
+          "path": "/network/middle-mile",
+          "description": "The linehaul segment between origin hub and destination hub before final delivery"
+        },
+        {
+          "id": "predictable-pricing",
+          "label": "Predictable Pricing",
+          "path": "/network/predictable-pricing",
+          "description": "Consistent rate structures based on lane commitment and volume patterns"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Pool Distribution FAQ",
+      "items": [
+        {
+          "q": "What is pool distribution in freight logistics?",
+          "a": "Consolidated freight pooling from distribution centers to regional delivery zones"
+        },
+        {
+          "q": "What shipping modes does WARP use for pool distribution?",
+          "a": "WARP operates pool distribution programs using LTL and FTL modes, matching the right vehicle and routing to each shipper's volume and delivery requirements."
+        },
+        {
+          "q": "How does WARP handle pool distribution differently?",
+          "a": "Consolidated linehaul with local deconsolidation. Cross-dock pooling reduces per-unit freight cost. Flexible delivery windows at final destination."
+        },
+        {
+          "q": "When should I use pool distribution?",
+          "a": "National distribution with regional deconsolidation. High-volume lanes with multi-destination final delivery. Cost optimization through freight consolidation."
+        },
+        {
+          "q": "What equipment does WARP use for pool distribution?",
+          "a": "WARP deploys 53-foot trailer, box truck for pool distribution programs, matching vehicle size to load requirements at each stop."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Ship Smarter with Pool Distribution",
+      "primary": {
+        "label": "Get Instant Quote",
+        "url": "https://www.wearewarp.com/quote"
+      },
+      "secondary": {
+        "label": "Book a Fit Call",
+        "url": "https://www.wearewarp.com/book"
+      }
+    },
+    "_section_order": [
+      "hero",
+      "overview",
+      "how_it_works",
+      "warp_approach",
+      "use_cases",
+      "equipment_fit",
+      "related_concepts",
+      "faq",
+      "cta"
+    ],
+    "internal_links": {
+      "concepts": [
+        {
+          "href": "/network/cross-docking",
+          "text": "Cross-Docking",
+          "family": "concept"
+        },
+        {
+          "href": "/network/middle-mile",
+          "text": "Middle Mile",
+          "family": "concept"
+        },
+        {
+          "href": "/network/predictable-pricing",
+          "text": "Predictable Pricing",
+          "family": "concept"
+        }
+      ],
+      "equipment": [
+        {
+          "href": "/equipment/53-foot-trailer",
+          "text": "53-Foot Trailer",
+          "family": "equipment"
+        },
+        {
+          "href": "/equipment/box-truck",
+          "text": "Box Truck",
+          "family": "equipment"
+        }
+      ]
+    }
+  },
+  "rendered": {
+    "body_text": "Consolidated freight pooling from distribution centers to regional delivery zones\n\nWARP runs pool distribution programs with consolidated linehaul with local deconsolidation, and cross-dock pooling reduces per-unit freight cost.\n\nAvailable across LTL and FTL shipping modes. Get an instant rate at wearewarp.com/quote.",
+    "primary_content_html": "<h2>What Is Pool Distribution?</h2>\n<p>Consolidated freight pooling from distribution centers to regional delivery zones</p>\n<p><strong>Shipping modes:</strong> LTL, FTL</p>\n<h2>How Pool Distribution Works</h2>\n<ul>\n<li>National distribution with regional deconsolidation</li>\n<li>High-volume lanes with multi-destination final delivery</li>\n<li>Cost optimization through freight consolidation</li>\n</ul>\n<h2>How WARP Runs Pool Distribution</h2>\n<ul>\n<li>Consolidated linehaul with local deconsolidation</li>\n<li>Cross-dock pooling reduces per-unit freight cost</li>\n<li>Flexible delivery windows at final destination</li>\n<li>Carrier pool visibility across consolidation points</li>\n</ul>\n<h2>Pool Distribution Use Cases</h2>\n<ul>\n<li>National distribution with regional deconsolidation</li>\n<li>High-volume lanes with multi-destination final delivery</li>\n<li>Cost optimization through freight consolidation</li>\n</ul>\n<h2>Equipment for This Solution</h2>\n<h3><a href=\"/equipment/53-foot-trailer\">53-Foot Trailer</a></h3>\n<p>Standard full-size dry van trailer for high-volume linehaul and FTL freight</p>\n<p>Capacity: 26-30 pallets, 42,000-45,000 lbs</p>\n<h3><a href=\"/equipment/box-truck\">Box Truck</a></h3>\n<p>Medium-duty box truck (16-26 ft) for mid-size loads and multi-stop routes</p>\n<p>Capacity: 4-12 pallets, 8,000-16,000 lbs</p>\n<h2>Related Network Capabilities</h2>\n<ul>\n<li><a href=\"/network/cross-docking\">Cross-Docking</a> — Direct transfer of freight between inbound and outbound vehicles without warehousing</li>\n<li><a href=\"/network/middle-mile\">Middle Mile</a> — The linehaul segment between origin hub and destination hub before final delivery</li>\n<li><a href=\"/network/predictable-pricing\">Predictable Pricing</a> — Consistent rate structures based on lane commitment and volume patterns</li>\n</ul>\n<div class=\"authority-cta\">\n<h2>Ship Smarter with Pool Distribution</h2>\n<a href=\"https://www.wearewarp.com/quote\" class=\"cta-primary\">Get Instant Quote</a>\n<a href=\"https://www.wearewarp.com/book\" class=\"cta-secondary\">Book a Fit Call</a>\n</div>",
+    "faq_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is pool distribution in freight logistics?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Consolidated freight pooling from distribution centers to regional delivery zones\"}},{\"@type\":\"Question\",\"name\":\"What shipping modes does WARP use for pool distribution?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"WARP operates pool distribution programs using LTL and FTL modes, matching the right vehicle and routing to each shipper's volume and delivery requirements.\"}},{\"@type\":\"Question\",\"name\":\"How does WARP handle pool distribution differently?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Consolidated linehaul with local deconsolidation. Cross-dock pooling reduces per-unit freight cost. Flexible delivery windows at final destination.\"}},{\"@type\":\"Question\",\"name\":\"When should I use pool distribution?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"National distribution with regional deconsolidation. High-volume lanes with multi-destination final delivery. Cost optimization through freight consolidation.\"}},{\"@type\":\"Question\",\"name\":\"What equipment does WARP use for pool distribution?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"WARP deploys 53-foot trailer, box truck for pool distribution programs, matching vehicle size to load requirements at each stop.\"}}]}</script>",
+    "breadcrumb_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.wearewarp.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Solutions\",\"item\":\"https://www.wearewarp.com/solutions\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Pool Distribution Freight Solutions\",\"item\":\"https://www.wearewarp.com/solutions/pool-distribution\"}]}</script>",
+    "service_schema_html": "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Pool Distribution Freight Solutions\",\"description\":\"Consolidated freight pooling from distribution centers to regional delivery zones. Get an instant quote from WARP.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"WARP\",\"url\":\"https://www.wearewarp.com\"},\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"serviceType\":\"Freight Logistics\"}</script>"
+  },
+  "quality": {
+    "publishable": true,
+    "grade": "A",
+    "score": 94,
+    "gates": {
+      "AQ-STRUCT-01": true,
+      "AQ-STRUCT-02": true,
+      "AQ-STRUCT-03": true,
+      "AQ-CONTENT-01": true,
+      "AQ-CONTENT-02": true,
+      "AQ-CONTENT-03": true,
+      "AQ-CONTENT-04": true,
+      "AQ-SCHEMA-01": true,
+      "AQ-SCHEMA-02": true,
+      "AQ-LINK-01": true,
+      "AQ-QUALITY-01": true
+    },
+    "gates_passed": 11,
+    "gate_count": 11,
+    "dimensions": {
+      "seo": 90,
+      "content": 95,
+      "authority": 90,
+      "linking": 100,
+      "structure": 100
+    },
+    "errors": [],
+    "warnings": [],
+    "page_type": "solution",
+    "entity_id": "pool-distribution"
+  },
+  "links": [
+    {
+      "href": "/network/predictable-pricing",
+      "text": "Predictable Pricing",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 76
+    },
+    {
+      "href": "/network/cross-docking",
+      "text": "Cross-Docking",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 75
+    },
+    {
+      "href": "/network/middle-mile",
+      "text": "Middle Mile",
+      "family": "concept",
+      "relevance": "direct",
+      "score": 75
+    },
+    {
+      "href": "/equipment/53-foot-trailer",
+      "text": "53-Foot Trailer",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 74
+    },
+    {
+      "href": "/equipment/box-truck",
+      "text": "Box Truck",
+      "family": "equipment",
+      "relevance": "direct",
+      "score": 65
+    }
+  ]
+}
