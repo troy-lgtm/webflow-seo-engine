@@ -169,8 +169,8 @@ export function buildPublishContract(canonicalPageData, qualityReport) {
         ? `${transitRange.min}\u2013${transitRange.max} days` : "",
       kpi_carriers: carrierCount ? `${carrierCount} active` : "",
       visual_type: "lane-map",
-      map_origin: `${oCity}, ${oState}`,
-      map_destination: `${dCity}, ${dState}`,
+      map_origin: oState ? `${oCity}, ${oState}` : oCity,
+      map_destination: dState ? `${dCity}, ${dState}` : dCity,
       primary_cta: {
         label: hero.primary_cta?.label || cta.primary_cta?.label || "Get Instant Quote",
         url: hero.primary_cta?.url || cta.primary_cta?.url || QUOTE_URL,

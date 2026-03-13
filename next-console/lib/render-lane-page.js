@@ -1004,7 +1004,9 @@ export function renderLanePageBody(pageData) {
   const crossDockList = crossDocks.length > 0
     ? ` through cross-dock facilities at ${crossDocks.slice(0, 3).join(", ")}`
     : "";
-  paragraphs.push(`WARP moves LTL freight from ${oCity}, ${oState} to ${dCity}, ${dState} — ${fmt(dist)} miles${crossDockList}. The routing model is origin pickup, cross-dock consolidation, linehaul between cross-docks, and final delivery. Local pickup and delivery may use cargo vans or box trucks before freight enters the cross-dock network, matching the right-sized vehicle to each segment. ${carrierCount} vetted carriers operate this corridor with ${transit.min}\u2013${transit.max} business day transit.`);
+  const oLabel = oState ? `${oCity}, ${oState}` : oCity;
+  const dLabel = dState ? `${dCity}, ${dState}` : dCity;
+  paragraphs.push(`WARP moves LTL freight from ${oLabel} to ${dLabel} — ${fmt(dist)} miles${crossDockList}. The routing model is origin pickup, cross-dock consolidation, linehaul between cross-docks, and final delivery. Local pickup and delivery may use cargo vans or box trucks before freight enters the cross-dock network, matching the right-sized vehicle to each segment. ${carrierCount} vetted carriers operate this corridor with ${transit.min}\u2013${transit.max} business day transit.`);
 
   // ── §2: Operational summary + CTA ─────────────────────────────────
   paragraphs.push(`Every shipment on this lane receives pallet-level tracking, managed appointment scheduling, and exception alerts within 30 minutes of any status change. WARP's operations team handles carrier coordination and resolution without requiring shipper follow-up. Get an instant LTL rate for the ${oCity} to ${dCity} lane at wearewarp.com/quote.`);
@@ -1780,8 +1782,8 @@ export function renderWebflowFields(pageData) {
       ? `${transitRange.min}–${transitRange.max} days` : "",
     "hero-kpi-carriers": carrierCount ? `${carrierCount} active` : "",
     "hero-visual-type": "lane-map",
-    "hero-map-origin": `${oCity}, ${oState}`,
-    "hero-map-destination": `${dCity}, ${dState}`,
+    "hero-map-origin": oState ? `${oCity}, ${oState}` : oCity,
+    "hero-map-destination": dState ? `${dCity}, ${dState}` : dCity,
 
     // ── Body Content ───────────────────────────────────────────────
     "body-content": renderLanePageBody(pageData),
