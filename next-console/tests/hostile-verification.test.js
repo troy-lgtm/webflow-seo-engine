@@ -224,12 +224,16 @@ assert(fs.existsSync(routeContractPath), "lib/route-contract.js exists");
 
 section("Route Page Source Integrity");
 const pageSource = fs.readFileSync(routePagePath, "utf-8");
-assert(pageSource.includes("buildRouteContract"), "Page imports buildRouteContract");
+assert(pageSource.includes("produceLanePage"), "Page imports produceLanePage (factory)");
 assert(pageSource.includes("extractNextMetadata"), "Page imports extractNextMetadata");
 assert(pageSource.includes("extractJsonLdObjects"), "Page imports extractJsonLdObjects");
 assert(pageSource.includes("generateMetadata"), "Page exports generateMetadata");
-assert(pageSource.includes("buildLaneKnowledge"), "Page uses buildLaneKnowledge");
-assert(pageSource.includes("buildCanonicalLanePageData"), "Page uses buildCanonicalLanePageData");
+assert(pageSource.includes("lane-page-factory"), "Page imports from lane-page-factory module");
+// The factory internally uses buildLaneKnowledge + buildCanonicalLanePageData + buildRouteContract
+// but the page.js no longer imports them directly — it uses the factory as single entry point
+const pageImportLines = pageSource.split("\n").filter(l => l.trim().startsWith("import "));
+assert(!pageImportLines.some(l => l.includes("buildLaneKnowledge")), "Page does NOT import buildLaneKnowledge directly (factory handles it)");
+assert(!pageImportLines.some(l => l.includes("buildCanonicalLanePageData")), "Page does NOT import buildCanonicalLanePageData directly (factory handles it)");
 // Check imports/requires — look for actual import statements of Webflow symbols
 const importLines = pageSource.split("\n").filter(l => l.trim().startsWith("import "));
 const webflowImports = importLines.filter(l =>
