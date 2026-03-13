@@ -352,3 +352,13 @@ export function validateLaneKnowledge(knowledge) {
 
   return { valid: errors.length === 0, errors };
 }
+
+/**
+ * Check if a city name exists in the cities registry.
+ * Used by route-level guards to reject fabricated lane slugs.
+ * @param {string} name — display name (e.g. "Atlanta")
+ * @returns {boolean}
+ */
+export function isKnownCity(name) {
+  return lookupCity(name) !== null;
+}

@@ -28,6 +28,7 @@
  */
 
 import { produceLanePage } from "../../../lib/lane-page-factory.js";
+import { isKnownCity } from "../../../lib/lane-knowledge.js";
 import { extractNextMetadata, extractJsonLdObjects } from "../../../lib/route-contract.js";
 import styles from "./lane-page.module.css";
 
@@ -127,6 +128,11 @@ function parseSlug(slug) {
 function loadLaneData(slug) {
   const parsed = parseSlug(slug);
   if (!parsed) return null;
+
+  // Reject fabricated slugs — both cities must exist in the registry
+  if (!isKnownCity(parsed.origin) || !isKnownCity(parsed.destination)) {
+    return null;
+  }
 
   try {
     const result = produceLanePage(parsed);
