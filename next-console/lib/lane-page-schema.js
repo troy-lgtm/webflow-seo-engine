@@ -352,6 +352,14 @@ function destState(knowledge) {
   return knowledge.destination_state || (knowledge.destination || "").split(",")[1]?.trim() || "";
 }
 
+/**
+ * Format "City, ST" when state is available, or just "City" when not.
+ * Prevents orphaned commas like "Atlanta, to Orlando," when state is empty.
+ */
+function fmtCityState(city, state) {
+  return state ? `${city}, ${state}` : city;
+}
+
 function slugify(s) {
   return String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
 }
@@ -404,11 +412,13 @@ export function buildCanonicalLanePageData(knowledge, relatedLinks, optionalMetr
   const dRegion = np.destination_region || "Unknown";
   const seasonality = ls.seasonality_notes || "";
 
-  const laneSlug = k.lane_slug || slugify(`${oCity}-${oState}-to-${dCity}-${dState}-${mode}`);
+  const oSlugPart = oState ? `${oCity}-${oState}` : oCity;
+  const dSlugPart = dState ? `${dCity}-${dState}` : dCity;
+  const laneSlug = k.lane_slug || slugify(`${oSlugPart}-to-${dSlugPart}`);
   const canonicalPath = k.canonical_path || `/lanes/${laneSlug}`;
 
   // ── Page-level fields ─────────────────────────────────────────
-  const pageTitle = `${oCity}, ${oState} to ${dCity}, ${dState} ${mode} Freight | WARP`;
+  const pageTitle = `${oCity} to ${dCity} ${mode} Freight | WARP`;
   const metaDesc = `Ship ${mode} freight from ${oCity} to ${dCity}: ${fmt(dist)}-mile lane, ${transitMin}\u2013${transitMax} day transit, ${carrierCount} carriers. Get instant rates and real-time tracking through WARP.`;
 
   // ── Section 1: Hero ───────────────────────────────────────────
@@ -436,7 +446,7 @@ export function buildCanonicalLanePageData(knowledge, relatedLinks, optionalMetr
   }
 
   const hero = {
-    headline: `${oCity}, ${oState} to ${dCity}, ${dState} ${mode} Freight`,
+    headline: `${oCity} to ${dCity} ${mode} Freight`,
     subhead,
     primary_cta: { label: "Get Instant Quote", url: QUOTE_URL },
     secondary_cta: { label: "Book a Fit Call", url: BOOK_URL },
@@ -532,8 +542,8 @@ export function buildCanonicalLanePageData(knowledge, relatedLinks, optionalMetr
     canonical_path: canonicalPath,
     mode,
     segment,
-    origin: k.origin || `${oCity}, ${oState}`,
-    destination: k.destination || `${dCity}, ${dState}`,
+    origin: k.origin || fmtCityState(oCity, oState),
+    destination: k.destination || fmtCityState(dCity, dState),
     ai_answer_summary: aiAnswerSummary,
     lane_stats: {
       estimated_distance_miles: ls.estimated_distance_miles,
@@ -768,7 +778,7 @@ function buildFaqs(oCity, dCity, oState, dState, mode, laneStats, networkProof) 
 
   return [
     {
-      question: `How much does ${mode} freight from ${oCity}, ${oState} to ${dCity}, ${dState} cost?`,
+      question: `How much does ${mode} freight from ${fmtCityState(oCity, oState)} to ${fmtCityState(dCity, dState)} cost?`,
       answer: rateLow && rateHigh
         ? `Estimated ${mode} rates on this lane range from $${fmt(rateLow)} to $${fmt(rateHigh)}, based on freight class, weight, pallet count, and current market conditions. Enter your shipment details on WARP for an instant, all-in rate.`
         : `${mode} rates on this lane depend on freight class, weight, pallet count, and current carrier availability. Enter your shipment details on WARP for an instant rate.`,
@@ -910,5 +920,5 @@ function buildAiAnswerSummary(oCity, dCity, oState, dState, mode, laneStats, net
     ? ` Estimated ${mode} rates range from $${fmt(rateLow)} to $${fmt(rateHigh)} depending on freight class, weight, and accessorials.`
     : "";
 
-  return `${mode} freight from ${oCity}, ${oState} to ${dCity}, ${dState} covers approximately ${fmt(dist)} miles with ${transitMin}\u2013${transitMax} business day transit.${ratePart} WARP operates this lane with ${carrierCount} vetted carriers providing ${equipment} capacity. Shippers get instant self-serve quoting, real-time tracking with exception alerts, and managed operations without direct carrier coordination. Get a rate at wearewarp.com/quote.`;
+  return `${mode} freight from ${fmtCityState(oCity, oState)} to ${fmtCityState(dCity, dState)} covers approximately ${fmt(dist)} miles with ${transitMin}\u2013${transitMax} business day transit.${ratePart} WARP operates this lane with ${carrierCount} vetted carriers providing ${equipment} capacity. Shippers get instant self-serve quoting, real-time tracking with exception alerts, and managed operations without direct carrier coordination. Get a rate at wearewarp.com/quote.`;
 }
