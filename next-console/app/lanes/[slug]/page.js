@@ -29,6 +29,69 @@ import {
 } from "../../../lib/route-contract.js";
 import styles from "./lane-page.module.css";
 
+// ── HTML Sanitizer ──────────────────────────────────────────────────
+
+/**
+ * Balance unclosed HTML tags to prevent hydration mismatches.
+ *
+ * Legacy renderers (render-lane-page.js) produce section HTML fragments
+ * that assume concatenation into a single HTML stream. Some sections
+ * open wrapper <div> tags that are closed by subsequent sections.
+ * When each section is injected into its own dangerouslySetInnerHTML
+ * container, the browser auto-closes orphaned tags, creating a DOM
+ * tree that doesn't match what React expects during hydration.
+ *
+ * This function:
+ *   1. Strips orphan closing tags at the start (no matching opener)
+ *   2. Appends missing closing tags at the end (no matching closer)
+ *
+ * Only applied in the Next.js route path — does not modify renderers.
+ */
+function balanceSectionHtml(html) {
+  if (!html) return html;
+
+  const VOID_ELEMENTS = new Set([
+    "area", "base", "br", "col", "embed", "hr", "img", "input",
+    "link", "meta", "param", "source", "track", "wbr",
+  ]);
+  const TAG_RE = /<\/?([a-zA-Z][a-zA-Z0-9]*)[^>]*\/?>/g;
+  const stack = [];
+  const orphanCloses = [];
+  let m;
+
+  while ((m = TAG_RE.exec(html)) !== null) {
+    const full = m[0];
+    const tagName = m[1].toLowerCase();
+    if (VOID_ELEMENTS.has(tagName) || full.endsWith("/>")) continue;
+
+    if (full.startsWith("</")) {
+      // Closing tag — pop stack or mark as orphan
+      const idx = stack.lastIndexOf(tagName);
+      if (idx >= 0) {
+        stack.splice(idx); // pop back to matching open
+      } else {
+        orphanCloses.push({ tag: tagName, index: m.index, length: full.length });
+      }
+    } else {
+      stack.push(tagName);
+    }
+  }
+
+  // Strip orphan closing tags from the front (work backwards to preserve indices)
+  let result = html;
+  for (let i = orphanCloses.length - 1; i >= 0; i--) {
+    const { index, length } = orphanCloses[i];
+    result = result.slice(0, index) + result.slice(index + length);
+  }
+
+  // Append missing closing tags (reverse order — innermost first)
+  for (let i = stack.length - 1; i >= 0; i--) {
+    result += `</${stack[i]}>`;
+  }
+
+  return result;
+}
+
 // ── Lane Data Loader ─────────────────────────────────────────────────
 
 /**
@@ -110,14 +173,14 @@ export default async function LanePage({ params }) {
         {payload.kpi_panel?.html && (
           <section className={styles.kpiPanel}>
             <div className={styles.renderedContent}
-              dangerouslySetInnerHTML={{ __html: payload.kpi_panel.html }} />
+              dangerouslySetInnerHTML={{ __html: balanceSectionHtml(payload.kpi_panel.html) }} />
           </section>
         )}
 
         {payload.execution_flow?.html && (
           <section className={styles.executionFlow}>
             <div className={styles.renderedContent}
-              dangerouslySetInnerHTML={{ __html: payload.execution_flow.html }} />
+              dangerouslySetInnerHTML={{ __html: balanceSectionHtml(payload.execution_flow.html) }} />
           </section>
         )}
 
@@ -126,7 +189,7 @@ export default async function LanePage({ params }) {
             {payload.sections.map((section, i) => (
               <div key={section.id || i} className={styles.sectionBlock}>
                 <div className={styles.renderedContent}
-                  dangerouslySetInnerHTML={{ __html: section.html }} />
+                  dangerouslySetInnerHTML={{ __html: balanceSectionHtml(section.html) }} />
               </div>
             ))}
           </section>
@@ -135,7 +198,7 @@ export default async function LanePage({ params }) {
         {payload.proof?.html && (
           <section className={styles.proofSection}>
             <div className={styles.renderedContent}
-              dangerouslySetInnerHTML={{ __html: payload.proof.html }} />
+              dangerouslySetInnerHTML={{ __html: balanceSectionHtml(payload.proof.html) }} />
           </section>
         )}
 
@@ -158,7 +221,7 @@ export default async function LanePage({ params }) {
         {payload.authority_links?.html && (
           <section className={styles.authorityLinks}>
             <div className={styles.renderedContent}
-              dangerouslySetInnerHTML={{ __html: payload.authority_links.html }} />
+              dangerouslySetInnerHTML={{ __html: balanceSectionHtml(payload.authority_links.html) }} />
           </section>
         )}
       </div>

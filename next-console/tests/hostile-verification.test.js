@@ -239,6 +239,7 @@ const webflowImports = importLines.filter(l =>
 );
 assert(webflowImports.length === 0, "Page does NOT import Webflow symbols");
 assert(pageSource.includes("dangerouslySetInnerHTML"), "Page uses dangerouslySetInnerHTML for pre-rendered sections");
+assert(pageSource.includes("balanceSectionHtml"), "Page balances section HTML to prevent hydration mismatches");
 assert(pageSource.includes("application/ld+json"), "Page renders JSON-LD scripts");
 
 section("Multi-Lane E2E Verification");
