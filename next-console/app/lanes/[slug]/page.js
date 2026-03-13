@@ -1,13 +1,14 @@
 /**
  * app/lanes/[slug]/page.js — Next.js Lane Page Route
  *
- * Server component rendering a lane page through the canonical pipeline:
- *   knowledge → schema → contract → route contract → React
+ * Server component rendering a lane page through the lane page factory:
+ *   factory → knowledge → schema → contract → route contract → React
  *
  * ARCHITECTURE:
- *   - Uses buildRouteContract() from lib/route-contract.js
+ *   - Uses produceLanePage() from lib/lane-page-factory.js as single entry point
+ *   - Factory wraps: buildLaneKnowledge → buildCanonicalLanePageData → buildRouteContract
+ *   - Factory runs quality gate (assessPublishQuality) on every request
  *   - Preserves section ownership from render-lane-page.js
- *   - Preserves quality gate (assessPublishQuality)
  *   - Preserves JSON-LD (breadcrumb, service, org, FAQ)
  *   - Pre-rendered HTML sections injected via dangerouslySetInnerHTML
  *   - Structured data sections (FAQ, Why WARP, comparison) rendered as React
@@ -17,16 +18,17 @@
  *   - WEBFLOW_TEMPLATE_HIDE_CSS
  *   - LANE_PAGE_MODE_CSS
  *
+ * ROUTE BEHAVIOR:
+ *   - Fully dynamic (no generateStaticParams) — any valid lane slug is served
+ *   - Slug format: {origin}-to-{destination} (e.g. atlanta-to-orlando)
+ *   - Factory produces route-ready payload with quality gate validation
+ *   - Non-publishable lanes still render (quality gate is informational, not blocking)
+ *
  * @module app/lanes/[slug]/page
  */
 
-import { buildLaneKnowledge } from "../../../lib/lane-knowledge.js";
-import { buildCanonicalLanePageData } from "../../../lib/lane-page-schema.js";
-import {
-  buildRouteContract,
-  extractNextMetadata,
-  extractJsonLdObjects,
-} from "../../../lib/route-contract.js";
+import { produceLanePage } from "../../../lib/lane-page-factory.js";
+import { extractNextMetadata, extractJsonLdObjects } from "../../../lib/route-contract.js";
 import styles from "./lane-page.module.css";
 
 // ── HTML Sanitizer ──────────────────────────────────────────────────
@@ -95,25 +97,43 @@ function balanceSectionHtml(html) {
 // ── Lane Data Loader ─────────────────────────────────────────────────
 
 /**
- * Load lane data through the canonical pipeline.
- * Single function that reads external data.
- * Everything else is pure transformation.
+ * Parse a lane slug into origin + destination display names.
+ * @param {string} slug — e.g. "atlanta-to-orlando"
+ * @returns {{ origin: string, destination: string } | null}
  */
-function loadLaneData(slug) {
+function parseSlug(slug) {
   const match = slug.match(/^(.+?)-to-(.+?)$/);
   if (!match) return null;
 
   const toDisplayName = (s) =>
     s.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 
-  const origin = toDisplayName(match[1]);
-  const destination = toDisplayName(match[2]);
+  return {
+    origin: toDisplayName(match[1]),
+    destination: toDisplayName(match[2]),
+  };
+}
 
-  const knowledge = buildLaneKnowledge({ origin, destination, mode: "LTL" });
-  const canonicalPageData = buildCanonicalLanePageData(knowledge, {});
-  const { payload } = buildRouteContract(canonicalPageData);
+/**
+ * Load lane data through the lane page factory.
+ *
+ * Uses produceLanePage() as the single canonical entry point.
+ * The factory runs the full pipeline:
+ *   buildLaneKnowledge → buildCanonicalLanePageData → buildRouteContract
+ *   + quality gate validation + structural validation
+ *
+ * Returns the route contract payload consumed by the page component.
+ */
+function loadLaneData(slug) {
+  const parsed = parseSlug(slug);
+  if (!parsed) return null;
 
-  return payload;
+  try {
+    const result = produceLanePage(parsed);
+    return result.payload;
+  } catch {
+    return null;
+  }
 }
 
 // ── Metadata Generation ──────────────────────────────────────────────
