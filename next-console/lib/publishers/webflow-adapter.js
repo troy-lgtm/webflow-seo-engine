@@ -1,6 +1,11 @@
 /**
  * webflow-adapter.js — Webflow CMS Publisher Adapter
  *
+ * @deprecated LEGACY ADAPTER — Webflow has been replaced by Vercel/Next.js.
+ * The primary publish path is now lib/route-contract.js → app/lanes/[slug]/page.js.
+ * This adapter remains for backward compatibility during migration.
+ * It will be removed when Webflow publishing is fully retired.
+ *
  * Maps a CMS-neutral publish contract to Webflow CMS field payload.
  * This adapter produces the EXACT same output as the old renderWebflowFields()
  * + sanitizeWebflowFields() pipeline, ensuring zero regression in the

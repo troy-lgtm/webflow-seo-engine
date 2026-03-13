@@ -5,6 +5,21 @@
  * Takes canonical lane page data (from lane-page-schema.js::buildCanonicalLanePageData)
  * and produces deterministic HTML.
  *
+ * MIGRATION STATUS:
+ *   The shared section renderers exported by this module are used by BOTH:
+ *     1. The route contract path (lib/route-contract.js → Next.js App Router)
+ *     2. The legacy Webflow path (lib/publishers/webflow-adapter.js → Webflow CMS)
+ *
+ *   SHARED (used by both paths via publish-contract.js):
+ *     renderLanePageBody, renderLaneIntelligencePanel, renderExecutionFlow,
+ *     renderFaqSchemaEmbed, renderBreadcrumbSchemaEmbed, renderValidation,
+ *     renderAuthorityLinks, buildTraditionalLtl, buildWarpLtl
+ *
+ *   LEGACY (Webflow-only — will be removed when Webflow is fully retired):
+ *     renderWebflowFields()    — Webflow CMS field mapper
+ *     WEBFLOW_TEMPLATE_HIDE_CSS — Webflow template section hider
+ *     LANE_PAGE_MODE_CSS        — Webflow Rich Text inline dark theme
+ *
  * Principles:
  *   - NEVER reads homepage blocks
  *   - NEVER injects tutorial/video sections
@@ -23,6 +38,9 @@ const SITE_BASE = "https://www.wearewarp.com";
 const QUOTE_URL = `${SITE_BASE}/quote`;
 
 /**
+ * @deprecated LEGACY — Webflow only. Not used by the Next.js route path.
+ * Will be removed when Webflow template is fully retired.
+ *
  * CSS to hide generic Webflow template sections that must never appear
  * on dedicated lane pages. Targets Wistia embeds, "Book Freight Instantly"
  * CTAs, book-a-meeting CTAs, generic marketing sections, and their wrappers.
@@ -62,6 +80,10 @@ export const WEBFLOW_TEMPLATE_HIDE_CSS = [
 ].join("\n");
 
 /**
+ * @deprecated LEGACY — Webflow only. Not used by the Next.js route path.
+ * The Next.js path uses app/lanes/[slug]/lane-page.module.css instead.
+ * Will be removed when Webflow template is fully retired.
+ *
  * Full Lane Page Mode CSS — complete dark premium theme for dedicated lane pages.
  * Includes all hide rules PLUS dark theme overrides for nav, hero, body, comparison,
  * footer, scrollbar, and mobile responsive adjustments.
@@ -1709,6 +1731,11 @@ export function buildWarpLtl(mode) {
  * | How WARP Operates    | N/A                              | renderWarpFit()            | Preview only                    |
  * | Related Links        | N/A                              | renderRelatedLinks()       | Preview only                    |
  * | Authority Links      | renderAuthorityLinks() (dedicated)| renderAuthorityLinks()    | YES → renderAuthorityLinks()    |
+ *
+ * @deprecated LEGACY — Webflow only. The primary publish path now uses
+ * buildRouteContract() (lib/route-contract.js) → Next.js App Router.
+ * This function remains for backward compatibility with the Webflow adapter.
+ * It will be removed when Webflow publishing is fully retired.
  *
  * @param {object} pageData - Canonical page data from buildCanonicalLanePageData
  * @returns {object} Webflow CMS field payload
