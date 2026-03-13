@@ -8,8 +8,8 @@
  *   canonical data → publish contract → adapter registry → target output
  *
  * Current adapters:
- *   - "webflow"  → Webflow CMS field payload (current production path)
- *   - "neutral"  → Structured JSON for Next.js / headless CMS (migration target)
+ *   - "neutral"  → Structured JSON for Next.js route contract (PRIMARY path)
+ *   - "webflow"  → Webflow CMS field payload (LEGACY — retained for migration)
  *
  * @module publishers
  */
