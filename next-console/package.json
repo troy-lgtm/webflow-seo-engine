@@ -103,7 +103,11 @@
     "lanes:auto-publish": "node scripts/lanes_auto_publish.js --dry-run",
     "lanes:auto-publish:10": "node scripts/lanes_auto_publish.js --count=10 --interval=4 --notify=troy@wearewarp.com",
     "lanes:factory": "node scripts/lanes_auto_publish.js",
-    "doctor": "node scripts/doctor.js"
+    "doctor": "node scripts/doctor.js",
+    "deploy:preview": "node scripts/deploy_and_verify.js",
+    "deploy:production": "node scripts/deploy_and_verify.js --prod",
+    "verify:routes": "node scripts/verify_deployment_routes.js",
+    "verify:routes:local": "node scripts/verify_deployment_routes.js --base-url http://localhost:3000"
   },
   "dependencies": {
     "dotenv": "^17.3.1",
