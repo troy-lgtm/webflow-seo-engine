@@ -10,13 +10,17 @@
  *
  * @module lane-knowledge
  */
-import { readFileSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const DATA_DIR = join(__dirname, "..", "data");
+
+// Resolve data dir: try import.meta.url path first, fall back to process.cwd()
+// (Vercel serverless bundles compile modules into .next/server/, breaking __dirname-relative paths)
+const _localDataDir = join(__dirname, "..", "data");
+const DATA_DIR = existsSync(_localDataDir) ? _localDataDir : join(process.cwd(), "data");
 
 // ── Lazy-loaded data files ──────────────────────────────────────────
 let _cities = null;

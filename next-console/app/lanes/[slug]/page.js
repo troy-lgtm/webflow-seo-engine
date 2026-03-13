@@ -131,7 +131,8 @@ function loadLaneData(slug) {
   try {
     const result = produceLanePage(parsed);
     return result.payload;
-  } catch {
+  } catch (err) {
+    console.error(`[lane-page] Failed to load lane "${slug}":`, err?.message || err);
     return null;
   }
 }

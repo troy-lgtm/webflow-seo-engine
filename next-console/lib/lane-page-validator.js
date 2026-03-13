@@ -34,7 +34,8 @@ const __dirname = path.dirname(__filename);
 let _bannedConfig = null;
 function loadBannedConfig() {
   if (_bannedConfig) return _bannedConfig;
-  const configPath = path.join(__dirname, "..", "config", "lane-page-banned-content.json");
+  const localPath = path.join(__dirname, "..", "config", "lane-page-banned-content.json");
+  const configPath = fs.existsSync(localPath) ? localPath : path.join(process.cwd(), "config", "lane-page-banned-content.json");
   try {
     _bannedConfig = JSON.parse(fs.readFileSync(configPath, "utf-8"));
   } catch {
@@ -574,7 +575,8 @@ export function classifyExistingPage(html, pageData) {
 let _copyRulesConfig = null;
 function loadCopyRulesConfig() {
   if (_copyRulesConfig) return _copyRulesConfig;
-  const configPath = path.join(__dirname, "..", "config", "lane-page-copy-rules.json");
+  const localPath = path.join(__dirname, "..", "config", "lane-page-copy-rules.json");
+  const configPath = fs.existsSync(localPath) ? localPath : path.join(process.cwd(), "config", "lane-page-copy-rules.json");
   try {
     _copyRulesConfig = JSON.parse(fs.readFileSync(configPath, "utf-8"));
   } catch {

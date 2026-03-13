@@ -52,7 +52,8 @@ let _schema = null;
 
 function loadSchema() {
   if (_schema) return _schema;
-  const schemaPath = path.join(__dirname, "..", "schemas", "lane-page-schema.json");
+  const localPath = path.join(__dirname, "..", "schemas", "lane-page-schema.json");
+  const schemaPath = fs.existsSync(localPath) ? localPath : path.join(process.cwd(), "schemas", "lane-page-schema.json");
   try {
     _schema = JSON.parse(fs.readFileSync(schemaPath, "utf-8"));
   } catch {

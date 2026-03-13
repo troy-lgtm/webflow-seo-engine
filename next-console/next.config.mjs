@@ -2,6 +2,13 @@
 const nextConfig = {
   experimental: {
     optimizePackageImports: []
+  },
+  outputFileTracingIncludes: {
+    "/lanes/[slug]": [
+      "./data/**",
+      "./schemas/**",
+      "./config/**"
+    ]
   }
 };
 
